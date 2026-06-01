@@ -7,6 +7,9 @@ The kickoff prompt for the current task is in
 (does efficiency≈cost at pithead plants?) prompt is in
 [`docs/PITHEAD_TEST_PROMPT.md`](docs/PITHEAD_TEST_PROMPT.md) and is now **DONE** —
 see REPORT §9 / `analysis/09_pithead_test.py` / `outputs/09_pithead_test.txt`.
+A ready-to-run kickoff prompt for fetching the real FY2022-23 metered state/private
+per-station ECR (the one remaining gap — needs a network-enabled LOCAL session) is in
+[`docs/SCRAPE_ECR_PROMPT.md`](docs/SCRAPE_ECR_PROMPT.md).
 
 ## What this project is
 Analysis of why thermal **efficiency explains only ~30% of plant load factor
