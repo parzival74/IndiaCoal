@@ -327,3 +327,290 @@ holds and widens as coverage grows.
 `berc_discoms_fy2023-24.pdf` (471 pp), `apgenco_aperc_FPPCA_FY2022-23.pdf`,
 `icra_apcpl_rating.pdf`, `cerc_apcpl_489-GT-2020.pdf`, `cerc_396-GT-2020.pdf`,
 `sail_bhilai_cserc_extract.pdf`; UPERC PDF already on disk from Wave 2.
+
+## RJ+GJ-lignite cluster (agent)
+
+Target: 4 Rajasthan/Gujarat lignite stations — `Jallippa Kapurdi TPP` (Raj West/JSW
+Barmer), `Bhavnagar TPP` (GSECL), `Surat Lignite` (GIPCL SLPP), `Akrimota Lig` (GMDC).
+Result: **1 FOUND (Bhavnagar), 3 NOT-FOUND.** Staging row in
+`data/raw/sources/staging/rj_gj_cluster.csv`.
+
+**Bhavnagar TPP — FOUND (real, FY2022-23). ECR = 2.976 ₹/kWh.**
+The on-disk GSECL order already carries it. `gsecl_gerc_tariff_order_fy2022-23.pdf`
+(GERC Order dtd 30.03.2022, Case No.2025 of 2021), **Table 6.1 "Energy Charges
+Approved for FY 2022-23", Sr.9 "BLTPS*" = 2.976 ₹/kWh (p.141).** BLTPS = Bhavnagar
+Lignite TPS, 2×250 MW CFBC, GSECL captive lignite. This is the *same order + same
+Table 6.1* that supplied every existing GSECL row (Wanakbori 4.232, Ukai 3.915,
+KLTPS 3.113…), so basis = `approved_order`, identical to its siblings. Supporting
+norms from the same order: SHR 2623 kcal/kWh, aux 11%, oil 1.00 ml/kWh, transit
+0.80% (Table 5.14 approved-params summary, p.45); approved gross gen 1201.03 MU,
+PLF 27.42% (Table 5.15); fixed chg 168.60 Cr (Table 6.2). Caveat noted in the row:
+Table 5.15 col-10 *net* fuel-cost/unit shows 2.81, but the headline ECR the
+Commission "approves" and that the sibling GSECL rows use is Table 6.1 = 2.976.
+PPA-based (marked * in Table 6.1) but a genuine GERC-approved FY2022-23 energy charge
+(Sikka Extension, already in the dataset, is also a PPA-based * row). Arithmetic
+check: 2.976 ₹/kWh is in-band for lignite; the order's own Table 5.15 net 2.81 and
+gross-of-aux variants bracket it.
+
+**Jallippa Kapurdi TPP (Raj West Power / JSW Energy Barmer, 8×135 MW lignite) —
+NOT FOUND (no FY2022-23 vintage).** RERC tariff-orders index
+(`rerc.rajasthan.gov.in/rerc-user-files/tariff-orders`, full list scraped & parsed)
+shows the *latest* Raj West / JSW Energy (Barmer) **generation** tariff orders are:
+Petn **1286/17** "Determination of ARR and tariff for **FY 2018-19**" (13.06.2019),
+and Petn **1583/19** (I.A.2/2020) "Interim tariff for **FY 2020-21**" (23.04.2020).
+There is **no RERC order determining an FY2022-23 (or even FY2021-22) energy charge**
+for Raj West — the most recent is an FY2020-21 *interim*. An FY2018-19/FY2020-21
+figure = WRONG VINTAGE for the headline → SKIP. Also checked: cer.iitk RERC hub,
+prayaspune archive docs 941 (RERC/1539/19) & 1347 (RERC/2193/24) — both are RRVPNL
+**transmission** true-ups, not Raj West generation. WebSearch surfaced no FY2022-23
+Raj West generation ECR.
+
+**Surat Lignite (GIPCL SLPP, 4×125 MW lignite) — NOT FOUND.** GIPCL SLPP supplies
+GUVNL under a long-term PPA; its variable/energy charge is recovered through GUVNL's
+**FPPPA fuel pass-through**, not a GERC per-station ECR determination. GERC tariff-
+orders page (`gercin.org/order-category/tariff-orders`) lists **no** GIPCL/SLPP
+generation energy-charge order; cer.iitk GERC hub lists "Surat Lig. PP" / "Surat Lig.
+PP (Slpp Station-II)" as stations but carries no per-station ECR. No published
+FY2022-23 energy charge → SKIP. (Annual-report cost-of-generation would be a company
+self-disclosure, not a regulatory ECR — excluded per rules.)
+
+**Akrimota Lig (GMDC Akrimota TPS, 2×125 MW lignite) — NOT FOUND.** Downloaded &
+parsed the one located GERC order, Case **2279/2023** (GUVNL vs GMDC, **29.05.2024**,
+`staging/gmdc_gerc_2279-2023_trueup_29052024.pdf`, 20 pp). It renegotiates **only
+fixed-cost parameters** for FY2022-23 — O&M Rs 32.50 lakh/MW, RoE, SHR (approved 2534
+vs actual 2929 kcal/kWh), aux 11%→12% — and contains **no energy/variable charge
+(₹/kWh)**. Like GIPCL, GMDC's energy charge is FPPPA pass-through to GUVNL, not a
+GERC ECR. No published FY2022-23 ECR → SKIP.
+
+Net coverage delta from this cluster: **+1 station (Bhavnagar TPP, 2 units, lignite).**
+
+
+## WB cluster (agent) — 2026-06-01
+
+Target: 4 West Bengal stations (Budge Budge, Haldia, D.P.L., Maithon Rb TPP), none
+previously in `plant_ecr.csv`. Staging → `data/raw/sources/staging/wb_cluster.csv`
+(4 verified rows, human verifies + merges; agent did NOT touch `plant_ecr.csv`).
+NOTE: dataset rows "Durgapur" (DVC DTPS) and "Durgapur Steel Tps" (DSTPS) are already
+covered via JSERC and are DIFFERENT plants from "D.P.L." (Durgapur Projects Ltd, WB state).
+
+**Budge Budge — FOUND, Rs 1.96/kWh (FY2022-23 admitted).** WBERC Order Case
+**TP-96/20-21**, "Tariff Application of CESC Ltd for FY2020-21/2021-22/2022-23"
+(CESC is a vertically-integrated licensee; WBERC sets its generation energy charge).
+**Annexure-4D "Fuel Cost Determination of Budge Budge Generating Station", Sl.22
+"Ex-bus energy charge (20/3)" Admitted 22-23 = 1.96** Rs/kWh (the order's own per-unit
+energy charge on ex-bus/sent-out gen). Energy/fuel charge only. Arith check: Sl.20 Total
+Cost of Fuel 96753.91 Lakh / Sl.3 Ex-bus gen 4932.43 MU = 1.9616 ≈ 1.96. (Sl.21
+"Fuel Cost/unit" on gross gen = 1.79.) The order gives distinct 22-23 values (2.02/1.96/1.96
+across the 3 years) → genuinely FY2022-23-specific, NOT a flat base. File:
+`wberc_tp96_22-23.pdf` (downloaded; pdftotext OK). Southern (135 MW) 2.89 in same order is
+NOT in the CSE dataset → skipped.
+
+**Haldia — FOUND, Rs 2.55/kWh (FY2022-23 admitted).** Same WBERC TP-96/20-21 order:
+para text "energy charge is admitted @ 245.0 p/kwh for 20-21 and 21-22 and **255.0 p/kwh
+for 22-23**" + table "Admitted Power Purchase Cost from HEL" Sl.2 Energy Charge Rate
+22-23 = 255 p/kWh = Rs 2.55/kWh. This is Haldia Energy Ltd's (HEL, CESC subsidiary, 2x300)
+generating-station energy charge for the 7th control period; STU/SLDC/fixed/transmission
+charges listed separately (Sl.4-7), so this is energy-only. Arith: Sl.3 Energy Charge
+98507 Lakh / Sl.1 3863 MU = 2.55. File: `wberc_tp96_22-23.pdf`.
+
+**D.P.L. — FOUND (H1 only), Rs 2.251/kWh (FY2022-23 Apr-Sep, MFCA actual).** From the
+on-disk **WBSEDCL Power-Purchase Appendix A1 (MFCA)** (`wbpdcl_wbsedcl_appendixA1.txt`),
+DPL(Unit-7) & DPL(Unit-8) statements headed "2022-23 (April 2022 to September 2022)":
+U7 "Energy Charge with MFCA" = 216.79 p/kWh (Tariff-Order-2021-22 base 153.62 + avg MFCA
+top-up 63.17); U8 = 228.06 p/kWh (base 159.56 + MFCA 68.50). Gen-weighted by scheduled
+energy (U7 283.143 MU, U8 797.019 MU) = 225.11 p/kWh = **Rs 2.251/kWh**. Arith checks
+pass exactly: U7 MFCA 1788.670Lakh*10/283.143 = 63.17; U8 5459.749Lakh*10/797.019 = 68.50.
+Energy charge incl. fuel adjustment only (no fixed/capacity). CAVEAT (flagged in CSV):
+covers **only H1 FY2022-23** because the FY2022-23 DPL tariff order was not yet issued —
+so it is the 2021-22 base ECR + realized MFCA top-up for Apr-Sep 2022. Real & correct-vintage
+for H1, but H1-only; human may prefer to hold for a full-year DPL true-up.
+
+**Maithon Rb TPP — FOUND, Rs 2.74/kWh (FY2022-23 company-AR actual).** Maithon Power Ltd
+(Tata 74 : DVC 26 JV) **23rd Annual Report 2022-23**, Directors'/Board Report
+("Coal Management & Operations"), verbatim: "achieved the ever-highest PLF at **82.14% at
+an average energy charge rate (ECR) of 2.74 Rs/Kwh**" (FY23). Energy/variable charge only
+(CERC normative landed-fuel-cost ECR; Maithon is CERC cost-plus). Sanity cross-check: P&L
+"Cost of Fuel Consumed" 1943.68 Cr / Generation 7555 MU(gross) = 2.57, / 7455 MU(sold-LT)
+= 2.61 — the accounting fuel-inventory expense sits just below the billed normative ECR,
+in-band. File: `mpl_annual_report_fy2022-23.pdf` (downloaded from tatapower.com). FLAG:
+company annual report, not a regulatory order (but it is MPL's own audited ECR, correct
+vintage). data.gov.in ~2.54 was 2021-23 vintage → superseded by this AR figure.
+
+### Where I looked but did NOT use (Maithon)
+- WBERC TP-104-DVC and TP-98 PDFs: downloaded but **scanned image PDFs** (0 extractable
+  text; this .venv has no pdfplumber/OCR) → removed from staging, unused.
+- on-disk PSPCL PSERC FY2022-23 order + JSERC DVC 2024 order + BERC discoms FY2023-24:
+  grepped, **no Maithon/MPL ECR row** (Maithon is a separate CERC-regulated JV, absent from
+  beneficiary-DISCOM power-purchase tables I had).
+- CARE Ratings Maithon PR (Jun-2025): describes cost-plus structure, **no per-unit FY23 ECR**.
+- → The company annual report was the cleanest primary FY2022-23 source for Maithon.
+
+### Net result
+4/4 target stations FOUND with real, FY2022-23-vintage, energy-charge-only figures and
+arithmetic cross-checks. Coverage would rise 290 → 294 units on merge (Budge Budge 3 units,
+Haldia 2, D.P.L. 2, Maithon Rb TPP 2 = +9 units), all currently on the modelled fallback.
+Real values run ABOVE the flat-freight model (1.96 vs ~1.83; 2.55 vs ~2.0; 2.25 vs ~2.02;
+2.74 vs ~1.79) — consistent with the project finding that the model compresses the freight
+spread for distant/eastern plants.
+Artefacts under `data/raw/sources/staging/`: `wberc_tp96_22-23.pdf`+`.txt`,
+`mpl_annual_report_fy2022-23.pdf`+`.txt`, `care_maithon_2025.pdf`+`.txt`,
+`wbpdcl_wbsedcl_appendixA1.*` (pre-existing), `wb_cluster.csv`.
+
+## OD cluster (agent) — Odisha IPPs + OPGC + Vizag (2026-06-01)
+
+Target: I.B.Valley (OPGC), Derang (JITPL), Kamalanga (GMR), Vizag TPP (Hinduja/HNPCL).
+All 4 FOUND with real FY2022-23 energy/variable charge. Staging: `staging/od_cluster.csv`.
+
+- **I.B.Valley — FOUND 1.611 (161.09 P/U).** OERC Order **Case 104/2021 dtd 24.03.2022**,
+  "Generation Tariff of OPGC (Unit I & II) for FY 2022-23". Table-10 (Computation of Energy
+  Charges, p.33) and Table-12 (Summary of Approved Generation Tariff, p.38): **OERC-approved
+  Energy/Variable Charge = 161.09 Paisa/kWh** (OPGC proposed 177.89; Commission cut to
+  161.09 on G-14 coal Rs1614.52/MT, GCV 3101). Approved tariff order (forward ARR
+  determination), correct FY2022-23 vintage. `staging/oerc_opgc_tariff_FY2022-23.pdf` (+ .txt).
+  *Disambiguation:* the dataset's "I.B.Valley" = OPGC **Stage-I Units 1&2 (2x210 subcritical)**.
+  Order **C-96/2021** (`staging/oerc_opgc_C-96-2021.pdf`) is a DIFFERENT plant — **Units 3&4
+  (2x660 supercritical, ECR 126.15 P/U indicative)** — EXCLUDED (supercritical + not the 2x210
+  subcritical row). Kept the PDF for audit only.
+- **Vizag TPP (HNPCL) — FOUND 3.02.** APERC **FPPCA Common Order O.P.Nos.57-68 of 2024**,
+  Sec(ii) "Variable Costs for FY 2022-23" sub-sec (f) "Others - Private IPPs", **p.55-56**:
+  HNPCL **actual Variable Cost 3.02 Rs/kWh** (Approved 2.76; Admissible VC = actual claim
+  Rs1368.56 Cr, approved "as filed"). Same source/method as the APGENCO + NTPC-SR rows already
+  in the table. Arithmetic: 1368.56 Cr x10 / 3.02 = 4531.7 MU ~= HNPCL FY2022-23 actual gen
+  4532 MU (FPPCA availability table). On-disk `staging/apgenco_aperc_FPPCA_FY2022-23.pdf`.
+  (aperc.gov.in itself was UNREACHABLE this session — port 443 timeout; used the on-disk PDF.
+  CARE rating `staging/care_hnpcl_rating_2024.pdf` confirms cost-plus PPA, actual-fuel pass-
+  through energy charge, but gives no number — not used.)
+- **Kamalanga (GMR) — FOUND 1.20 — RESOLVES the held-out value.** Prior harvest "held out"
+  ~1.20 as anomalously low. Re-sourced: BERC **NBPDCL & SBPDCL Tariff Order FY 2023-24**,
+  **Table 5.17** "Power Purchase Cost for NBPDCL for FY 2022-23 **as computed by Commission**"
+  (p.208-209) and **Table 5.18** (SBPDCL, p.211): GMR **Energy Cost = 1.20 Rs/kwh** — this is
+  the labelled **Energy cost (Rs/kwh)** column, NOT a fixed-charge mislabel. Fixed cost is a
+  separate column (1.18 Rs/MW = 141.13 Cr); Total tariff 3.53 Rs/kwh (excluded). Arithmetic:
+  NBPDCL 79.70 Cr x10 / 664.15 MU = 1.200; SBPDCL 93.56 Cr x10 / 779.65 MU = 1.200 — both DISCOM
+  tables agree. **The 1.20 is genuine** — GMR Kamalanga (3x350) is a deep-pithead Talcher/Angul
+  IPP on cheap MCL coal; sub-1.3 is real here, not an error. `staging/berc_discoms_fy2023-24.pdf`.
+- **Derang (JITPL) — FOUND 1.12 — RESOLVES the held-out value.** Same BERC Tables 5.17/5.18
+  (FY2022-23 as computed by Commission): JITPL **Energy Cost = 1.12 Rs/kwh** (Energy-cost column).
+  Fixed cost separate (2.01 Rs/MW = 210.81 Cr); Total 5.09 Rs/kwh (excluded). Arithmetic:
+  NBPDCL 52.38 Cr x10 / 467.66 MU = 1.120; SBPDCL 61.49 Cr x10 / 548.99 MU = 1.120 — both agree.
+  **The 1.12 is genuine** — JITPL Derang (2x600) is a deep-pithead Angul IPP on MCL coal.
+  NB: the prior harvest's earlier BERC table (Table 4.21 for **FY 2021-22**) also showed 1.20/1.12
+  for GMR/JITPL — same value two years running because pithead MCL coal cost is flat-low; that
+  table was wrong-vintage (FY21-22), but Table 5.17/5.18 is the correct FY2022-23 one.
+
+NOT-FOUND / NOTES: none skipped. oerc.gov.in reachable (used direct curl + pdftotext -layout);
+aperc.gov.in unreachable (timeout) so Vizag used the pre-staged FPPCA PDF. The two sub-1.3 IPP
+values are flagged in `od_cluster.csv` with full column-label + arithmetic proof so the human can
+verify the "energy cost" column before merging.
+
+## TS cluster (agent)
+
+Target: 5 Telangana stations — Singareni TPP (SCCL captive 2x600), Bhadradri TPP (TSGenco
+4x270), K_Gudem New (TSGenco Kothagudem KTPS subcritical), Kakatiya TPP Stage-I (1x500) &
+Stage-II (1x600). Staging: `data/raw/sources/staging/ts_cluster.csv`. Source artifact:
+`tserc_rst_fy2022-23_slideshare.html` (full-text HTML of the RST FY2022-23 order, scraped
+from the slideshare mirror because the regulator host is unreachable — see below).
+
+NETWORK: every Telangana regulator host is UNREACHABLE from this session — `tgerc.telangana.gov.in`
+(IPv4 164.100.187.151) and `tserc.gov.in` both time out on TCP connect, and so does the DISCOM
+site `tgsouthernpower.org`. Confirmed not a local-only block: the jina.ai reader proxy
+(`r.jina.ai`, fetches from its own datacenter) also got `TimeoutError: Navigation timeout` on the
+same URLs, and the Google Docs viewer returned only a JS shell. So no PDF could be downloaded.
+WORKAROUND: the RST FY2022-23 order is mirrored full-text on slideshare
+(`ramaiahkumar/telangana-tariff-retail-supply-tariff-rst-order-for-fy-202223pdf`), whose HTML
+embeds the order's table text; saved it and grepped out Table 4-14 (TSGenco thermal) and Table
+4-16 (medium-term sources, incl. SCCL STPP) verbatim.
+
+VINTAGE VERDICT — all 5 are WRONG-VINTAGE (MYT base, not FY2022-23 actual), flagged as such:
+- The RST FY2022-23 Tables 4-14/4-16 are the *approved test-year projection* (order dated
+  23.03.2022). For TSGenco stations the variable cost is computed from the MYT-order-22.03.2022
+  BASE ECR, which the order itself states is held flat across FY2019-20..FY2023-24 — i.e. the
+  exact wrong-vintage case the prompt warns about (same numbers already in `tsgenco.csv`). For
+  SCCL Singareni STPP, the order explicitly says the tariff "has been considered as per the Order
+  dated 28.08.2020 on approval of generation tariff for STPP for the Control Period from FY2019-20
+  to FY2023-24" — also a flat MYT base.
+- A genuine FY2022-23-actual source DOES exist: TGERC "Order on true-up for FY 2022-23 and MYT
+  (FY2024-25..2028-29)" dated 28.10.2024 — `.../2024/FY 24-25 TGGenco MYT.pdf`. It is ONLY on the
+  unreachable tgerc host, with no slideshare/scribd mirror; direct curl, retry, and jina proxy all
+  failed. This is the one document a future network-enabled session should pull to upgrade these
+  5 rows to real FY2022-23 true-up actuals (and to get an SCCL STPP FY2022-23 true-up, if filed).
+
+VERIFIED VALUES (arithmetic-checked, ECR = ApprovedVarCost_Cr*10 / ApprovedQuantum_MU):
+- Bhadradri TPP            BTPS    7361.10 MU / 1739.60 cr -> 2.363 Rs/kWh (Table 4-14 p.127)
+- Kakatiya TPP (Stage-I)   KTPP I  3192.75 MU /  969.13 cr -> 3.035 Rs/kWh (Table 4-14 p.127)
+- Kakatiya TPP (Stage-II)  KTPP II 3910.46 MU / 1143.71 cr -> 2.925 Rs/kWh (Table 4-14 p.127)
+- K_Gudem New (KTPS V+VI)  gen-wtd 6429.13 MU / 1736.32 cr -> 2.701 Rs/kWh (Table 4-14 p.127)
+- Singareni TPP (SCCL STPP) STPP   9044.38 MU / 2120.91 cr -> 2.345 Rs/kWh (Table 4-16 p.130;
+  the order also prints the per-unit rate "STPP 2.345" in its medium-term variable-rate sub-table)
+
+MAPPING NOTE — K_Gudem New: dataset units are 250+250+500 MW (ages ~27/26/13) = Kothagudem KTPS
+subcritical Stage V & VI. The existing `tsgenco.csv` mapped K_Gudem New -> KTPS-VII (1x800 MW,
+ECR 2.409), but KTPS-VII is SUPERCRITICAL and would not appear in the CSE subcritical table — so
+the correct subcritical mapping is KTPS V/VI (gen-wtd 2.701), not KTPS-VII. Flagged in the CSV.
+
+SINGARENI is NOT a TSGenco station: it's SCCL captive, bought by the DISCOMs as a medium-term
+source (Table 4-16), distinct from NTPC's "Telangana STPP / TSTPP" (2x800 MW supercritical,
+Ramagundam) which also appears in the same order — do not conflate the two.
+
+NOT-FOUND: no FY2022-23-ACTUAL (true-up/FPPCA) ECR found for any of the 5 — the only such order
+(TGGenco true-up 28.10.2024) is on the unreachable host. All 5 rows are MYT-base / wrong-vintage,
+flagged, suitable as a cross-check only (consistent with how `tsgenco.csv` already holds them).
+
+## CG-IPP cluster (agent)
+
+Target = 10 Chhattisgarh / CG-adjacent private IPP dataset stations. **RESULT: 0 verified
+FY2022-23 per-station ECR rows.** All 10 are merchant / short-term / captive sellers whose
+FY2022-23 energy charge is not published per-station in any reachable regulator order. Staging
+CSV `data/raw/sources/staging/cg_ipp_cluster.csv` therefore carries header + not-found note only.
+
+Per-station verdicts (match_name -> status, where looked):
+
+- **Tamnar TPP** (O.P. Jindal / JPL 2400 MW Tamnar-II) -> NOT-FOUND. JPL sells ~870 MW long-term
+  to KSEB(Kerala)/TANGEDCO(TN)/CSPDCL, "majority under short-term PPAs/exchanges" (CARE/Powerline).
+  Checked: TANGEDCO TNERC true-up (on disk) IPP list = TAQA/LANCO-Aban/PIONEER-Penna only, no
+  Jindal, and trues up only to FY2020-21 (wrong vintage). UPERC/PSPCL/GUVNL tables: no Jindal.
+  CSERC FY2023-24 concessional table lists "M/s Jindal Power Ltd. 1.54" but that is FY2021-22
+  + a concessional blended rate, not a FY2022-23 ECR -> excluded.
+- **Raigarh TPP(OP Jindal Tps)** (dataset attributes to JSW Energy = JSW bought JPL's 1000 MW
+  Raigarh in 2021) -> NOT-FOUND. No per-station FY2022-23 energy charge in any reachable order
+  (JSW Raigarh is largely merchant/short-term). Not in UPERC/PSPCL/GUVNL/TNERC/CSERC rate tables.
+- **Baradarha TPP** (DB Power 2x600) -> NOT-FOUND. DB Power had ~923 MW long/medium-term PPAs
+  (GEM). Checked: GERC DGVCL FY2022-23 order (downloaded, 13.6k lines) station-wise GUVNL
+  power-purchase table p.153-154 -> DB Power NOT listed (GUVNL IPPs = GSEG/GIPCL/GMDC/GPPC/Essar/
+  Adani/ACB-India/CGPL). BERC discom table (on disk) has DB Power rows but all blank/zero
+  (no Bihar drawal). CSERC FY2023-24 concessional table "M/s DB Power Ltd. 3.23" = FY2021-22
+  concessional blended -> wrong vintage, excluded.
+- **Pathadi Tps Ph -I** (Lanco Amarkantak 2x300, Korba) -> NOT-FOUND (clean ECR). Unit-1 -> MPERC
+  (true-up Petition 64/2023, order 03.03.2023 exists) but MPERC gen-tariff is a normative
+  SHR/coal-cost computation, not a published FY2022-23 actual ECR figure I could read; Unit-2 ->
+  Haryana (HERC FY2022-23 true-up O20240305a(1).pdf) which was UNREACHABLE this session
+  (herc.gov.in curl 000 / WebFetch timeout). CSERC concessional "M/s Lanco Amarkantak 1.97" =
+  FY2021-22 concessional -> excluded. Re-source from MP DISCOM (MPPMCL) power-purchase true-up
+  or HERC station-wise table in a network session that can reach herc.gov.in / mperc.in.
+- **Balco TPP** (BALCO/Vedanta captive 2x300, Korba) -> NOT-FOUND. Captive; only on-disk figure
+  is CSERC FY2023-24 concessional "M/s Balco 1.77" (FY2021-22, concessional) -> excluded.
+- **Avantha Bhandar TPP** (= Korba West Power Co Ltd / REGL, private 600 MW; NOT CSPGCL's 500 MW
+  Korba West KWTPP) -> NOT-FOUND. Care taken not to mis-assign CSPGCL KWTPP ECR 1.306 to this
+  private station. Only on-disk figure: CSERC concessional "M/s Korba West Power Company Ltd.
+  (REGL) 1.60" (FY2021-22, flat concessional) -> excluded.
+- **Binjkote** (SKS Power Generation 2x300) -> NOT-FOUND. Merchant/insolvency-resolved. CSERC
+  concessional "M/s S K S Power Generation Ltd. 1.60" (FY2021-22, flat) -> excluded.
+- **Bandakhar TPP** (Maruti Clean Coal & Power 300 MW) -> NOT-FOUND. CSERC concessional
+  "M/s Maruti Clean Coal & Power Ltd. 1.60" (FY2021-22, flat) -> excluded.
+- **Kasaipalli** (ACB India 270 MW) -> NOT-FOUND. CSERC concessional "M/s ACB (India) Ltd.
+  (270 MW) 1.60" (FY2021-22, flat concessional) -> excluded. (The "ACB India Ltd. 0.75" row in
+  the GERC DGVCL table is a Gujarat lignite source, not this CG plant.)
+- **Mahadev Prasad STPP** (Adhunik Power 540 MW; located Jharkhand/Padampur, NOT CG) -> NOT-FOUND.
+  ~60% PPA coverage, partly merchant; no per-station FY2022-23 ECR in reachable JERC/MP orders.
+
+Sources searched (this session): on-disk staging txt (CSERC FY2023-24 & FY2024-25, UPERC discom,
+PSPCL FY2022-23, BERC discom, TANGEDCO TNERC, MPPGCL, TSGenco, NLC, DVC, GSECL); downloaded fresh
+GERC DGVCL FY2022-23 order; WebSearch for each plant's PPA off-taker + regulator order. CSERC
+FY2024-25 order trues up FY2022-23 but reports concessional power only as an aggregate
+(2,351.96 MU @ Rs2.87/kWh), NOT station-wise. herc.gov.in and cserc.gov.in are unreachable from
+this session's Bash (curl 000); HERC PDF too slow for WebFetch.
+
+Vintage/honesty note: CSERC's "Concessional Power through CSPTrdCL" rows are the obvious temptation
+but are disqualified twice over - FY2021-22 vintage AND mostly a flat Rs1.60/kWh contracted
+concessional rate (the order even states uncovered generators are billed a flat Rs1.60/kWh), i.e.
+not a plant-specific energy/variable charge. Left for the model fallback (`02`) rather than faked.

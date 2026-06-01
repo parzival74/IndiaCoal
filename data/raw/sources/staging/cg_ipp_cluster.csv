@@ -1,0 +1,7 @@
+match_name,ecr_rs_per_kwh,period,basis,source,source_file,flag
+# NO VERIFIED FY2022-23 PER-STATION ECR FOUND for any of the 10 CG/CG-adjacent IPP targets after a genuine search.
+# All 10 are merchant / short-term / captive sellers with no published per-station FY2022-23 energy charge in any reachable regulator order.
+# The only on-disk rate rows (CSERC FY2023-24 order, "Concessional Power through CSPTrdCL" table, p.161-162) are FY2021-22 vintage
+#   AND are a flat Rs1.60/kWh contracted concessional rate for most (NOT a true plant energy charge), so they are WRONG-VINTAGE + NOT-AN-ECR and excluded per honesty rules.
+# herc.gov.in (Lanco Amarkantak Unit-2 / Jhajjar station-wise table) was UNREACHABLE this session (curl 000, WebFetch timeout) - matches the known herc.gov.in network limitation noted in CLAUDE.md.
+# See docs/ecr_scrape_notes.md "## CG-IPP cluster (agent)" for per-station FOUND/NOT-FOUND detail.
