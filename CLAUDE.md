@@ -37,11 +37,18 @@ merit order, and what would that cost in money and CO₂?
   annual PLF; H2 (load proximity) — region looks coal-proximity driven, needs
   nodal data; H3 (DISCOMs favour own plants) — aggregate runs opposite (state
   plants run least).
-- **Re-dispatch counterfactual**: as-run dispatch is only **~4.4% above
-  cost-optimal** (merit order broadly IS followed). Cost-optimal vs carbon-optimal
-  **diverge by ~19–20 MT CO₂ for ~₹14,500–15,000 cr** (implied ~₹7,700/t). So
+- **Re-dispatch counterfactual** (on the real-CIL-grounded cost): as-run dispatch is
+  only **~5.5% above cost-optimal** (merit order broadly IS followed). Cost-optimal vs
+  carbon-optimal **diverge by ~21 MT CO₂ for ~₹15,300 cr** (implied ~₹7,200/t). So
   "no merit order ⇒ more money AND more CO₂" is wrong — the cheapest coal power
   is also the dirtiest; the two objectives diverge.
+- **Domestic coal price is now REAL** (FY2022-23): CIL grade-wise pithead notified
+  prices (notif. 194 dated 27-11-2020, in force all of FY2022-23) + published levies
+  + flagged flat freight → domestic ≈ ₹2.1/kWh (was a ₹850/Gcal *assumed* anchor).
+- **CERC per-station ECR is 2018-19 basis** (working-capital ECR on Oct–Dec 2018 coal
+  cost), so it's a **labelled cross-check** (`08`), not the FY2022-23 headline. It
+  reveals the real central-station spread ₹1.25→₹3.48/kWh that the flat-freight model
+  compresses to ₹1.83–2.08 — i.e. per-plant freight/pithead-distance is the missing axis.
 - IPCC does NOT publish fast annual country CO₂; Global Carbon Project / Carbon
   Monitor / IEA do, via high-frequency proxies (nowcasts), revised later.
 
@@ -51,9 +58,9 @@ REPORT.md            the analysis write-up (main deliverable)
 README.md            quick start + pipeline table
 CLAUDE.md            this file
 requirements.txt     pandas, numpy, scipy, openpyxl
-data/raw/            source xlsx; plant_ecr_template.csv; (drop plant_ecr.csv + sced_blocks.csv here)
+data/raw/            source xlsx; cil_grade_prices_fy2022-23.csv (REAL); plant_ecr_cerc_2018basis.csv (REAL, cross-check); plant_ecr_template.csv; (drop plant_ecr.csv + sced_blocks.csv here)
 data/                cse_subcritical_clean.csv, plant_cost_blended.csv  (generated)
-analysis/            common.py + numbered pipeline scripts + run_all.py
+analysis/            common.py + numbered pipeline scripts (01–08) + run_all.py
 outputs/             *.txt results (committed)
 docs/                methodology_variable_cost.md, data_sources.md
 .claude/             SessionStart hook (installs deps + runs pipeline on web)
@@ -68,44 +75,49 @@ Pipeline scripts:
 - `common.py` — clean xlsx → CSV; tags each plant with official Coal India GCV
   grade (G1–G17, real slabs).
 - `01_correlations.py` — reproduces stats + multivariate PLF model.
-- `02_variable_cost.py` — **modelled** variable cost ₹/kWh (grade-aware domestic
-  price; imported/lignite anchors). The price block at top is the only assumption
-  set; edit it or override with real ECR (see 06).
+- `02_variable_cost.py` — variable cost ₹/kWh. **Domestic price is REAL**: CIL
+  FY2022-23 grade-wise pithead notified price (`data/raw/cil_grade_prices_fy2022-23.csv`)
+  + statutory levies + flagged flat freight. Lignite/imported keep modelled anchors.
 - `03_regions.py` — grid-region proxy for H2 (~60% coverage, state utilities).
 - `04_redispatch.py` — cost-vs-carbon counterfactual on modelled cost.
 - `05_flexibility_framework.py` — H1 ramp/cycling metrics framework (needs
   block-level SCED at `data/raw/sced_blocks.csv`; runs on synthetic demo otherwise).
-- `06_apply_ecr.py` — overrides modelled cost with **real per-station ECR** from
-  `data/raw/plant_ecr.csv`, fuzzy-matches names, reports coverage, re-runs the
-  counterfactual on the blended cost. Currently 1 seeded real row (Talcher).
-- `07_fetch_ecr.py` — **scaffold** to fetch real ECR (needs network; see below).
+- `06_apply_ecr.py` — FY2022-23 **metered** per-station ECR override from
+  `data/raw/plant_ecr.csv` (currently empty: feeds down → 0% coverage; headline =
+  real-CIL model). Fuzzy-matches names, reports coverage, re-runs the counterfactual.
+- `07_fetch_ecr.py` — **fetches real data** from cercind.gov.in: CIL grade prices
+  (→02) + CERC per-station ECR (→08, 2018-basis); probes the FY2022-23 feeds (down).
+  Needs network + pdfplumber/pypdfium2. Not in run_all (committed CSVs make it offline).
+- `08_cerc_crosscheck.py` — CERC per-station ECR (2018-19 basis) vs the FY2022-23
+  model, clearly labelled; 14 central stations; NOT the headline counterfactual.
 
-## CURRENT TASK: replace modelled prices with real plant-level ECR
-The variable cost in `02` is a transparent MODEL. Real Energy Charge Rate (ECR)
-is published and should override it. The seeded example proves why it matters:
-the model priced **Talcher at ~₹2.7/kWh**, but its **real CERC ECR is ₹1.48/kWh**
-(pithead) — the model can't infer pithead cheapness.
+## CURRENT TASK — status (2026-06 Full-access session)
+Goal: replace modelled coal prices with real published data, FY2022-23 vintage.
 
-**Vintage rule:** the performance data is FY2022-23, so collect **FY2022-23 ECR
-only** (coal prices swung hugely; don't mix vintages). **Sources, ranked** (detail
-in `docs/data_sources.md` #1): (1) **CERC FY2022-23 tariff orders** `cercind.gov.in`
-(regulated central/ISGS ECR; per-petition PDFs); (2) **Grid-India SCED statements**
-`grid-india.in` / `hrd.posoco.in/elibrary` (per-generator variable cost, ISGS);
-(3) **state SLDC daily merit-order stacks** (most granular, ~30 sites); (4) **Coal
-India 2022-23 grade prices** `coal.gov.in` × SHR (universal fallback). MERIT
-`meritindia.in` is an **interactive map** (dynamic XHR data, flaky) — last resort
-only. Wayback is NOT used (didn't capture MERIT's dynamic data; dated docs are better).
+**DONE this session** (both layers, as agreed):
+- **Domestic coal price → REAL.** Fetched CIL FY2022-23 grade-wise pithead notified
+  prices from cercind.gov.in's CPI archive (notif. 194 dated 27-11-2020, in force all
+  of FY2022-23) → `data/raw/cil_grade_prices_fy2022-23.csv`; `02` now prices domestic
+  coal on it + statutory levies (royalty 14%, GST 5%, cess ₹400/t) + a flagged flat
+  freight (₹900/t). Replaces the old assumed ₹850/Gcal anchor.
+- **CERC per-station ECR → cross-check (2018-basis).** Parsed 26 CERC 2019-24
+  generation-tariff orders → ECR for **14 central stations** → `data/raw/plant_ecr_cerc_2018basis.csv`;
+  surfaced by `08_cerc_crosscheck.py`. **Kept OUT of the FY2022-23 headline** because
+  CERC's ECR is computed on Oct–Dec 2018 coal cost (2018-19 basis) — vintage rule.
+  Explicit curated name aliases (a difflib match wrongly hit "Bhadradri" for Dadri).
 
-**Network status:** these hosts were firewalled (HTTP 403) under the "Trusted"
-policy in prior sessions. The environment is now set to **Full** access, which
-applies only to NEW sessions. A fresh session must:
-1. Verify: `curl -s -o /dev/null -w '%{http_code}' https://meritindia.in` → expect
-   **200** (if 403, the session's environment isn't the Full-access one).
-2. Complete the parser TODOs in `analysis/07_fetch_ecr.py` against the real
-   responses (it refuses to emit fabricated data — keep it that way).
-3. Run `python3 analysis/07_fetch_ecr.py` → writes `data/raw/plant_ecr.csv`.
-4. Run `python3 analysis/06_apply_ecr.py` → real-coverage override + counterfactual.
-5. Update REPORT.md coverage numbers, commit, push to `claude/keen-newton-P0cFA`.
+**KEY FINDING / why not 100%:** the genuinely FY2022-23 **metered** per-station ECR
+feeds — **Grid-India SCED, POSOCO eLibrary, state SLDC stacks, MERIT/NPP — all returned
+HTTP 503 / refused** this session (cercind.gov.in and coal.gov.in were 200). So the
+FY2022-23 per-station override (`06`, `data/raw/plant_ecr.csv`) has **0% real coverage**
+and the headline cost rests on the real-CIL-grounded model. We refuse to fabricate it.
+
+**REMAINING (next session, when those feeds are up):**
+1. Verify: `curl -s -o /dev/null -w '%{http_code}' https://grid-india.in` → 200.
+2. Implement the SCED/SLDC/MERIT parser in `07_fetch_ecr.py` (it refuses fake data).
+3. `python3 analysis/07_fetch_ecr.py` → writes `data/raw/plant_ecr.csv` (FY2022-23 only).
+4. `python3 analysis/06_apply_ecr.py` → real-coverage override + counterfactual.
+5. Update REPORT.md §7 coverage; commit; push to the working branch.
 
 ## Working conventions
 - **Honesty over polish:** never fabricate data. Label modelled vs real clearly

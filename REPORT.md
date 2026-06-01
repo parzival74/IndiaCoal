@@ -39,12 +39,15 @@ same efficiency can sit at opposite ends of the merit stack. So a *low* Eff↔PL
 correlation is **largely expected** and is **not** strong evidence that India
 ignores merit order.
 
-The data shows the mechanism directly (`outputs/02_variable_cost.txt`):
+The data shows the mechanism directly (`outputs/02_variable_cost.txt`). Domestic
+coal is now priced on the **real Coal India FY2022-23 grade-wise pithead notified
+price** + published levies (royalty, GST, GST compensation cess) + a flagged
+freight term (see §7); lignite/imported keep modelled anchors.
 
-| Inferred coal source | n | Efficiency | Modelled VC (₹/kWh) | PLF | CO₂ (t/MWh) |
+| Coal source | n | Efficiency | Variable cost (₹/kWh) | PLF | CO₂ (t/MWh) |
 |---|---|---|---|---|---|
 | Lignite | 34 | **27.3%** (worst) | **1.80** (cheapest) | 56.8% | **1.34** (dirtiest) |
-| Domestic coal | 402 | 31.5% | 2.54 | 62.4% | 1.05 |
+| Domestic coal | 402 | 31.5% | 2.11 | 62.4% | 1.05 |
 | Imported coal | 19 | **33.2%** (best) | **4.65** (dearest) | **26.6%** (idle) | **0.94** (cleanest) |
 
 The starkest single case: **Mundra (Adani, imported coal) — 35.4% efficiency,
@@ -192,28 +195,32 @@ proxy-based.
 The brief assumed that not following merit order means *both* more cost *and* more
 CO₂. In this fleet **those two objectives diverge.** The re-dispatch counterfactual
 (`04_redispatch.py`; same total 763 TWh re-stacked; VC & EF held fixed; transmission
-/ must-run / ramping ignored — a stylised model to size the trade-off):
+/ must-run / ramping ignored — a stylised model to size the trade-off; cost now on
+the **real-CIL-grounded** variable cost from §1/§7):
 
 | Scenario | Fuel cost (₹ cr) | CO₂ (MT) |
 |---|---|---|
-| 1. Actual (as-run) | 188,599 | 777.9 |
-| 2. Cost-merit (cheapest VC first) | **180,252** | 764.9 |
-| 3. Carbon-merit (cleanest first) | 194,808 | **746.0** |
+| 1. Actual (as-run) | 157,724 | 777.9 |
+| 2. Cost-merit (cheapest VC first) | **149,451** | 767.1 |
+| 3. Carbon-merit (cleanest first) | 164,714 | **746.0** |
 
 Two findings:
 
-- **The as-run dispatch is only ~4.4% above cost-optimal.** That is actually
+- **The as-run dispatch is only ~5.5% above cost-optimal.** That is actually
   *evidence India broadly does follow merit order* — the low Eff↔PLF correlation
   was misleading because efficiency ≠ cost.
 - **Cost-optimal and carbon-optimal are different objectives.** Going for least
-  *cost* instead of least *carbon* costs **+18.9 MT of extra CO₂ to save ~₹14,556
-  cr** — an implied abatement cost of roughly **₹7,700/tonne CO₂ (~$90/t)**. The
+  *cost* instead of least *carbon* costs **+21.1 MT of extra CO₂ to save ~₹15,263
+  cr** — an implied abatement cost of roughly **₹7,200/tonne CO₂ (~$87/t)**. The
   cheapest power (pithead lignite, domestic coal) is among the dirtiest; the
   cleanest (imported coal) is the dearest, so strict economic merit order *raises*
   CO₂ relative to a carbon-ranked dispatch.
 
-> Magnitudes scale with the fuel-price assumptions in `02_variable_cost.py`; the
-> *direction* (cost and carbon optima diverge) is robust to them.
+> The absolute fuel-cost level dropped from earlier drafts because domestic coal is
+> now priced on the **real CIL FY2022-23 pithead notified price** (≈₹2.1/kWh) rather
+> than an assumed ₹850/Gcal landed anchor (≈₹2.5/kWh). The *direction* (cost and
+> carbon optima diverge) is robust; the within-fleet cost spread is still understated
+> because per-plant freight is modelled flat (§7, and the CERC cross-check in `08`).
 
 **This misalignment — India's cheapest coal power is also its dirtiest — is the
 most policy-relevant finding here, and the textbook case for a carbon price to
@@ -221,44 +228,64 @@ re-align the cost and carbon merit orders.**
 
 ---
 
-## 7. Can the variable-cost column be populated? (direct answer)
+## 7. Populating the variable-cost column with real data (direct answer)
 
-**Partially.** SHR is per-plant and real, but the dominant term — per-plant coal
-price — is not in the file. `02_variable_cost.py` builds a **transparent,
-category-level estimate** by inferring coal source (domestic/imported/lignite)
-and applying documented price benchmarks. It is directionally correct (imported ⇒
-expensive ⇒ idle) **but not plant-accurate**, and a flat per-category price
-actually tracks PLF *worse* than efficiency (R² ≈ 14% vs 31%) because:
-1. ~90% of units share one "domestic" price, so within that bucket the cost is
-   just a rescaling of SHR;
-2. the real merit-order dispersion lives *inside* the domestic fleet
-   (pithead-distance, grade, e-auction share, freight), which a flat price can't
-   reproduce;
-3. GCV alone mislabels plants (Mundra's as-fired GCV ~4090 is below the import
-   threshold — we fix it with a small curated importer list).
+SHR is per-plant and real; the dominant missing term is the per-plant coal price.
+We attacked it with real, published data and got **part of the way honestly** —
+the part that's reachable and correct-vintage. Three layers, clearly separated:
 
-**To make it accurate, join plant-level Energy Charge Rate (ECR)** from CERC/SERC
-tariff orders or Grid-India merit-order-despatch sheets. This is now wired in:
+**(a) Domestic coal price — now REAL and FY2022-23-vintage.** The model's only
+assumption block (a guessed ₹850/Gcal landed anchor with invented grade
+multipliers) is replaced by the **actual Coal India FY2022-23 grade-wise pithead
+notified price** (`data/raw/cil_grade_prices_fy2022-23.csv`). The schedule in force
+across all of FY2022-23 is CIL notification 194 dated 27-11-2020 — CIL did not
+revise non-coking prices again until 31-May-2023, so a single, period-correct table
+applies. On the ex-mine price we add the **published statutory levies** (royalty
+14%, GST 5%, GST compensation cess ₹400/t) and a **flagged modelled freight term**
+(₹900/t fleet-average). So the base price and levies are real and correctly
+vintaged; freight is the one remaining assumption — and it is flat, because
+per-plant lead distance isn't in the dataset.
 
-- The model is **grade-aware** — each plant is tagged with its official
-  Ministry-of-Coal GCV grade (G1–G17) and domestic coal is priced by grade.
-- **`06_apply_ecr.py` is a drop-in override layer.** Put real published ECR in
-  `data/raw/plant_ecr.csv` (`match_name, ecr_rs_per_kwh, period, source`); it
-  fuzzy-matches stations, overrides the model where data exists, falls back to
-  the model elsewhere, reports coverage, and re-runs the cost-vs-carbon
-  counterfactual on the blended cost.
+**(b) FY2022-23 *metered per-station* ECR — wanted, but the feeds were down.**
+The genuinely FY2022-23, station-level energy-charge feeds (**Grid-India SCED**,
+**POSOCO eLibrary**, **state SLDC daily merit-order stacks**, **MERIT**) all
+returned HTTP 503 / connection-refused this session. So the FY2022-23 override
+(`06_apply_ecr.py`, reading `data/raw/plant_ecr.csv`) has **0% real coverage** — we
+refuse to fabricate it — and the headline cost falls back to the real-CIL model in
+(a). `06` reports this explicitly.
 
-A seeded real example shows why this matters: the model put **Talcher at
-~₹2.7/kWh**, but its **real CERC ECR is ₹1.48/kWh** — because Talcher is a
-*pithead* station the GCV/source model can't know is cheap (and it duly runs at
-75–90% PLF). Pithead distance, e-auction share and freight — the dispersion that
-actually drives merit order — only arrive with real ECR. Full detail in
+**(c) CERC tariff-order ECR — real per-station, but wrong vintage → cross-check
+only.** CERC orders *are* reachable, and we extracted the determined ECR for **14
+central stations** (NTPC/DVC/NLC) from the 2019-24 generation-tariff orders. But
+CERC computes that ECR on the **Oct–Dec 2018 landed coal cost** (a 2018-19 basis;
+the energy charge itself is monthly actual pass-through, "subject to truing-up").
+Mixing it into the FY2022-23 headline would violate the vintage rule, so it lives
+in `data/raw/plant_ecr_cerc_2018basis.csv` and feeds only the **`08_cerc_crosscheck.py`**
+comparison — never the headline. (Station names are mapped with an explicit curated
+alias list, after a difflib fuzzy-match wrongly snapped "National Capital TPS
+(Dadri)" onto the unrelated "Bhadradri" plant.)
+
+**What the cross-check reveals (the key point).** The real CERC ECRs span
+**₹1.25/kWh (pithead Sipat/Korba/Singrauli) to ₹3.48/kWh (distant Dadri/Indira
+Gandhi)** across these central stations. The model — with its single flat freight
+term — compresses that to a narrow **₹1.83–2.08/kWh** band: it *overstates* the
+cheap pithead stations and *understates* the distant ones. **Per-plant rail freight
+/ pithead-distance is the missing axis that actually drives the within-domestic
+merit order**, and only real metered ECR (layer b) can supply it. Consistent with
+this, a flat-ish price still tracks PLF (r ≈ −0.43, R² ≈ 18%) somewhat *worse* than
+efficiency (R² ≈ 31%): ~88% of units share the compressed domestic band, so the
+modelled cost there is largely a rescaling of SHR. (The earlier hand-seeded
+"Talcher ₹1.48/kWh" was an approximate placeholder; the real CERC determination
+figure for Talcher Stage-II is **₹1.85/kWh on the 2018-19 basis** vs ₹1.98 modelled
+— pithead, and the model can't see why it's cheap.) Full detail in
 [`docs/methodology_variable_cost.md`](docs/methodology_variable_cost.md).
 
-> **Network caveat:** cercind.gov.in / coal.gov.in / grid-india / meritindia.in
-> are firewalled in this remote environment (HTTP 403), so the 455-row ECR table
-> cannot be auto-harvested here. Run the session locally (or allow-list those
-> domains) to fetch them; the override layer then consumes the result.
+> **Network status (2026-06, Full access):** cercind.gov.in and coal.gov.in are
+> reachable (CERC even hosts the CIL price-notification archive). grid-india.in /
+> POSOCO eLibrary / meritindia.in returned **HTTP 503** — so the FY2022-23 metered
+> per-station ECR could not be harvested. `analysis/07_fetch_ecr.py` re-fetches the
+> CIL prices and CERC orders from source and probes those feeds; it writes
+> `plant_ecr.csv` only when a real FY2022-23 feed comes back up.
 
 ---
 
@@ -266,14 +293,16 @@ actually drives merit order — only arrive with real ECR. Full detail in
 
 | # | Extension | Status | Blocking data (not in file) |
 |---|---|---|---|
-| 1 | Variable cost (₹/kWh) | Grade-aware model **+ real-ECR override layer** (`06`) | Published per-station ECR to raise coverage |
+| 1 | Variable cost (₹/kWh) | Domestic price on **real CIL FY2022-23** notified prices + levies; FY2022-23 per-station override layer (`06`) ready but feeds down; **CERC 2018-basis cross-check** (`08`) | FY2022-23 *metered* per-station ECR (SCED/SLDC/MERIT) for the within-fleet freight spread |
 | 2 | Grid-region / load proximity | Coarse proxy (~60% coverage) | Lat/long, RLDC bus, load-pocket, congestion |
 | 3 | Flexibility / ramp (H1) | Framework + synthetic demo | Block-level SCED generation |
-| 4 | Cost-vs-carbon re-dispatch | Done (stylised) | Transmission/must-run limits for realism |
+| 4 | Cost-vs-carbon re-dispatch | Done (stylised), on real-CIL cost | Transmission/must-run limits for realism |
 
 See [`docs/data_sources.md`](docs/data_sources.md) for exactly where to obtain the
-missing inputs. (The remote environment blocks Grid-India/CEA, so live SCED data
-could not be fetched in-session.)
+missing inputs. **This session reached cercind.gov.in (CERC orders + CIL price
+archive) and coal.gov.in, but grid-india.in / POSOCO / meritindia.in returned HTTP
+503**, so the FY2022-23 metered per-station ECR and live SCED block data could not
+be fetched in-session.
 
 ---
 

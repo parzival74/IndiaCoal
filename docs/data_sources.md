@@ -1,20 +1,36 @@
 # Data sources & extension roadmap
 
-## Resuming with network access (read this first if you're a new session)
-Earlier sessions ran under the **Trusted** network policy, so government data
-hosts (`cercind.gov.in`, `coal.gov.in`, `cea.nic.in`, `grid-india.in`, MERIT)
-returned HTTP 403 and real ECR could not be fetched. The environment is now set
-to **Full** access (applies to NEW sessions only). If you are that session:
-1. Verify access: `curl -s -o /dev/null -w '%{http_code}\n' https://cercind.gov.in`
-   → expect 200, not 403 (also try the other hosts in #1 below).
-2. **Vintage rule:** the performance data is FY2022-23, so every ECR you collect
-   must be FY2022-23 — do NOT use current-year prices (coal prices swung hugely;
-   mixing vintages would invalidate the cost↔PLF comparison).
-3. Collect ECR per the ranked sources in #1; complete the parser TODOs in
-   `analysis/07_fetch_ecr.py` (it refuses to emit fake data — keep it that way).
-4. Run `python3 analysis/07_fetch_ecr.py` → writes `data/raw/plant_ecr.csv`.
-5. Run `python3 analysis/06_apply_ecr.py` → real-coverage override + counterfactual.
-6. Update REPORT.md coverage; commit; push to `claude/keen-newton-P0cFA` (PR #1).
+## Status after the 2026-06 Full-access session (read this first)
+What a Full-access session actually found (probed repeatedly, alternate hosts/UAs):
+
+| Source | Status | Outcome |
+|---|---|---|
+| `cercind.gov.in` (CERC orders + CIL price archive) | **200** | used (layers a & c below) |
+| `coal.gov.in` / `coalindia.in` | **200** (browser UA) | CIL prices also on cercind CPI page |
+| `grid-india.in`, POSOCO `hrd.posoco.in`, `meritindia.in`, `npp.gov.in` | **503 / refused** | FY2022-23 metered per-station ECR **NOT** fetchable |
+
+So `analysis/07_fetch_ecr.py` now fetches the two reachable, real inputs and refuses
+to fabricate the rest:
+- **(a) CIL FY2022-23 grade-wise pithead notified price** → `data/raw/cil_grade_prices_fy2022-23.csv`,
+  consumed by `02` to ground the domestic coal price. Correct vintage: CIL notif. 194
+  dated 27-11-2020 was in force across all of FY2022-23 (next hike 31-05-2023).
+- **(c) CERC per-station ECR for 14 central stations** → `data/raw/plant_ecr_cerc_2018basis.csv`.
+  **Vintage caveat:** CERC computes the ECR on the Oct–Dec 2018 landed coal cost
+  (2018-19 basis), so it is a **labelled cross-check** (`08_cerc_crosscheck.py`),
+  NOT the FY2022-23 headline.
+- **(d) FY2022-23 *metered* per-station ECR** (`data/raw/plant_ecr.csv`, consumed by
+  `06`) is still **empty** — its feeds were down. This is the remaining task.
+
+**Vintage rule (unchanged):** the performance data is FY2022-23, so any ECR put into
+`plant_ecr.csv` must be FY2022-23. Do NOT paste CERC 2018-basis ECR there.
+
+**To finish when the feeds come back up:**
+1. Verify: `curl -s -o /dev/null -w '%{http_code}\n' https://grid-india.in` → 200.
+2. Implement the SCED/SLDC/MERIT parser in `07_fetch_ecr.py` against the real
+   responses (it refuses to emit fake data — keep it that way).
+3. Run `python3 analysis/07_fetch_ecr.py` → writes `data/raw/plant_ecr.csv`.
+4. Run `python3 analysis/06_apply_ecr.py` → real-coverage override + counterfactual.
+5. Update REPORT.md §7 coverage; commit; push to the working branch.
 
 
 ## Current dataset (in repo)
@@ -27,10 +43,13 @@ to **Full** access (applies to NEW sessions only). If you are that session:
 
 ## What each extension needs that the file lacks
 
-### #1 Variable cost (₹/kWh) — *grade-aware model + ECR override layer done*
-The model is grade-aware (official G1–G17 GCV slabs) and `06_apply_ecr.py` ingests
-real per-station ECR from `data/raw/plant_ecr.csv` (copy `plant_ecr_template.csv`).
-**All ECR must be FY2022-23** to match the performance data.
+### #1 Variable cost (₹/kWh) — *domestic price on REAL CIL FY2022-23 prices; CERC cross-check; metered per-station ECR still pending*
+Domestic coal is priced from **real CIL FY2022-23 grade-wise pithead notified prices**
+(`data/raw/cil_grade_prices_fy2022-23.csv`, via `02`) + published levies + a flagged
+freight term. `06_apply_ecr.py` ingests FY2022-23 **metered** per-station ECR from
+`data/raw/plant_ecr.csv` (currently empty — feeds down). The CERC 2018-basis ECR for
+14 central stations is a labelled cross-check (`08_cerc_crosscheck.py`).
+**Anything in `plant_ecr.csv` must be FY2022-23** to match the performance data.
 
 Sources, ranked. (Wayback is deliberately NOT used: MERIT served its numbers
 dynamically so archived snapshots don't capture the data, and the dated documents
@@ -78,9 +97,9 @@ Sources:
 - **RLDC** (NRLDC/WRLDC/SRLDC/ERLDC) revision/SCADA archives.
 - **CEA** Daily Generation reports for coarser (daily) ramp proxies.
 
-> The remote execution environment blocks outbound access to grid-india.in and
-> cea.nic.in (HTTP 403), so these cannot be fetched in-session. Download locally
-> and place under `data/raw/`.
+> In the 2026-06 Full-access session, grid-india.in / POSOCO returned **HTTP 503 /
+> connection-refused** (not 403), so SCED block data still could not be fetched
+> in-session. Download locally when the hosts are back up and place under `data/raw/`.
 
 ### #4 Re-dispatch counterfactual — *done (stylised)*
 Uses extension #1's variable cost. To make it production-grade, add transmission
