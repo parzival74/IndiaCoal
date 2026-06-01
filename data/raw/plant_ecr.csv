@@ -50,3 +50,90 @@ Kalisindh,2.950,FY2022-23,"RERC review order RERC/2031/22, Table 3 Approved tari
 Panipat,3.723,FY2022-23,"HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); gen-wtd over PTPS-6 (1407.29 MU @ 3.812), PTPS-7 & PTPS-8 (1688.38 MU @ 3.686 each) = 3.723 Rs/kWh; FILED petition, not HERC-approved order (hpgcl.org.in)"
 Yamunanagar TPP,3.574,FY2022-23,"HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); DCRTPP Units 1-2 (Yamunanagar) 3.574 Rs/kWh each; FILED petition, not HERC-approved order (hpgcl.org.in)"
 Rajiv Gandhi Tps Hisar,3.639,FY2022-23,"HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); RGTPP Units 1-2 (Hisar/Khedar) 3.639 Rs/kWh each; FILED petition, not HERC-approved order (hpgcl.org.in)"
+# --- Gujarat: GSECL state gencos, GERC FY2022-23 generation tariff order ---------
+# Approved per-station Energy Charge Rate (Rs/kWh) for FY2022-23 from GERC Order in
+# Case No. 2025 of 2021 dated 30.03.2022, Table 6.1 (station-wise ECR) p.141.
+# Raw: data/raw/sources/gsecl_gerc_order_30032022.pdf
+Wanakbori,4.232,FY2022-23,"GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 station-wise approved ECR for FY2022-23, Wanakbori TPS 4.232 Rs/kWh (gercin.org)"
+Ukai_Coal,3.915,FY2022-23,"GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 station-wise approved ECR for FY2022-23, Ukai TPS (coal) 3.915 Rs/kWh (gercin.org)"
+Gandhi Nagar,4.293,FY2022-23,"GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 station-wise approved ECR for FY2022-23, Gandhinagar TPS 4.293 Rs/kWh (gercin.org)"
+Sikka Extn,3.956,FY2022-23,"GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 station-wise approved ECR for FY2022-23, Sikka TPS Extension (Units 3-4) 3.956 Rs/kWh (gercin.org)"
+Kutch Lignite,3.113,FY2022-23,"GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 approved ECR FY2022-23, Kutch Lignite TPS gen-wtd KLTPS1-3 (3.189) + KLTPS4 (3.036) = 3.113 Rs/kWh (gercin.org)"
+# --- Tamil Nadu: TANGEDCO state gencos, TNERC FY2022-23 generation tariff order ---
+# Approved per-station Energy Charge (Rs/kWh) for FY2022-23 from TNERC Order No. 7
+# of 2022 dated 09-09-2022, Table 4-47 (station-wise variable cost) p.175. Mettur &
+# Mettur Ext ECR >Rs4.5 verified genuine (old, coal-distant). Mettur = MERGED
+# generation-weighted of Mettur (5.00) + Mettur Tps Ext (4.99) -- both _norm to
+# "mettur"; full per-substation fidelity in plant_tariff_details.csv.
+# Raw: data/raw/sources/tneb_tnerc_order_07_2022.pdf
+Tuticorin,3.96,FY2022-23,"TNERC Order 7/2022 dtd 09-09-2022, Table 4-47 station-wise approved variable cost FY2022-23, Tuticorin TPS 3.96 Rs/kWh (tnerc.gov.in)"
+Mettur,4.996,FY2022-23,"TNERC Order 7/2022 dtd 09-09-2022, Table 4-47 approved variable cost FY2022-23; MERGED gen-wtd of Mettur TPS (5.00) + Mettur Ext 600MW (4.99) = 4.996 Rs/kWh (both _norm collide); HIGH but verified (old, coal-distant) (tnerc.gov.in)"
+North Chennai,3.59,FY2022-23,"TNERC Order 7/2022 dtd 09-09-2022, Table 4-47 station-wise approved variable cost FY2022-23, North Chennai TPS (Stage-I) 3.59 Rs/kWh (tnerc.gov.in)"
+North Chennai Extension,3.94,FY2022-23,"TNERC Order 7/2022 dtd 09-09-2022, Table 4-47 approved variable cost FY2022-23, North Chennai TPS Stage-II (NCTPS II) 3.94 Rs/kWh (tnerc.gov.in)"
+# --- Punjab: PSPCL state gencos, PSERC FY2022-23 tariff order --------------------
+# Approved per-station Energy Charge Rate (paise/kWh -> Rs/kWh) for FY2022-23 from
+# PSERC Petition No. 68 of 2021 dated 13-Apr-2022, Table 7.7 p.203.
+# Raw: data/raw/sources/pspcl_pserc_petn68_2021.pdf
+Ropar,3.6037,FY2022-23,"PSERC Petition 68/2021 dtd 13-Apr-2022, Table 7.7 p.203 approved ECR FY2022-23, GGSSTP Ropar 360.37 paise/kWh = 3.6037 Rs/kWh (pserc.gov.in)"
+Ghtp (Leh.Moh.),3.6824,FY2022-23,"PSERC Petition 68/2021 dtd 13-Apr-2022, Table 7.7 p.203 approved ECR FY2022-23, GHTP Lehra Mohabbat 368.24 paise/kWh = 3.6824 Rs/kWh (pserc.gov.in)"
+# --- DVC (Damodar Valley Corp), JSERC FY2022-23 true-up order -------------------
+# Commission-APPROVED per-station Energy Charge Rate (Rs/kWh) for FY2022-23 from
+# JSERC Order dated 30-09-2024 (DVC True-up FY2022-23 / APR FY2023-24 / Tariff
+# FY2024-25, petition dtd 12-12-2023), Table 38 p.96. DVC is CERC-regulated for
+# generation; JSERC trues-up the FY2022-23 ECR. Chandrapura = DVC CTPS U#7,8
+# (Jharkhand) -- NOT Maharashtra Chandrapur. Mejia = MERGED gen-wtd of MTPS U#1-6
+# (3.715) + MTPS U#7&8 (3.577) = 3.649 (both _norm to "mejia"); per-substation
+# fidelity in plant_tariff_details.csv. Raw: data/raw/sources/dvc_jserc_2024a.pdf
+Durgapur,3.434,FY2022-23,"JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, DTPS U#4 approved ECR 3.434 Rs/kWh (jserc.org)"
+Mejia,3.649,FY2022-23,"JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96; MERGED gen-wtd of MTPS U#1-6 (3.715) + Mejia Ext U#7&8 (3.577) = 3.649 Rs/kWh (both _norm collide); per-substation rows in plant_tariff_details.csv (jserc.org)"
+Chandrapura,3.624,FY2022-23,"JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, DVC CTPS U#7&8 approved ECR 3.624 Rs/kWh (Jharkhand, NOT Maharashtra Chandrapur) (jserc.org)"
+Durgapur Steel Tps,3.793,FY2022-23,"JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, DSTPS U#1&2 approved ECR 3.793 Rs/kWh (jserc.org)"
+Koderma,3.540,FY2022-23,"JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, KTPS U#1&2 approved ECR 3.540 Rs/kWh (jserc.org)"
+Raghunathpur TPP Ph-I,3.881,FY2022-23,"JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, RTPS U#1&2 approved ECR 3.881 Rs/kWh (jserc.org)"
+Bokaro A ''Exp'',2.771,FY2022-23,"JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, BTPS 'A' approved ECR 2.771 Rs/kWh (pit-head, lowest DVC ECR) (jserc.org)"
+# --- Chhattisgarh: CSPGCL state gencos, CSERC FY2022-23 true-up order ------------
+# ECR (Rs/kWh) for FY2022-23 = (actual coal cost + actual secondary-oil cost) / actual
+# net generation, from CSERC Tariff Order FY2024-25 (Petition 10/2024(T)) dated
+# 01-06-2024, Final True-Up for FY2022-23 (Section 4), Tables 4-7/4-15/4-16/4-17/4-37.
+# Korba-West = MERGED gen-wtd of HTPS U1-4 840MW (1.589) + KWTPP U5 500MW (1.395) =
+# 1.508 (both _norm to "korba west"); Korba-West Ext kept separate as Korba-V(Dspm).
+# Raw: data/raw/sources/cspgcl_cserc_tariff_order_fy2024-25.pdf
+Korba-West,1.508,FY2022-23,"CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4; MERGED gen-wtd of HTPS U1-4 (1.589) + KWTPP U5 500MW (1.395) = 1.508 Rs/kWh; pithead SECL coal (cserc.gov.in)"
+Korba-V(Dspm Tps),1.612,FY2022-23,"CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4, DSPM TPS U7-8 2x250MW actual ECR (coal+oil)/net-gen = 1.612 Rs/kWh (cserc.gov.in)"
+Marwa TPP,1.837,FY2022-23,"CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4, ABVTPS Marwa U1-2 2x500MW actual ECR (coal+oil)/net-gen = 1.837 Rs/kWh (cserc.gov.in)"
+# --- West Bengal: WBPDCL state gencos, WBERC FY2022-23 tariff order --------------
+# Approved Energy Charge Rate (paise/kWh -> Rs/kWh) for FY2022-23 from WBERC order
+# TP-95/20-21 dated 26.07.2022, as quoted by WBPDCL in its FY2022-23 MFCA debit
+# notes attached to the WBSEDCL 8th Control Period (FY2023-26) Tariff Petition,
+# Appendix A1 (the WBERC order PDFs themselves are scanned/non-machine-readable).
+# Bandel = Unit-V (1x210, matches dataset capacity); Sagardighi = Stage-I.
+# Raw: data/raw/sources/wbpdcl_wbsedcl_appendixA1.pdf
+Kolaghat,2.7841,FY2022-23,"WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, KTPS Kolaghat 278.41 paise = 2.7841 Rs/kWh (wbsedcl.in)"
+Bakreswar,1.8290,FY2022-23,"WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, BKTPS Bakreswar 182.90 paise = 1.8290 Rs/kWh (wbsedcl.in)"
+Santaldih,1.9497,FY2022-23,"WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, STPS Santaldih Stage-II 194.97 paise = 1.9497 Rs/kWh (wbsedcl.in)"
+Bandel,2.1709,FY2022-23,"WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, BTPS Bandel Unit-V (1x210, matches dataset) 217.09 paise = 2.1709 Rs/kWh (wbsedcl.in)"
+Sagardighi TPP,1.7911,FY2022-23,"WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, SgTPS Sagardighi Stage-I 179.11 paise = 1.7911 Rs/kWh (wbsedcl.in)"
+# --- Uttar Pradesh: UPRVUNL state gencos, UPERC FY2022-23 tariff (filed) ---------
+# Per-station Energy Charge Rate (Rs/kWh) for FY2022-23 from UPERC Tariff Order for
+# State Discoms dated 25-05-2023, Table 5-16 p.349 (UPRVUNL filed APR figures, not a
+# standalone approved generation order) -- flagged filed_petition, same standing as
+# the HPGCL rows. Obra-A row uses the order's OBRA-B figure; H_Ganj B = HARDUAGANJ
+# EXT. Raw: data/raw/sources/uprvunl_uperc_order_25052023.pdf
+Anpara,1.941,FY2022-23,"UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Anpara gen-wtd A (2.06) / B (1.98) / D (1.83) = 1.941 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)"
+Obra-A,2.58,FY2022-23,"UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Obra (order OBRA-B figure) 2.58 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)"
+Paricha,3.657,FY2022-23,"UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Parichha gen-wtd Ext (3.69) + Ext-II (3.62) = 3.657 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)"
+H_Ganj B,3.94,FY2022-23,"UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Harduaganj Ext 3.94 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)"
+# --- Andhra Pradesh: APGENCO state gencos, APERC FY2022-23 FPPCA true-up ---------
+# Actual Variable Cost (Rs/kWh) for FY2022-23 from APERC FPPCA Common Order in
+# O.P. Nos. 57-68 of 2024, Section (ii) p.51-52 (station-wise actual variable cost).
+# Vijaywada TPP-Iv = NTTPS Stage-IV 500MW (subcritical), NOT the supercritical
+# Stage-V. Raw: data/raw/sources/apgenco_aperc_fppca_op57-68_2024.pdf
+Rayal Seema,4.33,FY2022-23,"APERC FPPCA Common Order O.P.57-68/2024, Sec(ii) p.51-52 actual variable cost FY2022-23, RTPP Rayalaseema gen-wtd Stages I-IV = 4.33 Rs/kWh (aperc.gov.in)"
+Vijaywada (Dr. N.TATA Rao Tps),3.99,FY2022-23,"APERC FPPCA Common Order O.P.57-68/2024, Sec(ii) p.51-52 actual variable cost FY2022-23, Dr NTTPS Vijayawada (Stages I-III) 3.99 Rs/kWh (aperc.gov.in)"
+Vijaywada TPP-Iv,3.63,FY2022-23,"APERC FPPCA Common Order O.P.57-68/2024, Sec(ii) p.51-52 actual variable cost FY2022-23, NTTPS Stage-IV 500MW subcritical 3.63 Rs/kWh (NOT supercritical Stage-V) (aperc.gov.in)"
+# --- NLC (Neyveli Lignite Corp), CERC FY2022-23 generation tariff (lignite) ------
+# CERC-approved Energy Charge Rate (Rs/kWh), FY2022-23 column, from the station's
+# CERC 2019-24 generation-tariff order. Lignite pithead -> very low ECR.
+# Raw: data/raw/sources/nlc_cerc_gt_orders.pdf
+Neyveli New TPP,2.115,FY2022-23,"CERC Order 219/GT/2019 dtd 2.8.2024 para 173, NNTPP (Neyveli New 2x500) approved ECR FY2022-23 col = 2.115 Rs/kWh (cercind.gov.in)"
+Barsingar Ligniteite,0.848,FY2022-23,"CERC Order 386/GT/2020 dtd 21.11.2023 para 58, Barsingsar (2x125 lignite) approved ECR FY2022-23 col = 84.76 paise = 0.848 Rs/kWh; lignite pithead (cercind.gov.in)"

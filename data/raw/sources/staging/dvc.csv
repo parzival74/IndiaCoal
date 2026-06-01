@@ -1,0 +1,32 @@
+# DVC (Damodar Valley Corporation) per-station ECR -- FY2022-23, REAL, approved-order.
+# PRIMARY SOURCE: JSERC Order dated 30-09-2024 "True-up for FY 2022-23, APR for FY 2023-24,
+# ARR & Tariff for FY 2024-25 and Business Plan for 11 kV for Damodar Valley Corporation"
+# (petition dated 12-12-2023), Table 38 "Energy charge rate submitted by petitioner and
+# approved by the Commission (Rs./kWh)", p.96. These are the Commission-APPROVED FY2022-23
+# per-station Energy Charge Rates (energy/variable charge ONLY, already in Rs/kWh).
+# JSERC adopts the underlying CERC 2019-24 generation tariff orders (Table 37, p.94) -- DVC
+# is CERC-regulated for generation; JSERC trues-up the FY2022-23 ECR for the Jharkhand pool.
+#   raw artefact: data/raw/sources/staging/dvc_jserc_2024a.pdf (jserc.org/pdf/tariff_order/dvc2024a.pdf)
+#
+# ECR = energy/variable charge only (NOT fixed/capacity). Vintage = FY2022-23 (clean column).
+# Mejia (units 1-6 = MTPS U#1-3 @3.656 + U#4 @3.741 + U#5&6 @3.783) is generation-weighted
+#   using implied gen MU = Table39 energy charges (Rs.Cr) / Table38 ECR (Rs/kWh) -> 3.715 Rs/kWh.
+# Mejia Tps Ext = MTPS U#7&8 (the Mejia extension, U7-8). Chandrapura = CTPS U#7,8 (DVC,
+#   Jharkhand -- NOT Maharashtra Chandrapur). Durgapur = DTPS U#4. Bokaro A 'Exp' = BTPS 'A'.
+# capacity_charge_rs_cr = Annual Fixed Charge "as per CERC Order (Excl. Ash Evacuation)" for
+#   FY2022-23 (Table 6, p.26) -- station capacity/fixed charge, Rs.Cr.
+# gcv_coal & landed_coal_cost = Table 11 "Landed price to GCV ratio of DVC Gencos for FY2022-23
+#   (Q1 Apr-Jun)" (p.31) -- Q1 SNAPSHOT, not full-year average; flagged. Mejia: gen-wtd of
+#   MTPS1-4 & MTPS5-6 rows. generation_mu/plf_pct left BLANK: the only MU derivable here is the
+#   JSERC Jharkhand-retail-pool slice (Table 39), NOT station total generation -- publishing it
+#   as station gen/PLF would be misleading (e.g. DTPS/KTPS/CTPS sell most output as ISGS, not
+#   into the DVC pool). Coal sanity band Rs1.3-4.5/kWh: all rows pass.
+match_name,unit_group,genco,state,period,basis,ecr_rs_per_kwh,fixed_charge_rs_per_kwh,capacity_charge_rs_cr,station_heat_rate_kcal_per_kwh,aux_consumption_pct,specific_coal_consumption_kg_per_kwh,secondary_oil_ml_per_kwh,transit_loss_pct,gcv_coal_kcal_per_kg,landed_coal_cost_rs_per_tonne,coal_grade,gcv_oil_kcal_per_litre,landed_oil_cost_rs_per_kl,generation_mu,plf_pct,capacity_mw,source,source_file,flag
+Mejia,MTPS U#1-6,DVC,West Bengal,FY2022-23,approved_order,3.715,,960.46,,,,,,3601,4417,,,,,,1340,"JSERC Order 30-09-2024 (DVC True-up FY2022-23/APR FY2023-24/Tariff FY2024-25, petition dtd 12-12-2023), Table 38 ""Energy charge rate ... approved by the Commission (Rs/kWh)"" p.96: MTPS U#1-3=3.656, U#4=3.741, U#5&6=3.783 (units 1-6); gen-weighted by implied MU (Table 39 EC Rs.Cr / Table 38 ECR) = 3.715 Rs/kWh. AFC=Table 6 p.26 (439.45+141.66+379.35=960.46 Rs.Cr). GCV/landed=Table 11 Q1-FY22-23 p.31 (gen-wtd MTPS1-4 & MTPS5-6).",dvc_jserc_2024a.pdf,"ECR=gen-wtd of 3 unit-groups (3.656/3.741/3.783); landed_cost & gcv_coal are Q1-FY22-23 snapshot not annual; cap_mw=630+210+500"
+Mejia Tps Ext,MTPS U#7&8,DVC,West Bengal,FY2022-23,approved_order,3.577,,1044.64,,,,,,3696,4263,,,,,,1000,"JSERC Order 30-09-2024 (DVC True-up FY2022-23 etc., petition dtd 12-12-2023), Table 38 p.96: MTPS U#7&8 approved ECR 3.577 Rs/kWh. AFC=Table 6 p.26 (1044.64 Rs.Cr). GCV 3695.52 / landed 4262.93 Rs/MT = Table 11 Q1-FY22-23 p.31 (MTPS 7-8).",dvc_jserc_2024a.pdf,"landed_cost & gcv_coal are Q1-FY22-23 snapshot not annual"
+Durgapur,DTPS U#4,DVC,West Bengal,FY2022-23,approved_order,3.434,,144.68,,,,,,3111,2879,,,,,,210,"JSERC Order 30-09-2024 (DVC True-up FY2022-23 etc., petition dtd 12-12-2023), Table 38 p.96: DTPS U#4 approved ECR 3.434 Rs/kWh. AFC=Table 6 p.26 (144.68 Rs.Cr). GCV 3110.68 / landed 2879.08 Rs/MT = Table 11 Q1-FY22-23 p.31 (DTPS).",dvc_jserc_2024a.pdf,"Durgapur TPS = DTPS U#4 (210 MW, only DVC-priced unit); landed_cost & gcv_coal Q1-FY22-23 snapshot"
+Durgapur Steel Tps,DSTPS U#1&2,DVC,West Bengal,FY2022-23,approved_order,3.793,,1070.47,,,,,,3494,4089,,,,,,1000,"JSERC Order 30-09-2024 (DVC True-up FY2022-23 etc., petition dtd 12-12-2023), Table 38 p.96: DSTPS U#1&2 approved ECR 3.793 Rs/kWh. AFC=Table 6 p.26 (1070.47 Rs.Cr). GCV 3493.63 / landed 4088.93 Rs/MT = Table 11 Q1-FY22-23 p.31 (DSTPS).",dvc_jserc_2024a.pdf,"landed_cost & gcv_coal are Q1-FY22-23 snapshot not annual"
+Koderma,KTPS U#1&2,DVC,Jharkhand,FY2022-23,approved_order,3.540,,1150.04,,,,,,3639,3829,,,,,,1000,"JSERC Order 30-09-2024 (DVC True-up FY2022-23 etc., petition dtd 12-12-2023), Table 38 p.96: KTPS U#1&2 approved ECR 3.540 Rs/kWh. AFC=Table 6 p.26 (1150.04 Rs.Cr). GCV 3639.48 / landed 3829.36 Rs/MT = Table 11 Q1-FY22-23 p.31 (KTPS).",dvc_jserc_2024a.pdf,"landed_cost & gcv_coal are Q1-FY22-23 snapshot not annual"
+Raghunathpur TPP Ph-I,RTPS U#1&2,DVC,West Bengal,FY2022-23,approved_order,3.881,,1371.83,,,,,,3672,4563,,,,,,1200,"JSERC Order 30-09-2024 (DVC True-up FY2022-23 etc., petition dtd 12-12-2023), Table 38 p.96: RTPS U#1&2 approved ECR 3.881 Rs/kWh. AFC=Table 6 p.26 (1371.83 Rs.Cr). GCV 3672.47 / landed 4562.86 Rs/MT = Table 11 Q1-FY22-23 p.31 (RTPS).",dvc_jserc_2024a.pdf,"landed_cost & gcv_coal are Q1-FY22-23 snapshot not annual"
+Chandrapura,CTPS U#7&8,DVC,Jharkhand,FY2022-23,approved_order,3.624,,579.65,,,,,,3691,3916,,,,,,500,"JSERC Order 30-09-2024 (DVC True-up FY2022-23 etc., petition dtd 12-12-2023), Table 38 p.96: CTPS U#7,8 approved ECR 3.624 Rs/kWh. AFC=Table 6 p.26 (579.65 Rs.Cr). GCV 3690.75 / landed 3915.96 Rs/MT = Table 11 Q1-FY22-23 p.31 (CTPS 7-8).",dvc_jserc_2024a.pdf,"DVC Chandrapura (Jharkhand) U#7&8 -- NOT Maharashtra Chandrapur; landed_cost & gcv_coal Q1-FY22-23 snapshot"
+Bokaro A ''Exp'',BTPS 'A',DVC,Jharkhand,FY2022-23,approved_order,2.771,,735.04,,,,,,4353,3756,,,,,,500,"JSERC Order 30-09-2024 (DVC True-up FY2022-23 etc., petition dtd 12-12-2023), Table 38 p.96: BTPS 'A' approved ECR 2.771 Rs/kWh. AFC=Table 6 p.26 (735.04 Rs.Cr). GCV 4353.24 / landed 3755.60 Rs/MT = Table 11 Q1-FY22-23 p.31 (BTPS A, the only DVC pit-head station).",dvc_jserc_2024a.pdf,"Bokaro 'A' = BTPS A (pit-head, lowest ECR); landed_cost & gcv_coal Q1-FY22-23 snapshot"

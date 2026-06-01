@@ -187,3 +187,84 @@ Validated: 20 rows → **78/455 units = 17.1%**. All three matched correctly.
 - Local raw-artefact archiving under `data/raw/sources/` deferred where files are
   too large for the flight link; `mahagenco_fuel_apr22.pdf` partially downloaded
   (~0.9 MB of 4.1 MB). Re-pull complete copies on a fast connection for the audit trail.
+
+### 2026-06-01 — parallel-agent harvest, 9 gencos (one agent per genco, operator-verified)
+
+Ran one research agent per genco against its FY2022-23 SERC/CERC order, each writing an
+isolated staging CSV under `data/raw/sources/staging/`; **every ECR value verified by the
+operator against the cited source table line before merge** ("parallel agents, I verify").
+Merged the headline-eligible rows into `data/raw/plant_ecr.csv` and the full per-substation
+detail (25-col schema, `docs/plant_tariff_schema.md`) into `data/raw/plant_tariff_details.csv`.
+
+**Vintage discipline applied** (same rule as the CERC-2018 cross-check): an order's per-FY
+ECR is FY2022-23 vintage only if the energy charge for that year is computed on
+contemporaneous/actual FY2022-23 fuel cost. True-up orders (actual FY22-23 cost) and annual
+FY2022-23 ARR/tariff orders = **headline-eligible**. MYT orders that set a base ECR pegged to
+old (≈2019) coal price and hold it FLAT across the control period = **cross-check only,
+EXCLUDED** from the headline (kept in the rich table, flagged).
+
+**Headline rows added (35 stations across 9 gencos):**
+
+| genco | source (order / table) | stations added |
+|---|---|---|
+| GSECL (Gujarat) | GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 (approved ECR FY22-23) | Wanakbori 4.232, Ukai_Coal 3.915, Gandhi Nagar 4.293, Sikka Extn 3.956, Kutch Lignite 3.113 |
+| TANGEDCO (TN) | TNERC Order 7/2022 dtd 09-09-2022, Table 4-47 | Tuticorin 3.96, **Mettur 4.996** (merged 5.00+4.99), North Chennai 3.59, North Chennai Extension 3.94 |
+| PSPCL (Punjab) | PSERC Petn 68/2021 dtd 13-Apr-2022, Table 7.7 p.203 | Ropar 3.6037, Ghtp (Leh.Moh.) 3.6824 |
+| DVC | JSERC Order 30-09-2024 (DVC true-up FY22-23), Table 38 p.96 | Durgapur 3.434, **Mejia 3.649** (merged U#1-6 + Ext U#7&8), Chandrapura 3.624 (Jharkhand), Durgapur Steel Tps 3.793, Koderma 3.540, Raghunathpur TPP Ph-I 3.881, Bokaro A ''Exp'' 2.771 |
+| CSPGCL (CG) | CSERC Petn 10/2024(T) dtd 01-06-2024, Final True-Up FY22-23 (actual coal+oil / actual net gen) | **Korba-West 1.508** (merged HTPS+KWTPP), Korba-V(Dspm Tps) 1.612, Marwa TPP 1.837 |
+| WBPDCL (WB) | WBERC TP-95/20-21 dtd 26.07.2022, via WBPDCL MFCA notes in WBSEDCL FY23-26 Petn Appendix A1 | Kolaghat 2.7841, Bakreswar 1.8290, Santaldih 1.9497, Bandel 2.1709 (Unit-V), Sagardighi TPP 1.7911 (Stage-I) |
+| UPRVUNL (UP) | UPERC State Discoms Order dtd 25-05-2023, Table 5-16 p.349 (FILED APR, flagged) | Anpara 1.941, Obra-A 2.58, Paricha 3.657, H_Ganj B 3.94 |
+| APGENCO (AP) | APERC FPPCA Common Order O.P.57-68/2024, Sec(ii) actual VC (true-up) | Rayal Seema 4.33, Vijaywada (Dr. N.TATA Rao Tps) 3.99, Vijaywada TPP-Iv 3.63 |
+| NLC (lignite) | CERC 2019-24 GT orders (219/GT/2019; 386/GT/2020), FY22-23 column | Neyveli New TPP 2.115, Barsingar Ligniteite 0.848 |
+
+**Three `_norm` collisions** resolved by writing ONE generation-weighted merged row per
+colliding key (06 can only hold one ECR per `_norm` key); full per-substation fidelity kept
+in `plant_tariff_details.csv`:
+- `korba west`: Korba-West (HTPS 4×210 @1.589) + Korba-West Ext (KWTPP 500 @1.395) → **1.508**
+- `mejia`: Mejia (MTPS U#1-6 @3.715) + Mejia Tps Ext (U#7&8 @3.577) → **3.649**
+- `mettur`: Mettur (5.00) + Mettur Tps Ext (4.99) → **4.996**
+
+**Split-station mappings** (dataset capacity used to pick the right substation): Bandel = Unit-V
+(1×210, matches dataset); Sagardighi = Stage-I representative; UPRVUNL Obra-A = order's OBRA-B
+(operational 5×200, the order's OBRA-A had zero FY22-23 gen); H_Ganj B = Harduaganj Extension.
+
+**Cross-check only — EXCLUDED from headline** (base ECR held flat, not FY22-23 vintage; in the
+rich table flagged, NOT in `plant_ecr.csv`):
+- **TSGENCO** (TSERC MYT Order 22.03.2022, Table 75): Bhadradri 2.363, K_Gudem New 2.409,
+  Kakatiya II 2.925, Kakatiya I 3.035, R_Gundem-B 2.988. Sec 6.14.9: "Base ECR remains the
+  same for the entire 4th control period FY2019-20 to FY2023-24."
+- **MPPGCL** (MPERC MYT P-53/2020 dtd 19-05-2021, Table 43): Amar Kantak Ext 1.413, Satpura
+  2.330, Sanjay Gandhi 2.051. Base/working-capital ECR pegged ≈early-2019; both true-ups
+  (P-71/2023, P-76/2024) state "no truing up of Energy Charges."
+
+**KPCL (Karnataka): honest skip** — KERC orders publish no per-station ECR for Raichur/Bellary;
+0 rows written rather than fabricate.
+
+**Cross-assignment audit (06 forward keying):** 06 maps each ECR row → its single closest plant
+`_norm` key, then assigns by *exact key equality*, so near-miss plants do NOT inherit a neighbour's
+ECR. Verified in the regenerated `data/plant_cost_blended.csv`: `Tuticorin JV` / `Tuticorin JV
+Stage-IV` (NTPL, a different JV) and all four other Neyveli variants (`St Ii`, `Tps(Z)`, `Exp -Ii`,
+`Fst Ext`) correctly stay on the model; only the intended `Neyveli New TPP`, `Tuticorin`,
+`Chandrapura`/`Chandrapur_Coal`, `Korba Stps`(NTPC)/`Korba-West`(CSPGCL) resolved to their own rows.
+
+Validated by `06_apply_ecr.py`: **55 ECR rows → 197/455 units = 43.3% coverage** (up from 78
+units / 17.1%). Non-06 pipeline outputs (01–05, 08, 10, 11) reverted — their only diffs were
+float-ULP / redispatch tie-break noise from the local env (they don't consume `plant_ecr.csv`).
+
+### Raw artefacts (this harvest), under data/raw/sources/
+`gsecl_gerc_tariff_order_fy2022-23.pdf`, `tneb_jmk_to_fy2023.pdf`,
+`pspcl_pserc_tariff_order_to_fy2022-23.pdf`, `dvc_jserc_2024a.pdf`,
+`cspgcl_cserc_tariff_order_fy2024-25.pdf`, `wbpdcl_wbsedcl_appendixA1.pdf`,
+`uperc_statediscoms_fy2023-24.pdf`, `apgenco_aperc_FPPCA_FY2022-23.pdf`,
+`nlc_tsii_219-GT-2019.pdf`, `nlc_barsingsar_386-GT-2020.pdf`,
+`tsgenco_myt_order_22032022.pdf`, `mppgcl_myt_p53-2020_19may2021.pdf`.
+Per-genco staging CSVs (with full verification notes per row) under
+`data/raw/sources/staging/`.
+
+### Still-open coverage gaps (future sessions)
+- WBPDCL remaining units: order PDFs are scanned → only the 5 stations recoverable via the
+  WBSEDCL Appendix-A1 MFCA debit-notes were captured; deeper unit splits need OCR.
+- NLC TPS-II / TPS-II Exp / TPS-I Exp: no CERC 2019-24 GT *order* published (only 2025 true-up
+  TV letters); data.gov.in figures are 2021-23 vintage → excluded per vintage rule.
+- HPGCL: still the filed petition, not the HERC-approved generation order (not located).
+- UPRVUNL: filed APR estimate, not a standalone approved generation order.
