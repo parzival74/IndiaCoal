@@ -4,6 +4,9 @@ Analysis of the CSE/CEA dataset of India's **subcritical** coal units
 (CEA CO₂ database, 2022-23 v19), investigating why thermal efficiency explains
 only ~30% of plant load factor (PLF), and what explains the rest.
 
+**New session?** Read [`CLAUDE.md`](CLAUDE.md) first — it carries full context,
+findings, and the current task (fetching real ECR data).
+
 **Read [`REPORT.md`](REPORT.md) for the full write-up.**
 
 ## Layout
