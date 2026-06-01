@@ -48,7 +48,7 @@ from common import (load_clean, analysis_set, CLEAN_CSV, OUT_DIR, REPO,
 
 # --------------------------------------------------------------------------
 # DOMESTIC COAL -- the REAL CIL pithead price + statutory levies build-up now
-# lives in common.py (shared with 11_landed_cost). Here we add only the freight.
+# lives in common.py. Here we add only the freight.
 # --------------------------------------------------------------------------
 # MODELLED, FLAGGED: average pit-to-plant rail freight. Per-plant lead distance is
 # not in the dataset, so 02 uses one fleet-representative value (it deliberately

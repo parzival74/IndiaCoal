@@ -141,7 +141,7 @@ def main():
                      "n_stage": len(vals),
                      "vintage": raw_vint.get(raws[0], "?")})
     matched = pd.DataFrame(rows)
-    # persist the matched real central ECR table for 11_landed_cost.py to consume.
+    # persist the matched real central ECR table (standalone cross-check artefact).
     matched.to_csv(os.path.join(REPO, "data", "plant_real_ecr_central.csv"), index=False)
 
     log("=" * 74)
@@ -253,8 +253,9 @@ def main():
     log("READ: This is the strongest REAL ECR coverage we have (central sector), and it")
     log("corroborates both the CERC-2018 ladder and the pithead cost-side result -- on a")
     log("contemporaneous, larger sample. It is NOT the FY2022-23 headline: state/private")
-    log("plants are absent and the vintage is 2021-22/23. Closing the rest needs the")
-    log("metered MERIT/SCED/SLDC feeds (blocked) or the landed-cost reconstruction route.")
+    log("plants are absent and the vintage is 2021-22/23. The FY2022-23 headline lives in")
+    log("06 (real per-station ECR override); closing the rest needs the metered")
+    log("MERIT/SCED/SLDC feeds (blocked) or more published SERC orders.")
     _write(out_lines)
 
 

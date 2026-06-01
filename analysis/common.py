@@ -149,10 +149,9 @@ def corr(x: pd.Series, y: pd.Series):
 
 
 # ---------------------------------------------------------------------------
-# Domestic-coal landed-price build-up (shared by 02_variable_cost and
-# 11_landed_cost). REAL inputs: CIL FY2022-23 grade-wise PITHEAD price + published
-# statutory levies. The ONLY modelled term is rail freight -- 02 uses a single flat
-# value; 11 replaces it with a per-plant freight calibrated on real ISGS ECRs.
+# Domestic-coal landed-price build-up (used by 02_variable_cost). REAL inputs:
+# CIL FY2022-23 grade-wise PITHEAD price + published statutory levies. The ONLY
+# modelled term is rail freight -- 02 uses a single flat value.
 # ---------------------------------------------------------------------------
 CIL_PRICE_CSV = os.path.join(REPO, "data", "raw", "cil_grade_prices_fy2022-23.csv")
 # Inline fallback = verified Table-I "Power Utilities" pithead prices (Rs/tonne).

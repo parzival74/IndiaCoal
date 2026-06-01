@@ -74,5 +74,6 @@ ILLUSTRATIVE re-dispatch with datagov ECR on covered units (MIXED VINTAGE)
 READ: This is the strongest REAL ECR coverage we have (central sector), and it
 corroborates both the CERC-2018 ladder and the pithead cost-side result -- on a
 contemporaneous, larger sample. It is NOT the FY2022-23 headline: state/private
-plants are absent and the vintage is 2021-22/23. Closing the rest needs the
-metered MERIT/SCED/SLDC feeds (blocked) or the landed-cost reconstruction route.
+plants are absent and the vintage is 2021-22/23. The FY2022-23 headline lives in
+06 (real per-station ECR override); closing the rest needs the metered
+MERIT/SCED/SLDC feeds (blocked) or more published SERC orders.

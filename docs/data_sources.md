@@ -79,17 +79,16 @@ below are both vintage-correct and more authoritative.)
    `948ebec1-…` (NTPC, FY2021-22), `9a0d4b8a-…` (NLC/DVC, 2021-23), `97d10fda-…`
    (central→Bihar, 2021-22). Fetched by `fetch_datagov_ecr.py` →
    `data/raw/datagov_tariff_ecr_2021-23.csv`. **2021-23 vintage, ISGS-only** — a labelled
-   cross-check, and the calibration anchor for the §11 reconstruction. No state-sector
-   per-station ECR dataset exists on data.gov.in (searched exhaustively, 2026-06).
+   cross-check. No state-sector per-station ECR dataset exists on data.gov.in (searched
+   exhaustively, 2026-06).
 8. **Indian Railways FY2022-23 coal freight tariff** (IR Goods Tariff / rate circulars,
    `indianrail.gov.in`) — base class-150 haulage ≈ **₹1.5/net-tonne-km** after busy-season +
-   development surcharges. Used by `11_landed_cost.py` only to sanity-check the calibrated
-   distant freight (~₹2,190/t ⇒ ~1,460 km lead) against a plausible average haul.
+   development surcharges. Used in REPORT §11 to sanity-check the implied distant freight
+   backed out of the real ISGS ECRs (~₹2,190/t ⇒ ~1,460 km lead) against a plausible haul.
 
 Tag each row's `source`; `06_apply_ecr.py` reports the real-vs-modelled coverage
-split and flags every unit via the `vc_source` column. `11_landed_cost.py` extends
-this to **100% of units** (real ECR where available, else calibrated reconstruction or a
-modelled anchor) and labels every unit in `data/plant_cost_reconstructed.csv`.
+split and flags every unit via the `vc_source` column. Units without a real FY2022-23
+per-station ECR fall back to the real-CIL flat-freight model from `02_variable_cost.py`.
 
 ### #2 Grid location / load proximity (H2) — *coarse proxy done*
 Region is inferred from the company name (state utilities only, ~60% coverage).

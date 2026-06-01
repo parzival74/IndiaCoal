@@ -15,8 +15,8 @@ file, overrides the modelled cost, and re-runs the merit-order counterfactual on
 
 ## Read first (in this order)
 1. `CLAUDE.md` — project memory; the headline question and what's already done.
-2. `REPORT.md` §6–§11 — variable cost, the CERC/data.gov.in real-ECR cross-checks, and the
-   §11 all-fleet reconstruction this replaces with metered data.
+2. `REPORT.md` §6–§11 — variable cost, the §7(b) real-ECR override (the current FY2022-23
+   headline this extends), the CERC/data.gov.in cross-checks, and the §11 freight-axis note.
 3. `docs/data_sources.md` #1 — the ranked source list (SERC orders, SLDC stacks, MERIT…).
 4. `analysis/06_apply_ecr.py` and `data/raw/plant_ecr_template.csv` — the ingestor + format.
 
@@ -45,11 +45,21 @@ Rules (non-negotiable — this project values honesty over coverage):
 ## Step 1 — generate your exact worklist from the repo
 ```bash
 python3 - <<'PY'
-import pandas as pd
-rec = pd.read_csv("data/plant_cost_reconstructed.csv")
+import pandas as pd, difflib, re
 df  = pd.read_csv("data/cse_subcritical_clean.csv")
-need = rec[rec.vc_source.isin(["reconstructed_landed","modelled_anchor"])].name.unique()
-d = df[df.name.isin(need)]
+ecr = pd.read_csv("data/raw/plant_ecr.csv", comment="#")   # current real-ECR coverage
+JUNK = {"tps","tpp","stps","ctps","ext","extn","expansion","stage","unit","power",
+        "thermal","station","ltd","limited","new","old","ph","phase"}
+def norm(s):
+    s = re.sub(r"[^a-z0-9]+", " ", str(s).lower())
+    return " ".join(w for w in s.split() if w not in JUNK)
+df["_key"] = df.name.map(norm)
+keys = df["_key"].unique().tolist()
+covered = set()
+for n in ecr.match_name:                                    # replicate 06's forward-key match
+    m = difflib.get_close_matches(norm(n), keys, n=1, cutoff=0.82)
+    if m: covered.add(m[0])
+d = df[~df["_key"].isin(covered)]                           # uncovered units → still on the model
 print(d.groupby(["sector","company"])
         .agg(stations=("name","nunique"), GW=("capacity_mw", lambda s: round(s.sum()/1000,2)))
         .sort_values("GW", ascending=False).to_string())
@@ -58,7 +68,8 @@ for c, sub in d.groupby("company"):
     print("\n#", c, "->", sorted(sub.name.unique()))
 PY
 ```
-~124 stations / ~96 GW. Work **company-by-company** — one SERC order usually covers a whole genco.
+The uncovered tail is now ~169 units (mostly private IPPs + some state). Work
+**company-by-company** — one SERC order usually covers a whole genco.
 
 ## Step 2 — where to look (priority order: top ~10 gencos ≈ 90% of the gap)
 

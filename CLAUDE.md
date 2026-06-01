@@ -61,16 +61,19 @@ merit order, and what would that cost in money and CO₂?
   (thin-sample, sources disagree; pithead coal cost is uniformly low/flat ~₹1.4
   regardless of heat rate). **Robust = the pithead flag predicts cost LEVEL** (location/
   freight, not efficiency). Still ISGS-only + 2021-23, not the FY2022-23 headline.
-- **All-fleet landed-cost reconstruction (`11`):** since metered state/private ECR is
-  unreachable (and data.gov.in has only ISGS), `11` replaces `02`'s flat ₹900/t freight
-  with a **per-plant freight calibrated on the real ISGS ECRs**. Back-out of implied
-  freight = real delivered ₹/t − (CIL pithead + levies): pithead **~₹360/t**, distant
-  **~₹2,190/t** (IR cross-check ≈1,460 km). Every unit now carries a cost, labelled in
-  `vc_source`: real_ISGS_ECR (124u/31s), reconstructed_landed (293u/108s), modelled_anchor
-  (38u, lignite/imported). Recon vs real R²=0.72, |Δ|₹0.29 (pithead step |Δ|₹0.26).
-  Counterfactual on the all-fleet cost: as-run +6.4% above cost-optimal; cost-vs-carbon
-  **+26.5 MT for ~₹16,400 cr**. MODELLED part = the freight *level* (2-step on pithead flag),
-  NOT per-plant lead distance. Output: `data/plant_cost_reconstructed.csv`.
+- **FY2022-23 headline counterfactual (`06`, real-ECR override at 62.9% units / 69.6% gen):**
+  re-dispatch on the blended cost (real ECR where covered, real-CIL flat-freight model for the
+  rest) → as-run **+16.1% above cost-optimal**; cost-vs-carbon **+43.7 MT for ~₹35,841 cr**.
+  Wider than the fully-modelled §4 (+5.5%; +21.1 MT/₹15,263 cr) because real ECRs **un-compress
+  the cost ladder** (distant ₹2.7-4.6 vs pithead ₹1.4-1.6 vs modelled ₹1.9-2.1). Mixed-basis
+  caveat: the uncovered ~30% (mostly private IPPs) is still modelled, so the ordering of that
+  tail isn't metered — read it as the best-available FY2022-23 estimate, directionally robust.
+- **The freight axis (`11`, now a short note):** backing implied freight out of the ~30 ISGS
+  real ECRs (real delivered ₹/t − CIL pithead − levies) gives pithead **~₹360/t** vs distant
+  **~₹2,190/t** (IR cross-check ≈1,460 km) — *why* `02`'s flat ₹900/t compresses the real
+  ₹1.4→3.9 spread. The earlier all-fleet landed-cost RECONSTRUCTION was **retired** (2026-06-01)
+  once `06` covered 69.6% of gen with real ECR; the per-plant freight reconstruction lives in
+  git history. `10` kept as a standalone real-data cross-check (no longer feeds `11`).
 - **Domestic coal price is now REAL** (FY2022-23): CIL grade-wise pithead notified
   prices (notif. 194 dated 27-11-2020, in force all of FY2022-23) + published levies
   + flagged flat freight → domestic ≈ ₹2.1/kWh (was a ₹850/Gcal *assumed* anchor).
@@ -88,8 +91,8 @@ README.md            quick start + pipeline table
 CLAUDE.md            this file
 requirements.txt     pandas, numpy, scipy, openpyxl
 data/raw/            source xlsx; cil_grade_prices_fy2022-23.csv (REAL); plant_ecr.csv (REAL FY2022-23 per-station ECR, 77 rows/286 units/62.9%, consumed by 06); plant_tariff_details.csv (rich 25-col per-substation tariff/technical table, superset of plant_ecr.csv; incl. TSGENCO/MPPGCL cross-check rows, flagged); sources/ (archived regulatory PDFs + per-genco staging CSVs); plant_ecr_cerc_2018basis.csv (REAL, cross-check); datagov_tariff_ecr_2021-23.csv (REAL central ECR, 2021-23, cross-check); plant_ecr_template.csv; (drop sced_blocks.csv here)
-data/                cse_subcritical_clean.csv, plant_cost_blended.csv, plant_real_ecr_central.csv (10), plant_cost_reconstructed.csv (11)  (generated)
-analysis/            common.py + numbered pipeline scripts (01–11) + fetch_datagov_ecr.py + run_all.py
+data/                cse_subcritical_clean.csv, plant_cost_blended.csv, plant_real_ecr_central.csv (10)  (generated)
+analysis/            common.py + numbered pipeline scripts (01–10) + fetch_datagov_ecr.py + run_all.py
 outputs/             *.txt results (committed)
 docs/                methodology_variable_cost.md, data_sources.md
 .claude/             SessionStart hook (installs deps + runs pipeline on web)
@@ -132,12 +135,13 @@ Pipeline scripts:
   (2021-22/2021-23). Curated exact-name map (gas/supercritical dropped; DVC paise→Rs);
   coverage, ECR ladder vs model & CERC-2018, the pithead cost-side re-run, illustrative
   re-dispatch. Labelled cross-check, NOT the FY2022-23 headline. Writes
-  `data/plant_real_ecr_central.csv` (matched real central ECR, consumed by `11`).
-- `11_landed_cost.py` — ALL-FLEET landed-cost reconstruction. Replaces `02`'s flat freight
-  with a per-plant freight calibrated on the real ISGS ECRs (pithead ~₹360/t, distant
-  ~₹2,190/t; IR-tariff cross-check). Real ECR where available, else reconstructed (domestic)
-  or modelled anchor (lignite/imported); all labelled in `vc_source`. Re-runs the
-  counterfactual. Writes `data/plant_cost_reconstructed.csv` + `outputs/11_landed_cost.txt`.
+  `data/plant_real_ecr_central.csv` (matched real central ECR; standalone — no longer feeds
+  a downstream step).
+- (`11_landed_cost.py` — RETIRED 2026-06-01.) The all-fleet landed-cost RECONSTRUCTION was
+  removed once `06` reached 69.6%-of-gen real coverage and superseded it. Its durable finding
+  — implied freight pithead ~₹360/t vs distant ~₹2,190/t (IR cross-check ≈1,460 km), i.e. why
+  `02`'s flat ₹900/t compresses the real ₹1.4→3.9 spread — survives as REPORT §11 (a short
+  note) and in git history. No `plant_cost_reconstructed.csv` is produced anymore.
 
 ## CURRENT TASK — status (2026-06 Full-access session)
 Goal: replace modelled coal prices with real published data, FY2022-23 vintage.
@@ -198,7 +202,7 @@ regulatory documents** instead → `data/raw/plant_ecr.csv`, **77 ECR rows / 286
    true-up TV letters; data.gov.in figures are 2021-23 vintage → excluded per vintage rule).
 5. Anomalously-low BERC GMR/Kamalanga 1.20 + JITPL/Derang 1.12 held out — re-source before use.
 6. Bongaigaon needs Assam AERC; Bhilai/NSPCL has no published ECR (SAIL captive) — likely permanent skips.
-7. Remaining uncovered central/state/private units → fall back to the real-CIL model (`02`/`11`).
+7. Remaining uncovered central/state/private units → fall back to the real-CIL model (`02`).
 
 ## Working conventions
 - **Honesty over polish:** never fabricate data. Label modelled vs real clearly
