@@ -3,7 +3,9 @@
 Read this first. It carries everything needed to continue the work without prior
 chat context. Active branch: **`claude/keen-newton-P0cFA`** (open as **PR #1**).
 The kickoff prompt for the current task is in
-[`docs/NEXT_SESSION_PROMPT.md`](docs/NEXT_SESSION_PROMPT.md).
+[`docs/NEXT_SESSION_PROMPT.md`](docs/NEXT_SESSION_PROMPT.md); a queued sub-analysis
+(does efficiency≈cost at pithead plants?) is in
+[`docs/PITHEAD_TEST_PROMPT.md`](docs/PITHEAD_TEST_PROMPT.md).
 
 ## What this project is
 Analysis of why thermal **efficiency explains only ~30% of plant load factor
