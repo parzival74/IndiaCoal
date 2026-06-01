@@ -268,3 +268,62 @@ Per-genco staging CSVs (with full verification notes per row) under
   TV letters); data.gov.in figures are 2021-23 vintage → excluded per vintage rule.
 - HPGCL: still the filed petition, not the HERC-approved generation order (not located).
 - UPRVUNL: filed APR estimate, not a standalone approved generation order.
+
+## Wave 3 — NTPC + private IPPs (2026-06-01): 55 → 77 ECR rows, 43.3% → 62.9% (286/455 units)
+
+All FY2022-23, energy/variable charge ONLY, each row arithmetic-checked (`rate × MU/10 ≈ var-Cr`)
+against its cited table. Staging CSVs (full per-row verification) under `data/raw/sources/staging/`.
+
+**NTPC NR/ER — UPERC APR FY2022-23 power-purchase table** (`staging/ntpc_uperc.csv`, FILED estimate):
+order "Approval of ARR…FY2023-24, APR of FY2022-23, True-up FY2021-22" (25-05-2023), Sec d.a NTPC
+p.351-352, col "Annual Energy/Variable Charge (Rs/kWh)". 6 stations, UP-drawal gen-weighted where the
+station has stage splits: Rihand 1.754 (I/II/III 1.81/1.74/1.72), Singrauli 1.67, Unchahar/FGUTPS
+4.357 (I-IV), Dadri/NCTPS-coal 4.386 (gas DADRI-GPS 13.42 excluded), Kahalgaon/KHTPS 3.614,
+Farakka/FSTPS 3.55. (NTPC ECR ~uniform across beneficiaries; UPERC table is a valid source.)
+Korba/Vindhyachal/Sipat/Mouda in the same table were ALREADY covered (MahaSLDC) — used as cross-checks
+(consistent); Tanda/Solapur/Barh/NPGCL/Karanpura/Darlipali are absent from the subcritical dataset
+(440 MW old or 660 MW supercritical), correctly skipped.
+
+**NTPC SR — APERC FPPCA true-up** (`staging/ntpc_sr.csv`, ACTUAL): Common Order O.P.57-68/2024 p.53
+col "Variable Cost Actual Rs/kWh". Ramagundam 4.085 (I&II 4.14 + III 3.84), Simhadri 4.451
+(St1 4.49 + St2 4.36), Vallur/NTECL 3.478 (192.70 Cr / 554 MU, CGS table). TANGEDCO cross-check
+discarded — its central-station tables stop at FY2020-21 (wrong vintage).
+
+**NTPC-JV Bihar + Barauni — BERC** (`staging/ntpc_bihar.csv`, `staging/berc_barauni.csv`):
+NBPDCL Tariff Order FY2023-24 (Case 16/17 of 2022, 23-03-2023), Table 5.17 p.207-208 "Power Purchase
+Cost for FY 2022-23 as computed by Commission", col "Energy Cost (Rs./kwh)". Muzaffarpur/KBUNL-II 2.92,
+Nabinagar/BRBCL 2.75, **Barauni/BTPS 2.685** (uniform Stage I+II; covers dataset `Barauni` +
+`Barauni (Ext)`). Commission-computed FY2022-23 (true-up pending) → flagged filed_petition.
+
+**Talcher Kaniha — MERGED** (BERC Stage I 2.08 + APERC Stage II 1.94): dataset `Talcher Stps` is the
+full 6×500 = 3000 MW station, so cap-weighted (1000·2.08 + 2000·1.94)/3000 = **1.987**. Both BERC and
+APERC rows `_norm` to key `talcher`; single merged row (precedent: Korba-West/Mejia/Mettur).
+(BERC `Talcher Stage I` 2.08 reconciles APERC `Talcher St II` 1.94 — complementary stages, not a clash.)
+
+**Private IPPs — UPERC APR FY2022-23** (`staging/uperc_ipp.csv`, same table, Sec "Thermal", FILED):
+8 rows — Anapara "C"/LANCO 2.61, KSK Mahanadi/Akaltara 3.38 (multi-state PPA, UP share), M.B.Power/
+Anuppur 2.87, RKM/Uchpinda 2.22, Rosa 3.14 (both `Rosa TPP`→`rosa` and `Rosa TPP Ph-1`→`rosa 1`
+keys), TRN/Nawapara 2.32, Bajaj/Barkhera 4.62 (small 45 MW, high but in-range). Several are 600 MW
+units that CSE nonetheless included in the subcritical table, so they are legitimate dataset members.
+BERC GMR/Kamalanga 1.20 and JITPL/Derang 1.12 looked anomalously low → HELD OUT of headline.
+
+**Jhajjar/APCPL "Indra Gandhi STPP" 4.09 — SECONDARY** (`staging/ntpc_jhajjar_bhilai.csv`, flagged):
+ICRA "Aravali Power Company Pvt Ltd: Ratings reaffirmed" (19-Mar-2024) p.1, verbatim "the variable/
+energy charge stood at Rs. 4.09 per unit for FY2023". Energy-only, correct vintage, in sanity band, but
+a credit-rating agency figure — NOT a regulatory order, so the `source` string flags it explicitly.
+Primary CERC 489/GT/2020 ECR 3.475 is 2018-basis (excluded); HERC DISCOM order unreachable (timeouts).
+
+**Bhilai/NSPCL — HONEST SKIP**: NSPCL is a SAIL captive plant — coal cost borne entirely by SAIL,
+"energy charges do not form part of the tariff" (CRISIL 03-07-2023). CSERC 4.44 is an all-in landed
+rate (not energy-only); CERC 396/GT/2020 2.336 is 2018-basis. No publishable FY2022-23 ECR → 0 rows.
+
+**Counterfactual on the new 62.9%-real blended cost** (06): real ECRs run systematically ABOVE the
+flat-freight model for distant state/IPP plants (the model compresses the freight spread), so as-run
+fuel cost rises to ₹206,922 cr / 777.9 MT; as-run is **+16.1% above cost-optimal** (₹178,186 cr);
+cost-vs-carbon gap **+43.7 MT CO₂ for +₹35,841 cr**. The "cheapest coal is also dirtiest" divergence
+holds and widens as coverage grows.
+
+### Raw artefacts (Wave 3), under data/raw/sources/staging/
+`berc_discoms_fy2023-24.pdf` (471 pp), `apgenco_aperc_FPPCA_FY2022-23.pdf`,
+`icra_apcpl_rating.pdf`, `cerc_apcpl_489-GT-2020.pdf`, `cerc_396-GT-2020.pdf`,
+`sail_bhilai_cserc_extract.pdf`; UPERC PDF already on disk from Wave 2.

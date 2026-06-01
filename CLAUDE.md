@@ -87,7 +87,7 @@ REPORT.md            the analysis write-up (main deliverable)
 README.md            quick start + pipeline table
 CLAUDE.md            this file
 requirements.txt     pandas, numpy, scipy, openpyxl
-data/raw/            source xlsx; cil_grade_prices_fy2022-23.csv (REAL); plant_ecr.csv (REAL FY2022-23 per-station ECR, 55 stns/197 units, consumed by 06); plant_tariff_details.csv (rich 25-col per-substation tariff/technical table, superset of plant_ecr.csv; incl. TSGENCO/MPPGCL cross-check rows, flagged); sources/ (archived regulatory PDFs + per-genco staging CSVs); plant_ecr_cerc_2018basis.csv (REAL, cross-check); datagov_tariff_ecr_2021-23.csv (REAL central ECR, 2021-23, cross-check); plant_ecr_template.csv; (drop sced_blocks.csv here)
+data/raw/            source xlsx; cil_grade_prices_fy2022-23.csv (REAL); plant_ecr.csv (REAL FY2022-23 per-station ECR, 77 rows/286 units/62.9%, consumed by 06); plant_tariff_details.csv (rich 25-col per-substation tariff/technical table, superset of plant_ecr.csv; incl. TSGENCO/MPPGCL cross-check rows, flagged); sources/ (archived regulatory PDFs + per-genco staging CSVs); plant_ecr_cerc_2018basis.csv (REAL, cross-check); datagov_tariff_ecr_2021-23.csv (REAL central ECR, 2021-23, cross-check); plant_ecr_template.csv; (drop sced_blocks.csv here)
 data/                cse_subcritical_clean.csv, plant_cost_blended.csv, plant_real_ecr_central.csv (10), plant_cost_reconstructed.csv (11)  (generated)
 analysis/            common.py + numbered pipeline scripts (01–11) + fetch_datagov_ecr.py + run_all.py
 outputs/             *.txt results (committed)
@@ -112,7 +112,7 @@ Pipeline scripts:
 - `05_flexibility_framework.py` — H1 ramp/cycling metrics framework (needs
   block-level SCED at `data/raw/sced_blocks.csv`; runs on synthetic demo otherwise).
 - `06_apply_ecr.py` — FY2022-23 per-station ECR override from
-  `data/raw/plant_ecr.csv` (**55 stations / 197 of 455 units = 43.3% real coverage**;
+  `data/raw/plant_ecr.csv` (**77 ECR rows → 286 of 455 units = 62.9% real coverage**;
   rest fall back to the real-CIL model). Fuzzy-matches names, reports the
   real-vs-modelled split, re-runs the counterfactual.
 - `07_fetch_ecr.py` — **fetches real data** from cercind.gov.in: CIL grade prices
@@ -154,11 +154,11 @@ Goal: replace modelled coal prices with real published data, FY2022-23 vintage.
   CERC's ECR is computed on Oct–Dec 2018 coal cost (2018-19 basis) — vintage rule.
   Explicit curated name aliases (a difflib match wrongly hit "Bhadradri" for Dadri).
 
-**DONE — FY2022-23 per-station ECR harvested to 43.3% coverage (two waves).** The
+**DONE — FY2022-23 per-station ECR harvested to 62.9% coverage (three waves).** The
 interactive metered feeds (MERIT TLS-resets; Grid-India SCED / POSOCO 503) stayed down, so
 the FY2022-23 per-station energy charge was harvested from **published, date-stamped
-regulatory documents** instead → `data/raw/plant_ecr.csv`, **55 stations / 197 of 455 units
-= 43.3%**, each with a precise citation, energy-charge only, FY2022-23 vintage.
+regulatory documents** instead → `data/raw/plant_ecr.csv`, **77 ECR rows / 286 of 455 units
+= 62.9%**, each with a precise citation, energy-charge only, FY2022-23 vintage.
 - *First wave (20 stns / 78 units):* MahaGenco/MSPGCL monthly Energy Bill (7 MH stns + 2 MH
   IPPs), MahaSLDC MOD stack (4 NTPC central subcritical), RERC review order RERC/2031/22
   (4 RRVUNL), HPGCL FY2022-23 petition (3 HPGCL, flagged filed petition).
@@ -168,9 +168,18 @@ regulatory documents** instead → `data/raw/plant_ecr.csv`, **55 stations / 197
   10/2024(T) Final True-Up, actual coal+oil/net-gen), WBPDCL (WBERC TP-95/20-21 via WBSEDCL
   Appendix A1 MFCA notes), UPRVUNL (UPERC 25-05-2023 Table 5-16, flagged filed APR),
   APGENCO (APERC FPPCA O.P.57-68/2024 true-up), NLC (CERC 2019-24 GT orders, lignite).
+- *Third wave (2026-06-01, NTPC + private IPPs → +22 rows, 43.3%→62.9%):* NTPC NR/ER via UPERC
+  APR FY2022-23 power-purchase table (Rihand 1.754, Singrauli 1.67, Unchahar 4.357, Dadri 4.386,
+  Kahalgaon 3.614, Farakka 3.55 — gen-wtd by UP drawal); NTPC SR via APERC FPPCA true-up
+  (Ramagundam 4.085, Simhadri 4.451, Vallur 3.478); NTPC-JV Bihar + Barauni via BERC NBPDCL Table
+  5.17 (Muzaffarpur 2.92, Nabinagar/BRBCL 2.75, Barauni/BTPS 2.685); Talcher Kaniha MERGED cap-wtd
+  Stage I 2.08 (BERC) + Stage II 1.94 (APERC) = 1.987; 8 private IPPs via UPERC (Anapara-C/LANCO
+  2.61, KSK/Akaltara 3.38, M.B.Power/Anuppur 2.87, RKM/Uchpinda 2.22, Rosa 3.14×2, TRN/Nawapara
+  2.32, Bajaj/Barkhera 4.62); Jhajjar/APCPL 4.09 from ICRA rating (SECONDARY, flagged in `source`).
+  Bhilai/NSPCL = honest skip (SAIL captive, no published ECR). Logged in `docs/ecr_scrape_notes.md`.
 - *Three `_norm` collisions* → one gen-weighted merged ECR row each (Korba-West/Ext 1.508,
-  Mejia/Ext 3.649, Mettur/Ext 4.996); per-substation detail kept in the new rich table
-  `data/raw/plant_tariff_details.csv` (25-col schema, `docs/plant_tariff_schema.md`).
+  Mejia/Ext 3.649, Mettur/Ext 4.996; Talcher I+II 1.987 is a 4th, cap-wtd); per-substation detail
+  kept in the new rich table `data/raw/plant_tariff_details.csv` (25-col schema, `docs/plant_tariff_schema.md`).
 - *Cross-check only, EXCLUDED from headline (base-ECR-held-flat = wrong vintage, same as the
   CERC-2018 cross-check):* TSGENCO (TSERC MYT 22.03.2022) + MPPGCL (MPERC MYT P-53/2020) —
   in the rich table flagged, NOT in `plant_ecr.csv`. KPCL = honest skip (KERC publishes no
@@ -178,14 +187,18 @@ regulatory documents** instead → `data/raw/plant_ecr.csv`, **55 stations / 197
   log in `docs/ecr_scrape_notes.md`. Verified no 06 cross-assignment (Tuticorin JV / Neyveli
   variants correctly stay on the model; forward keying assigns by exact `_norm` key).
 
-**REMAINING (future sessions) — push coverage past 43.3%:**
+**REMAINING (future sessions) — push coverage past 62.9%:**
 1. WBPDCL deeper unit-splits — order PDFs are **scanned** → need OCR (only the 5 Appendix-A1
    MFCA-recoverable stations captured).
-2. Replace HPGCL filed-petition rows with the HERC-approved generation order if/when located.
-3. Replace UPRVUNL filed-APR rows with a standalone approved UPRVUNL generation order.
+2. Replace HPGCL/UPRVUNL/UPERC-IPP filed-petition (APR) rows with the corresponding HERC/UPERC
+   *approved* generation/true-up orders when located (would upgrade basis, not coverage).
+3. Replace Jhajjar's ICRA secondary 4.09 with the HERC `O20240305a(1).pdf` station-wise table
+   (needs a network session that can reach herc.gov.in).
 4. NLC TPS-II / TPS-II Exp / TPS-I Exp — no CERC 2019-24 GT *order* published (only 2025
    true-up TV letters; data.gov.in figures are 2021-23 vintage → excluded per vintage rule).
-5. Remaining uncovered central/state/private units → fall back to the real-CIL model (`02`/`11`).
+5. Anomalously-low BERC GMR/Kamalanga 1.20 + JITPL/Derang 1.12 held out — re-source before use.
+6. Bongaigaon needs Assam AERC; Bhilai/NSPCL has no published ECR (SAIL captive) — likely permanent skips.
+7. Remaining uncovered central/state/private units → fall back to the real-CIL model (`02`/`11`).
 
 ## Working conventions
 - **Honesty over polish:** never fabricate data. Label modelled vs real clearly

@@ -137,3 +137,36 @@ Vijaywada TPP-Iv,3.63,FY2022-23,"APERC FPPCA Common Order O.P.57-68/2024, Sec(ii
 # Raw: data/raw/sources/nlc_cerc_gt_orders.pdf
 Neyveli New TPP,2.115,FY2022-23,"CERC Order 219/GT/2019 dtd 2.8.2024 para 173, NNTPP (Neyveli New 2x500) approved ECR FY2022-23 col = 2.115 Rs/kWh (cercind.gov.in)"
 Barsingar Ligniteite,0.848,FY2022-23,"CERC Order 386/GT/2020 dtd 21.11.2023 para 58, Barsingsar (2x125 lignite) approved ECR FY2022-23 col = 84.76 paise = 0.848 Rs/kWh; lignite pithead (cercind.gov.in)"
+
+# ================= WAVE 3 (2026-06-01) -- NTPC + IPP expansion ===================
+# Real FY2022-23 energy/variable charge (Rs/kWh) ONLY. Full audit + arithmetic in
+# data/raw/sources/staging/*.csv and docs/ecr_scrape_notes.md.
+# --- NTPC NR/ER via UPERC APR FY2022-23 power-purchase table (FILED estimate) -----
+Rihand,1.754,FY2022-23,"UPERC ARR/Tariff State Discoms FY2023-24 / APR FY2022-23 (25-05-2023) Sec d.a NTPC p.351-352, gen-wtd Rihand-I/II/III (1.81/1.74/1.72) by UP drawal MU = 1.754; FILED APR estimate, energy/var only (uperc.org). Raw: staging/ntpc_uperc.csv"
+Singrauli Stps,1.67,FY2022-23,"UPERC APR FY2022-23 (25-05-2023) p.351, SINGRAULI 5368.16 MU @ 1.67 (var-Cr 894.84; chk 1.67*5368/10=896); FILED APR estimate, energy/var only (uperc.org). staging/ntpc_uperc.csv"
+Unchahar,4.357,FY2022-23,"UPERC APR FY2022-23 (25-05-2023) p.351, FGUTPS-I..IV gen-wtd (4.45/4.51/4.43/4.18) by UP drawal = 4.357; FILED APR estimate, energy/var only (uperc.org). staging/ntpc_uperc.csv"
+Dadri (NcTPP),4.386,FY2022-23,"UPERC APR FY2022-23 (25-05-2023) p.351, NCTPS-I/II coal gen-wtd (4.33/4.44) by UP drawal = 4.386 (gas DADRI-GPS 13.42 excluded); FILED APR estimate, energy/var only (uperc.org). staging/ntpc_uperc.csv"
+Kahalgaon,3.614,FY2022-23,"UPERC APR FY2022-23 (25-05-2023) p.351, KHTPS-I/II gen-wtd (3.75/3.58) by UP drawal = 3.614 (BERC cross-check 3.61); FILED APR estimate, energy/var only (uperc.org). staging/ntpc_uperc.csv"
+Farakka Stps,3.55,FY2022-23,"UPERC APR FY2022-23 (25-05-2023) p.351, FSTPS 142.95 MU @ 3.55 (var-Cr 50.76; chk 50.75); FILED APR estimate, energy/var only; BERC cross-check 3.93 (uperc.org). staging/ntpc_uperc.csv"
+# --- NTPC SR via APERC FPPCA true-up O.P.57-68/2024 (ACTUAL variable cost) --------
+R_Gundem Stps,4.085,FY2022-23,"APERC FPPCA Common Order O.P.57-68/2024 p.53 col 'Variable Cost Actual Rs/kWh' FY2022-23, NTPC Ramagundam gen-wtd I&II (4.14)+III (3.84) = 4.085 (aperc.gov.in). staging/ntpc_sr.csv"
+Simhadri,4.451,FY2022-23,"APERC FPPCA Common Order O.P.57-68/2024 p.53 actual variable cost FY2022-23, NTPC Simhadri gen-wtd St1 (4.49)+St2 (4.36) = 4.451 (aperc.gov.in). staging/ntpc_sr.csv"
+Vallur NTPC/Ntecl,3.478,FY2022-23,"APERC FPPCA Common Order O.P.57-68/2024 p.53 (CGS table), NTECL Vallur 192.70 Cr / 554 MU = 3.478 Rs/kWh FY2022-23 (aperc.gov.in). staging/ntpc_sr.csv"
+# --- NTPC Talcher Kaniha: MERGED cap-wtd Stage I (BERC) + Stage II (APERC) --------
+Talcher Stps,1.987,FY2022-23,MERGED cap-wtd Talcher Kaniha Stage I (2x500 @2.08; BERC NBPDCL TO FY2023-24 Case16/17-2022 23-03-2023 Table5.17 p.207) + Stage II (4x500 @1.94; APERC FPPCA O.P.57-68/2024 p.53 actual) = (1000*2.08+2000*1.94)/3000 = 1.987 FY2022-23. staging/ntpc_bihar.csv+ntpc_sr.csv
+# --- NTPC-JV Bihar via BERC NBPDCL TO FY2023-24 (Commission-computed FY2022-23) ---
+Muzaffarpur Exp,2.92,FY2022-23,"BERC NBPDCL TO FY2023-24 (Case 16/17 of 2022, 23-03-2023) Table 5.17 p.207 'Energy Cost Rs/kwh', KBUNL Stage II (Kanti) 134.50 MU @ 2.92; Commission-computed FY2022-23, energy only (berc.gov.in). staging/ntpc_bihar.csv"
+Nabi Nagar TPP (Brbcl),2.75,FY2022-23,"BERC NBPDCL TO FY2023-24 (23-03-2023) Table 5.17 p.207, Nabinagar BRBCL Unit I-IV (4x250) 46.00 MU @ 2.75; Commission-computed FY2022-23, energy only (berc.gov.in). staging/ntpc_bihar.csv"
+# --- Barauni (BSPGCL Bihar state) via BERC; covers Barauni + Barauni(Ext) ---------
+Barauni,2.685,FY2022-23,"BERC NBPDCL TO FY2023-24 (23-03-2023) Table 5.17 p.207-208 'Energy Cost Rs/kwh', BTPS Stage I+II uniform 2.685 (chk 2.685*MU/10=E-cost each unit); covers dataset Barauni + Barauni(Ext); Commission-computed FY2022-23, energy only (berc.gov.in). staging/berc_barauni.csv"
+# --- Private IPPs via UPERC APR FY2022-23 power-purchase table (FILED estimate) ---
+"Anapara ""C""",2.61,FY2022-23,"UPERC APR FY2022-23 (25-05-2023) Sec Thermal-IPP p.351-352, LANCO (Lanco Anpara C 2x600) 7116.86 MU @ 2.61 (var-Cr 1855.36); FILED APR estimate, energy/var only (uperc.org). staging/uperc_ipp.csv"
+Akaltara TPP /Nariyara TPP,3.38,FY2022-23,"UPERC APR FY2022-23 (25-05-2023) p.351-352, KSK MAHANADI 3715.75 MU @ 3.38 (var-Cr 1254.34); multi-state PPA (UP share); FILED APR estimate (uperc.org). staging/uperc_ipp.csv"
+Anuppur TPP,2.87,FY2022-23,"UPERC APR FY2022-23 (25-05-2023) p.351-352, M.B.POWER (PTC) Anuppur 2679.97 MU @ 2.87 (var-Cr 770.05); FILED APR estimate, energy/var only (uperc.org). staging/uperc_ipp.csv"
+Uchpinda TPP,2.22,FY2022-23,"UPERC APR FY2022-23 (25-05-2023) p.351-352, R.K.M.POWER Uchpinda 2355.45 MU @ 2.22 (var-Cr 522.29); FILED APR estimate, energy/var only (uperc.org). staging/uperc_ipp.csv"
+Rosa TPP,3.14,FY2022-23,"UPERC APR FY2022-23 (25-05-2023) p.351-352, ROSA-1&2 (Reliance Rosa 4x300) 5452.39 MU @ 3.14 (var-Cr 1714.69); FILED APR estimate, energy/var only (uperc.org). staging/uperc_ipp.csv"
+Rosa TPP Ph - 1,3.14,FY2022-23,"UPERC APR FY2022-23 (25-05-2023) p.351-352, same ROSA-1&2 station rate 3.14 (UPERC gives no phase split); FILED APR estimate (uperc.org). staging/uperc_ipp.csv"
+Nawapara,2.32,FY2022-23,"UPERC APR FY2022-23 (25-05-2023) p.351-352, TRN ENERGY (PTC) Nawapara 1912.64 MU @ 2.32 (var-Cr 443.93); FILED APR estimate, energy/var only (uperc.org). staging/uperc_ipp.csv"
+Barkhera TPP,4.62,FY2022-23,"UPERC APR FY2022-23 (25-05-2023) p.351-352, BEPL BARKHERA (Bajaj Energy 45MW) 182.01 MU @ 4.62 (var-Cr 84.04); small high-cost unit; FILED APR estimate (uperc.org). staging/uperc_ipp.csv"
+# --- Jhajjar APCPL: SECONDARY (ICRA rating, not a regulatory order) -- flagged ----
+Indra Gandhi STPP,4.09,FY2022-23,"SECONDARY (not a regulatory order): ICRA 'Aravali Power Company Pvt Ltd: Ratings reaffirmed' 19-Mar-2024 p.1 verbatim 'variable/energy charge stood at Rs. 4.09 per unit for FY2023'; APCPL Jhajjar 3x500, energy-only excl partial-loading comp. Primary CERC 489/GT/2020 ECR 3.475 is 2018-basis (excluded). staging/ntpc_jhajjar_bhilai.csv"

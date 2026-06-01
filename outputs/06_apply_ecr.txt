@@ -2,72 +2,96 @@
 06 - APPLY PLANT-LEVEL ECR (real data overrides the model)
 ======================================================================
 ECR source file: data/raw/plant_ecr.csv (REAL user data)
-ECR rows supplied: 55
+ECR rows supplied: 77
 
-Matched 197/455 units to a published ECR (43.3% coverage); the rest fall back to the model.
+Matched 286/455 units to a published ECR (62.9% coverage); the rest fall back to the model.
 
 Match diagnostics (ECR row -> plant key):
-                      ecr_name  ecr_rs_per_kwh             matched_key                                                                                                                                                                                                                                                 source
-                      Bhusawal          3.5420                bhusawal                                                                                    MSPGCL Energy Bill to MSEDCL, station Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 & Mar-2023 (Fuel-data-for-Apr-22.pdf; Fuel-Data-for-Mar-2023.pdf, mahagenco.in)
-               Chandrapur_Coal          3.1250         chandrapur coal                                                                           MSPGCL Energy Bill to MSEDCL, station Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 (Unit3-7 2.658, Unit8-9 2.573) & Mar-2023 (3.854/3.335) (mahagenco.in monthly fuel-data)
-                    K_Kheda Ii          3.2310              k kheda ii                                                                                                            MSPGCL Energy Bill to MSEDCL, Khaperkheda station Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 & Mar-2023 (mahagenco.in monthly fuel-data)
-                        Koradi          3.1750                  koradi                                                                                       MSPGCL Energy Bill to MSEDCL, Koradi subcritical Unit (210 MW) Energy Rate Rs/Unit; mean of Apr-2022 (3.311) & Mar-2023 (3.040) (mahagenco.in monthly fuel-data)
-                        Nashik          3.8680                  nashik                                                                                                        MSPGCL Energy Bill to MSEDCL, Nashik Unit 3-5 Energy Rate Rs/Unit; mean of Apr-2022 (3.569) & Mar-2023 (4.166) (mahagenco.in monthly fuel-data)
-                         Paras          3.2870                   paras                                                                                                         MSPGCL Energy Bill to MSEDCL, Paras Unit 3-4 Energy Rate Rs/Unit; mean of Apr-2022 (3.146) & Mar-2023 (3.427) (mahagenco.in monthly fuel-data)
-                         Parli          4.5330                   parli                                                                         MSPGCL Energy Bill to MSEDCL, Parli Unit 6-8 Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 (4.19) & Mar-2023 (4.88); HIGH (old, coal-distant) (mahagenco.in monthly fuel-data)
-                 Amaravati TPP          2.4520               amaravati                                                                            MahaSLDC DISCOM-wise MOD stack, RattanIndia Power Amravati approved Variable Charge 2.4523 Rs/kWh (constant Apr-2022 & Mar-2023, ex change-in-law) (mahagenco.in fuel-data)
-             JSW Ratnagiri TPP          3.9390           jsw ratnagiri                                                                                                                    MahaSLDC DISCOM-wise MOD stack, JSW U1 Jaigad Variable Charge; mean of Apr-2022 (3.169) & Mar-2023 (4.710) (mahagenco.in fuel-data)
-               Vindh_Chal Stps          1.6330              vindh chal                                         MahaSLDC DISCOM-wise MOD stack, NTPC Vindhyachal (VSTP-I..V) CERC Approved Variable Charge Rs/KWh, cap-wtd across stages; mean of May-2022 (1.600) & Apr-2023 (1.667) (mahasldc.in via mahagenco.in fuel-data)
-                    Korba Stps          1.6120                   korba                                                 MahaSLDC DISCOM-wise MOD stack, NTPC Korba (KSTPS I&II, KSTPS-III) CERC Approved Variable Charge Rs/KWh, cap-wtd; mean of May-2022 (1.505) & Apr-2023 (1.719) (mahasldc.in via mahagenco.in fuel-data)
-                    Sipat Stps          1.5680                   sipat                                              MahaSLDC DISCOM-wise MOD stack, NTPC Sipat subcritical stage (SSTPS-II, 2x500) CERC Approved Variable Charge Rs/KWh; mean of May-2022 (1.589) & Apr-2023 (1.546) (mahasldc.in via mahagenco.in fuel-data)
-                    Mouda Stps          4.1510                   mouda                                               MahaSLDC DISCOM-wise MOD stack, NTPC Mouda subcritical stage (MSTPS-I, 2x500) CERC Approved Variable Charge Rs/KWh; mean of May-2022 (4.179) & Apr-2023 (4.123) (mahasldc.in via mahagenco.in fuel-data)
-                     Suratgarh          4.2200               suratgarh                                     RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, STPS (Units 1-6) Rate of energy charges 4.22 Rs/kWh (Energy 4150.92 Cr / 9837.39 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)
-                          Kota          3.3900                    kota                                     RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, KTPS (Units 1-7) Rate of energy charges 3.39 Rs/kWh (Energy 2758.05 Cr / 8145.77 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)
-                   Chhabra Tps          3.0500                 chhabra                                     RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, CTPP (Units 1-4) Rate of energy charges 3.05 Rs/kWh (Energy 1999.10 Cr / 6558.26 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)
-                     Kalisindh          2.9500               kalisindh                                    RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, KaTPP (Units 1-2) Rate of energy charges 2.95 Rs/kWh (Energy 2441.45 Cr / 8266.90 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)
-                       Panipat          3.7230                 panipat HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); gen-wtd over PTPS-6 (1407.29 MU @ 3.812), PTPS-7 & PTPS-8 (1688.38 MU @ 3.686 each) = 3.723 Rs/kWh; FILED petition, not HERC-approved order (hpgcl.org.in)
-               Yamunanagar TPP          3.5740             yamunanagar                                                   HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); DCRTPP Units 1-2 (Yamunanagar) 3.574 Rs/kWh each; FILED petition, not HERC-approved order (hpgcl.org.in)
-        Rajiv Gandhi Tps Hisar          3.6390      rajiv gandhi hisar                                                   HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); RGTPP Units 1-2 (Hisar/Khedar) 3.639 Rs/kWh each; FILED petition, not HERC-approved order (hpgcl.org.in)
-                     Wanakbori          4.2320               wanakbori                                                                                                                   GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 station-wise approved ECR for FY2022-23, Wanakbori TPS 4.232 Rs/kWh (gercin.org)
-                     Ukai_Coal          3.9150               ukai coal                                                                                                                 GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 station-wise approved ECR for FY2022-23, Ukai TPS (coal) 3.915 Rs/kWh (gercin.org)
-                  Gandhi Nagar          4.2930            gandhi nagar                                                                                                                 GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 station-wise approved ECR for FY2022-23, Gandhinagar TPS 4.293 Rs/kWh (gercin.org)
-                    Sikka Extn          3.9560                   sikka                                                                                                 GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 station-wise approved ECR for FY2022-23, Sikka TPS Extension (Units 3-4) 3.956 Rs/kWh (gercin.org)
-                 Kutch Lignite          3.1130           kutch lignite                                                                                    GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 approved ECR FY2022-23, Kutch Lignite TPS gen-wtd KLTPS1-3 (3.189) + KLTPS4 (3.036) = 3.113 Rs/kWh (gercin.org)
-                     Tuticorin          3.9600               tuticorin                                                                                                                  TNERC Order 7/2022 dtd 09-09-2022, Table 4-47 station-wise approved variable cost FY2022-23, Tuticorin TPS 3.96 Rs/kWh (tnerc.gov.in)
-                        Mettur          4.9960                  mettur                TNERC Order 7/2022 dtd 09-09-2022, Table 4-47 approved variable cost FY2022-23; MERGED gen-wtd of Mettur TPS (5.00) + Mettur Ext 600MW (4.99) = 4.996 Rs/kWh (both _norm collide); HIGH but verified (old, coal-distant) (tnerc.gov.in)
-                 North Chennai          3.5900           north chennai                                                                                                    TNERC Order 7/2022 dtd 09-09-2022, Table 4-47 station-wise approved variable cost FY2022-23, North Chennai TPS (Stage-I) 3.59 Rs/kWh (tnerc.gov.in)
-       North Chennai Extension          3.9400 north chennai extension                                                                                                       TNERC Order 7/2022 dtd 09-09-2022, Table 4-47 approved variable cost FY2022-23, North Chennai TPS Stage-II (NCTPS II) 3.94 Rs/kWh (tnerc.gov.in)
-                         Ropar          3.6037                   ropar                                                                                                           PSERC Petition 68/2021 dtd 13-Apr-2022, Table 7.7 p.203 approved ECR FY2022-23, GGSSTP Ropar 360.37 paise/kWh = 3.6037 Rs/kWh (pserc.gov.in)
-               Ghtp (Leh.Moh.)          3.6824            ghtp leh moh                                                                                                    PSERC Petition 68/2021 dtd 13-Apr-2022, Table 7.7 p.203 approved ECR FY2022-23, GHTP Lehra Mohabbat 368.24 paise/kWh = 3.6824 Rs/kWh (pserc.gov.in)
-                      Durgapur          3.4340                durgapur                                                                                                                                          JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, DTPS U#4 approved ECR 3.434 Rs/kWh (jserc.org)
-                         Mejia          3.6490                   mejia                         JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96; MERGED gen-wtd of MTPS U#1-6 (3.715) + Mejia Ext U#7&8 (3.577) = 3.649 Rs/kWh (both _norm collide); per-substation rows in plant_tariff_details.csv (jserc.org)
-                   Chandrapura          3.6240             chandrapura                                                                                            JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, DVC CTPS U#7&8 approved ECR 3.624 Rs/kWh (Jharkhand, NOT Maharashtra Chandrapur) (jserc.org)
-            Durgapur Steel Tps          3.7930          durgapur steel                                                                                                                                       JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, DSTPS U#1&2 approved ECR 3.793 Rs/kWh (jserc.org)
-                       Koderma          3.5400                 koderma                                                                                                                                        JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, KTPS U#1&2 approved ECR 3.540 Rs/kWh (jserc.org)
-         Raghunathpur TPP Ph-I          3.8810          raghunathpur i                                                                                                                                        JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, RTPS U#1&2 approved ECR 3.881 Rs/kWh (jserc.org)
-              Bokaro A ''Exp''          2.7710            bokaro a exp                                                                                                               JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, BTPS 'A' approved ECR 2.771 Rs/kWh (pit-head, lowest DVC ECR) (jserc.org)
-                    Korba-West          1.5080              korba west                                            CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4; MERGED gen-wtd of HTPS U1-4 (1.589) + KWTPP U5 500MW (1.395) = 1.508 Rs/kWh; pithead SECL coal (cserc.gov.in)
-             Korba-V(Dspm Tps)          1.6120            korba v dspm                                                                        CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4, DSPM TPS U7-8 2x250MW actual ECR (coal+oil)/net-gen = 1.612 Rs/kWh (cserc.gov.in)
-                     Marwa TPP          1.8370                   marwa                                                                    CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4, ABVTPS Marwa U1-2 2x500MW actual ECR (coal+oil)/net-gen = 1.837 Rs/kWh (cserc.gov.in)
-                      Kolaghat          2.7841                kolaghat                                                                   WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, KTPS Kolaghat 278.41 paise = 2.7841 Rs/kWh (wbsedcl.in)
-                     Bakreswar          1.8290               bakreswar                                                                 WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, BKTPS Bakreswar 182.90 paise = 1.8290 Rs/kWh (wbsedcl.in)
-                     Santaldih          1.9497               santaldih                                                         WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, STPS Santaldih Stage-II 194.97 paise = 1.9497 Rs/kWh (wbsedcl.in)
-                        Bandel          2.1709                  bandel                                     WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, BTPS Bandel Unit-V (1x210, matches dataset) 217.09 paise = 2.1709 Rs/kWh (wbsedcl.in)
-                Sagardighi TPP          1.7911              sagardighi                                                        WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, SgTPS Sagardighi Stage-I 179.11 paise = 1.7911 Rs/kWh (wbsedcl.in)
-                        Anpara          1.9410                  anpara                                         UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Anpara gen-wtd A (2.06) / B (1.98) / D (1.83) = 1.941 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)
-                        Obra-A          2.5800                  obra a                                                               UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Obra (order OBRA-B figure) 2.58 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)
-                       Paricha          3.6570                 paricha                                           UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Parichha gen-wtd Ext (3.69) + Ext-II (3.62) = 3.657 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)
-                      H_Ganj B          3.9400                h ganj b                                                                           UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Harduaganj Ext 3.94 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)
-                   Rayal Seema          4.3300             rayal seema                                                                                             APERC FPPCA Common Order O.P.57-68/2024, Sec(ii) p.51-52 actual variable cost FY2022-23, RTPP Rayalaseema gen-wtd Stages I-IV = 4.33 Rs/kWh (aperc.gov.in)
-Vijaywada (Dr. N.TATA Rao Tps)          3.9900 vijaywada dr n tata rao                                                                                                 APERC FPPCA Common Order O.P.57-68/2024, Sec(ii) p.51-52 actual variable cost FY2022-23, Dr NTTPS Vijayawada (Stages I-III) 3.99 Rs/kWh (aperc.gov.in)
-              Vijaywada TPP-Iv          3.6300            vijaywada iv                                                                       APERC FPPCA Common Order O.P.57-68/2024, Sec(ii) p.51-52 actual variable cost FY2022-23, NTTPS Stage-IV 500MW subcritical 3.63 Rs/kWh (NOT supercritical Stage-V) (aperc.gov.in)
-               Neyveli New TPP          2.1150                 neyveli                                                                                                                     CERC Order 219/GT/2019 dtd 2.8.2024 para 173, NNTPP (Neyveli New 2x500) approved ECR FY2022-23 col = 2.115 Rs/kWh (cercind.gov.in)
-          Barsingar Ligniteite          0.8480    barsingar ligniteite                                                                                    CERC Order 386/GT/2020 dtd 21.11.2023 para 58, Barsingsar (2x125 lignite) approved ECR FY2022-23 col = 84.76 paise = 0.848 Rs/kWh; lignite pithead (cercind.gov.in)
+                      ecr_name  ecr_rs_per_kwh             matched_key                                                                                                                                                                                                                                                                                                                                         source
+                      Bhusawal          3.5420                bhusawal                                                                                                                                                                            MSPGCL Energy Bill to MSEDCL, station Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 & Mar-2023 (Fuel-data-for-Apr-22.pdf; Fuel-Data-for-Mar-2023.pdf, mahagenco.in)
+               Chandrapur_Coal          3.1250         chandrapur coal                                                                                                                                                                   MSPGCL Energy Bill to MSEDCL, station Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 (Unit3-7 2.658, Unit8-9 2.573) & Mar-2023 (3.854/3.335) (mahagenco.in monthly fuel-data)
+                    K_Kheda Ii          3.2310              k kheda ii                                                                                                                                                                                                    MSPGCL Energy Bill to MSEDCL, Khaperkheda station Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 & Mar-2023 (mahagenco.in monthly fuel-data)
+                        Koradi          3.1750                  koradi                                                                                                                                                                               MSPGCL Energy Bill to MSEDCL, Koradi subcritical Unit (210 MW) Energy Rate Rs/Unit; mean of Apr-2022 (3.311) & Mar-2023 (3.040) (mahagenco.in monthly fuel-data)
+                        Nashik          3.8680                  nashik                                                                                                                                                                                                MSPGCL Energy Bill to MSEDCL, Nashik Unit 3-5 Energy Rate Rs/Unit; mean of Apr-2022 (3.569) & Mar-2023 (4.166) (mahagenco.in monthly fuel-data)
+                         Paras          3.2870                   paras                                                                                                                                                                                                 MSPGCL Energy Bill to MSEDCL, Paras Unit 3-4 Energy Rate Rs/Unit; mean of Apr-2022 (3.146) & Mar-2023 (3.427) (mahagenco.in monthly fuel-data)
+                         Parli          4.5330                   parli                                                                                                                                                                 MSPGCL Energy Bill to MSEDCL, Parli Unit 6-8 Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 (4.19) & Mar-2023 (4.88); HIGH (old, coal-distant) (mahagenco.in monthly fuel-data)
+                 Amaravati TPP          2.4520               amaravati                                                                                                                                                                    MahaSLDC DISCOM-wise MOD stack, RattanIndia Power Amravati approved Variable Charge 2.4523 Rs/kWh (constant Apr-2022 & Mar-2023, ex change-in-law) (mahagenco.in fuel-data)
+             JSW Ratnagiri TPP          3.9390           jsw ratnagiri                                                                                                                                                                                                            MahaSLDC DISCOM-wise MOD stack, JSW U1 Jaigad Variable Charge; mean of Apr-2022 (3.169) & Mar-2023 (4.710) (mahagenco.in fuel-data)
+               Vindh_Chal Stps          1.6330              vindh chal                                                                                                                                 MahaSLDC DISCOM-wise MOD stack, NTPC Vindhyachal (VSTP-I..V) CERC Approved Variable Charge Rs/KWh, cap-wtd across stages; mean of May-2022 (1.600) & Apr-2023 (1.667) (mahasldc.in via mahagenco.in fuel-data)
+                    Korba Stps          1.6120                   korba                                                                                                                                         MahaSLDC DISCOM-wise MOD stack, NTPC Korba (KSTPS I&II, KSTPS-III) CERC Approved Variable Charge Rs/KWh, cap-wtd; mean of May-2022 (1.505) & Apr-2023 (1.719) (mahasldc.in via mahagenco.in fuel-data)
+                    Sipat Stps          1.5680                   sipat                                                                                                                                      MahaSLDC DISCOM-wise MOD stack, NTPC Sipat subcritical stage (SSTPS-II, 2x500) CERC Approved Variable Charge Rs/KWh; mean of May-2022 (1.589) & Apr-2023 (1.546) (mahasldc.in via mahagenco.in fuel-data)
+                    Mouda Stps          4.1510                   mouda                                                                                                                                       MahaSLDC DISCOM-wise MOD stack, NTPC Mouda subcritical stage (MSTPS-I, 2x500) CERC Approved Variable Charge Rs/KWh; mean of May-2022 (4.179) & Apr-2023 (4.123) (mahasldc.in via mahagenco.in fuel-data)
+                     Suratgarh          4.2200               suratgarh                                                                                                                             RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, STPS (Units 1-6) Rate of energy charges 4.22 Rs/kWh (Energy 4150.92 Cr / 9837.39 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)
+                          Kota          3.3900                    kota                                                                                                                             RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, KTPS (Units 1-7) Rate of energy charges 3.39 Rs/kWh (Energy 2758.05 Cr / 8145.77 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)
+                   Chhabra Tps          3.0500                 chhabra                                                                                                                             RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, CTPP (Units 1-4) Rate of energy charges 3.05 Rs/kWh (Energy 1999.10 Cr / 6558.26 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)
+                     Kalisindh          2.9500               kalisindh                                                                                                                            RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, KaTPP (Units 1-2) Rate of energy charges 2.95 Rs/kWh (Energy 2441.45 Cr / 8266.90 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)
+                       Panipat          3.7230                 panipat                                                                                         HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); gen-wtd over PTPS-6 (1407.29 MU @ 3.812), PTPS-7 & PTPS-8 (1688.38 MU @ 3.686 each) = 3.723 Rs/kWh; FILED petition, not HERC-approved order (hpgcl.org.in)
+               Yamunanagar TPP          3.5740             yamunanagar                                                                                                                                           HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); DCRTPP Units 1-2 (Yamunanagar) 3.574 Rs/kWh each; FILED petition, not HERC-approved order (hpgcl.org.in)
+        Rajiv Gandhi Tps Hisar          3.6390      rajiv gandhi hisar                                                                                                                                           HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); RGTPP Units 1-2 (Hisar/Khedar) 3.639 Rs/kWh each; FILED petition, not HERC-approved order (hpgcl.org.in)
+                     Wanakbori          4.2320               wanakbori                                                                                                                                                                                                           GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 station-wise approved ECR for FY2022-23, Wanakbori TPS 4.232 Rs/kWh (gercin.org)
+                     Ukai_Coal          3.9150               ukai coal                                                                                                                                                                                                         GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 station-wise approved ECR for FY2022-23, Ukai TPS (coal) 3.915 Rs/kWh (gercin.org)
+                  Gandhi Nagar          4.2930            gandhi nagar                                                                                                                                                                                                         GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 station-wise approved ECR for FY2022-23, Gandhinagar TPS 4.293 Rs/kWh (gercin.org)
+                    Sikka Extn          3.9560                   sikka                                                                                                                                                                                         GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 station-wise approved ECR for FY2022-23, Sikka TPS Extension (Units 3-4) 3.956 Rs/kWh (gercin.org)
+                 Kutch Lignite          3.1130           kutch lignite                                                                                                                                                                            GERC Order Case 2025/2021 dtd 30.03.2022, Table 6.1 approved ECR FY2022-23, Kutch Lignite TPS gen-wtd KLTPS1-3 (3.189) + KLTPS4 (3.036) = 3.113 Rs/kWh (gercin.org)
+                     Tuticorin          3.9600               tuticorin                                                                                                                                                                                                          TNERC Order 7/2022 dtd 09-09-2022, Table 4-47 station-wise approved variable cost FY2022-23, Tuticorin TPS 3.96 Rs/kWh (tnerc.gov.in)
+                        Mettur          4.9960                  mettur                                                                                                        TNERC Order 7/2022 dtd 09-09-2022, Table 4-47 approved variable cost FY2022-23; MERGED gen-wtd of Mettur TPS (5.00) + Mettur Ext 600MW (4.99) = 4.996 Rs/kWh (both _norm collide); HIGH but verified (old, coal-distant) (tnerc.gov.in)
+                 North Chennai          3.5900           north chennai                                                                                                                                                                                            TNERC Order 7/2022 dtd 09-09-2022, Table 4-47 station-wise approved variable cost FY2022-23, North Chennai TPS (Stage-I) 3.59 Rs/kWh (tnerc.gov.in)
+       North Chennai Extension          3.9400 north chennai extension                                                                                                                                                                                               TNERC Order 7/2022 dtd 09-09-2022, Table 4-47 approved variable cost FY2022-23, North Chennai TPS Stage-II (NCTPS II) 3.94 Rs/kWh (tnerc.gov.in)
+                         Ropar          3.6037                   ropar                                                                                                                                                                                                   PSERC Petition 68/2021 dtd 13-Apr-2022, Table 7.7 p.203 approved ECR FY2022-23, GGSSTP Ropar 360.37 paise/kWh = 3.6037 Rs/kWh (pserc.gov.in)
+               Ghtp (Leh.Moh.)          3.6824            ghtp leh moh                                                                                                                                                                                            PSERC Petition 68/2021 dtd 13-Apr-2022, Table 7.7 p.203 approved ECR FY2022-23, GHTP Lehra Mohabbat 368.24 paise/kWh = 3.6824 Rs/kWh (pserc.gov.in)
+                      Durgapur          3.4340                durgapur                                                                                                                                                                                                                                  JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, DTPS U#4 approved ECR 3.434 Rs/kWh (jserc.org)
+                         Mejia          3.6490                   mejia                                                                                                                 JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96; MERGED gen-wtd of MTPS U#1-6 (3.715) + Mejia Ext U#7&8 (3.577) = 3.649 Rs/kWh (both _norm collide); per-substation rows in plant_tariff_details.csv (jserc.org)
+                   Chandrapura          3.6240             chandrapura                                                                                                                                                                                    JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, DVC CTPS U#7&8 approved ECR 3.624 Rs/kWh (Jharkhand, NOT Maharashtra Chandrapur) (jserc.org)
+            Durgapur Steel Tps          3.7930          durgapur steel                                                                                                                                                                                                                               JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, DSTPS U#1&2 approved ECR 3.793 Rs/kWh (jserc.org)
+                       Koderma          3.5400                 koderma                                                                                                                                                                                                                                JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, KTPS U#1&2 approved ECR 3.540 Rs/kWh (jserc.org)
+         Raghunathpur TPP Ph-I          3.8810          raghunathpur i                                                                                                                                                                                                                                JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, RTPS U#1&2 approved ECR 3.881 Rs/kWh (jserc.org)
+              Bokaro A ''Exp''          2.7710            bokaro a exp                                                                                                                                                                                                       JSERC Order 30-09-2024 (DVC True-up FY2022-23), Table 38 p.96, BTPS 'A' approved ECR 2.771 Rs/kWh (pit-head, lowest DVC ECR) (jserc.org)
+                    Korba-West          1.5080              korba west                                                                                                                                    CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4; MERGED gen-wtd of HTPS U1-4 (1.589) + KWTPP U5 500MW (1.395) = 1.508 Rs/kWh; pithead SECL coal (cserc.gov.in)
+             Korba-V(Dspm Tps)          1.6120            korba v dspm                                                                                                                                                                CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4, DSPM TPS U7-8 2x250MW actual ECR (coal+oil)/net-gen = 1.612 Rs/kWh (cserc.gov.in)
+                     Marwa TPP          1.8370                   marwa                                                                                                                                                            CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4, ABVTPS Marwa U1-2 2x500MW actual ECR (coal+oil)/net-gen = 1.837 Rs/kWh (cserc.gov.in)
+                      Kolaghat          2.7841                kolaghat                                                                                                                                                           WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, KTPS Kolaghat 278.41 paise = 2.7841 Rs/kWh (wbsedcl.in)
+                     Bakreswar          1.8290               bakreswar                                                                                                                                                         WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, BKTPS Bakreswar 182.90 paise = 1.8290 Rs/kWh (wbsedcl.in)
+                     Santaldih          1.9497               santaldih                                                                                                                                                 WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, STPS Santaldih Stage-II 194.97 paise = 1.9497 Rs/kWh (wbsedcl.in)
+                        Bandel          2.1709                  bandel                                                                                                                             WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, BTPS Bandel Unit-V (1x210, matches dataset) 217.09 paise = 2.1709 Rs/kWh (wbsedcl.in)
+                Sagardighi TPP          1.7911              sagardighi                                                                                                                                                WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, SgTPS Sagardighi Stage-I 179.11 paise = 1.7911 Rs/kWh (wbsedcl.in)
+                        Anpara          1.9410                  anpara                                                                                                                                 UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Anpara gen-wtd A (2.06) / B (1.98) / D (1.83) = 1.941 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)
+                        Obra-A          2.5800                  obra a                                                                                                                                                       UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Obra (order OBRA-B figure) 2.58 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)
+                       Paricha          3.6570                 paricha                                                                                                                                   UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Parichha gen-wtd Ext (3.69) + Ext-II (3.62) = 3.657 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)
+                      H_Ganj B          3.9400                h ganj b                                                                                                                                                                   UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Harduaganj Ext 3.94 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)
+                   Rayal Seema          4.3300             rayal seema                                                                                                                                                                                     APERC FPPCA Common Order O.P.57-68/2024, Sec(ii) p.51-52 actual variable cost FY2022-23, RTPP Rayalaseema gen-wtd Stages I-IV = 4.33 Rs/kWh (aperc.gov.in)
+Vijaywada (Dr. N.TATA Rao Tps)          3.9900 vijaywada dr n tata rao                                                                                                                                                                                         APERC FPPCA Common Order O.P.57-68/2024, Sec(ii) p.51-52 actual variable cost FY2022-23, Dr NTTPS Vijayawada (Stages I-III) 3.99 Rs/kWh (aperc.gov.in)
+              Vijaywada TPP-Iv          3.6300            vijaywada iv                                                                                                                                                               APERC FPPCA Common Order O.P.57-68/2024, Sec(ii) p.51-52 actual variable cost FY2022-23, NTTPS Stage-IV 500MW subcritical 3.63 Rs/kWh (NOT supercritical Stage-V) (aperc.gov.in)
+               Neyveli New TPP          2.1150                 neyveli                                                                                                                                                                                                             CERC Order 219/GT/2019 dtd 2.8.2024 para 173, NNTPP (Neyveli New 2x500) approved ECR FY2022-23 col = 2.115 Rs/kWh (cercind.gov.in)
+          Barsingar Ligniteite          0.8480    barsingar ligniteite                                                                                                                                                                            CERC Order 386/GT/2020 dtd 21.11.2023 para 58, Barsingsar (2x125 lignite) approved ECR FY2022-23 col = 84.76 paise = 0.848 Rs/kWh; lignite pithead (cercind.gov.in)
+                        Rihand          1.7540                  rihand                                                                                                   UPERC ARR/Tariff State Discoms FY2023-24 / APR FY2022-23 (25-05-2023) Sec d.a NTPC p.351-352, gen-wtd Rihand-I/II/III (1.81/1.74/1.72) by UP drawal MU = 1.754; FILED APR estimate, energy/var only (uperc.org). Raw: staging/ntpc_uperc.csv
+                Singrauli Stps          1.6700               singrauli                                                                                                                                                             UPERC APR FY2022-23 (25-05-2023) p.351, SINGRAULI 5368.16 MU @ 1.67 (var-Cr 894.84; chk 1.67*5368/10=896); FILED APR estimate, energy/var only (uperc.org). staging/ntpc_uperc.csv
+                      Unchahar          4.3570                unchahar                                                                                                                                                               UPERC APR FY2022-23 (25-05-2023) p.351, FGUTPS-I..IV gen-wtd (4.45/4.51/4.43/4.18) by UP drawal = 4.357; FILED APR estimate, energy/var only (uperc.org). staging/ntpc_uperc.csv
+                 Dadri (NcTPP)          4.3860             dadri nctpp                                                                                                                                       UPERC APR FY2022-23 (25-05-2023) p.351, NCTPS-I/II coal gen-wtd (4.33/4.44) by UP drawal = 4.386 (gas DADRI-GPS 13.42 excluded); FILED APR estimate, energy/var only (uperc.org). staging/ntpc_uperc.csv
+                     Kahalgaon          3.6140               kahalgaon                                                                                                                                                   UPERC APR FY2022-23 (25-05-2023) p.351, KHTPS-I/II gen-wtd (3.75/3.58) by UP drawal = 3.614 (BERC cross-check 3.61); FILED APR estimate, energy/var only (uperc.org). staging/ntpc_uperc.csv
+                  Farakka Stps          3.5500                 farakka                                                                                                                                                       UPERC APR FY2022-23 (25-05-2023) p.351, FSTPS 142.95 MU @ 3.55 (var-Cr 50.76; chk 50.75); FILED APR estimate, energy/var only; BERC cross-check 3.93 (uperc.org). staging/ntpc_uperc.csv
+                 R_Gundem Stps          4.0850                r gundem                                                                                                                                                           APERC FPPCA Common Order O.P.57-68/2024 p.53 col 'Variable Cost Actual Rs/kWh' FY2022-23, NTPC Ramagundam gen-wtd I&II (4.14)+III (3.84) = 4.085 (aperc.gov.in). staging/ntpc_sr.csv
+                      Simhadri          4.4510                simhadri                                                                                                                                                                           APERC FPPCA Common Order O.P.57-68/2024 p.53 actual variable cost FY2022-23, NTPC Simhadri gen-wtd St1 (4.49)+St2 (4.36) = 4.451 (aperc.gov.in). staging/ntpc_sr.csv
+             Vallur NTPC/Ntecl          3.4780       vallur ntpc ntecl                                                                                                                                                                                         APERC FPPCA Common Order O.P.57-68/2024 p.53 (CGS table), NTECL Vallur 192.70 Cr / 554 MU = 3.478 Rs/kWh FY2022-23 (aperc.gov.in). staging/ntpc_sr.csv
+                  Talcher Stps          1.9870                 talcher                                                                    MERGED cap-wtd Talcher Kaniha Stage I (2x500 @2.08; BERC NBPDCL TO FY2023-24 Case16/17-2022 23-03-2023 Table5.17 p.207) + Stage II (4x500 @1.94; APERC FPPCA O.P.57-68/2024 p.53 actual) = (1000*2.08+2000*1.94)/3000 = 1.987 FY2022-23. staging/ntpc_bihar.csv+ntpc_sr.csv
+               Muzaffarpur Exp          2.9200         muzaffarpur exp                                                                                                                     BERC NBPDCL TO FY2023-24 (Case 16/17 of 2022, 23-03-2023) Table 5.17 p.207 'Energy Cost Rs/kwh', KBUNL Stage II (Kanti) 134.50 MU @ 2.92; Commission-computed FY2022-23, energy only (berc.gov.in). staging/ntpc_bihar.csv
+        Nabi Nagar TPP (Brbcl)          2.7500        nabi nagar brbcl                                                                                                                                                    BERC NBPDCL TO FY2023-24 (23-03-2023) Table 5.17 p.207, Nabinagar BRBCL Unit I-IV (4x250) 46.00 MU @ 2.75; Commission-computed FY2022-23, energy only (berc.gov.in). staging/ntpc_bihar.csv
+                       Barauni          2.6850                 barauni                                                                   BERC NBPDCL TO FY2023-24 (23-03-2023) Table 5.17 p.207-208 'Energy Cost Rs/kwh', BTPS Stage I+II uniform 2.685 (chk 2.685*MU/10=E-cost each unit); covers dataset Barauni + Barauni(Ext); Commission-computed FY2022-23, energy only (berc.gov.in). staging/berc_barauni.csv
+                   Anapara "C"          2.6100               anapara c                                                                                                                                            UPERC APR FY2022-23 (25-05-2023) Sec Thermal-IPP p.351-352, LANCO (Lanco Anpara C 2x600) 7116.86 MU @ 2.61 (var-Cr 1855.36); FILED APR estimate, energy/var only (uperc.org). staging/uperc_ipp.csv
+    Akaltara TPP /Nariyara TPP          3.3800       akaltara nariyara                                                                                                                                                                 UPERC APR FY2022-23 (25-05-2023) p.351-352, KSK MAHANADI 3715.75 MU @ 3.38 (var-Cr 1254.34); multi-state PPA (UP share); FILED APR estimate (uperc.org). staging/uperc_ipp.csv
+                   Anuppur TPP          2.8700                 anuppur                                                                                                                                                                  UPERC APR FY2022-23 (25-05-2023) p.351-352, M.B.POWER (PTC) Anuppur 2679.97 MU @ 2.87 (var-Cr 770.05); FILED APR estimate, energy/var only (uperc.org). staging/uperc_ipp.csv
+                  Uchpinda TPP          2.2200                uchpinda                                                                                                                                                                     UPERC APR FY2022-23 (25-05-2023) p.351-352, R.K.M.POWER Uchpinda 2355.45 MU @ 2.22 (var-Cr 522.29); FILED APR estimate, energy/var only (uperc.org). staging/uperc_ipp.csv
+                      Rosa TPP          3.1400                    rosa                                                                                                                                                          UPERC APR FY2022-23 (25-05-2023) p.351-352, ROSA-1&2 (Reliance Rosa 4x300) 5452.39 MU @ 3.14 (var-Cr 1714.69); FILED APR estimate, energy/var only (uperc.org). staging/uperc_ipp.csv
+               Rosa TPP Ph - 1          3.1400                  rosa 1                                                                                                                                                                                UPERC APR FY2022-23 (25-05-2023) p.351-352, same ROSA-1&2 station rate 3.14 (UPERC gives no phase split); FILED APR estimate (uperc.org). staging/uperc_ipp.csv
+                      Nawapara          2.3200                nawapara                                                                                                                                                                UPERC APR FY2022-23 (25-05-2023) p.351-352, TRN ENERGY (PTC) Nawapara 1912.64 MU @ 2.32 (var-Cr 443.93); FILED APR estimate, energy/var only (uperc.org). staging/uperc_ipp.csv
+                  Barkhera TPP          4.6200                barkhera                                                                                                                                                     UPERC APR FY2022-23 (25-05-2023) p.351-352, BEPL BARKHERA (Bajaj Energy 45MW) 182.01 MU @ 4.62 (var-Cr 84.04); small high-cost unit; FILED APR estimate (uperc.org). staging/uperc_ipp.csv
+             Indra Gandhi STPP          4.0900       indra gandhi stpp SECONDARY (not a regulatory order): ICRA 'Aravali Power Company Pvt Ltd: Ratings reaffirmed' 19-Mar-2024 p.1 verbatim 'variable/energy charge stood at Rs. 4.09 per unit for FY2023'; APCPL Jhajjar 3x500, energy-only excl partial-loading comp. Primary CERC 489/GT/2020 ECR 3.475 is 2018-basis (excluded). staging/ntpc_jhajjar_bhilai.csv
 
 Where real ECR replaced the model:
                           name coal_source coal_grade  variable_cost_rs_per_kwh  ecr_rs_per_kwh  plf_pct
+                       Barauni    domestic        G13                  2.004449          2.6850      4.3
                       Durgapur    domestic        G15                  3.331040          3.4340      5.9
                Ghtp (Leh.Moh.)    domestic        G11                  2.424042          3.6824      6.4
+                  Uchpinda TPP    domestic        G15                  2.115396          2.2200     20.1
                    Chhabra Tps    domestic        G13                  2.107915          3.0500     22.6
              JSW Ratnagiri TPP    imported         G7                  4.657400          3.9390     23.5
                      Wanakbori    domestic        G12                  2.183664          4.2320     23.8
@@ -76,11 +100,14 @@ Where real ECR replaced the model:
                      Suratgarh    domestic        G14                  2.105579          4.2200     30.5
                Chandrapur_Coal    domestic        G15                  2.404848          3.1250     32.1
                      Suratgarh    domestic        G14                  2.192524          4.2200     32.4
+                  Barkhera TPP    domestic        G13                  2.470015          4.6200     32.9
                       Bhusawal    domestic        G13                  3.220604          3.5420     32.9
                      Wanakbori    domestic        G13                  2.370869          4.2320     33.4
+                  Barkhera TPP    domestic        G13                  2.470086          4.6200     33.8
                         Obra-A    domestic        G13                  2.260920          2.5800     34.2
                  Kutch Lignite     lignite        G17                  2.548250          3.1130     34.9
                     Sikka Extn    imported         G8                  5.072540          3.9560     35.5
+                      Nawapara    domestic        G15                  2.228043          2.3200     35.5
                          Ropar    domestic        G12                  2.276936          3.6037     35.7
                      Wanakbori    domestic        G13                  2.296214          4.2320     35.7
                         Nashik    domestic        G16                  2.572800          3.8680     38.2
@@ -94,8 +121,11 @@ Where real ECR replaced the model:
                      Marwa TPP    domestic        G13                  2.188036          1.8370     42.0
          Raghunathpur TPP Ph-I    domestic        G13                  1.916876          3.8810     43.6
                          Ropar    domestic        G12                  2.276936          3.6037     43.6
+                      Unchahar    domestic        G12                  2.130461          4.3570     43.7
+                 R_Gundem Stps    domestic        G13                  2.070419          4.0850     44.4
                      Ukai_Coal    domestic        G13                  2.266644          3.9150     44.4
                          Ropar    domestic        G12                  2.277001          3.6037     44.6
+                  Uchpinda TPP    domestic        G15                  2.113334          2.2200     44.7
                          Parli    domestic        G14                  2.297364          4.5330     44.7
                         Anpara    domestic        G13                  1.956065          1.9410     45.3
                Chandrapur_Coal    domestic        G15                  2.327548          3.1250     45.7
@@ -110,18 +140,24 @@ Where real ECR replaced the model:
                          Ropar    domestic        G12                  2.276936          3.6037     49.7
                  North Chennai    domestic        G14                  2.536419          3.5900     50.0
                        Paricha    domestic        G13                  2.153674          3.6570     50.1
+                  Farakka Stps    domestic        G12                  1.845813          3.5500     50.3
                      Kalisindh    domestic        G12                  2.033999          2.9500     50.5
                Chandrapur_Coal    domestic        G14                  2.483512          3.1250     50.5
                     K_Kheda Ii    domestic        G13                  2.621069          3.2310     50.8
+                      Unchahar    domestic        G12                  2.063290          4.3570     50.9
                      Tuticorin    domestic        G15                  2.382821          3.9600     51.0
+                  Uchpinda TPP    domestic        G15                  2.135017          2.2200     51.3
                   Gandhi Nagar    domestic        G13                  2.109335          4.2930     51.6
                       H_Ganj B    domestic        G13                  2.122355          3.9400     51.7
                      Marwa TPP    domestic        G13                  2.224492          1.8370     51.7
                Chandrapur_Coal    domestic        G15                  2.267603          3.1250     51.7
+                 R_Gundem Stps    domestic        G13                  1.977583          4.0850     51.8
                         Anpara    domestic        G14                  2.180568          1.9410     52.0
                      Tuticorin    domestic        G15                  2.392166          3.9600     52.6
                 Mettur Tps Ext    domestic        G15                  2.043608          4.9960     52.7
+             Indra Gandhi STPP    domestic        G12                  1.928760          4.0900     53.0
                          Mejia    domestic        G13                  2.127906          3.6490     53.1
+                      Nawapara    domestic        G15                  2.108680          2.3200     53.3
                          Parli    domestic        G14                  2.222608          4.5330     53.5
                Ghtp (Leh.Moh.)    domestic        G11                  2.092120          3.6824     53.6
                      Suratgarh    domestic        G14                  2.115430          4.2200     53.7
@@ -129,35 +165,52 @@ Where real ECR replaced the model:
                  North Chennai    domestic        G14                  2.520191          3.5900     54.3
                      Tuticorin    domestic        G15                  2.385564          3.9600     54.7
                      Ukai_Coal    domestic        G13                  2.016079          3.9150     54.9
+                  Uchpinda TPP    domestic        G15                  2.166937          2.2200     54.9
         Rajiv Gandhi Tps Hisar    domestic        G14                  2.037250          3.6390     55.1
                        Paricha    domestic        G13                  2.147304          3.6570     55.3
+                      Unchahar    domestic        G12                  1.901824          4.3570     55.6
 Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.391410          3.9900     55.7
                         Obra-A    domestic        G13                  2.299952          2.5800     55.7
                      Ukai_Coal    domestic        G13                  1.960701          3.9150     56.3
                          Mejia    domestic        G13                  2.129325          3.6490     56.3
+                 Dadri (NcTPP)    domestic        G12                  1.870970          4.3860     56.4
        North Chennai Extension    domestic        G15                  2.142884          3.9400     56.5
+                 Dadri (NcTPP)    domestic        G12                  2.018179          4.3860     56.7
                      Tuticorin    domestic        G15                  2.384381          3.9600     56.7
                       Kolaghat    domestic        G14                  2.378687          2.7841     56.8
          Raghunathpur TPP Ph-I    domestic        G13                  1.903878          3.8810     56.9
+             Indra Gandhi STPP    domestic        G12                  1.928760          4.0900     57.2
                      Kalisindh    domestic        G12                  2.013387          2.9500     57.6
 Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.425105          3.9900     57.7
                          Paras    domestic        G14                  2.230239          3.2870     58.3
                         Mettur    domestic        G15                  2.147529          4.9960     58.5
                         Obra-A    domestic        G13                  2.355518          2.5800     58.8
+                  Farakka Stps    domestic        G12                  1.857002          3.5500     58.9
                      Suratgarh    domestic        G14                  2.087761          4.2200     59.5
                          Parli    domestic        G14                  2.234345          4.5330     59.5
+    Akaltara TPP /Nariyara TPP    domestic        G12                  1.966457          3.3800     59.6
+                  Farakka Stps    domestic        G12                  1.994035          3.5500     60.1
                       Kolaghat    domestic        G14                  2.348440          2.7841     60.3
                          Mejia    domestic        G13                  2.126700          3.6490     60.4
                      Wanakbori    domestic        G13                  2.241955          4.2320     60.4
+    Akaltara TPP /Nariyara TPP    domestic        G12                  1.949567          3.3800     60.6
                   Gandhi Nagar    domestic        G13                  2.110580          4.2930     60.6
                    Chhabra Tps    domestic        G13                  2.098253          3.0500     60.7
+                     Kahalgaon    domestic        G13                  2.049759          3.6140     60.8
                       Kolaghat    domestic        G14                  2.375921          2.7841     61.0
+                      Unchahar    domestic        G12                  2.106059          4.3570     61.1
                       Bhusawal    domestic        G13                  2.286781          3.5420     61.1
+                 Dadri (NcTPP)    domestic        G12                  1.995908          4.3860     61.2
                      Wanakbori    domestic        G13                  2.120962          4.2320     61.8
                  Amaravati TPP    domestic        G13                  1.888655          2.4520     61.9
+                      Rosa TPP    domestic        G12                  1.867870          3.1400     62.1
                       Kolaghat    domestic        G14                  2.315398          2.7841     62.1
+                      Simhadri    domestic        G14                  2.082294          4.4510     62.2
+                     Kahalgaon    domestic        G13                  2.087615          3.6140     62.2
                        Paricha    domestic        G13                  2.116242          3.6570     62.2
 Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.235820          3.9900     62.4
+                 R_Gundem Stps    domestic        G13                  1.955935          4.0850     62.5
+                      Simhadri    domestic        G15                  1.983484          4.4510     62.9
                         Mettur    domestic        G15                  2.166734          4.9960     62.9
                     Mouda Stps    domestic        G14                  1.954808          4.1510     63.0
           Barsingar Ligniteite     lignite        G15                  1.647600          0.8480     63.2
@@ -168,23 +221,43 @@ Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.235820 
         Rajiv Gandhi Tps Hisar    domestic        G14                  2.046902          3.6390     63.7
                        Paricha    domestic        G13                  2.173427          3.6570     63.8
                Ghtp (Leh.Moh.)    domestic        G11                  2.014775          3.6824     64.2
+                     Kahalgaon    domestic        G13                  1.971340          3.6140     64.3
+                 R_Gundem Stps    domestic        G13                  1.907318          4.0850     64.4
+             Vallur NTPC/Ntecl    domestic        G14                  2.083566          3.4780     64.7
+             Vallur NTPC/Ntecl    domestic        G14                  2.083566          3.4780     64.8
+    Akaltara TPP /Nariyara TPP    domestic        G13                  1.916539          3.3800     65.0
+                   Anuppur TPP    domestic        G13                  2.073810          2.8700     65.0
                      Wanakbori    domestic        G13                  2.199421          4.2320     65.0
+        Nabi Nagar TPP (Brbcl)    domestic        G13                  2.061064          2.7500     65.2
+        Nabi Nagar TPP (Brbcl)    domestic        G13                  2.061064          2.7500     65.2
+                     Kahalgaon    domestic        G13                  2.044916          3.6140     65.2
+                      Rosa TPP    domestic        G12                  1.874628          3.1400     65.3
                          Mejia    domestic        G13                  2.082423          3.6490     65.3
 Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.403624          3.9900     65.3
+                 Dadri (NcTPP)    domestic        G12                  2.000488          4.3860     65.4
                        Panipat    domestic        G12                  2.141977          3.7230     65.5
                     Korba-West    domestic        G13                  2.382492          1.5080     65.7
+               Rosa TPP Ph - 1    domestic        G12                  1.847071          3.1400     65.8
+                 Dadri (NcTPP)    domestic        G12                  1.998985          4.3860     65.9
                    Rayal Seema    domestic        G14                  2.291945          4.3300     66.2
                   Gandhi Nagar    domestic        G13                  2.090843          4.2930     66.3
                          Paras    domestic        G14                  2.259184          3.2870     66.4
 Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.369284          3.9900     66.4
+             Indra Gandhi STPP    domestic        G12                  1.928760          4.0900     67.0
                    Rayal Seema    domestic        G14                  2.213741          4.3300     67.0
                           Kota    domestic        G14                  2.167654          3.3900     67.0
                      Tuticorin    domestic        G15                  2.357926          3.9600     67.3
                    Rayal Seema    domestic        G14                  2.245542          4.3300     67.5
                         Mettur    domestic        G15                  2.152096          4.9960     67.9
+                 Dadri (NcTPP)    domestic        G12                  1.928846          4.3860     68.2
+                  Farakka Stps    domestic        G12                  1.915461          3.5500     68.7
                          Mejia    domestic        G13                  2.119676          3.6490     68.7
+                      Unchahar    domestic        G12                  2.114696          4.3570     68.7
+                   Anapara “C”    domestic        G13                  1.832150          2.6100     68.9
                     Korba-West    domestic        G13                  2.229088          1.5080     68.9
+                   Anuppur TPP    domestic        G13                  2.073810          2.8700     69.3
                    Chandrapura    domestic        G12                  2.055084          3.6240     69.3
+                      Unchahar    domestic        G12                  2.075546          4.3570     69.3
                        Panipat    domestic        G12                  2.144152          3.7230     69.4
 Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.284494          3.9900     69.5
                         Obra-A    domestic        G13                  2.268443          2.5800     69.5
@@ -193,64 +266,98 @@ Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.284494 
                         Anpara    domestic        G14                  2.173912          1.9410     70.0
                Chandrapur_Coal    domestic        G14                  1.999185          3.1250     70.1
                         Obra-A    domestic        G13                  2.252475          2.5800     70.3
+               Rosa TPP Ph - 1    domestic        G12                  1.941684          3.1400     70.7
+                 R_Gundem Stps    domestic        G13                  1.939559          4.0850     71.3
                Yamunanagar TPP    domestic        G14                  1.971501          3.5740     71.4
+                  Farakka Stps    domestic        G12                  1.878835          3.5500     71.8
+                  Farakka Stps    domestic        G12                  1.992206          3.5500     72.0
             Durgapur Steel Tps    domestic        G12                  1.919665          3.7930     72.2
+                 R_Gundem Stps    domestic        G13                  1.982323          4.0850     72.2
+                 Barauni (Ext)    domestic        G13                  2.004075          2.6850     72.2
              Korba-V(Dspm Tps)    domestic        G14                  2.009712          1.6120     72.2
+                      Simhadri    domestic        G14                  2.128295          4.4510     72.7
                     Korba-West    domestic        G13                  2.166162          1.5080     73.0
                           Kota    domestic        G14                  2.142377          3.3900     73.1
                    Chhabra Tps    domestic        G12                  2.082188          3.0500     73.1
+                 R_Gundem Stps    domestic        G13                  1.970999          4.0850     73.5
               Vijaywada TPP-Iv    domestic        G13                  2.054467          3.6300     73.6
                Vindh_Chal Stps    domestic        G13                  1.953408          1.6330     73.6
                Chandrapur_Coal    domestic        G14                  2.026788          3.1250     73.7
                     Mouda Stps    domestic        G14                  1.947538          4.1510     73.8
           Barsingar Ligniteite     lignite        G15                  1.654200          0.8480     73.8
+                      Simhadri    domestic        G14                  2.125296          4.4510     73.9
                    Chandrapura    domestic        G12                  1.950769          3.6240     73.9
                     K_Kheda Ii    domestic        G13                  2.257433          3.2310     73.9
+                  Talcher Stps    domestic        G14                  1.985201          1.9870     74.6
+                Singrauli Stps    domestic        G12                  1.921761          1.6700     74.9
+                        Rihand    domestic        G12                  1.849665          1.7540     75.1
                           Kota    domestic        G13                  2.042179          3.3900     75.1
+                     Kahalgaon    domestic        G13                  1.944010          3.6140     75.2
                  Amaravati TPP    domestic        G13                  1.927767          2.4520     75.2
+                     Kahalgaon    domestic        G13                  2.066081          3.6140     75.5
                Vindh_Chal Stps    domestic        G12                  2.012064          1.6330     75.5
+                 Barauni (Ext)    domestic        G13                  2.013969          2.6850     75.6
                Yamunanagar TPP    domestic        G14                  1.973556          3.5740     75.8
+                Singrauli Stps    domestic        G12                  1.956527          1.6700     75.8
                        Koderma    domestic        G11                  1.948843          3.5400     75.8
                  Amaravati TPP    domestic        G13                  1.907357          2.4520     76.0
                Neyveli New TPP     lignite        G16                  1.600250          2.1150     76.0
                         Anpara    domestic        G14                  2.160894          1.9410     76.1
                     Sipat Stps    domestic        G13                  1.963467          1.5680     76.3
                  Mejia Tps Ext    domestic        G13                  1.955408          3.6490     76.3
+               Muzaffarpur Exp    domestic        G13                  1.976111          2.9200     76.3
                     Korba-West    domestic        G13                  2.191707          1.5080     76.3
                      Bakreswar    domestic        G11                  1.779660          1.8290     76.5
                         Bandel    domestic        G13                  2.246601          2.1709     76.5
                        Panipat    domestic        G12                  2.135621          3.7230     76.6
                          Mejia    domestic        G13                  2.064743          3.6490     76.7
                 Sagardighi TPP    domestic        G12                  1.857590          1.7911     76.8
+                Singrauli Stps    domestic        G12                  1.971104          1.6700     77.0
                Neyveli New TPP     lignite        G16                  1.599150          2.1150     77.4
+                        Rihand    domestic        G12                  1.840918          1.7540     77.5
+                   Anapara “C”    domestic        G13                  1.832150          2.6100     77.6
                Vindh_Chal Stps    domestic        G13                  1.930047          1.6330     77.6
                 Sagardighi TPP    domestic        G12                  1.857590          1.7911     78.1
                         Mettur    domestic        G15                  2.110862          4.9960     78.1
+             Vallur NTPC/Ntecl    domestic        G14                  2.083566          3.4780     78.3
+                        Rihand    domestic        G12                  1.808444          1.7540     78.3
                Vindh_Chal Stps    domestic        G12                  1.897449          1.6330     78.4
+                Singrauli Stps    domestic        G12                  1.918014          1.6700     78.4
                      Santaldih    domestic        G13                  2.095820          1.9497     78.4
                     Korba Stps    domestic        G14                  1.892353          1.6120     78.9
                Vindh_Chal Stps    domestic        G12                  1.905858          1.6330     79.3
+                  Talcher Stps    domestic        G14                  1.963070          1.9870     79.4
                  Amaravati TPP    domestic        G13                  1.902865          2.4520     79.6
                      Bakreswar    domestic        G11                  1.941072          1.8290     79.7
+        Nabi Nagar TPP (Brbcl)    domestic        G13                  2.061064          2.7500     80.3
+                     Kahalgaon    domestic        G13                  1.947739          3.6140     80.4
                  Mejia Tps Ext    domestic        G13                  1.951422          3.6490     80.5
+                  Talcher Stps    domestic        G14                  1.969238          1.9870     80.8
                     Korba Stps    domestic        G13                  2.027261          1.6120     80.8
              Korba-V(Dspm Tps)    domestic        G14                  2.024121          1.6120     81.0
+                Singrauli Stps    domestic        G12                  1.969258          1.6700     81.0
             Durgapur Steel Tps    domestic        G12                  1.919051          3.7930     81.3
+        Nabi Nagar TPP (Brbcl)    domestic        G13                  2.061064          2.7500     81.4
                        Koderma    domestic        G11                  1.933919          3.5400     81.4
               Bokaro A ‘’Exp’’    domestic        G11                  1.800043          2.7710     81.7
                Vindh_Chal Stps    domestic        G12                  1.986034          1.6330     81.7
                Vindh_Chal Stps    domestic        G13                  1.850775          1.6330     81.9
                           Kota    domestic        G13                  2.050944          3.3900     81.9
                         Anpara    domestic        G13                  1.929169          1.9410     82.2
+               Muzaffarpur Exp    domestic        G13                  1.985096          2.9200     82.3
                     Korba Stps    domestic        G14                  1.927078          1.6120     82.4
                Vindh_Chal Stps    domestic        G13                  1.929745          1.6330     84.4
                 Korba-West Ext    domestic        G13                  1.997244          1.5080     84.8
                Vindh_Chal Stps    domestic        G13                  1.843361          1.6330     85.1
                 Sagardighi TPP    domestic        G12                  1.897180          1.7911     85.1
+                Singrauli Stps    domestic        G12                  1.919440          1.6700     85.4
+                  Talcher Stps    domestic        G14                  1.999101          1.9870     85.9
                     Sipat Stps    domestic        G13                  1.934010          1.5680     86.6
+                  Talcher Stps    domestic        G14                  1.978707          1.9870     86.8
                 Sagardighi TPP    domestic        G12                  1.896916          1.7911     87.0
                Vindh_Chal Stps    domestic        G13                  1.864469          1.6330     87.4
                         Anpara    domestic        G13                  1.858666          1.9410     87.7
+                Singrauli Stps    domestic        G12                  1.962278          1.6700     88.2
                      Bakreswar    domestic        G11                  1.795789          1.8290     88.3
                     Korba Stps    domestic        G14                  1.916629          1.6120     88.6
                      Bakreswar    domestic        G11                  1.851018          1.8290     88.7
@@ -260,6 +367,10 @@ Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.284494 
                      Santaldih    domestic        G13                  2.079722          1.9497     89.4
                      Bakreswar    domestic        G11                  1.858533          1.8290     89.4
                     Korba Stps    domestic        G13                  2.023381          1.6120     89.5
+                        Rihand    domestic        G12                  1.830627          1.7540     89.6
+                        Rihand    domestic        G12                  1.832214          1.7540     89.7
+                        Rihand    domestic        G12                  1.825516          1.7540     89.8
+                  Talcher Stps    domestic        G14                  1.953907          1.9870     89.9
                Vindh_Chal Stps    domestic        G13                  1.827868          1.6330     90.5
                     Korba Stps    domestic        G13                  1.992561          1.6120     90.7
                Vindh_Chal Stps    domestic        G13                  1.826198          1.6330     91.2
@@ -267,7 +378,7 @@ Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.284494 
 ----------------------------------------------------------------------
 Cost-vs-carbon re-dispatch on the BLENDED cost (same total energy):
 ----------------------------------------------------------------------
-  Actual      : fuel cost Rs 185,543 cr | CO2 777.9 MT
-  Cost-merit  : fuel cost Rs 155,233 cr | CO2 781.4 MT
-  Carbon-merit: fuel cost Rs 187,505 cr | CO2 746.0 MT
-  Cost-vs-carbon gap: +35.4 MT CO2 for Rs +32,272 cr.
+  Actual      : fuel cost Rs 206,922 cr | CO2 777.9 MT
+  Cost-merit  : fuel cost Rs 178,186 cr | CO2 789.7 MT
+  Carbon-merit: fuel cost Rs 214,027 cr | CO2 746.0 MT
+  Cost-vs-carbon gap: +43.7 MT CO2 for Rs +35,841 cr.
