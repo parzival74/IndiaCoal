@@ -87,7 +87,7 @@ REPORT.md            the analysis write-up (main deliverable)
 README.md            quick start + pipeline table
 CLAUDE.md            this file
 requirements.txt     pandas, numpy, scipy, openpyxl
-data/raw/            source xlsx; cil_grade_prices_fy2022-23.csv (REAL); plant_ecr_cerc_2018basis.csv (REAL, cross-check); datagov_tariff_ecr_2021-23.csv (REAL central ECR, 2021-23, cross-check); plant_ecr_template.csv; (drop plant_ecr.csv + sced_blocks.csv here)
+data/raw/            source xlsx; cil_grade_prices_fy2022-23.csv (REAL); plant_ecr.csv (REAL FY2022-23 per-station ECR, 20 stns/78 units, consumed by 06); sources/ (archived regulatory PDFs); plant_ecr_cerc_2018basis.csv (REAL, cross-check); datagov_tariff_ecr_2021-23.csv (REAL central ECR, 2021-23, cross-check); plant_ecr_template.csv; (drop sced_blocks.csv here)
 data/                cse_subcritical_clean.csv, plant_cost_blended.csv, plant_real_ecr_central.csv (10), plant_cost_reconstructed.csv (11)  (generated)
 analysis/            common.py + numbered pipeline scripts (01–11) + fetch_datagov_ecr.py + run_all.py
 outputs/             *.txt results (committed)
@@ -111,9 +111,10 @@ Pipeline scripts:
 - `04_redispatch.py` — cost-vs-carbon counterfactual on modelled cost.
 - `05_flexibility_framework.py` — H1 ramp/cycling metrics framework (needs
   block-level SCED at `data/raw/sced_blocks.csv`; runs on synthetic demo otherwise).
-- `06_apply_ecr.py` — FY2022-23 **metered** per-station ECR override from
-  `data/raw/plant_ecr.csv` (currently empty: feeds down → 0% coverage; headline =
-  real-CIL model). Fuzzy-matches names, reports coverage, re-runs the counterfactual.
+- `06_apply_ecr.py` — FY2022-23 per-station ECR override from
+  `data/raw/plant_ecr.csv` (**20 stations / 78 of 455 units = 17.1% real coverage**;
+  rest fall back to the real-CIL model). Fuzzy-matches names, reports the
+  real-vs-modelled split, re-runs the counterfactual.
 - `07_fetch_ecr.py` — **fetches real data** from cercind.gov.in: CIL grade prices
   (→02) + CERC per-station ECR (→08, 2018-basis); probes the FY2022-23 feeds (down).
   Needs network + pdfplumber/pypdfium2. Not in run_all (committed CSVs make it offline).
@@ -153,18 +154,23 @@ Goal: replace modelled coal prices with real published data, FY2022-23 vintage.
   CERC's ECR is computed on Oct–Dec 2018 coal cost (2018-19 basis) — vintage rule.
   Explicit curated name aliases (a difflib match wrongly hit "Bhadradri" for Dadri).
 
-**KEY FINDING / why not 100%:** the genuinely FY2022-23 **metered** per-station ECR
-feeds — **Grid-India SCED, POSOCO eLibrary, state SLDC stacks, MERIT/NPP — all returned
-HTTP 503 / refused** this session (cercind.gov.in and coal.gov.in were 200). So the
-FY2022-23 per-station override (`06`, `data/raw/plant_ecr.csv`) has **0% real coverage**
-and the headline cost rests on the real-CIL-grounded model. We refuse to fabricate it.
+**DONE (later session) — FY2022-23 per-station ECR partially harvested.** The interactive
+metered feeds (MERIT TLS-resets; Grid-India SCED / POSOCO 503) stayed down, so the
+FY2022-23 per-station energy charge was harvested from **published, date-stamped regulatory
+documents** instead → `data/raw/plant_ecr.csv`, **20 stations / 78 of 455 units = 17.1%**,
+each with a precise citation, energy-charge only, FY2022-23 vintage. Sources:
+MahaGenco/MSPGCL monthly Energy Bill (7 MH stns + 2 MH IPPs), MahaSLDC DISCOM-wise MOD
+stack (4 NTPC central subcritical), RERC review order RERC/2031/22 (4 RRVUNL), HPGCL
+FY2022-23 tariff petition (3 HPGCL, **flagged as filed petition not HERC-approved order**).
+Raw artefacts under `data/raw/sources/`; harvest log in `docs/ecr_scrape_notes.md`.
 
-**REMAINING (next session, when those feeds are up):**
-1. Verify: `curl -s -o /dev/null -w '%{http_code}' https://grid-india.in` → 200.
-2. Implement the SCED/SLDC/MERIT parser in `07_fetch_ecr.py` (it refuses fake data).
-3. `python3 analysis/07_fetch_ecr.py` → writes `data/raw/plant_ecr.csv` (FY2022-23 only).
-4. `python3 analysis/06_apply_ecr.py` → real-coverage override + counterfactual.
-5. Update REPORT.md §7 coverage; commit; push to the working branch.
+**REMAINING (next session) — push coverage past 17.1%:**
+1. UPRVUNL (UPERC "Previous Years" archive / cer.iitk UPERC hub) — 18 units / 5.05 GW.
+2. GSECL (GERC order or gsecl.in true-up; server was slow/timing out) — 18 units / 3.86 GW.
+3. WBPDC — WBERC PDFs are **scanned** (no text) → need OCR; 16 units / 4.2 GW.
+4. NTPC-rest / DVC / TNEB / APGENCO / TSGENCO / KPCL via each SERC/CERC FY2022-23 order.
+5. Replace the HPGCL petition rows with the HERC-approved generation order if/when located.
+6. Re-run `06_apply_ecr.py`; update REPORT §7 coverage; commit; push.
 
 ## Working conventions
 - **Honesty over polish:** never fabricate data. Label modelled vs real clearly

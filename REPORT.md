@@ -246,13 +246,32 @@ applies. On the ex-mine price we add the **published statutory levies** (royalty
 vintaged; freight is the one remaining assumption — and it is flat, because
 per-plant lead distance isn't in the dataset.
 
-**(b) FY2022-23 *metered per-station* ECR — wanted, but the feeds were down.**
-The genuinely FY2022-23, station-level energy-charge feeds (**Grid-India SCED**,
-**POSOCO eLibrary**, **state SLDC daily merit-order stacks**, **MERIT**) all
-returned HTTP 503 / connection-refused this session. So the FY2022-23 override
-(`06_apply_ecr.py`, reading `data/raw/plant_ecr.csv`) has **0% real coverage** — we
-refuse to fabricate it — and the headline cost falls back to the real-CIL model in
-(a). `06` reports this explicitly.
+**(b) FY2022-23 *metered/approved per-station* ECR — partial real coverage now
+harvested.** The interactive metered feeds (**MERIT**, **Grid-India SCED**,
+**POSOCO eLibrary**) remained unreachable (MERIT TLS-resets; POSOCO/Grid-India 503),
+but we obtained genuine FY2022-23, station-level energy charges from **published,
+date-stamped regulatory documents** instead, and wrote them to `data/raw/plant_ecr.csv`
+(consumed by `06_apply_ecr.py`). **20 stations → 78/455 units = 17.1% real coverage**,
+each row carrying a precise citation, energy/variable charge only, FY2022-23 vintage:
+- **MahaGenco/MSPGCL monthly Energy Bill to MSEDCL** (mahagenco.in fuel-data) — metered
+  per-station Energy Rate (₹/Unit), gen-weighted mean of the two FY-endpoint months
+  Apr-2022 & Mar-2023: **7 MahaGenco stations + 2 Maharashtra IPPs** (RattanIndia
+  Amravati, JSW Jaigad) off the embedded MahaSLDC DISCOM-wise MOD stack.
+- **MahaSLDC DISCOM-wise MOD stack** (CERC Approved Variable Charge, change-in-law = 0)
+  — **4 NTPC central subcritical stations** (Vindhyachal, Korba, Sipat-II, Mouda-I),
+  capacity-weighted across stages, two-month mean.
+- **RERC review order RERC/2031/22, Table 3 "Approved tariff for FY 2022-23"** — approved
+  Rate of energy charges (= Energy Cr / Net Gen MU) for **4 RRVUNL stations** (Suratgarh,
+  Kota, Chhabra, Kalisindh).
+- **HPGCL FY2022-23 tariff petition, Table 38/47** — proposed ECR per HERC MYT Reg 31 for
+  **3 HPGCL stations** (Panipat, Yamunanagar/DCRTPP, Rajiv Gandhi/RGTPP). *Flagged as a
+  filed petition, not the HERC-approved order* (the generation order was not locatable
+  online this session). The remaining ~340 state/private/uncovered-central units still
+  fall back to the real-CIL model in (a); `06` reports the real-vs-modelled split and
+  flags every unit via `vc_source`. Raw artefacts archived under `data/raw/sources/`;
+  the harvest log (found / not-found / deferred) is in [`docs/ecr_scrape_notes.md`](docs/ecr_scrape_notes.md).
+  Deferred for the next pass (servers slow/unreachable this session): UPRVUNL (UPERC
+  archive), GSECL (GERC/gsecl.in), WBPDC (WBERC PDFs are scanned → need OCR).
 
 **(c) CERC tariff-order ECR — real per-station, but wrong vintage → cross-check
 only.** CERC orders *are* reachable, and we extracted the determined ECR for **14
@@ -280,12 +299,14 @@ figure for Talcher Stage-II is **₹1.85/kWh on the 2018-19 basis** vs ₹1.98 m
 — pithead, and the model can't see why it's cheap.) Full detail in
 [`docs/methodology_variable_cost.md`](docs/methodology_variable_cost.md).
 
-> **Network status (2026-06, Full access):** cercind.gov.in and coal.gov.in are
-> reachable (CERC even hosts the CIL price-notification archive). grid-india.in /
-> POSOCO eLibrary / meritindia.in returned **HTTP 503** — so the FY2022-23 metered
-> per-station ECR could not be harvested. `analysis/07_fetch_ecr.py` re-fetches the
-> CIL prices and CERC orders from source and probes those feeds; it writes
-> `plant_ecr.csv` only when a real FY2022-23 feed comes back up.
+> **Network status (2026-06, Full access):** cercind.gov.in, coal.gov.in,
+> mahagenco.in, cer.iitk.ac.in (IIT-Kanpur ERC Hub) and hpgcl.org.in are reachable.
+> meritindia.in still **TLS-resets** and grid-india.in / POSOCO eLibrary return
+> **HTTP 503**, so the live *interactive* metered feeds are unavailable — but the
+> FY2022-23 per-station energy charge was instead harvested from published, date-stamped
+> regulatory documents (MahaGenco fuel-data, MahaSLDC MOD stack, RERC order, HPGCL
+> petition) → **20 stations / 78 units** now in `data/raw/plant_ecr.csv`.
+> `analysis/07_fetch_ecr.py` re-fetches the CIL prices and CERC orders from source.
 
 ---
 
@@ -293,16 +314,17 @@ figure for Talcher Stage-II is **₹1.85/kWh on the 2018-19 basis** vs ₹1.98 m
 
 | # | Extension | Status | Blocking data (not in file) |
 |---|---|---|---|
-| 1 | Variable cost (₹/kWh) | Domestic price on **real CIL FY2022-23** notified prices + levies; FY2022-23 per-station override layer (`06`) ready but feeds down; **CERC 2018-basis cross-check** (`08`) | FY2022-23 *metered* per-station ECR (SCED/SLDC/MERIT) for the within-fleet freight spread |
+| 1 | Variable cost (₹/kWh) | Domestic price on **real CIL FY2022-23** notified prices + levies; FY2022-23 per-station override layer (`06`) at **17.1% real coverage (20 stations / 78 units)** from regulatory docs; **CERC 2018-basis cross-check** (`08`) | FY2022-23 *metered* per-station ECR for the remaining ~340 state/private units (interactive SLDC/MERIT feeds still down) |
 | 2 | Grid-region / load proximity | Coarse proxy (~60% coverage) | Lat/long, RLDC bus, load-pocket, congestion |
 | 3 | Flexibility / ramp (H1) | Framework + synthetic demo | Block-level SCED generation |
 | 4 | Cost-vs-carbon re-dispatch | Done (stylised), on real-CIL cost | Transmission/must-run limits for realism |
 
 See [`docs/data_sources.md`](docs/data_sources.md) for exactly where to obtain the
-missing inputs. **This session reached cercind.gov.in (CERC orders + CIL price
-archive) and coal.gov.in, but grid-india.in / POSOCO / meritindia.in returned HTTP
-503**, so the FY2022-23 metered per-station ECR and live SCED block data could not
-be fetched in-session.
+missing inputs. **This session reached cercind.gov.in, coal.gov.in, mahagenco.in,
+cer.iitk.ac.in and hpgcl.org.in and harvested FY2022-23 per-station ECR for 20
+stations (78/455 units) from published regulatory documents; meritindia.in (TLS-reset)
+and grid-india.in / POSOCO (HTTP 503) remained down**, so the interactive metered feeds
+and live SCED block data still could not be fetched in-session.
 
 ## 9. Side analysis: is efficiency a tighter proxy at pithead plants?
 

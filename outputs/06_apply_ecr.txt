@@ -1,28 +1,119 @@
 ======================================================================
 06 - APPLY PLANT-LEVEL ECR (real data overrides the model)
 ======================================================================
-ECR source file: data/raw/plant_ecr_template.csv (shipped TEMPLATE - replace with real ECR)
-ECR rows supplied: 0
+ECR source file: data/raw/plant_ecr.csv (REAL user data)
+ECR rows supplied: 20
 
-Matched 0/455 units to a published ECR (0.0% coverage); the rest fall back to the model.
+Matched 78/455 units to a published ECR (17.1% coverage); the rest fall back to the model.
 
 Match diagnostics (ECR row -> plant key):
-Empty DataFrame
-Columns: []
-Index: []
+              ecr_name  ecr_rs_per_kwh        matched_key                                                                                                                                                                                                                                                 source
+              Bhusawal           3.542           bhusawal                                                                                    MSPGCL Energy Bill to MSEDCL, station Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 & Mar-2023 (Fuel-data-for-Apr-22.pdf; Fuel-Data-for-Mar-2023.pdf, mahagenco.in)
+       Chandrapur_Coal           3.125    chandrapur coal                                                                           MSPGCL Energy Bill to MSEDCL, station Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 (Unit3-7 2.658, Unit8-9 2.573) & Mar-2023 (3.854/3.335) (mahagenco.in monthly fuel-data)
+            K_Kheda Ii           3.231         k kheda ii                                                                                                            MSPGCL Energy Bill to MSEDCL, Khaperkheda station Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 & Mar-2023 (mahagenco.in monthly fuel-data)
+                Koradi           3.175             koradi                                                                                       MSPGCL Energy Bill to MSEDCL, Koradi subcritical Unit (210 MW) Energy Rate Rs/Unit; mean of Apr-2022 (3.311) & Mar-2023 (3.040) (mahagenco.in monthly fuel-data)
+                Nashik           3.868             nashik                                                                                                        MSPGCL Energy Bill to MSEDCL, Nashik Unit 3-5 Energy Rate Rs/Unit; mean of Apr-2022 (3.569) & Mar-2023 (4.166) (mahagenco.in monthly fuel-data)
+                 Paras           3.287              paras                                                                                                         MSPGCL Energy Bill to MSEDCL, Paras Unit 3-4 Energy Rate Rs/Unit; mean of Apr-2022 (3.146) & Mar-2023 (3.427) (mahagenco.in monthly fuel-data)
+                 Parli           4.533              parli                                                                         MSPGCL Energy Bill to MSEDCL, Parli Unit 6-8 Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 (4.19) & Mar-2023 (4.88); HIGH (old, coal-distant) (mahagenco.in monthly fuel-data)
+         Amaravati TPP           2.452          amaravati                                                                            MahaSLDC DISCOM-wise MOD stack, RattanIndia Power Amravati approved Variable Charge 2.4523 Rs/kWh (constant Apr-2022 & Mar-2023, ex change-in-law) (mahagenco.in fuel-data)
+     JSW Ratnagiri TPP           3.939      jsw ratnagiri                                                                                                                    MahaSLDC DISCOM-wise MOD stack, JSW U1 Jaigad Variable Charge; mean of Apr-2022 (3.169) & Mar-2023 (4.710) (mahagenco.in fuel-data)
+       Vindh_Chal Stps           1.633         vindh chal                                         MahaSLDC DISCOM-wise MOD stack, NTPC Vindhyachal (VSTP-I..V) CERC Approved Variable Charge Rs/KWh, cap-wtd across stages; mean of May-2022 (1.600) & Apr-2023 (1.667) (mahasldc.in via mahagenco.in fuel-data)
+            Korba Stps           1.612              korba                                                 MahaSLDC DISCOM-wise MOD stack, NTPC Korba (KSTPS I&II, KSTPS-III) CERC Approved Variable Charge Rs/KWh, cap-wtd; mean of May-2022 (1.505) & Apr-2023 (1.719) (mahasldc.in via mahagenco.in fuel-data)
+            Sipat Stps           1.568              sipat                                              MahaSLDC DISCOM-wise MOD stack, NTPC Sipat subcritical stage (SSTPS-II, 2x500) CERC Approved Variable Charge Rs/KWh; mean of May-2022 (1.589) & Apr-2023 (1.546) (mahasldc.in via mahagenco.in fuel-data)
+            Mouda Stps           4.151              mouda                                               MahaSLDC DISCOM-wise MOD stack, NTPC Mouda subcritical stage (MSTPS-I, 2x500) CERC Approved Variable Charge Rs/KWh; mean of May-2022 (4.179) & Apr-2023 (4.123) (mahasldc.in via mahagenco.in fuel-data)
+             Suratgarh           4.220          suratgarh                                     RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, STPS (Units 1-6) Rate of energy charges 4.22 Rs/kWh (Energy 4150.92 Cr / 9837.39 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)
+                  Kota           3.390               kota                                     RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, KTPS (Units 1-7) Rate of energy charges 3.39 Rs/kWh (Energy 2758.05 Cr / 8145.77 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)
+           Chhabra Tps           3.050            chhabra                                     RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, CTPP (Units 1-4) Rate of energy charges 3.05 Rs/kWh (Energy 1999.10 Cr / 6558.26 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)
+             Kalisindh           2.950          kalisindh                                    RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, KaTPP (Units 1-2) Rate of energy charges 2.95 Rs/kWh (Energy 2441.45 Cr / 8266.90 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)
+               Panipat           3.723            panipat HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); gen-wtd over PTPS-6 (1407.29 MU @ 3.812), PTPS-7 & PTPS-8 (1688.38 MU @ 3.686 each) = 3.723 Rs/kWh; FILED petition, not HERC-approved order (hpgcl.org.in)
+       Yamunanagar TPP           3.574        yamunanagar                                                   HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); DCRTPP Units 1-2 (Yamunanagar) 3.574 Rs/kWh each; FILED petition, not HERC-approved order (hpgcl.org.in)
+Rajiv Gandhi Tps Hisar           3.639 rajiv gandhi hisar                                                   HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); RGTPP Units 1-2 (Hisar/Khedar) 3.639 Rs/kWh each; FILED petition, not HERC-approved order (hpgcl.org.in)
+
+Where real ECR replaced the model:
+                  name coal_source coal_grade  variable_cost_rs_per_kwh  ecr_rs_per_kwh  plf_pct
+           Chhabra Tps    domestic        G13                  2.107915           3.050     22.6
+     JSW Ratnagiri TPP    imported         G7                  4.657400           3.939     23.5
+                  Kota    domestic        G13                  2.108276           3.390     28.6
+             Suratgarh    domestic        G14                  2.105579           4.220     30.5
+       Chandrapur_Coal    domestic        G15                  2.404848           3.125     32.1
+             Suratgarh    domestic        G14                  2.192524           4.220     32.4
+              Bhusawal    domestic        G13                  3.220604           3.542     32.9
+                Nashik    domestic        G16                  2.572800           3.868     38.2
+                Nashik    domestic        G16                  2.611196           3.868     40.4
+             Suratgarh    domestic        G14                  2.188559           4.220     41.2
+                Nashik    domestic        G15                  2.576974           3.868     41.4
+                 Parli    domestic        G14                  2.297364           4.533     44.7
+       Chandrapur_Coal    domestic        G15                  2.327548           3.125     45.7
+            K_Kheda Ii    domestic        G14                  2.643319           3.231     46.2
+       Chandrapur_Coal    domestic        G15                  2.307537           3.125     47.8
+            K_Kheda Ii    domestic        G13                  2.661092           3.231     49.1
+             Suratgarh    domestic        G14                  2.103748           4.220     49.2
+             Kalisindh    domestic        G12                  2.033999           2.950     50.5
+       Chandrapur_Coal    domestic        G14                  2.483512           3.125     50.5
+            K_Kheda Ii    domestic        G13                  2.621069           3.231     50.8
+       Chandrapur_Coal    domestic        G15                  2.267603           3.125     51.7
+                 Parli    domestic        G14                  2.222608           4.533     53.5
+             Suratgarh    domestic        G14                  2.115430           4.220     53.7
+Rajiv Gandhi Tps Hisar    domestic        G14                  2.037250           3.639     55.1
+             Kalisindh    domestic        G12                  2.013387           2.950     57.6
+                 Paras    domestic        G14                  2.230239           3.287     58.3
+             Suratgarh    domestic        G14                  2.087761           4.220     59.5
+                 Parli    domestic        G14                  2.234345           4.533     59.5
+           Chhabra Tps    domestic        G13                  2.098253           3.050     60.7
+              Bhusawal    domestic        G13                  2.286781           3.542     61.1
+         Amaravati TPP    domestic        G13                  1.888655           2.452     61.9
+            Mouda Stps    domestic        G14                  1.954808           4.151     63.0
+            K_Kheda Ii    domestic        G13                  2.615276           3.231     63.2
+         Amaravati TPP    domestic        G13                  1.854345           2.452     63.4
+                Koradi    domestic        G14                  2.503624           3.175     63.4
+Rajiv Gandhi Tps Hisar    domestic        G14                  2.046902           3.639     63.7
+               Panipat    domestic        G12                  2.141977           3.723     65.5
+                 Paras    domestic        G14                  2.259184           3.287     66.4
+                  Kota    domestic        G14                  2.167654           3.390     67.0
+               Panipat    domestic        G12                  2.144152           3.723     69.4
+              Bhusawal    domestic        G13                  2.292833           3.542     69.7
+           Chhabra Tps    domestic        G13                  2.082368           3.050     69.9
+       Chandrapur_Coal    domestic        G14                  1.999185           3.125     70.1
+       Yamunanagar TPP    domestic        G14                  1.971501           3.574     71.4
+                  Kota    domestic        G14                  2.142377           3.390     73.1
+           Chhabra Tps    domestic        G12                  2.082188           3.050     73.1
+       Vindh_Chal Stps    domestic        G13                  1.953408           1.633     73.6
+       Chandrapur_Coal    domestic        G14                  2.026788           3.125     73.7
+            Mouda Stps    domestic        G14                  1.947538           4.151     73.8
+            K_Kheda Ii    domestic        G13                  2.257433           3.231     73.9
+                  Kota    domestic        G13                  2.042179           3.390     75.1
+         Amaravati TPP    domestic        G13                  1.927767           2.452     75.2
+       Vindh_Chal Stps    domestic        G12                  2.012064           1.633     75.5
+       Yamunanagar TPP    domestic        G14                  1.973556           3.574     75.8
+         Amaravati TPP    domestic        G13                  1.907357           2.452     76.0
+            Sipat Stps    domestic        G13                  1.963467           1.568     76.3
+               Panipat    domestic        G12                  2.135621           3.723     76.6
+       Vindh_Chal Stps    domestic        G13                  1.930047           1.633     77.6
+       Vindh_Chal Stps    domestic        G12                  1.897449           1.633     78.4
+            Korba Stps    domestic        G14                  1.892353           1.612     78.9
+       Vindh_Chal Stps    domestic        G12                  1.905858           1.633     79.3
+         Amaravati TPP    domestic        G13                  1.902865           2.452     79.6
+            Korba Stps    domestic        G13                  2.027261           1.612     80.8
+       Vindh_Chal Stps    domestic        G12                  1.986034           1.633     81.7
+       Vindh_Chal Stps    domestic        G13                  1.850775           1.633     81.9
+                  Kota    domestic        G13                  2.050944           3.390     81.9
+            Korba Stps    domestic        G14                  1.927078           1.612     82.4
+       Vindh_Chal Stps    domestic        G13                  1.929745           1.633     84.4
+       Vindh_Chal Stps    domestic        G13                  1.843361           1.633     85.1
+            Sipat Stps    domestic        G13                  1.934010           1.568     86.6
+       Vindh_Chal Stps    domestic        G13                  1.864469           1.633     87.4
+            Korba Stps    domestic        G14                  1.916629           1.612     88.6
+            Korba Stps    domestic        G13                  2.034569           1.612     89.4
+       Vindh_Chal Stps    domestic        G13                  1.927761           1.633     89.4
+            Korba Stps    domestic        G13                  2.023381           1.612     89.5
+       Vindh_Chal Stps    domestic        G13                  1.827868           1.633     90.5
+            Korba Stps    domestic        G13                  1.992561           1.612     90.7
+       Vindh_Chal Stps    domestic        G13                  1.826198           1.633     91.2
 
 ----------------------------------------------------------------------
 Cost-vs-carbon re-dispatch on the BLENDED cost (same total energy):
 ----------------------------------------------------------------------
-  Actual      : fuel cost Rs 157,724 cr | CO2 777.9 MT
-  Cost-merit  : fuel cost Rs 149,451 cr | CO2 767.1 MT
-  Carbon-merit: fuel cost Rs 164,714 cr | CO2 746.0 MT
-  Cost-vs-carbon gap: +21.1 MT CO2 for Rs +15,263 cr.
-
->>> 0 FY2022-23 metered per-station ECR rows available this session.
->>> The FY2022-23 feeds (Grid-India SCED / POSOCO / state SLDC / MERIT)
->>> were unreachable (HTTP 503 / refused), so the headline cost is the
->>> real-CIL-grounded model from 02. The reachable CERC tariff-order ECRs
->>> are 2018-19 basis -> see the 08 cross-check, not this headline.
->>> Drop real FY2022-23 ECR into data/raw/plant_ecr.csv and re-run when
->>> those feeds are reachable. See docs/data_sources.md.
+  Actual      : fuel cost Rs 166,941 cr | CO2 777.9 MT
+  Cost-merit  : fuel cost Rs 148,757 cr | CO2 771.8 MT
+  Carbon-merit: fuel cost Rs 171,836 cr | CO2 746.0 MT
+  Cost-vs-carbon gap: +25.8 MT CO2 for Rs +23,078 cr.

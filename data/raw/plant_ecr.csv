@@ -1,0 +1,52 @@
+# Plant-level Energy Charge Rate (ECR) override table -- FY2022-23 ONLY.
+# REAL, FY2022-23, per-station energy/variable charge (Rs/kWh). Every row traceable
+# to a published source. Built by the docs/SCRAPE_ECR_PROMPT.md task; method + raw
+# artefacts logged in docs/ecr_scrape_notes.md and saved under data/raw/sources/.
+#
+# Energy/variable charge ONLY (not fixed/capacity charge). Vintage = FY2022-23.
+# columns: match_name,ecr_rs_per_kwh,period,source
+match_name,ecr_rs_per_kwh,period,source
+# --- Maharashtra: MSPGCL (MahaGenco) own stations -----------------------------
+# Metered per-station ENERGY RATE (Rs/Unit) from MSPGCL's monthly Energy Bill to
+# MSEDCL; generation-weighted across unit-groups, then mean of the two FY2022-23
+# endpoint months Apr-2022 & Mar-2023. Raw: data/raw/sources/mahagenco_fuel_apr22.pdf,
+# mahagenco_fuel_mar23.pdf (mahagenco.in monthly fuel-data disclosures).
+Bhusawal,3.542,FY2022-23,"MSPGCL Energy Bill to MSEDCL, station Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 & Mar-2023 (Fuel-data-for-Apr-22.pdf; Fuel-Data-for-Mar-2023.pdf, mahagenco.in)"
+Chandrapur_Coal,3.125,FY2022-23,"MSPGCL Energy Bill to MSEDCL, station Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 (Unit3-7 2.658, Unit8-9 2.573) & Mar-2023 (3.854/3.335) (mahagenco.in monthly fuel-data)"
+K_Kheda Ii,3.231,FY2022-23,"MSPGCL Energy Bill to MSEDCL, Khaperkheda station Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 & Mar-2023 (mahagenco.in monthly fuel-data)"
+Koradi,3.175,FY2022-23,"MSPGCL Energy Bill to MSEDCL, Koradi subcritical Unit (210 MW) Energy Rate Rs/Unit; mean of Apr-2022 (3.311) & Mar-2023 (3.040) (mahagenco.in monthly fuel-data)"
+Nashik,3.868,FY2022-23,"MSPGCL Energy Bill to MSEDCL, Nashik Unit 3-5 Energy Rate Rs/Unit; mean of Apr-2022 (3.569) & Mar-2023 (4.166) (mahagenco.in monthly fuel-data)"
+Paras,3.287,FY2022-23,"MSPGCL Energy Bill to MSEDCL, Paras Unit 3-4 Energy Rate Rs/Unit; mean of Apr-2022 (3.146) & Mar-2023 (3.427) (mahagenco.in monthly fuel-data)"
+Parli,4.533,FY2022-23,"MSPGCL Energy Bill to MSEDCL, Parli Unit 6-8 Energy Rate Rs/Unit; gen-wtd mean of Apr-2022 (4.19) & Mar-2023 (4.88); HIGH (old, coal-distant) (mahagenco.in monthly fuel-data)"
+# --- Maharashtra: private IPPs (from the MahaSLDC DISCOM-wise MOD stack) --------
+Amaravati TPP,2.452,FY2022-23,"MahaSLDC DISCOM-wise MOD stack, RattanIndia Power Amravati approved Variable Charge 2.4523 Rs/kWh (constant Apr-2022 & Mar-2023, ex change-in-law) (mahagenco.in fuel-data)"
+JSW Ratnagiri TPP,3.939,FY2022-23,"MahaSLDC DISCOM-wise MOD stack, JSW U1 Jaigad Variable Charge; mean of Apr-2022 (3.169) & Mar-2023 (4.710) (mahagenco.in fuel-data)"
+# --- Central (NTPC) stations, from the MahaSLDC DISCOM-wise MOD stack ------------
+# CERC Approved Variable Charge (Rs/KWh), change-in-law = 0 for these (pure energy
+# charge). Capacity-weighted across the station's stages by ISGS share MW, then mean
+# of the two FY2022-23 endpoint MOD stacks: MAY-2022 (in Fuel-data-for-Apr-22.pdf)
+# & APR-2023 (in Fuel-Data-for-Mar-2023.pdf). Pithead NTPC stations run ~Rs1.6/kWh.
+Vindh_Chal Stps,1.633,FY2022-23,"MahaSLDC DISCOM-wise MOD stack, NTPC Vindhyachal (VSTP-I..V) CERC Approved Variable Charge Rs/KWh, cap-wtd across stages; mean of May-2022 (1.600) & Apr-2023 (1.667) (mahasldc.in via mahagenco.in fuel-data)"
+Korba Stps,1.612,FY2022-23,"MahaSLDC DISCOM-wise MOD stack, NTPC Korba (KSTPS I&II, KSTPS-III) CERC Approved Variable Charge Rs/KWh, cap-wtd; mean of May-2022 (1.505) & Apr-2023 (1.719) (mahasldc.in via mahagenco.in fuel-data)"
+Sipat Stps,1.568,FY2022-23,"MahaSLDC DISCOM-wise MOD stack, NTPC Sipat subcritical stage (SSTPS-II, 2x500) CERC Approved Variable Charge Rs/KWh; mean of May-2022 (1.589) & Apr-2023 (1.546) (mahasldc.in via mahagenco.in fuel-data)"
+Mouda Stps,4.151,FY2022-23,"MahaSLDC DISCOM-wise MOD stack, NTPC Mouda subcritical stage (MSTPS-I, 2x500) CERC Approved Variable Charge Rs/KWh; mean of May-2022 (4.179) & Apr-2023 (4.123) (mahasldc.in via mahagenco.in fuel-data)"
+# --- Rajasthan: RVUN (RRVUNL) state gencos, RERC FY2022-23 generation tariff ----
+# Approved "Rate of energy charges" (Rs/kWh) for FY2022-23 = Energy charges / Net
+# Generation, from RERC review order RERC/2031/22, Table 3 "Approved tariff for
+# FY 2022-23" (review of Order in Petition 1980/22 dated 23.06.2022; energy rate
+# unchanged in review). Raw: data/raw/sources/rerc_rvun_review_2031-22_fy2022-23.pdf
+Suratgarh,4.220,FY2022-23,"RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, STPS (Units 1-6) Rate of energy charges 4.22 Rs/kWh (Energy 4150.92 Cr / 9837.39 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)"
+Kota,3.390,FY2022-23,"RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, KTPS (Units 1-7) Rate of energy charges 3.39 Rs/kWh (Energy 2758.05 Cr / 8145.77 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)"
+Chhabra Tps,3.050,FY2022-23,"RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, CTPP (Units 1-4) Rate of energy charges 3.05 Rs/kWh (Energy 1999.10 Cr / 6558.26 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)"
+Kalisindh,2.950,FY2022-23,"RERC review order RERC/2031/22, Table 3 Approved tariff for FY2022-23, KaTPP (Units 1-2) Rate of energy charges 2.95 Rs/kWh (Energy 2441.45 Cr / 8266.90 MU); orig Petition 1980/22 dtd 23.06.2022 (cer.iitk.ac.in)"
+# --- Haryana: HPGCL state gencos, FY2022-23 ECR per HERC MYT Reg 31 --------------
+# Per-station Energy Charge Rate (Rs/kWh) for FY2022-23 from HPGCL's FILED tariff
+# petition (Table 38 "Computation of ECR for FY 2022-23" = Table 47 "Tariff Summary
+# for FY 2022-23"). These are HPGCL's PROPOSED ECR (energy/variable charge only, per
+# HERC MYT Regulation 31); the separate HERC-approved generation order for FY2022-23
+# could not be located online this session, so these are PETITION (filed), not
+# approved-order, figures -- flagged accordingly. Raw:
+# data/raw/sources/hpgcl_tariff_petition_fy2022-23.pdf
+Panipat,3.723,FY2022-23,"HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); gen-wtd over PTPS-6 (1407.29 MU @ 3.812), PTPS-7 & PTPS-8 (1688.38 MU @ 3.686 each) = 3.723 Rs/kWh; FILED petition, not HERC-approved order (hpgcl.org.in)"
+Yamunanagar TPP,3.574,FY2022-23,"HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); DCRTPP Units 1-2 (Yamunanagar) 3.574 Rs/kWh each; FILED petition, not HERC-approved order (hpgcl.org.in)"
+Rajiv Gandhi Tps Hisar,3.639,FY2022-23,"HPGCL FY2022-23 tariff petition, Table 38/47 proposed ECR (energy charge, HERC MYT Reg 31); RGTPP Units 1-2 (Hisar/Khedar) 3.639 Rs/kWh each; FILED petition, not HERC-approved order (hpgcl.org.in)"
