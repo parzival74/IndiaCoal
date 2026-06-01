@@ -3,9 +3,10 @@
 Read this first. It carries everything needed to continue the work without prior
 chat context. Active branch: **`claude/keen-newton-P0cFA`** (open as **PR #1**).
 The kickoff prompt for the current task is in
-[`docs/NEXT_SESSION_PROMPT.md`](docs/NEXT_SESSION_PROMPT.md); a queued sub-analysis
-(does efficiency≈cost at pithead plants?) is in
-[`docs/PITHEAD_TEST_PROMPT.md`](docs/PITHEAD_TEST_PROMPT.md).
+[`docs/NEXT_SESSION_PROMPT.md`](docs/NEXT_SESSION_PROMPT.md); the pithead sub-analysis
+(does efficiency≈cost at pithead plants?) prompt is in
+[`docs/PITHEAD_TEST_PROMPT.md`](docs/PITHEAD_TEST_PROMPT.md) and is now **DONE** —
+see REPORT §9 / `analysis/09_pithead_test.py` / `outputs/09_pithead_test.txt`.
 
 ## What this project is
 Analysis of why thermal **efficiency explains only ~30% of plant load factor
@@ -42,6 +43,13 @@ merit order, and what would that cost in money and CO₂?
   carbon-optimal **diverge by ~21 MT CO₂ for ~₹15,300 cr** (implied ~₹7,200/t). So
   "no merit order ⇒ more money AND more CO₂" is wrong — the cheapest coal power
   is also the dirtiest; the two objectives diverge.
+- **Pithead sub-analysis (`09`):** at mine-mouth plants (freight≈0) efficiency
+  *should* proxy cost. On the **cost-side test (the real test, real CERC ECR)** it does:
+  eff↔cost **R²=0.62 at pithead vs ~0.00 non-pithead** (n=7 each, **2018-basis →
+  directional**). The pithead flag is validated by the ECR ladder (pithead mean
+  ₹1.64 vs ₹2.93/kWh). BUT the eff↔PLF "tightening" (R²0.65 vs 0.31) is a **lignite
+  artifact** — pithead-*coal*-only R²=0.227 (no better than fleet) and the
+  `eff×pithead` OLS interaction is **n.s.** (p=0.31) after sector+size controls.
 - **Domestic coal price is now REAL** (FY2022-23): CIL grade-wise pithead notified
   prices (notif. 194 dated 27-11-2020, in force all of FY2022-23) + published levies
   + flagged flat freight → domestic ≈ ₹2.1/kWh (was a ₹850/Gcal *assumed* anchor).
@@ -60,7 +68,7 @@ CLAUDE.md            this file
 requirements.txt     pandas, numpy, scipy, openpyxl
 data/raw/            source xlsx; cil_grade_prices_fy2022-23.csv (REAL); plant_ecr_cerc_2018basis.csv (REAL, cross-check); plant_ecr_template.csv; (drop plant_ecr.csv + sced_blocks.csv here)
 data/                cse_subcritical_clean.csv, plant_cost_blended.csv  (generated)
-analysis/            common.py + numbered pipeline scripts (01–08) + run_all.py
+analysis/            common.py + numbered pipeline scripts (01–09) + run_all.py
 outputs/             *.txt results (committed)
 docs/                methodology_variable_cost.md, data_sources.md
 .claude/             SessionStart hook (installs deps + runs pipeline on web)
@@ -90,6 +98,10 @@ Pipeline scripts:
   Needs network + pdfplumber/pypdfium2. Not in run_all (committed CSVs make it offline).
 - `08_cerc_crosscheck.py` — CERC per-station ECR (2018-19 basis) vs the FY2022-23
   model, clearly labelled; 14 central stations; NOT the headline counterfactual.
+- `09_pithead_test.py` — SIDE analysis (numbered 09 because 08 was taken): does
+  efficiency tighten as a cost/PLF proxy at pithead plants? Curated+lignite pithead
+  flag (validated by the CERC ECR ladder); cost-side test uses REAL ECR only (not the
+  SHR-built model). Cost-side supports H; PLF-side tightening is a lignite/size artifact.
 
 ## CURRENT TASK — status (2026-06 Full-access session)
 Goal: replace modelled coal prices with real published data, FY2022-23 vintage.

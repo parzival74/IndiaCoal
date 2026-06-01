@@ -304,6 +304,43 @@ archive) and coal.gov.in, but grid-india.in / POSOCO / meritindia.in returned HT
 503**, so the FY2022-23 metered per-station ECR and live SCED block data could not
 be fetched in-session.
 
+## 9. Side analysis: is efficiency a tighter proxy at pithead plants?
+
+If §1 is right — efficiency is the wrong axis because *variable cost* (dominated by
+delivered coal price, ~half of which is freight) drives dispatch — then at a **pithead
+(mine-mouth) plant freight ≈ 0**, so variable cost collapses toward a near-pure function
+of heat rate, and efficiency *should* become a good proxy for cost. We tested this
+(`analysis/09_pithead_test.py` → `outputs/09_pithead_test.txt`).
+
+**Flagging pithead (a transparent proxy — there is no distance-to-mine field):** lignite
+(mine-mouth by construction) + a curated coal-belt list (Singrauli/Korba/Talcher/Ramagundam
+clusters), each with its coalfield basis; matched by exact name. The flag is **independently
+validated by the real CERC ECR ladder**: the curated pithead stations average **₹1.64/kWh**
+vs **₹2.93/kWh** for the non-pithead central stations — the cheapest plants are exactly the
+ones we flagged.
+
+| Test | Full fleet | Pithead | Non-pithead | Read |
+|---|---|---|---|---|
+| **Eff ↔ cost** (real CERC ECR; the true test) | r=−0.31, R²=0.10 | **r=−0.78, R²=0.62** | r=+0.03, R²≈0.00 | **Supports H.** Efficiency explains ~62% of *real cost* at pithead, ~0% away from it (freight dominates), with the expected negative sign. |
+| **Eff ↔ PLF** (PLF≥20) | R²=0.305 | R²=0.650 | R²=0.251 | Apparent tightening, but a **lignite artifact** — see below. |
+
+**Two honest caveats that change the conclusion:**
+- The cost-side test (the *real* test) rests on **14 CERC stations on a 2018-19 basis**
+  (n=7 per group). It is **directional, not settled** — it becomes a clean result only when
+  FY2022-23 per-station ECR coverage broadens.
+- The eff↔PLF "tightening" is **mostly lignite + sector/size, not the freight mechanism.**
+  Splitting the pithead group: *lignite-only* R²=0.562 but *pithead-coal-only* R²=0.227 —
+  **no tighter than the fleet's 0.305.** Cheap mine-mouth lignite runs hard *despite* low
+  efficiency, which is itself the cost-over-efficiency point. In an OLS controlling for
+  sector and capacity, the `efficiency × pithead` interaction is **not significant**
+  (coef +0.44, p=0.31): the PLF tightening does not survive the confounder. PLF also carries
+  must-run / demand / transmission noise on top of cost, so we never expected it to be clean.
+
+**Bottom line:** the mechanism shows up exactly where it's directly testable — on **cost**
+(efficiency is a strong cost proxy at pithead, a non-proxy away from it) — and *not* on PLF,
+where lignite and sector/size confound it. This is consistent with §1 and §6: dispatch
+follows cost, not efficiency, and the cheap pithead coal is also the dirtiest.
+
 ---
 
 ### Sources
