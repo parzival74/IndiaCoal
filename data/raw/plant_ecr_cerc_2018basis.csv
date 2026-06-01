@@ -1,0 +1,33 @@
+# CERC per-station Energy Charge Rate (ECR), ex-bus, Rs/kWh -- CROSS-CHECK ONLY.
+#
+# *** VINTAGE WARNING: THIS IS NOT FY2022-23 DATA. ***
+# These ECRs come from CERC tariff orders for the 2019-24 tariff period. CERC
+# computes the ECR for working-capital purposes on the landed coal cost of the
+# quarter PRECEDING the period (Oct-Dec 2018) -- a 2018-19 basis. The order itself
+# states the energy charge is actual monthly pass-through, "subject to truing-up".
+# CERC orders therefore do NOT publish a FY2022-23 station ECR; the genuinely
+# FY2022-23 per-station feeds (Grid-India SCED, POSOCO, state SLDC, MERIT) were all
+# unreachable (HTTP 503 / refused) in the 2026-06 session. So this file is used
+# ONLY as a labelled cross-check by analysis/08_cerc_crosscheck.py -- it does NOT
+# feed the FY2022-23 headline cost (02) or the headline counterfactual (04/06).
+#
+# 'basis': whether the value is the CERC-determined "Rate of energy charge ex-bus"
+# (allowed) or the petitioner's claimed ECR (used where the allowed line was not
+# machine-readable; the two differ by <2%). Multi-stage stations: mean of stages.
+# Station-name mapping to the dataset is EXPLICIT (curated), not fuzzy.
+# Source PDFs: cercind.gov.in/<year>/orders/<petition>.pdf
+match_name,ecr_rs_per_kwh,basis,n_orders,period,source
+Sipat Stps,1.251,claimed,2,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 425-GT-2020; 435-GT-2020"
+Korba Stps,1.334,allowed,2,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 419-GT-2020; 486-GT-2020"
+Singrauli Stps,1.404,allowed,1,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 424-GT-2020"
+Rihand,1.420,allowed/claimed,3,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 426-GT-2020; 430-GT-2020; 433-GT-2020"
+Vindh_Chal Stps,1.635,claimed,4,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 401-GT-2020; 402-GT-2020; 415-GT-2020; 485-GT-2020"
+Talcher Stps,1.850,claimed,1,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 441-GT-2020"
+Bhilai TPP,2.347,claimed,1,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 396-GT-2020"
+Farakka Stps,2.544,allowed,1,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 429-GT-2020"
+R_Gundem Stps,2.612,claimed,1,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 416-GT-2020 (Ramagundam)"
+Simhadri,2.827,allowed,2,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 417-GT-2020; 418-GT-2020"
+Mouda Stps,2.884,allowed,2,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 423-GT-2020; 437-GT-2020"
+Unchahar,2.936,allowed/claimed,3,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 3-GT-2021; 427-GT-2020; 431-GT-2020"
+Indra Gandhi STPP,3.466,allowed,1,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 489-GT-2020"
+Dadri (NcTPP),3.477,allowed,1,2018-19 basis (CERC 2019-24 tariff order; Oct-Dec 2018 coal cost),"CERC 2-GT-2021 (National Capital TPS Dadri)"

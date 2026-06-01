@@ -1,62 +1,86 @@
 """
-02 - EXTENSION #1: Modelled variable cost (Rs/kWh) -- the variable that
-     merit order *actually* dispatches on.
-
-CAN WE POPULATE IT FROM THIS FILE? Not directly. The file has SHR and GCV but
-NOT the per-plant coal price, which is the dominant term. So we MODEL it:
+02 - EXTENSION #1: Variable cost (Rs/kWh) -- the variable that merit order
+     *actually* dispatches on.
 
     variable_cost (Rs/kWh) = SHR (kcal/kWh) * fuel_price (Rs/Gcal) / 1e6
                              + non_fuel_variable (Rs/kWh)
 
-SHR is real (per plant). fuel_price is assigned by inferred coal SOURCE, using
-representative 2022-23 benchmarks. The source is inferred from signals we DO
-have: fuel type (Lignite), coal GCV, and "imp" in the plant name.
+SHR is real (per plant). The fuel price is where the work is:
 
-The price block below is the ONLY set of assumptions; edit it (or replace with
-plant-level CERC Energy Charge Rate filings) to make the numbers contract-accurate.
-This is a transparent estimate, not metered cost -- see docs/methodology_variable_cost.md.
+  * DOMESTIC coal is now priced on REAL, vintage-correct data: the Coal India
+    Limited FY2022-23 grade-wise PITHEAD notified price (Rs/tonne) from
+    data/raw/cil_grade_prices_fy2022-23.csv (CIL notif. 194 dated 27-11-2020,
+    the schedule in force across all of FY2022-23). On top of the ex-mine price
+    we add the published statutory levies (royalty, GST, GST compensation cess)
+    and a flagged transport term -- see the build-up below.
+  * LIGNITE and IMPORTED coal keep MODELLED Rs/Gcal anchors: CIL's notified
+    price does not cover them (lignite is captive mine-mouth; imported is
+    seaborne), and no real per-station FY2022-23 ECR could be fetched for them.
+
+WHAT IS REAL vs MODELLED HERE:
+  REAL (published, FY2022-23):  CIL pithead Rs/tonne by grade; royalty 14%;
+                                GST 5%; GST compensation cess Rs400/t; each
+                                plant's SHR and GCV.
+  MODELLED (flagged):           rail freight (per-plant distance is NOT in the
+                                dataset -> a single fleet-representative value;
+                                this compresses the real pithead-vs-distant
+                                spread, which the CERC cross-check in
+                                08_cerc_crosscheck.py exposes); lignite &
+                                imported Rs/Gcal anchors; non-fuel adder.
+
+The genuinely FY2022-23 per-station metered ECR feeds (Grid-India SCED, POSOCO,
+state SLDC, MERIT) were unreachable this session, so they do not override here;
+the CERC tariff-order ECRs that ARE reachable are 2018-19 basis and are used only
+as a labelled cross-check (08), never as the FY2022-23 headline. See
+docs/methodology_variable_cost.md and docs/data_sources.md.
 
 Run:  python3 analysis/02_variable_cost.py
-Writes: data/plant_variable_cost.csv, outputs/02_variable_cost.txt
+Writes: data/cse_subcritical_clean.csv (adds cost columns), outputs/02_variable_cost.txt
 """
 from __future__ import annotations
 import os
 import numpy as np
 import pandas as pd
 from scipy import stats
-from common import load_clean, analysis_set, CLEAN_CSV, OUT_DIR
+from common import load_clean, analysis_set, CLEAN_CSV, OUT_DIR, REPO
 
 # --------------------------------------------------------------------------
-# ASSUMPTIONS  (representative 2022-23 INR; edit these for your own scenario)
+# DOMESTIC COAL -- REAL CIL FY2022-23 pithead price + published statutory levies
 # --------------------------------------------------------------------------
-# Fuel cost per Gcal of heat input (separates fuel PRICE from plant EFFICIENCY).
-# These are MODELLED benchmarks; for plant accuracy supply real ECR via
-# data/raw/plant_ecr.csv (consumed by 06_apply_ecr.py).
-FUEL_PRICE_RS_PER_GCAL = {
-    "lignite":  500.0,   # captive mine-mouth: cheap per tonne, low GCV
-    "domestic": 850.0,   # fleet-anchor for CIL linkage coal, landed (see grade tiers)
-    "imported": 1700.0,  # seaborne (ICI GAR-4200); ~2x domestic, 2022-23 elevated
+CIL_PRICE_CSV = os.path.join(REPO, "data", "raw", "cil_grade_prices_fy2022-23.csv")
+# Inline fallback = the exact verified Table-I "Power Utilities" pithead prices
+# (Rs/tonne) so the pipeline is reproducible offline if the CSV is absent.
+CIL_PITHEAD_ROM_FALLBACK = {
+    "G2": 3298, "G3": 3154, "G4": 3010, "G5": 2747, "G6": 2327, "G7": 1936,
+    "G8": 1475, "G9": 1150, "G10": 1034, "G11": 965, "G12": 896, "G13": 827,
+    "G14": 758, "G15": 600, "G16": 574, "G17": 457,
 }
-# Domestic coal is now priced by its official GCV GRADE rather than one flat
-# number. CIL notified price per Gcal rises modestly for lower grades (fixed
-# per-tonne handling/freight spread over less heat). Multipliers applied to the
-# "domestic" anchor above; chosen so the fleet domestic mean stays ~the anchor.
-# Structure follows CIL notified-price behaviour; values are representative, not
-# the exact notification (which 06_apply_ecr.py overrides with real ECR).
-DOMESTIC_GRADE_PRICE_MULTIPLIER = {
-    "G1": 0.80, "G2": 0.82, "G3": 0.84, "G4": 0.86, "G5": 0.88, "G6": 0.90,
-    "G7": 0.93, "G8": 0.96, "G9": 0.99, "G10": 1.02, "G11": 1.05, "G12": 1.08,
-    "G13": 1.12, "G14": 1.16, "G15": 1.20, "G16": 1.25, "G17": 1.30,
+# Published statutory add-ons on domestic coal (FY2022-23). REAL rates:
+ROYALTY_RATE = 0.14                  # ad-valorem royalty on the pithead price
+GST_RATE = 0.05                      # GST on coal
+GST_COMP_CESS_RS_PER_TONNE = 400.0   # fixed GST compensation cess
+CIL_OTHER_CHARGES_RS_PER_TONNE = 150.0  # CIL-notified sizing/surface-transport
+# MODELLED, FLAGGED: average pit-to-plant rail freight. Per-plant lead distance is
+# not in the dataset, so this is one fleet-representative value (it deliberately
+# CANNOT reproduce the pithead(~Rs0) vs distant(~Rs1500/t) spread -- the CERC
+# cross-check in 08 shows the real per-station dispersion this flattens).
+RAIL_FREIGHT_RS_PER_TONNE = 900.0
+
+# --------------------------------------------------------------------------
+# LIGNITE / IMPORTED -- MODELLED Rs/Gcal anchors (CIL notified price n/a).
+# Representative FY2022-23 levels; not real per-station ECR (flagged below).
+# --------------------------------------------------------------------------
+FUEL_PRICE_RS_PER_GCAL_ANCHOR = {
+    "lignite":  500.0,    # captive mine-mouth (e.g. NLC): cheap per tonne, low GCV
+    "imported": 1700.0,   # seaborne (ICI GAR-4200); ~elevated in 2022-23
 }
 # Non-fuel variable cost (secondary fuel oil + variable O&M), Rs/kWh, flat.
 NON_FUEL_VARIABLE_RS_PER_KWH = 0.20
-# Source-inference thresholds.
+# Source-inference signals.
 IMPORTED_GCV_THRESHOLD = 4800.0  # kcal/kg; domestic Indian coal is high-ash/low-GCV
-# Curated overlay of well-known imported / imported-blend coastal stations.
-# GCV alone is unreliable (e.g. Mundra's as-fired GCV ~4090 < threshold), so we
-# overlay public knowledge keyed on plant/company name. THIS IS A STOP-GAP: the
-# authoritative fix is to join CEA's per-unit coal-source field. Documented in
-# docs/methodology_variable_cost.md.
+# Curated overlay of well-known imported / imported-blend coastal stations. GCV
+# alone is unreliable (Mundra's as-fired GCV ~4090 < threshold); overlay public
+# knowledge keyed on plant/company name. Documented in methodology_variable_cost.md.
 KNOWN_IMPORTED_KEYWORDS = [
     "mundra",        # Adani Power, Gujarat - Indonesian imported coal
     "coastal",       # Coastal Energen (Mutiara), Tamil Nadu - imported
@@ -67,6 +91,15 @@ KNOWN_IMPORTED_KEYWORDS = [
     "essar",         # Essar (Salaya), Gujarat - imported
 ]
 # --------------------------------------------------------------------------
+
+
+def load_cil_pithead_prices() -> dict:
+    """Real CIL FY2022-23 grade-wise pithead price (Rs/tonne, Power-Utilities)."""
+    if os.path.exists(CIL_PRICE_CSV):
+        t = pd.read_csv(CIL_PRICE_CSV, comment="#")
+        t = t.dropna(subset=["pithead_rom_rs_per_tonne_power"])
+        return dict(zip(t["grade"], t["pithead_rom_rs_per_tonne_power"].astype(float)))
+    return {k: float(v) for k, v in CIL_PITHEAD_ROM_FALLBACK.items()}
 
 
 def classify_source(row) -> str:
@@ -83,15 +116,34 @@ def classify_source(row) -> str:
     return "domestic"
 
 
+def domestic_landed_rs_per_gcal(grade: str, gcv: float, pithead: dict):
+    """Real CIL pithead price + published levies + flagged freight -> Rs/Gcal."""
+    p = pithead.get(grade)
+    if p is None and str(grade).startswith("ungraded"):
+        p = pithead.get("G17")  # sub-G17 coal (GCV<2200): floor at lowest notified grade
+    if p is None or pd.isna(gcv) or gcv <= 0:
+        return np.nan
+    landed_rs_per_tonne = (
+        p * (1.0 + ROYALTY_RATE + GST_RATE)   # pithead + royalty + GST (ad valorem)
+        + GST_COMP_CESS_RS_PER_TONNE          # fixed compensation cess
+        + CIL_OTHER_CHARGES_RS_PER_TONNE      # sizing/surface transport (CIL notified)
+        + RAIL_FREIGHT_RS_PER_TONNE)          # rail freight (MODELLED, flagged)
+    # Rs/tonne -> Rs/Gcal using the plant's actual GCV (Gcal/tonne = GCV/1000).
+    return landed_rs_per_tonne * 1000.0 / gcv
+
+
 def add_variable_cost(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
+    pithead = load_cil_pithead_prices()
     df["coal_source"] = df.apply(classify_source, axis=1)
-    base = df["coal_source"].map(FUEL_PRICE_RS_PER_GCAL)
-    # Domestic coal: tier the price by official GCV grade (real slabs from
-    # common.grade_from_gcv). Lignite/imported keep their flat anchor.
-    grade_mult = df["coal_grade"].map(DOMESTIC_GRADE_PRICE_MULTIPLIER).fillna(1.0)
-    is_dom = df["coal_source"] == "domestic"
-    df["fuel_price_rs_per_gcal"] = np.where(is_dom, base * grade_mult, base)
+
+    dom_gcal = df.apply(
+        lambda r: domestic_landed_rs_per_gcal(r["coal_grade"], r["gcv_kcal_per_kg"], pithead),
+        axis=1)
+    anchor = df["coal_source"].map(FUEL_PRICE_RS_PER_GCAL_ANCHOR)
+    df["fuel_price_rs_per_gcal"] = np.where(df["coal_source"] == "domestic", dom_gcal, anchor)
+    df["fuel_price_basis"] = np.where(
+        df["coal_source"] == "domestic", "CIL_pithead_FY2022-23+levies+freight", "modelled_anchor")
     df["vc_fuel_rs_per_kwh"] = (
         df["shr_kcal_per_kwh"] * df["fuel_price_rs_per_gcal"] / 1e6)
     df["variable_cost_rs_per_kwh"] = (
@@ -105,12 +157,20 @@ def main():
     df = add_variable_cost(load_clean())
     df.to_csv(CLEAN_CSV, index=False)  # persist the new columns back
 
+    using_csv = os.path.exists(CIL_PRICE_CSV)
     log("=" * 70)
-    log("EXTENSION #1 - MODELLED VARIABLE COST (Rs/kWh)")
+    log("EXTENSION #1 - VARIABLE COST (Rs/kWh)")
     log("=" * 70)
-    log("Assumptions (Rs/Gcal of heat): " + str(FUEL_PRICE_RS_PER_GCAL))
-    log(f"Non-fuel variable adder: Rs {NON_FUEL_VARIABLE_RS_PER_KWH}/kWh")
-    log(f"Imported-coal GCV threshold: {IMPORTED_GCV_THRESHOLD} kcal/kg\n")
+    log("DOMESTIC coal: REAL CIL FY2022-23 pithead price (Rs/tonne, by grade) "
+        + ("from data/raw/cil_grade_prices_fy2022-23.csv" if using_csv
+           else "[inline verified fallback - CSV not found]"))
+    log("  landed Rs/tonne = pithead*(1 + royalty 0.14 + GST 0.05) + cess Rs400 "
+        f"+ sizing Rs{CIL_OTHER_CHARGES_RS_PER_TONNE:.0f} + freight Rs{RAIL_FREIGHT_RS_PER_TONNE:.0f}")
+    log("  (royalty/GST/cess = published statutory rates; freight = MODELLED, "
+        "flagged: per-plant lead distance is not in the dataset)")
+    log("LIGNITE / IMPORTED: MODELLED Rs/Gcal anchors "
+        + str(FUEL_PRICE_RS_PER_GCAL_ANCHOR) + " (CIL price n/a; not real ECR)")
+    log(f"Non-fuel adder: Rs {NON_FUEL_VARIABLE_RS_PER_KWH}/kWh\n")
 
     log("Coal-source split (inferred):")
     log(df["coal_source"].value_counts().to_string())
@@ -126,6 +186,7 @@ def main():
 
     # The headline test: does VC explain PLF better than efficiency?
     sub = analysis_set(df)
+
     def pr(col):
         m = sub[col].notna() & sub["plf_pct"].notna()
         r, _ = stats.pearsonr(sub[col][m], sub["plf_pct"][m])
@@ -133,13 +194,13 @@ def main():
     r_eff = pr("efficiency_pct")
     r_vc = pr("variable_cost_rs_per_kwh")
     log("\n" + "-" * 70)
-    log("Does modelled variable cost track PLF better than efficiency? (PLF>=20)")
+    log("Does variable cost track PLF better than efficiency? (PLF>=20)")
     log("-" * 70)
     log(f"  PLF ~ Efficiency        r={r_eff:+.3f}  R2={r_eff**2*100:.1f}%")
     log(f"  PLF ~ Variable cost     r={r_vc:+.3f}  R2={r_vc**2*100:.1f}%")
-    log("  (variable cost should correlate NEGATIVELY and more strongly --")
-    log("   cheaper plants run more. This is the merit-order signal that raw")
-    log("   efficiency misses.)")
+    log("  VC correlates NEGATIVELY (cheaper plants run more) -- the merit-order")
+    log("  signal raw efficiency misses -- but with a flat freight term the within-")
+    log("  domestic spread is compressed, so |r| stays modest (see 08 cross-check).")
 
     # The smoking guns
     log("\nIllustrative cases (efficiency vs cost pull opposite ways):")

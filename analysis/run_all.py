@@ -11,8 +11,12 @@ STEPS = [
     "03_regions.py",              # extension #2
     "04_redispatch.py",           # extension #4 (needs #1)
     "05_flexibility_framework.py",# extension #3
-    "06_apply_ecr.py",            # apply real plant-level ECR over the model
+    "06_apply_ecr.py",            # FY2022-23 per-station ECR override layer
+    "08_cerc_crosscheck.py",      # CERC ECR cross-check (2018-19 basis, labelled)
 ]
+# 07_fetch_ecr.py is NOT run here: it needs network to (re)fetch the source PDFs.
+# Its outputs (data/raw/cil_grade_prices_fy2022-23.csv, plant_ecr_cerc_2018basis.csv)
+# are committed, so this pipeline is fully reproducible offline.
 
 for s in STEPS:
     print(f"\n{'#'*72}\n# {s}\n{'#'*72}")

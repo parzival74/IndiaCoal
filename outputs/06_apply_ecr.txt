@@ -2,31 +2,27 @@
 06 - APPLY PLANT-LEVEL ECR (real data overrides the model)
 ======================================================================
 ECR source file: data/raw/plant_ecr_template.csv (shipped TEMPLATE - replace with real ECR)
-ECR rows supplied: 1
+ECR rows supplied: 0
 
-Matched 6/455 units to a published ECR (1.3% coverage); the rest fall back to the model.
+Matched 0/455 units to a published ECR (0.0% coverage); the rest fall back to the model.
 
 Match diagnostics (ECR row -> plant key):
-    ecr_name  ecr_rs_per_kwh matched_key                                                                                 source
-Talcher Stps            1.48     talcher NTPC Talcher variable charge ~Rs 1.48/kWh per 2022 CERC tariff order (pithead, Odisha)
-
-Where real ECR replaced the model:
-        name coal_source coal_grade  variable_cost_rs_per_kwh  ecr_rs_per_kwh  plf_pct
-Talcher Stps    domestic        G14                  2.727808            1.48     74.6
-Talcher Stps    domestic        G14                  2.684720            1.48     79.4
-Talcher Stps    domestic        G14                  2.705130            1.48     80.8
-Talcher Stps    domestic        G14                  2.738063            1.48     85.9
-Talcher Stps    domestic        G14                  2.712722            1.48     86.8
-Talcher Stps    domestic        G14                  2.676438            1.48     89.9
+Empty DataFrame
+Columns: []
+Index: []
 
 ----------------------------------------------------------------------
 Cost-vs-carbon re-dispatch on the BLENDED cost (same total energy):
 ----------------------------------------------------------------------
-  Actual      : fuel cost Rs 205,855 cr | CO2 777.9 MT
-  Cost-merit  : fuel cost Rs 196,235 cr | CO2 766.5 MT
-  Carbon-merit: fuel cost Rs 211,197 cr | CO2 746.0 MT
-  Cost-vs-carbon gap: +20.5 MT CO2 for Rs +14,962 cr.
+  Actual      : fuel cost Rs 157,724 cr | CO2 777.9 MT
+  Cost-merit  : fuel cost Rs 149,451 cr | CO2 767.1 MT
+  Carbon-merit: fuel cost Rs 164,714 cr | CO2 746.0 MT
+  Cost-vs-carbon gap: +21.1 MT CO2 for Rs +15,263 cr.
 
->>> This ran on the TEMPLATE. Drop real CERC/MOD/CEA ECR into
->>> data/raw/plant_ecr.csv and re-run to raise coverage above the
->>> few seeded rows. See docs/data_sources.md for where to fetch it.
+>>> 0 FY2022-23 metered per-station ECR rows available this session.
+>>> The FY2022-23 feeds (Grid-India SCED / POSOCO / state SLDC / MERIT)
+>>> were unreachable (HTTP 503 / refused), so the headline cost is the
+>>> real-CIL-grounded model from 02. The reachable CERC tariff-order ECRs
+>>> are 2018-19 basis -> see the 08 cross-check, not this headline.
+>>> Drop real FY2022-23 ECR into data/raw/plant_ecr.csv and re-run when
+>>> those feeds are reachable. See docs/data_sources.md.

@@ -6,16 +6,16 @@ Per-unit annual ceiling: 85% PLF | VC & EF held fixed
 
 Scenario                 Fuel cost (Rs cr)      CO2 (MT)    Served (GWh)
 ------------------------------------------------------------------------
-1. Actual (as-run)                 208,529         777.9         763,316
-2. Cost-merit                      198,977         766.5         763,316
-3. Carbon-merit                    213,939         746.0         763,316
+1. Actual (as-run)                 157,724         777.9         763,316
+2. Cost-merit                      149,451         767.1         763,316
+3. Carbon-merit                    164,714         746.0         763,316
 
 Deltas vs actual:
-  Cost-merit   : fuel cost -9,552 cr (-4.6%),  CO2 -11.3 MT (-1.5%)
-  Carbon-merit : fuel cost +5,410 cr (+2.6%),  CO2 -31.9 MT (-4.1%)
+  Cost-merit   : fuel cost -8,273 cr (-5.2%),  CO2 -10.8 MT (-1.4%)
+  Carbon-merit : fuel cost +6,990 cr (+4.4%),  CO2 -31.9 MT (-4.1%)
 
 The trade-off, isolated (cost-merit minus carbon-merit):
-  Chasing least COST instead of least CARBON costs +20.5 MT of extra CO2 while saving +14,962 cr.
+  Chasing least COST instead of least CARBON costs +21.1 MT of extra CO2 while saving +15,263 cr.
 
 INTERPRETATION: minimum-cost and minimum-carbon dispatch are NOT the
 same objective for this fleet. The cheapest units (pithead lignite/

@@ -20,9 +20,13 @@ OUTPUT a blended variable_cost_final (real ECR where matched, else modelled),
        a per-row vc_source flag, a coverage report, and a re-run of the
        cost-vs-carbon counterfactual on the blended cost.
 
-NETWORK NOTE: this environment blocks cercind.gov.in / coal.gov.in / grid-india /
-meritindia.in (HTTP 403), so the table cannot be auto-harvested here. Run locally
-(or with those domains allow-listed) to fetch them; this layer then consumes them.
+VINTAGE: this is the FY2022-23 layer, so data/raw/plant_ecr.csv must hold FY2022-23
+METERED per-station ECR only. As of the 2026-06 session it is empty: the FY2022-23
+per-station feeds (Grid-India SCED, POSOCO eLibrary, state SLDC merit-order stacks,
+MERIT) all returned HTTP 503 / connection-refused and could not be harvested, so
+coverage is 0% and the headline cost falls back to the real-CIL-grounded model (02).
+CERC tariff-order ECRs ARE reachable but are a 2018-19 basis -- they are deliberately
+kept OUT of this headline and used only by the 08 cross-check (08_cerc_crosscheck.py).
 
 Depends on: 02_variable_cost.py (modelled variable_cost_rs_per_kwh).
 Run:  python3 analysis/06_apply_ecr.py
@@ -142,10 +146,14 @@ def main():
     log(f"  Cost-vs-carbon gap: {cm_co2-cb_co2:+,.1f} MT CO2 for "
         f"Rs {cb_cost-cm_cost:+,.0f} cr.")
 
-    if not using_real:
-        log("\n>>> This ran on the TEMPLATE. Drop real CERC/MOD/CEA ECR into")
-        log(">>> data/raw/plant_ecr.csv and re-run to raise coverage above the")
-        log(">>> few seeded rows. See docs/data_sources.md for where to fetch it.")
+    if n_match == 0:
+        log("\n>>> 0 FY2022-23 metered per-station ECR rows available this session.")
+        log(">>> The FY2022-23 feeds (Grid-India SCED / POSOCO / state SLDC / MERIT)")
+        log(">>> were unreachable (HTTP 503 / refused), so the headline cost is the")
+        log(">>> real-CIL-grounded model from 02. The reachable CERC tariff-order ECRs")
+        log(">>> are 2018-19 basis -> see the 08 cross-check, not this headline.")
+        log(">>> Drop real FY2022-23 ECR into data/raw/plant_ecr.csv and re-run when")
+        log(">>> those feeds are reachable. See docs/data_sources.md.")
 
     os.makedirs(OUT_DIR, exist_ok=True)
     out = os.path.join(OUT_DIR, "06_apply_ecr.txt")
