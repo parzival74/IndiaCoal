@@ -14,6 +14,7 @@ STEPS = [
     "06_apply_ecr.py",            # FY2022-23 per-station ECR override layer
     "08_cerc_crosscheck.py",      # CERC ECR cross-check (2018-19 basis, labelled)
     "09_pithead_test.py",         # side analysis: does eff tighten as a cost/PLF proxy at pithead?
+    "10_datagov_ecr.py",          # contemporaneous central/ISGS ECR cross-check (data.gov.in, 2021-23)
 ]
 # 07_fetch_ecr.py is NOT run here: it needs network to (re)fetch the source PDFs.
 # Its outputs (data/raw/cil_grade_prices_fy2022-23.csv, plant_ecr_cerc_2018basis.csv)

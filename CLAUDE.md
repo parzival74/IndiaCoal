@@ -44,12 +44,20 @@ merit order, and what would that cost in money and CO₂?
   "no merit order ⇒ more money AND more CO₂" is wrong — the cheapest coal power
   is also the dirtiest; the two objectives diverge.
 - **Pithead sub-analysis (`09`):** at mine-mouth plants (freight≈0) efficiency
-  *should* proxy cost. On the **cost-side test (the real test, real CERC ECR)** it does:
-  eff↔cost **R²=0.62 at pithead vs ~0.00 non-pithead** (n=7 each, **2018-basis →
-  directional**). The pithead flag is validated by the ECR ladder (pithead mean
-  ₹1.64 vs ₹2.93/kWh). BUT the eff↔PLF "tightening" (R²0.65 vs 0.31) is a **lignite
+  *should* proxy cost. The eff↔PLF "tightening" (R²0.65 vs 0.31) is a **lignite
   artifact** — pithead-*coal*-only R²=0.227 (no better than fleet) and the
-  `eff×pithead` OLS interaction is **n.s.** (p=0.31) after sector+size controls.
+  `eff×pithead` OLS interaction is **n.s.** (p=0.31) after sector+size controls. The
+  CERC-2018 cost-side test *looked* supportive (eff↔cost R²=0.62 pithead vs ~0.00
+  non-pithead, n=7) BUT **`10` shows it does NOT replicate** (see next).
+- **Real central ECR cross-check (`10`, data.gov.in):** three Rajya Sabha "Generating
+  Station-wise Tariff Statement" datasets (NTPC FY2021-22; NLC/DVC 2021-23) → real ECR
+  for **29 ISGS stations / 119 units**. Agrees with CERC-2018 almost perfectly
+  (**r=0.99, mean|Δ|=₹0.10**), so it validates the pithead *level* (pithead ~₹1.4-1.6
+  vs distant ~₹2.7-3.9). BUT it **tempers `09`**: pithead-coal eff↔ECR is **R²≈0.00**
+  here (n=7) vs `09`'s 0.62 — the within-pithead cost-side claim is **not established**
+  (thin-sample, sources disagree; pithead coal cost is uniformly low/flat ~₹1.4
+  regardless of heat rate). **Robust = the pithead flag predicts cost LEVEL** (location/
+  freight, not efficiency). Still ISGS-only + 2021-23, not the FY2022-23 headline.
 - **Domestic coal price is now REAL** (FY2022-23): CIL grade-wise pithead notified
   prices (notif. 194 dated 27-11-2020, in force all of FY2022-23) + published levies
   + flagged flat freight → domestic ≈ ₹2.1/kWh (was a ₹850/Gcal *assumed* anchor).
@@ -66,9 +74,9 @@ REPORT.md            the analysis write-up (main deliverable)
 README.md            quick start + pipeline table
 CLAUDE.md            this file
 requirements.txt     pandas, numpy, scipy, openpyxl
-data/raw/            source xlsx; cil_grade_prices_fy2022-23.csv (REAL); plant_ecr_cerc_2018basis.csv (REAL, cross-check); plant_ecr_template.csv; (drop plant_ecr.csv + sced_blocks.csv here)
+data/raw/            source xlsx; cil_grade_prices_fy2022-23.csv (REAL); plant_ecr_cerc_2018basis.csv (REAL, cross-check); datagov_tariff_ecr_2021-23.csv (REAL central ECR, 2021-23, cross-check); plant_ecr_template.csv; (drop plant_ecr.csv + sced_blocks.csv here)
 data/                cse_subcritical_clean.csv, plant_cost_blended.csv  (generated)
-analysis/            common.py + numbered pipeline scripts (01–09) + run_all.py
+analysis/            common.py + numbered pipeline scripts (01–10) + fetch_datagov_ecr.py + run_all.py
 outputs/             *.txt results (committed)
 docs/                methodology_variable_cost.md, data_sources.md
 .claude/             SessionStart hook (installs deps + runs pipeline on web)
@@ -100,8 +108,16 @@ Pipeline scripts:
   model, clearly labelled; 14 central stations; NOT the headline counterfactual.
 - `09_pithead_test.py` — SIDE analysis (numbered 09 because 08 was taken): does
   efficiency tighten as a cost/PLF proxy at pithead plants? Curated+lignite pithead
-  flag (validated by the CERC ECR ladder); cost-side test uses REAL ECR only (not the
-  SHR-built model). Cost-side supports H; PLF-side tightening is a lignite/size artifact.
+  flag (now in `common.py`, shared with `10`); cost-side test uses REAL ECR only (not
+  the SHR-built model). PLF-side tightening is a lignite/size artifact; cost-side is
+  thin (n=7) and is NOT confirmed by `10`.
+- `fetch_datagov_ecr.py` — fetches real per-station ECR from the data.gov.in tariff
+  statements (resource IDs in-file). Needs network + env `DATAGOVIN_API_KEY` (key never
+  written to disk/committed). Not in run_all; writes `data/raw/datagov_tariff_ecr_2021-23.csv`.
+- `10_datagov_ecr.py` — contemporaneous CENTRAL/ISGS ECR cross-check from data.gov.in
+  (2021-22/2021-23). Curated exact-name map (gas/supercritical dropped; DVC paise→Rs);
+  coverage, ECR ladder vs model & CERC-2018, the pithead cost-side re-run, illustrative
+  re-dispatch. Labelled cross-check, NOT the FY2022-23 headline.
 
 ## CURRENT TASK — status (2026-06 Full-access session)
 Goal: replace modelled coal prices with real published data, FY2022-23 vintage.

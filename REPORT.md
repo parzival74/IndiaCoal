@@ -336,10 +336,47 @@ ones we flagged.
   (coef +0.44, p=0.31): the PLF tightening does not survive the confounder. PLF also carries
   must-run / demand / transmission noise on top of cost, so we never expected it to be clean.
 
-**Bottom line:** the mechanism shows up exactly where it's directly testable — on **cost**
-(efficiency is a strong cost proxy at pithead, a non-proxy away from it) — and *not* on PLF,
-where lignite and sector/size confound it. This is consistent with §1 and §6: dispatch
-follows cost, not efficiency, and the cheap pithead coal is also the dirtiest.
+**Bottom line:** on the data we had at this point, the mechanism showed up on **cost**
+(efficiency looked like a strong cost proxy at pithead, a non-proxy away from it) but
+*not* on PLF, where lignite and sector/size confound it. **§10 revisits the cost-side
+result with a second, contemporaneous real source and finds it does not replicate** —
+read the two together.
+
+## 10. Real per-station ECR coverage: the data.gov.in cross-check
+
+We then found the most contemporaneous real per-station ECR reachable: three Rajya Sabha
+*"Generating Station-wise Tariff Statement"* datasets on data.gov.in (NTPC FY2021-22;
+NLC/DVC 2021-23), giving structured Energy Charge Rate (₹/kWh) for **central/ISGS**
+stations. Ingested via `analysis/fetch_datagov_ecr.py` → `data/raw/datagov_tariff_ecr_2021-23.csv`;
+analysed in `analysis/10_datagov_ecr.py` → `outputs/10_datagov_ecr.txt`.
+
+**Coverage & validation.** A curated (exact-name) map lands **29 stations / 119 units
+(26% of units, 31% of capacity)** — roughly double the 14-station CERC cross-check, and
+contemporaneous. The two independent real sources agree almost perfectly on the 12
+overlapping stations (**r=0.99, mean |Δ|=₹0.10/kWh**), mutually validating both. The real
+ladder is stark and stable: pithead central stations ~**₹1.4–1.6/kWh** (Korba 1.38,
+Singrauli 1.39, Rihand 1.40, Sipat 1.42, Vindhyachal 1.60) vs distant central ~**₹2.7–3.9**
+(Dadri 3.30, Bongaigaon 3.37, Durgapur 3.93). The flat-freight model compresses all of
+these toward ~₹1.9–2.1.
+
+**It tempers the §9 cost-side claim — honestly.** The narrow sub-claim "efficiency proxies
+cost *within* the pithead group" **does not replicate** across the two real sources:
+CERC-2018 gave pithead-coal eff↔ECR R²=0.62 (n=7), but the contemporaneous data.gov.in
+sample gives **R²≈0.00 (n=7)**. Both samples are tiny and they disagree, so that sub-claim
+is **not established** — it was thin-sample noise. The reason is visible in the ladder:
+pithead-coal ECR is **uniformly low and nearly flat (~₹1.4) regardless of heat rate**, so
+efficiency explains almost none of the small within-group variation.
+
+**What is robust** (survives both sources): the pithead flag predicts the cost **level** —
+location/freight, not efficiency, sets a low flat floor at the mine and a steep premium far
+away. That is the durable form of the §1/§6 thesis: dispatch follows *coal-logistics cost*,
+and efficiency is the wrong axis. It is simply not the case that efficiency cleanly proxies
+cost even at pithead.
+
+**Still missing.** This is ISGS-only (no state/private merchant plants) and 2021-22/23, not
+clean FY2022-23, so it stays a labelled cross-check, not the headline. Full FY2022-23
+all-fleet ECR still needs the metered MERIT/SCED/SLDC feeds (blocked from this environment)
+or the landed-cost reconstruction route (CIL price + coal linkage + railway freight).
 
 ---
 

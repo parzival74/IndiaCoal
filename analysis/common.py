@@ -15,6 +15,7 @@ apples-to-oranges (see REPORT.md, section 4). The underlying CEA vintage is
 from __future__ import annotations
 import os
 import pandas as pd
+from scipy import stats
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_XLSX = os.path.join(REPO, "data", "raw",
@@ -87,6 +88,64 @@ def clean_from_raw() -> pd.DataFrame:
 def analysis_set(df: pd.DataFrame, min_plf: float = 20.0) -> pd.DataFrame:
     """The PLF>=20 working set used for the headline correlations."""
     return df[df["plf_pct"] >= min_plf].copy()
+
+
+# ---------------------------------------------------------------------------
+# Pithead proxy flag + a small correlation helper (shared by 09 and 10).
+# There is no distance-to-mine field, so 'pithead' is a transparent CURATED
+# PROXY: lignite (mine-mouth by construction) + a documented coal-belt list,
+# each entry annotated with its coalfield basis. Matched by EXACT name. See the
+# header of analysis/09_pithead_test.py for the full rationale and validation.
+# ---------------------------------------------------------------------------
+CORE_PITHEAD_COAL = {
+    # --- Singrauli / Northern Coalfields (NCL) belt ---
+    "Singrauli Stps":     "NTPC; Singrauli coalfield (NCL), mine-mouth",
+    "Rihand":             "NTPC; Singrauli/Rihand (NCL Amlohri/Nigahi), mine-mouth",
+    "Vindh_Chal Stps":    "NTPC Vindhyachal; Singrauli (NCL Nigahi/Jayant), mine-mouth",
+    # --- Korba / South Eastern Coalfields (SECL) belt ---
+    "Korba Stps":         "NTPC; Korba coalfield (SECL Kusmunda/Gevra), mine-mouth",
+    "Sipat Stps":         "NTPC; Korba belt (SECL Dipka/Gevra), near-pithead",
+    "Korba-West":         "CSPGCL; Korba coalfield, mine-mouth",
+    "Korba-West Ext":     "CSPGCL; Korba coalfield, mine-mouth",
+    "Korba-V(Dspm Tps)":  "CSPGCL/DSPM; Korba coalfield, mine-mouth",
+    # --- Talcher / Mahanadi Coalfields (MCL) ---
+    "Talcher Stps":       "NTPC; Talcher coalfield (MCL), mine-mouth",
+    # --- Godavari valley / Singareni (SCCL) ---
+    "R_Gundem Stps":      "NTPC Ramagundam; Singareni Godavari coalfield, mine-mouth",
+    "R_Gundem - B":       "NTPC Ramagundam unit; Singareni Godavari coalfield, mine-mouth",
+    "Singareni TPP":      "Singareni Collieries captive; Godavari coalfield, mine-mouth",
+}
+# Coal-belt but with non-trivial haul / weaker documentation; kept OUT of the
+# primary flag and used only for sensitivity.
+BORDERLINE_PITHEAD_COAL = {
+    "Kahalgaon":                 "NTPC; Rajmahal coalfield (ECL) supply, longer haul",
+    "Sanjay Gandhi":             "MPPGCL Birsinghpur; SECL Johilla coal-belt",
+    "Mahan TPP":                 "private; Singrauli/Mahan coal-block area",
+    "Raigarh TPP(OP Jindal Tps)":"JPL Raigarh; Gare-Pelma captive coal",
+    "Chandrapur_Coal":           "MAHAGENCO Chandrapur; WCL Chandrapur coalfield",
+    "Chandrapura":               "DVC Chandrapura; ECL/Bokaro coal-belt",
+}
+
+
+def flag_pithead(df: pd.DataFrame) -> pd.DataFrame:
+    """Tag each row with a curated pithead PROXY: lignite + core coal list."""
+    df = df.copy()
+    df["is_lignite"] = df["fuel"].str.contains("Lignite", case=False, na=False)
+    df["is_core_coal"] = df["name"].isin(CORE_PITHEAD_COAL)
+    df["is_borderline"] = df["name"].isin(BORDERLINE_PITHEAD_COAL)
+    # PRIMARY flag: lignite (structural mine-mouth) + undisputed coal pithead.
+    df["pithead"] = df["is_lignite"] | df["is_core_coal"]
+    return df
+
+
+def corr(x: pd.Series, y: pd.Series):
+    """Pearson r, R²=r², n on the pairwise-complete sample (None if n<3)."""
+    m = x.notna() & y.notna()
+    n = int(m.sum())
+    if n < 3:
+        return None, None, n
+    r, _ = stats.pearsonr(x[m], y[m])
+    return float(r), float(r * r), n
 
 
 if __name__ == "__main__":
