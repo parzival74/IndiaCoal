@@ -1,5 +1,20 @@
 # Data sources & extension roadmap
 
+## Resuming with network access (read this first if you're a new session)
+Earlier sessions ran under the **Trusted** network policy, so government data
+hosts (`cercind.gov.in`, `coal.gov.in`, `cea.nic.in`, `meritindia.in`,
+Grid-India) returned HTTP 403 and real ECR could not be fetched. The environment
+has since been set to **Full** network access. If you are a fresh session on that
+environment, verify access (`curl -s -o /dev/null -w '%{http_code}' https://meritindia.in`
+should be 200, not 403), then:
+1. Open `analysis/07_fetch_ecr.py`, inspect the real MERIT/CERC responses, and
+   complete the parser TODOs (it is a scaffold that refuses to emit fake data).
+2. Run `python3 analysis/07_fetch_ecr.py` to write `data/raw/plant_ecr.csv`.
+3. Run `python3 analysis/06_apply_ecr.py` to override the model with real ECR and
+   re-run the cost-vs-carbon counterfactual at real coverage.
+4. Push to branch `claude/keen-newton-P0cFA` (PR #1).
+
+
 ## Current dataset (in repo)
 - `data/raw/CSE_subcritical_coal_plants_CEA_2022-23.xlsx` — CSE's analysis of
   **CEA's CO₂ database, 2022-23, version 19**, *Table 1: Performance of
