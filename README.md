@@ -41,6 +41,7 @@ python3 analysis/run_all.py
 | `09_pithead_test.py` | side analysis: does efficiency tighten as a cost/PLF proxy at pithead plants? | done (PLF-side is a lignite artifact; cost-side see `10`) |
 | `fetch_datagov_ecr.py` | fetch real per-station ECR from data.gov.in tariff statements (env-var key) | needs network + DATAGOVIN_API_KEY (not in run_all) |
 | `10_datagov_ecr.py` | **contemporaneous central/ISGS ECR cross-check** (data.gov.in, 2021-23) | done (29 stations; r=0.99 vs CERC-2018) |
+| `11_landed_cost.py` | **all-fleet landed-cost reconstruction** — per-plant freight calibrated on real ISGS ECRs | done (100% of units costed; real / reconstructed / anchor labelled) |
 
 Extensions #1–#3 are limited by data **not present in the source file**; see
 [`docs/data_sources.md`](docs/data_sources.md) for exactly what to add.

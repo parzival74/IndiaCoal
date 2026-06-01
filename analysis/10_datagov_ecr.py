@@ -141,6 +141,8 @@ def main():
                      "n_stage": len(vals),
                      "vintage": raw_vint.get(raws[0], "?")})
     matched = pd.DataFrame(rows)
+    # persist the matched real central ECR table for 11_landed_cost.py to consume.
+    matched.to_csv(os.path.join(REPO, "data", "plant_real_ecr_central.csv"), index=False)
 
     log("=" * 74)
     log("10 - CONTEMPORANEOUS CENTRAL/ISGS ECR from data.gov.in (Rajya Sabha tariff")

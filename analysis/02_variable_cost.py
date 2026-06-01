@@ -42,28 +42,19 @@ import os
 import numpy as np
 import pandas as pd
 from scipy import stats
-from common import load_clean, analysis_set, CLEAN_CSV, OUT_DIR, REPO
+from common import (load_clean, analysis_set, CLEAN_CSV, OUT_DIR, REPO,
+                    load_cil_pithead_prices, base_domestic_rs_per_tonne,
+                    CIL_PRICE_CSV, CIL_OTHER_CHARGES_RS_PER_TONNE)
 
 # --------------------------------------------------------------------------
-# DOMESTIC COAL -- REAL CIL FY2022-23 pithead price + published statutory levies
+# DOMESTIC COAL -- the REAL CIL pithead price + statutory levies build-up now
+# lives in common.py (shared with 11_landed_cost). Here we add only the freight.
 # --------------------------------------------------------------------------
-CIL_PRICE_CSV = os.path.join(REPO, "data", "raw", "cil_grade_prices_fy2022-23.csv")
-# Inline fallback = the exact verified Table-I "Power Utilities" pithead prices
-# (Rs/tonne) so the pipeline is reproducible offline if the CSV is absent.
-CIL_PITHEAD_ROM_FALLBACK = {
-    "G2": 3298, "G3": 3154, "G4": 3010, "G5": 2747, "G6": 2327, "G7": 1936,
-    "G8": 1475, "G9": 1150, "G10": 1034, "G11": 965, "G12": 896, "G13": 827,
-    "G14": 758, "G15": 600, "G16": 574, "G17": 457,
-}
-# Published statutory add-ons on domestic coal (FY2022-23). REAL rates:
-ROYALTY_RATE = 0.14                  # ad-valorem royalty on the pithead price
-GST_RATE = 0.05                      # GST on coal
-GST_COMP_CESS_RS_PER_TONNE = 400.0   # fixed GST compensation cess
-CIL_OTHER_CHARGES_RS_PER_TONNE = 150.0  # CIL-notified sizing/surface-transport
 # MODELLED, FLAGGED: average pit-to-plant rail freight. Per-plant lead distance is
-# not in the dataset, so this is one fleet-representative value (it deliberately
+# not in the dataset, so 02 uses one fleet-representative value (it deliberately
 # CANNOT reproduce the pithead(~Rs0) vs distant(~Rs1500/t) spread -- the CERC
-# cross-check in 08 shows the real per-station dispersion this flattens).
+# cross-check in 08 shows the real per-station dispersion this flattens; 11
+# replaces this flat term with a per-plant freight calibrated on real ISGS ECRs).
 RAIL_FREIGHT_RS_PER_TONNE = 900.0
 
 # --------------------------------------------------------------------------
@@ -93,15 +84,6 @@ KNOWN_IMPORTED_KEYWORDS = [
 # --------------------------------------------------------------------------
 
 
-def load_cil_pithead_prices() -> dict:
-    """Real CIL FY2022-23 grade-wise pithead price (Rs/tonne, Power-Utilities)."""
-    if os.path.exists(CIL_PRICE_CSV):
-        t = pd.read_csv(CIL_PRICE_CSV, comment="#")
-        t = t.dropna(subset=["pithead_rom_rs_per_tonne_power"])
-        return dict(zip(t["grade"], t["pithead_rom_rs_per_tonne_power"].astype(float)))
-    return {k: float(v) for k, v in CIL_PITHEAD_ROM_FALLBACK.items()}
-
-
 def classify_source(row) -> str:
     if str(row["fuel"]).strip().lower() == "lignite":
         return "lignite"
@@ -117,17 +99,11 @@ def classify_source(row) -> str:
 
 
 def domestic_landed_rs_per_gcal(grade: str, gcv: float, pithead: dict):
-    """Real CIL pithead price + published levies + flagged freight -> Rs/Gcal."""
-    p = pithead.get(grade)
-    if p is None and str(grade).startswith("ungraded"):
-        p = pithead.get("G17")  # sub-G17 coal (GCV<2200): floor at lowest notified grade
-    if p is None or pd.isna(gcv) or gcv <= 0:
+    """Real CIL pithead price + published levies + flagged flat freight -> Rs/Gcal."""
+    base = base_domestic_rs_per_tonne(grade, pithead)  # pithead + levies (shared)
+    if base is None or pd.isna(gcv) or gcv <= 0:
         return np.nan
-    landed_rs_per_tonne = (
-        p * (1.0 + ROYALTY_RATE + GST_RATE)   # pithead + royalty + GST (ad valorem)
-        + GST_COMP_CESS_RS_PER_TONNE          # fixed compensation cess
-        + CIL_OTHER_CHARGES_RS_PER_TONNE      # sizing/surface transport (CIL notified)
-        + RAIL_FREIGHT_RS_PER_TONNE)          # rail freight (MODELLED, flagged)
+    landed_rs_per_tonne = base + RAIL_FREIGHT_RS_PER_TONNE  # + flat freight (MODELLED)
     # Rs/tonne -> Rs/Gcal using the plant's actual GCV (Gcal/tonne = GCV/1000).
     return landed_rs_per_tonne * 1000.0 / gcv
 

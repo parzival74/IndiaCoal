@@ -376,7 +376,49 @@ cost even at pithead.
 **Still missing.** This is ISGS-only (no state/private merchant plants) and 2021-22/23, not
 clean FY2022-23, so it stays a labelled cross-check, not the headline. Full FY2022-23
 all-fleet ECR still needs the metered MERIT/SCED/SLDC feeds (blocked from this environment)
-or the landed-cost reconstruction route (CIL price + coal linkage + railway freight).
+or the landed-cost reconstruction in §11.
+
+## 11. All-fleet landed-cost reconstruction (the state/private gap)
+
+The metered feeds that carry state + private variable cost (MERIT / SCED / state SLDC
+stacks) refuse from this environment, and data.gov.in has no state-sector ECR — so the
+~340 state/private + uncovered-central units have no real ECR. Rather than leave them on
+a flat freight, `analysis/11_landed_cost.py` reconstructs an all-fleet cost from real
+inputs, replacing `02`'s single ₹900/t freight with a **per-plant freight calibrated on
+the real ISGS ECRs**.
+
+**Method.** For the ~30 stations with a real ECR (CERC §8 + data.gov.in §10) we back out
+the *implied freight*: `real delivered ₹/t − (CIL pithead price + statutory levies)`. The
+real numbers separate cleanly: pithead/mine-mouth stations imply a small **~₹360/t** (short
+MGR/conveyor haul), distant central stations **~₹2,190/t**. That distant figure cross-checks
+against the published Indian Railways FY2022-23 coal tariff (~₹1.5/net-tonne-km) as a
+**~1,460 km** average lead — a realistic pithead→load-centre haul. We then assign every
+*uncovered domestic* unit one of these data-derived levels by its pithead flag (pithead
+₹360 / coal-belt-borderline ₹1,280 / distant ₹2,190), keep the lignite & imported anchors
+from `02`, and use the **real ECR wherever we have it**.
+
+**Result — 100% of the fleet now carries a cost, labelled by provenance:**
+
+| Source | Units | Stations | Capacity | Mean cost |
+|---|---|---|---|---|
+| `real_ISGS_ECR` (CERC + data.gov.in) | 124 | 31 | 45 GW | ₹2.35/kWh |
+| `reconstructed_landed` (calibrated freight) | 293 | 108 | 85 GW | ₹3.05/kWh |
+| `modelled_anchor` (lignite / imported) | 38 | 16 | 11 GW | ₹3.16/kWh |
+
+Reconstructed vs real on the calibration stations: r=0.85, R²=0.72, mean |Δ|=₹0.29/kWh
+(in-sample for the distant level; the **independent pithead step** lands within ₹0.26/kWh).
+Re-running the counterfactual on this all-fleet cost: as-run is **+6.4% above cost-optimal**
+(merit order still broadly followed even with the wider real spread), and cost- vs
+carbon-optimal diverge by **+26.5 MT CO₂ for ~₹16,400 cr** — the headline conclusion holds,
+sharper, once per-plant freight un-compresses the cost ladder.
+
+**What this is and isn't.** REAL: the CIL pithead price, the statutory levies, the ~30 ISGS
+ECRs, the IR tariff. MODELLED: the freight *level* assigned to uncovered plants — a **two-step
+function of the pithead flag**, which captures the robust pithead-vs-distant difference but
+**not fine per-plant lead distance** (not in the data). So state/private numbers are
+calibrated estimates, flagged in `vc_source` (`data/plant_cost_reconstructed.csv`), not
+metered coverage. Closing that last gap needs the SLDC/MERIT feeds or per-plant coal-linkage
+distances.
 
 ---
 

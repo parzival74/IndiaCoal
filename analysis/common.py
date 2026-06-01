@@ -148,6 +148,46 @@ def corr(x: pd.Series, y: pd.Series):
     return float(r), float(r * r), n
 
 
+# ---------------------------------------------------------------------------
+# Domestic-coal landed-price build-up (shared by 02_variable_cost and
+# 11_landed_cost). REAL inputs: CIL FY2022-23 grade-wise PITHEAD price + published
+# statutory levies. The ONLY modelled term is rail freight -- 02 uses a single flat
+# value; 11 replaces it with a per-plant freight calibrated on real ISGS ECRs.
+# ---------------------------------------------------------------------------
+CIL_PRICE_CSV = os.path.join(REPO, "data", "raw", "cil_grade_prices_fy2022-23.csv")
+# Inline fallback = verified Table-I "Power Utilities" pithead prices (Rs/tonne).
+CIL_PITHEAD_ROM_FALLBACK = {
+    "G2": 3298, "G3": 3154, "G4": 3010, "G5": 2747, "G6": 2327, "G7": 1936,
+    "G8": 1475, "G9": 1150, "G10": 1034, "G11": 965, "G12": 896, "G13": 827,
+    "G14": 758, "G15": 600, "G16": 574, "G17": 457,
+}
+ROYALTY_RATE = 0.14                      # ad-valorem royalty on the pithead price
+GST_RATE = 0.05                          # GST on coal
+GST_COMP_CESS_RS_PER_TONNE = 400.0       # fixed GST compensation cess
+CIL_OTHER_CHARGES_RS_PER_TONNE = 150.0   # CIL-notified sizing/surface-transport
+
+
+def load_cil_pithead_prices() -> dict:
+    """Real CIL FY2022-23 grade-wise pithead price (Rs/tonne, Power-Utilities)."""
+    if os.path.exists(CIL_PRICE_CSV):
+        t = pd.read_csv(CIL_PRICE_CSV, comment="#")
+        t = t.dropna(subset=["pithead_rom_rs_per_tonne_power"])
+        return dict(zip(t["grade"], t["pithead_rom_rs_per_tonne_power"].astype(float)))
+    return {k: float(v) for k, v in CIL_PITHEAD_ROM_FALLBACK.items()}
+
+
+def base_domestic_rs_per_tonne(grade: str, pithead: dict):
+    """Pithead price + statutory levies, EXCLUDING freight (Rs/tonne). None if no price."""
+    p = pithead.get(grade)
+    if p is None and str(grade).startswith("ungraded"):
+        p = pithead.get("G17")   # sub-G17 coal (GCV<2200): floor at lowest notified grade
+    if p is None:
+        return None
+    return (p * (1.0 + ROYALTY_RATE + GST_RATE)
+            + GST_COMP_CESS_RS_PER_TONNE
+            + CIL_OTHER_CHARGES_RS_PER_TONNE)
+
+
 if __name__ == "__main__":
     d = clean_from_raw()
     os.makedirs(os.path.dirname(CLEAN_CSV), exist_ok=True)

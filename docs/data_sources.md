@@ -73,9 +73,23 @@ below are both vintage-correct and more authoritative.)
    flaky/semi-defunct. NPP mirror: `npp.gov.in/dashBoard/gc-map-dashboard-meritchart`.
 6. **Cross-checks:** Prayas (Energy Group) MOD analyses, NITI Aayog ICED
    (`iced.niti.gov.in`), CEA operation reports, Ember.
+7. **data.gov.in Rajya Sabha tariff statements — INGESTED (`10_datagov_ecr.py`).**
+   Structured per-station ECR (₹/kWh) for central/ISGS stations, via the OGD API
+   (`api.data.gov.in/resource/<id>`, free env-var key `DATAGOVIN_API_KEY`). Resource IDs:
+   `948ebec1-…` (NTPC, FY2021-22), `9a0d4b8a-…` (NLC/DVC, 2021-23), `97d10fda-…`
+   (central→Bihar, 2021-22). Fetched by `fetch_datagov_ecr.py` →
+   `data/raw/datagov_tariff_ecr_2021-23.csv`. **2021-23 vintage, ISGS-only** — a labelled
+   cross-check, and the calibration anchor for the §11 reconstruction. No state-sector
+   per-station ECR dataset exists on data.gov.in (searched exhaustively, 2026-06).
+8. **Indian Railways FY2022-23 coal freight tariff** (IR Goods Tariff / rate circulars,
+   `indianrail.gov.in`) — base class-150 haulage ≈ **₹1.5/net-tonne-km** after busy-season +
+   development surcharges. Used by `11_landed_cost.py` only to sanity-check the calibrated
+   distant freight (~₹2,190/t ⇒ ~1,460 km lead) against a plausible average haul.
 
 Tag each row's `source`; `06_apply_ecr.py` reports the real-vs-modelled coverage
-split and flags every unit via the `vc_source` column.
+split and flags every unit via the `vc_source` column. `11_landed_cost.py` extends
+this to **100% of units** (real ECR where available, else calibrated reconstruction or a
+modelled anchor) and labels every unit in `data/plant_cost_reconstructed.csv`.
 
 ### #2 Grid location / load proximity (H2) — *coarse proxy done*
 Region is inferred from the company name (state utilities only, ~60% coverage).

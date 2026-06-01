@@ -1,0 +1,456 @@
+name,unit_no,sector,coal_source,coal_grade,pithead,base_rs_t,freight_rs_t,recon_ecr,real_ecr,vc_final,vc_source
+Melamaruthur (Muthiara),1.0,Private,imported,G11,False,1698.3500000000001,,5.66863,,5.66863,modelled_anchor
+Barauni,3.0,State,domestic,G13,False,1534.13,2190.0,2.8807404801262733,,2.8807404801262733,reconstructed_landed
+Durgapur,2.0,Centre,domestic,G15,False,1264.0,2190.0,5.117510017452007,3.927,3.927,real_ISGS_ECR
+Ghtp (Leh.Moh.),2.0,State,domestic,G11,False,1698.3500000000001,2190.0,3.4482094234427016,,3.4482094234427016,reconstructed_landed
+Mundra TPP,2.0,Private,imported,G11,False,1698.3500000000001,,4.24658,,4.24658,modelled_anchor
+Itpcl TPP,2.0,Private,imported,G12,False,1616.2400000000002,,4.69572,,4.69572,modelled_anchor
+Raichur,1.0,State,domestic,G14,False,1452.02,2190.0,3.3115566486150017,,3.3115566486150017,reconstructed_landed
+Udupi TPP,2.0,Private,imported,G8,False,2305.25,,4.58828,,4.58828,modelled_anchor
+Mundra TPP,1.0,Private,imported,G11,False,1698.3500000000001,,4.24522,,4.24522,modelled_anchor
+Udupi TPP,1.0,Private,imported,G8,False,2305.25,,4.5969500000000005,,4.5969500000000005,modelled_anchor
+Binjkote,1.0,Private,domestic,G14,False,1452.02,2190.0,3.4389173816817755,,3.4389173816817755,reconstructed_landed
+Salaya TPP,1.0,Private,imported,G7,False,2853.84,,4.54561,,4.54561,modelled_anchor
+Niwari TPP,1.0,Private,domestic,G16,False,1233.06,2190.0,4.40738265,,4.40738265,reconstructed_landed
+Mundra TPP,3.0,Private,imported,G11,False,1698.3500000000001,,4.51161,,4.51161,modelled_anchor
+Torangallu Ext,2.0,Private,imported,G7,False,2853.84,,4.41267,,4.41267,modelled_anchor
+Mundra TPP,4.0,Private,imported,G11,False,1698.3500000000001,,4.52249,,4.52249,modelled_anchor
+Tuticorin JV Stage- IV,1.0,Private,domestic,G9,False,1918.5000000000002,2190.0,2.3849214087330592,,2.3849214087330592,reconstructed_landed
+Uchpinda TPP,4.0,Private,domestic,G15,False,1264.0,2190.0,3.1771984888304865,,3.1771984888304865,reconstructed_landed
+Bhavnagar TPP,2.0,State,lignite,G16,True,1233.06,,1.99825,,1.99825,modelled_anchor
+Salaya TPP,2.0,Private,imported,G8,False,2305.25,,4.625,,4.625,modelled_anchor
+Chhabra Tps,4.0,State,domestic,G13,False,1534.13,2190.0,3.0390408616823983,,3.0390408616823983,reconstructed_landed
+JSW Ratnagiri TPP,1.0,Private,imported,G7,False,2853.84,,4.5774,,4.5774,modelled_anchor
+Wanakbori,4.0,State,domestic,G12,False,1616.2400000000002,2190.0,3.1206287805006454,,3.1206287805006454,reconstructed_landed
+Khamberkhera Ipp,2.0,Private,domestic,G13,False,1534.13,2190.0,3.5427694802631584,,3.5427694802631584,reconstructed_landed
+Raichur,2.0,State,domestic,G14,False,1452.02,2190.0,3.388812750446087,,3.388812750446087,reconstructed_landed
+Bhavnagar TPP,1.0,State,lignite,G16,True,1233.06,,1.9815999999999998,,1.9815999999999998,modelled_anchor
+Sikka Extn,4.0,State,imported,G8,False,2305.25,,5.12259,,5.12259,modelled_anchor
+Neyveli Tps Exp -Ii,2.0,Centre,lignite,G16,True,1233.06,,1.64725,2.562,2.562,real_ISGS_ECR
+Kota,3.0,State,domestic,G13,False,1534.13,2190.0,3.03959212069857,,3.03959212069857,reconstructed_landed
+Balco TPP,2.0,Private,domestic,G13,False,1534.13,2190.0,3.0632317283251713,,3.0632317283251713,reconstructed_landed
+ITPCL TPP,1.0,Private,imported,G11,False,1698.3500000000001,,4.58063,,4.58063,modelled_anchor
+D.P.L.,7.0,State,domestic,G12,False,1616.2400000000002,2190.0,2.95855852892562,,2.95855852892562,reconstructed_landed
+"Iepl ,Bela TPP",1.0,Private,domestic,G13,False,1534.13,2190.0,2.8692070915235153,,2.8692070915235153,reconstructed_landed
+Akrimota Lig,1.0,State,lignite,G14,True,1452.02,,1.9145500000000002,,1.9145500000000002,modelled_anchor
+Akrimota Lig,2.0,State,lignite,G14,True,1452.02,,1.9703,,1.9703,modelled_anchor
+Suratgarh,1.0,State,domestic,G14,False,1452.02,2190.0,3.0707217311024797,,3.0707217311024797,reconstructed_landed
+Kundarki TPP,2.0,Private,domestic,G13,False,1534.13,2190.0,3.534196648633094,,3.534196648633094,reconstructed_landed
+Mahan TPP,1.0,Private,domestic,G13,False,1534.13,1280.0,2.280551666252725,,2.280551666252725,reconstructed_landed
+Utraula TPP,1.0,Private,domestic,G13,False,1534.13,2190.0,3.587173710955711,,3.587173710955711,reconstructed_landed
+Maqsoodpur Ipp,1.0,Private,domestic,G13,False,1534.13,2190.0,3.4891508855047944,,3.4891508855047944,reconstructed_landed
+Chandrapur_Coal,7.0,State,domestic,G15,False,1264.0,1280.0,2.7120209959623147,,2.7120209959623147,reconstructed_landed
+Suratgarh,3.0,State,domestic,G14,False,1452.02,2190.0,3.205352622399021,,3.205352622399021,reconstructed_landed
+Barkhera TPP,2.0,Private,domestic,G13,False,1534.13,2190.0,3.593040735251381,,3.593040735251381,reconstructed_landed
+Bhusawal,3.0,State,domestic,G13,False,1534.13,2190.0,4.741413468043236,,4.741413468043236,reconstructed_landed
+Utraula TPP,2.0,Private,domestic,G13,False,1534.13,2190.0,3.587173710955711,,3.587173710955711,reconstructed_landed
+Wanakbori,1.0,State,domestic,G13,False,1534.13,2190.0,3.4413509533192723,,3.4413509533192723,reconstructed_landed
+Barkhera TPP,1.0,Private,domestic,G13,False,1534.13,2190.0,3.593148963382738,,3.593148963382738,reconstructed_landed
+Obra-A,13.0,State,domestic,G13,False,1534.13,2190.0,3.2731329250728862,,3.2731329250728862,reconstructed_landed
+Khamberkhera Ipp,1.0,Private,domestic,G13,False,1534.13,2190.0,3.5427694802631584,,3.5427694802631584,reconstructed_landed
+Mahan TPP,2.0,Private,domestic,G13,False,1534.13,1280.0,2.2684719513003153,,2.2684719513003153,reconstructed_landed
+Kutch Lignite,4.0,State,lignite,G17,True,1093.83,,2.4682500000000003,,2.4682500000000003,modelled_anchor
+Maqsoodpur Ipp,2.0,Private,domestic,G13,False,1534.13,2190.0,3.4947171260575303,,3.4947171260575303,reconstructed_landed
+Sikka Extn,3.0,State,imported,G8,False,2305.25,,4.99254,,4.99254,modelled_anchor
+Nawapara,2.0,Private,domestic,G15,False,1264.0,2190.0,3.35699651500484,,3.35699651500484,reconstructed_landed
+Ropar,5.0,State,domestic,G12,False,1616.2400000000002,2190.0,3.2617177762838088,,3.2617177762838088,reconstructed_landed
+Wanakbori,2.0,State,domestic,G13,False,1534.13,2190.0,3.327130727696314,,3.327130727696314,reconstructed_landed
+Binjkote,2.0,Private,domestic,G14,False,1452.02,2190.0,3.1718072957233843,,3.1718072957233843,reconstructed_landed
+Nashik,3.0,State,domestic,G16,False,1233.06,2190.0,3.9277864426934097,,3.9277864426934097,reconstructed_landed
+North Chennai Extension,1.0,State,domestic,G15,False,1264.0,2190.0,3.3042944475057534,,3.3042944475057534,reconstructed_landed
+Melamaruthur (Muthiara),2.0,Private,imported,G12,False,1616.2400000000002,,5.00172,,5.00172,modelled_anchor
+Goindwal Sahib TPP,2.0,Private,domestic,G12,False,1616.2400000000002,2190.0,3.175604364339628,,3.175604364339628,reconstructed_landed
+Ukai_Coal,3.0,State,domestic,G13,False,1534.13,2190.0,3.155017662684869,,3.155017662684869,reconstructed_landed
+Nashik,5.0,State,domestic,G16,False,1233.06,2190.0,3.9894025735714282,,3.9894025735714282,reconstructed_landed
+Raichur,7.0,State,domestic,G15,False,1264.0,2190.0,3.244479819325698,,3.244479819325698,reconstructed_landed
+Rayal Seema,2.0,State,domestic,G14,False,1452.02,2190.0,3.4455084410129713,,3.4455084410129713,reconstructed_landed
+Suratgarh,2.0,State,domestic,G14,False,1452.02,2190.0,3.1992128812938665,,3.1992128812938665,reconstructed_landed
+Kasaipalli,1.0,Private,domestic,G16,False,1233.06,2190.0,4.084299793416573,,4.084299793416573,reconstructed_landed
+Nashik,4.0,State,domestic,G15,False,1264.0,2190.0,3.913930964109782,,3.913930964109782,reconstructed_landed
+Goindwal Sahib TPP,1.0,Private,domestic,G12,False,1616.2400000000002,2190.0,3.0610971575922,,3.0610971575922,reconstructed_landed
+H_Ganj B,9.0,State,domestic,G13,False,1534.13,2190.0,3.0830516956646568,,3.0830516956646568,reconstructed_landed
+Raichur,6.0,State,domestic,G14,False,1452.02,2190.0,3.4055689686386543,,3.4055689686386543,reconstructed_landed
+Marwa TPP,2.0,State,domestic,G13,False,1534.13,2190.0,3.161623110887097,,3.161623110887097,reconstructed_landed
+Kundarki TPP,1.0,Private,domestic,G13,False,1534.13,2190.0,3.534196648633094,,3.534196648633094,reconstructed_landed
+Bellary Tps,2.0,State,domestic,G13,False,1534.13,2190.0,3.2386182873228715,,3.2386182873228715,reconstructed_landed
+R_Gundem - B,1.0,State,domestic,G13,True,1534.13,360.0,1.7579261713973797,,1.7579261713973797,reconstructed_landed
+Kasaipalli,2.0,Private,domestic,G16,False,1233.06,2190.0,4.0612462678774115,,4.0612462678774115,reconstructed_landed
+Raghunathpur TPP Ph-I,1.0,Centre,domestic,G13,False,1534.13,2190.0,2.7467579220067915,3.067,3.067,real_ISGS_ECR
+Ropar,3.0,State,domestic,G12,False,1616.2400000000002,2190.0,3.2617177762838088,,3.2617177762838088,reconstructed_landed
+Unchahar,1.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,3.040149252976504,3.0225,3.0225,real_ISGS_ECR
+Wardha Warora (Sai Wardha Power),1.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.979963309794621,,2.979963309794621,reconstructed_landed
+R_Gundem Stps,2.0,Centre,domestic,G13,True,1534.13,360.0,1.5754758540442837,2.365,2.365,real_ISGS_ECR
+Ukai_Coal,5.0,State,domestic,G13,False,1534.13,2190.0,3.2818902552831783,,3.2818902552831783,reconstructed_landed
+Ropar,4.0,State,domestic,G12,False,1616.2400000000002,2190.0,3.261816194859596,,3.261816194859596,reconstructed_landed
+Uchpinda TPP,2.0,Private,domestic,G15,False,1264.0,2190.0,3.1739078843626807,,3.1739078843626807,reconstructed_landed
+Parli,8.0,State,domestic,G14,False,1452.02,2190.0,3.3676934851301117,,3.3676934851301117,reconstructed_landed
+Raichur,5.0,State,domestic,G14,False,1452.02,2190.0,3.389630802484949,,3.389630802484949,reconstructed_landed
+Bellary Tps,1.0,State,domestic,G13,False,1534.13,2190.0,3.436377795700397,,3.436377795700397,reconstructed_landed
+Anpara,4.0,State,domestic,G13,False,1534.13,2190.0,2.80671588562725,,2.80671588562725,reconstructed_landed
+Raichur,4.0,State,domestic,G14,False,1452.02,2190.0,3.389512885150479,,3.389512885150479,reconstructed_landed
+Neyveli St Ii,2.0,Centre,lignite,G16,True,1233.06,,1.84125,2.6420000000000003,2.6420000000000003,real_ISGS_ECR
+Chandrapur_Coal,5.0,State,domestic,G15,False,1264.0,1280.0,2.6211471518987346,,2.6211471518987346,reconstructed_landed
+Wanakbori,3.0,State,domestic,G13,False,1534.13,2190.0,2.938845534100926,,2.938845534100926,reconstructed_landed
+K_Kheda Ii,1.0,State,domestic,G14,False,1452.02,2190.0,3.903393902734664,,3.903393902734664,reconstructed_landed
+Raichur,8.0,State,domestic,G15,False,1264.0,2190.0,3.4122624711159437,,3.4122624711159437,reconstructed_landed
+Kutch Lignite,3.0,State,lignite,G17,True,1093.83,,2.13795,,2.13795,modelled_anchor
+Southern Repl.,2.0,Private,domestic,G9,False,1918.5000000000002,2190.0,2.8243891597177675,,2.8243891597177675,reconstructed_landed
+Vizag TPP,2.0,Private,domestic,G15,False,1264.0,2190.0,3.079538671096346,,3.079538671096346,reconstructed_landed
+Neyveli Tps Exp -Ii,1.0,Centre,lignite,G16,True,1233.06,,1.6176,2.562,2.562,real_ISGS_ECR
+Chandrapur_Coal,4.0,State,domestic,G15,False,1264.0,1280.0,2.5976218117854004,,2.5976218117854004,reconstructed_landed
+Bhadradri TPP,3.0,State,domestic,G13,False,1534.13,2190.0,3.0303266356521745,,3.0303266356521745,reconstructed_landed
+Ghtp (Leh.Moh.),3.0,State,domestic,G11,False,1698.3500000000001,2190.0,2.975103240882084,,2.975103240882084,reconstructed_landed
+Bhadradri TPP,4.0,State,domestic,G13,False,1534.13,2190.0,3.0303266356521745,,3.0303266356521745,reconstructed_landed
+Surat Lignite,1.0,Private,lignite,G16,True,1233.06,,1.6757499999999999,,1.6757499999999999,modelled_anchor
+K_Kheda Ii,2.0,State,domestic,G13,False,1534.13,2190.0,3.885381564859703,,3.885381564859703,reconstructed_landed
+Suratgarh,5.0,State,domestic,G14,False,1452.02,2190.0,3.0678873531013617,,3.0678873531013617,reconstructed_landed
+Tamnar TPP,3.0,Private,domestic,G15,False,1264.0,2190.0,2.979890293052804,,2.979890293052804,reconstructed_landed
+North Chennai,3.0,State,domestic,G14,False,1452.02,2190.0,3.77253931322208,,3.77253931322208,reconstructed_landed
+Ratija TPP,1.0,Private,domestic,ungraded(<2200),False,1093.83,2190.0,5.477279747655819,,5.477279747655819,reconstructed_landed
+Ropar,6.0,State,domestic,G12,False,1616.2400000000002,2190.0,3.2617177762838088,,3.2617177762838088,reconstructed_landed
+North Chennai,1.0,State,domestic,G14,False,1452.02,2190.0,3.737862792232761,,3.737862792232761,reconstructed_landed
+Bhadradri TPP,2.0,State,domestic,G13,False,1534.13,2190.0,3.0303266356521745,,3.0303266356521745,reconstructed_landed
+Paricha,4.0,State,domestic,G13,False,1534.13,2190.0,3.1090495915907086,,3.1090495915907086,reconstructed_landed
+Farakka Stps,5.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.609571592593536,2.68,2.68,real_ISGS_ECR
+Wardha Warora (Sai Wardha Power),2.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.979963309794621,,2.979963309794621,reconstructed_landed
+Kalisindh,2.0,State,domestic,G12,False,1616.2400000000002,2190.0,2.894234581953643,,2.894234581953643,reconstructed_landed
+Chandrapur_Coal,3.0,State,domestic,G14,False,1452.02,1280.0,2.7724440352235344,,2.7724440352235344,reconstructed_landed
+K_Kheda Ii,4.0,State,domestic,G13,False,1534.13,2190.0,3.8241474991251607,,3.8241474991251607,reconstructed_landed
+Unchahar,2.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.9385429238117613,3.0225,3.0225,real_ISGS_ECR
+Tuticorin,2.0,State,domestic,G15,False,1264.0,2190.0,3.604040070422535,,3.604040070422535,reconstructed_landed
+Southern Repl.,1.0,Private,domestic,G9,False,1918.5000000000002,2190.0,2.82166597177678,,2.82166597177678,reconstructed_landed
+Neyveli Tps(Z),1.0,Private,lignite,G15,True,1264.0,,1.60305,,1.60305,modelled_anchor
+Uchpinda TPP,1.0,Private,domestic,G15,False,1264.0,2190.0,3.208515965834428,,3.208515965834428,reconstructed_landed
+Raichur,3.0,State,domestic,G15,False,1264.0,2190.0,3.244803344848739,,3.244803344848739,reconstructed_landed
+Gandhi Nagar,4.0,State,domestic,G13,False,1534.13,2190.0,3.0412128530133624,,3.0412128530133624,reconstructed_landed
+H_Ganj B,8.0,State,domestic,G13,False,1534.13,2190.0,3.0611324694229114,,3.0611324694229114,reconstructed_landed
+Marwa TPP,1.0,State,domestic,G13,False,1534.13,2190.0,3.217399251440092,,3.217399251440092,reconstructed_landed
+Chandrapur_Coal,6.0,State,domestic,G15,False,1264.0,1280.0,2.550675757178445,,2.550675757178445,reconstructed_landed
+R_Gundem Stps,1.0,Centre,domestic,G13,True,1534.13,360.0,1.5032344272161873,2.365,2.365,real_ISGS_ECR
+Anpara,3.0,State,domestic,G14,False,1452.02,2190.0,3.186839042910448,,3.186839042910448,reconstructed_landed
+Vizag TPP,1.0,Private,domestic,G14,False,1452.02,2190.0,3.1358030138041735,,3.1358030138041735,reconstructed_landed
+Neyveli St Ii,1.0,Centre,lignite,G16,True,1233.06,,1.8377,2.6420000000000003,2.6420000000000003,real_ISGS_ECR
+Bandakhar TPP,1.0,Private,domestic,G13,False,1534.13,2190.0,3.101441233859397,,3.101441233859397,reconstructed_landed
+Raigarh TPP(OP Jindal Tps),4.0,Private,domestic,G15,False,1264.0,1280.0,2.398461091512762,,2.398461091512762,reconstructed_landed
+Tuticorin,5.0,State,domestic,G15,False,1264.0,2190.0,3.618956825396826,,3.618956825396826,reconstructed_landed
+Mettur Tps Ext,1.0,State,domestic,G15,False,1264.0,2190.0,3.0626168917819365,,3.0626168917819365,reconstructed_landed
+Indra Gandhi STPP,2.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.7350433588676553,3.466,3.466,real_ISGS_ECR
+Mejia,2.0,Centre,domestic,G13,False,1534.13,2190.0,3.0696264570945555,3.142333333333333,3.142333333333333,real_ISGS_ECR
+Nawapara,1.0,Private,domestic,G15,False,1264.0,2190.0,3.1664793025508557,,3.1664793025508557,reconstructed_landed
+Wardha Warora (Sai Wardha Power),3.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.979963309794621,,2.979963309794621,reconstructed_landed
+Parli,7.0,State,domestic,G14,False,1452.02,2190.0,3.251936599143207,,3.251936599143207,reconstructed_landed
+Ghtp (Leh.Moh.),1.0,State,domestic,G11,False,1698.3500000000001,2190.0,2.9514981666549374,,2.9514981666549374,reconstructed_landed
+Suratgarh,4.0,State,domestic,G14,False,1452.02,2190.0,3.0859755490314766,,3.0859755490314766,reconstructed_landed
+Torangallu Ext,1.0,Private,imported,G7,False,2853.84,,4.24267,,4.24267,modelled_anchor
+Rayal Seema,6.0,State,domestic,G14,False,1452.02,2190.0,2.887978738792588,,2.887978738792588,reconstructed_landed
+North Chennai,2.0,State,domestic,G14,False,1452.02,2190.0,3.7127339048537453,,3.7127339048537453,reconstructed_landed
+Tuticorin,3.0,State,domestic,G15,False,1264.0,2190.0,3.60841838028169,,3.60841838028169,reconstructed_landed
+Ukai_Coal,4.0,State,domestic,G13,False,1534.13,2190.0,2.898534163347763,,2.898534163347763,reconstructed_landed
+Uchpinda TPP,3.0,Private,domestic,G15,False,1264.0,2190.0,3.259463600525624,,3.259463600525624,reconstructed_landed
+Pathadi Tps Ph -I,1.0,Private,domestic,G14,False,1452.02,2190.0,3.1914289821101725,,3.1914289821101725,reconstructed_landed
+Rajiv Gandhi Tps Hisar,2.0,State,domestic,G14,False,1452.02,2190.0,2.964916598097901,,2.964916598097901,reconstructed_landed
+Paricha,6.0,State,domestic,G13,False,1534.13,2190.0,3.099304,,3.099304,reconstructed_landed
+Niwari TPP,2.0,Private,domestic,G14,False,1452.02,2190.0,4.127389314102564,,4.127389314102564,reconstructed_landed
+Unchahar,6.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.6942978855844806,3.0225,3.0225,real_ISGS_ECR
+Neyveli St Ii,6.0,Centre,lignite,G16,True,1233.06,,1.8415499999999998,2.6420000000000003,2.6420000000000003,real_ISGS_ECR
+Vijaywada (Dr. N.TATA Rao Tps),3.0,State,domestic,G15,False,1264.0,2190.0,3.6177490552834146,,3.6177490552834146,reconstructed_landed
+Obra-A,10.0,State,domestic,G13,False,1534.13,2190.0,3.3328492953352766,,3.3328492953352766,reconstructed_landed
+Ratija TPP,2.0,Private,domestic,ungraded(<2200),False,1093.83,2190.0,5.071790219387755,,5.071790219387755,reconstructed_landed
+Neyveli St Ii,5.0,Centre,lignite,G16,True,1233.06,,1.80655,2.6420000000000003,2.6420000000000003,real_ISGS_ECR
+Ukai_Coal,6.0,State,domestic,G13,False,1534.13,2190.0,2.813808335867117,,2.813808335867117,reconstructed_landed
+Mejia,1.0,Centre,domestic,G13,False,1534.13,2190.0,3.07179745511251,3.142333333333333,3.142333333333333,real_ISGS_ECR
+Bina TPP,2.0,Private,domestic,G13,False,1534.13,2190.0,2.9780002110244985,,2.9780002110244985,reconstructed_landed
+Dadri (NcTPP),6.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.647625785228199,3.3,3.3,real_ISGS_ECR
+Shri Singaji Malwa TPP,1.0,State,domestic,G14,False,1452.02,2190.0,3.024978366256379,,3.024978366256379,reconstructed_landed
+North Chennai Extension,2.0,State,domestic,G15,False,1264.0,2190.0,3.221072686937231,,3.221072686937231,reconstructed_landed
+Dadri (NcTPP),4.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.870303671829572,3.3,3.3,real_ISGS_ECR
+Tuticorin,4.0,State,domestic,G15,False,1264.0,2190.0,3.606529735449735,,3.606529735449735,reconstructed_landed
+Kolaghat,5.0,State,domestic,G14,False,1452.02,2190.0,3.4936196856881296,,3.4936196856881296,reconstructed_landed
+Raghunathpur TPP Ph-I,2.0,Centre,domestic,G13,False,1534.13,2190.0,2.7268706027494796,3.067,3.067,real_ISGS_ECR
+Sanjay Gandhi,2.0,State,domestic,G12,False,1616.2400000000002,1280.0,2.5187526295997857,,2.5187526295997857,reconstructed_landed
+Trombay_Coal,1.0,Private,domestic,G10,False,1780.4600000000003,2190.0,2.349174347806524,,2.349174347806524,reconstructed_landed
+Indra Gandhi STPP,1.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.7350433588676553,3.466,3.466,real_ISGS_ECR
+Pathadi Tps Ph -I,2.0,Private,domestic,G14,False,1452.02,2190.0,3.0749314112380723,,3.0749314112380723,reconstructed_landed
+Kalisindh,1.0,State,domestic,G12,False,1616.2400000000002,2190.0,2.8630559114436536,,2.8630559114436536,reconstructed_landed
+Vijaywada (Dr. N.TATA Rao Tps),1.0,State,domestic,G15,False,1264.0,2190.0,3.6715304717985098,,3.6715304717985098,reconstructed_landed
+Neyveli St Ii,3.0,Centre,lignite,G16,True,1233.06,,1.8293,2.6420000000000003,2.6420000000000003,real_ISGS_ECR
+Sterlite TPP(Vedanta),2.0,Private,domestic,G14,False,1452.02,2190.0,3.209790806319115,,3.209790806319115,reconstructed_landed
+Raigarh TPP(OP Jindal Tps),2.0,Private,domestic,G15,False,1264.0,1280.0,2.3944324249550424,,2.3944324249550424,reconstructed_landed
+Paras,3.0,State,domestic,G14,False,1452.02,2190.0,3.263753788839569,,3.263753788839569,reconstructed_landed
+Surat Lignite,2.0,Private,lignite,G16,True,1233.06,,1.6789999999999998,,1.6789999999999998,modelled_anchor
+Mettur,3.0,State,domestic,G15,False,1264.0,2190.0,3.2284861943986822,,3.2284861943986822,reconstructed_landed
+Obra-A,9.0,State,domestic,G13,False,1534.13,2190.0,3.4178636915451897,,3.4178636915451897,reconstructed_landed
+Farakka Stps,6.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.6264961527660775,2.68,2.68,real_ISGS_ECR
+Tamnar TPP,1.0,Private,domestic,G15,False,1264.0,2190.0,2.927464002939899,,2.927464002939899,reconstructed_landed
+Sanjay Gandhi,1.0,State,domestic,G12,False,1616.2400000000002,1280.0,2.5307327789417142,,2.5307327789417142,reconstructed_landed
+Suratgarh,6.0,State,domestic,G14,False,1452.02,2190.0,3.043131187387387,,3.043131187387387,reconstructed_landed
+Parli,6.0,State,domestic,G14,False,1452.02,2190.0,3.270110805194805,,3.270110805194805,reconstructed_landed
+Akaltara TPP /Nariyara TPP,2.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.7920667055016186,,2.7920667055016186,reconstructed_landed
+Neyveli St Ii,4.0,Centre,lignite,G16,True,1233.06,,1.7444000000000002,2.6420000000000003,2.6420000000000003,real_ISGS_ECR
+Surat Lignite,4.0,Private,lignite,G16,True,1233.06,,1.6475,,1.6475,modelled_anchor
+Tuticorin JV,1.0,Centre,domestic,G13,False,1534.13,2190.0,2.9933174159646345,2.842,2.842,real_ISGS_ECR
+Farakka Stps,2.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.8337824796076543,2.68,2.68,real_ISGS_ECR
+Sanjay Gandhi,4.0,State,domestic,G12,False,1616.2400000000002,1280.0,2.454728844480258,,2.454728844480258,reconstructed_landed
+Derang,2.0,Private,domestic,G14,False,1452.02,2190.0,2.8389338290380803,,2.8389338290380803,reconstructed_landed
+Kolaghat,4.0,State,domestic,G14,False,1452.02,2190.0,3.446783549620638,,3.446783549620638,reconstructed_landed
+Mejia,3.0,Centre,domestic,G13,False,1534.13,2190.0,3.067781108779293,3.142333333333333,3.142333333333333,real_ISGS_ECR
+Wanakbori,5.0,State,domestic,G13,False,1534.13,2190.0,3.244116713782909,,3.244116713782909,reconstructed_landed
+Balco TPP,1.0,Private,domestic,G13,False,1534.13,2190.0,4.508106645060854,,4.508106645060854,reconstructed_landed
+Akaltara TPP /Nariyara TPP,1.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.7665166318059304,,2.7665166318059304,reconstructed_landed
+Gandhi Nagar,5.0,State,domestic,G13,False,1534.13,2190.0,3.0431170652623454,,3.0431170652623454,reconstructed_landed
+Chhabra Tps,2.0,State,domestic,G13,False,1534.13,2190.0,3.024257230123699,,3.024257230123699,reconstructed_landed
+Kahalgaon,3.0,Centre,domestic,G13,False,1534.13,1280.0,2.2585312918321043,2.17,2.17,real_ISGS_ECR
+Sanjay Gandhi,3.0,State,domestic,G12,False,1616.2400000000002,1280.0,2.450061253827559,,2.450061253827559,reconstructed_landed
+Kolaghat,3.0,State,domestic,G14,False,1452.02,2190.0,3.4893371220102933,,3.4893371220102933,reconstructed_landed
+Unchahar,3.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,3.003236998928189,3.0225,3.0225,real_ISGS_ECR
+Bhusawal,5.0,State,domestic,G13,False,1534.13,2190.0,3.3126990113842325,,3.3126990113842325,reconstructed_landed
+Dadri (NcTPP),1.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.83661524534687,3.3,3.3,real_ISGS_ECR
+Neyveli St Ii,7.0,Centre,lignite,G16,True,1233.06,,1.83825,2.6420000000000003,2.6420000000000003,real_ISGS_ECR
+Wanakbori,7.0,State,domestic,G13,False,1534.13,2190.0,3.059001771232877,,3.059001771232877,reconstructed_landed
+Amaravati TPP,3.0,Private,domestic,G13,False,1534.13,2190.0,2.703580802921705,,2.703580802921705,reconstructed_landed
+Rosa TPP,4.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.6429366571056065,,2.6429366571056065,reconstructed_landed
+Kolaghat,6.0,State,domestic,G14,False,1452.02,2190.0,3.395619376396016,,3.395619376396016,reconstructed_landed
+Surat Lignite,3.0,Private,lignite,G16,True,1233.06,,1.65205,,1.65205,modelled_anchor
+Simhadri,2.0,Centre,domestic,G14,False,1452.02,2190.0,3.0346656721280665,2.9450000000000003,2.9450000000000003,real_ISGS_ECR
+Kahalgaon,2.0,Centre,domestic,G13,False,1534.13,1280.0,2.3022971460687107,2.17,2.17,real_ISGS_ECR
+Paricha,5.0,State,domestic,G13,False,1534.13,2190.0,3.051780553366657,,3.051780553366657,reconstructed_landed
+Jallippa Kapurdi TPP,3.0,Private,lignite,G14,True,1452.02,,1.54575,,1.54575,modelled_anchor
+Tamnar TPP,2.0,Private,domestic,G15,False,1264.0,2190.0,3.0196557542350093,,3.0196557542350093,reconstructed_landed
+Vijaywada (Dr. N.TATA Rao Tps),5.0,State,domestic,G15,False,1264.0,2190.0,3.3694097080787504,,3.3694097080787504,reconstructed_landed
+R_Gundem Stps,5.0,Centre,domestic,G13,True,1534.13,360.0,1.4863896196504434,2.365,2.365,real_ISGS_ECR
+Tenughat,1.0,State,domestic,G13,False,1534.13,2190.0,3.1185204678581724,,3.1185204678581724,reconstructed_landed
+Trombay_Coal,2.0,Private,domestic,G10,False,1780.4600000000003,2190.0,2.3877435,,2.3877435,reconstructed_landed
+Tamnar TPP,4.0,Private,domestic,G15,False,1264.0,2190.0,2.995568250723897,,2.995568250723897,reconstructed_landed
+Simhadri,4.0,Centre,domestic,G15,False,1264.0,2190.0,2.9666511353968987,2.9450000000000003,2.9450000000000003,real_ISGS_ECR
+Mahadev Prasad STPP,2.0,Private,domestic,G13,False,1534.13,2190.0,2.9288197030442276,,2.9288197030442276,reconstructed_landed
+Mettur,4.0,State,domestic,G15,False,1264.0,2190.0,3.2591401517650938,,3.2591401517650938,reconstructed_landed
+Mouda Stps,1.0,Centre,domestic,G14,False,1452.02,2190.0,2.8372579822064057,2.805,2.805,real_ISGS_ECR
+I.B.Valley,2.0,State,domestic,G15,False,1264.0,2190.0,3.57804812133747,,3.57804812133747,reconstructed_landed
+Barsingar Ligniteite,1.0,Centre,lignite,G15,True,1264.0,,1.5676,1.077,1.077,real_ISGS_ECR
+K_Kheda Ii,3.0,State,domestic,G13,False,1534.13,2190.0,3.8152843130860172,,3.8152843130860172,reconstructed_landed
+Rayal Seema,1.0,State,domestic,G14,False,1452.02,2190.0,3.381856060493827,,3.381856060493827,reconstructed_landed
+Amaravati TPP,5.0,Private,domestic,G13,False,1534.13,2190.0,2.6510877792978906,,2.6510877792978906,reconstructed_landed
+Tenughat,2.0,State,domestic,G13,False,1534.13,2190.0,3.208376242144711,,3.208376242144711,reconstructed_landed
+Koradi,6.0,State,domestic,G14,False,1452.02,2190.0,3.6870803879764487,,3.6870803879764487,reconstructed_landed
+Rajiv Gandhi Tps Hisar,1.0,State,domestic,G14,False,1452.02,2190.0,2.979861933198074,,2.979861933198074,reconstructed_landed
+Paricha,3.0,State,domestic,G13,False,1534.13,2190.0,3.1392718756248166,,3.1392718756248166,reconstructed_landed
+"India Power TPP (Haldia, Hiranmaye)",1.0,Private,domestic,G14,False,1452.02,2190.0,3.3200338866749686,,3.3200338866749686,reconstructed_landed
+Wardha Warora (Sai Wardha Power),4.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.979963309794621,,2.979963309794621,reconstructed_landed
+Torangallu Imp,2.0,Private,imported,G6,False,3319.1300000000006,,3.9978700000000003,,3.9978700000000003,modelled_anchor
+Shri Singaji Malwa TPP,2.0,State,domestic,G14,False,1452.02,2190.0,3.081068317021915,,3.081068317021915,reconstructed_landed
+Ghtp (Leh.Moh.),4.0,State,domestic,G11,False,1698.3500000000001,2190.0,2.8357540662226817,,2.8357540662226817,reconstructed_landed
+Kahalgaon,5.0,Centre,domestic,G13,False,1534.13,1280.0,2.167869811147991,2.17,2.17,real_ISGS_ECR
+Chakabura TPP,2.0,Private,domestic,ungraded(<2200),False,1093.83,2190.0,5.732292751789977,,5.732292751789977,reconstructed_landed
+R_Gundem Stps,7.0,Centre,domestic,G13,True,1534.13,360.0,1.4485578725961537,2.365,2.365,real_ISGS_ECR
+Baradarha TPP,2.0,Private,domestic,G14,False,1452.02,2190.0,2.8469824074851564,,2.8469824074851564,reconstructed_landed
+Vallur NTPC/Ntecl,1.0,Centre,domestic,G14,False,1452.02,2190.0,3.0366360317761747,,3.0366360317761747,reconstructed_landed
+Vallur NTPC/Ntecl,3.0,Centre,domestic,G14,False,1452.02,2190.0,3.0366360317761747,,3.0366360317761747,reconstructed_landed
+Akaltara TPP /Nariyara TPP,3.0,Private,domestic,G13,False,1534.13,2190.0,2.7462423656292287,,2.7462423656292287,reconstructed_landed
+Anuppur TPP,1.0,Private,domestic,G13,False,1534.13,2190.0,2.9868609877121117,,2.9868609877121117,reconstructed_landed
+Wanakbori,6.0,State,domestic,G13,False,1534.13,2190.0,3.179040763885059,,3.179040763885059,reconstructed_landed
+Nabi Nagar TPP (Brbcl),2.0,Centre,domestic,G13,False,1534.13,2190.0,2.9673602966521107,,2.9673602966521107,reconstructed_landed
+Nabi Nagar TPP (Brbcl),3.0,Centre,domestic,G13,False,1534.13,2190.0,2.9673602966521107,,2.9673602966521107,reconstructed_landed
+Kahalgaon,4.0,Centre,domestic,G13,False,1534.13,1280.0,2.2529315471343563,2.17,2.17,real_ISGS_ECR
+Rosa TPP,3.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.653159413820079,,2.653159413820079,reconstructed_landed
+Mejia,6.0,Centre,domestic,G13,False,1534.13,2190.0,3.0000385997015853,3.142333333333333,3.142333333333333,real_ISGS_ECR
+Vijaywada (Dr. N.TATA Rao Tps),2.0,State,domestic,G15,False,1264.0,2190.0,3.637243973135384,,3.637243973135384,reconstructed_landed
+Raigarh TPP(OP Jindal Tps),1.0,Private,domestic,G15,False,1264.0,1280.0,2.4104103593933943,,2.4104103593933943,reconstructed_landed
+Dadri (NcTPP),2.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.8435430903420205,3.3,3.3,real_ISGS_ECR
+Panipat,6.0,State,domestic,G12,False,1616.2400000000002,2190.0,3.057570082368833,,3.057570082368833,reconstructed_landed
+"India Power TPP (Haldia, Hiranmaye )",2.0,Private,domestic,G14,False,1452.02,2190.0,3.2366029376331,,3.2366029376331,reconstructed_landed
+Korba-West,2.0,State,domestic,G13,True,1534.13,360.0,1.8183165057692308,,1.8183165057692308,reconstructed_landed
+Rosa TPP Ph - 1,1.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.6114743864406784,,2.6114743864406784,reconstructed_landed
+Bongaigaon TPP,1.0,Centre,domestic,G11,False,1698.3500000000001,2190.0,2.6456625098677726,3.37,3.37,real_ISGS_ECR
+Dadri (NcTPP),3.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.8412696498917467,3.3,3.3,real_ISGS_ECR
+Rayal Seema,5.0,State,domestic,G14,False,1452.02,2190.0,3.3593031317254174,,3.3593031317254174,reconstructed_landed
+Tuticorin JV,2.0,Centre,domestic,G13,False,1534.13,2190.0,2.9933174159646345,2.842,2.842,real_ISGS_ECR
+Gandhi Nagar,3.0,State,domestic,G13,False,1534.13,2190.0,3.0129210650644627,,3.0129210650644627,reconstructed_landed
+Paras,2.0,State,domestic,G14,False,1452.02,2190.0,3.3085733640435064,,3.3085733640435064,reconstructed_landed
+Vijaywada (Dr. N.TATA Rao Tps),4.0,State,domestic,G15,False,1264.0,2190.0,3.5824332054412276,,3.5824332054412276,reconstructed_landed
+Seioni TPP,1.0,Private,domestic,G14,False,1452.02,2190.0,2.9604708284518826,,2.9604708284518826,reconstructed_landed
+Indra Gandhi STPP,3.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.7350433588676553,3.466,3.466,real_ISGS_ECR
+Rayal Seema,3.0,State,domestic,G14,False,1452.02,2190.0,3.2382062211271943,,3.2382062211271943,reconstructed_landed
+Kota,5.0,State,domestic,G14,False,1452.02,2190.0,3.1668421114089966,,3.1668421114089966,reconstructed_landed
+Dhariwal Inf TPP,1.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.691571650221875,,2.691571650221875,reconstructed_landed
+Tuticorin,1.0,State,domestic,G15,False,1264.0,2190.0,3.5643045614035094,,3.5643045614035094,reconstructed_landed
+Rayal Seema,4.0,State,domestic,G14,False,1452.02,2190.0,3.2874503690512746,,3.2874503690512746,reconstructed_landed
+Jallippa Kapurdi TPP,2.0,Private,lignite,G14,True,1452.02,,1.54615,,1.54615,modelled_anchor
+Jallippa Kapurdi TPP,1.0,Private,lignite,G14,True,1452.02,,1.5463,,1.5463,modelled_anchor
+Bongaigaon TPP,3.0,Centre,domestic,G11,False,1698.3500000000001,2190.0,2.6329677934421425,3.37,3.37,real_ISGS_ECR
+Mettur,2.0,State,domestic,G15,False,1264.0,2190.0,3.2357768469657,,3.2357768469657,reconstructed_landed
+Kakatiya TPP (Stage-I),1.0,State,domestic,G11,False,1698.3500000000001,2190.0,2.5333782925611588,,2.5333782925611588,reconstructed_landed
+Dadri (NcTPP),5.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.735172385765314,3.3,3.3,real_ISGS_ECR
+Bina TPP,1.0,Private,domestic,G13,False,1534.13,2190.0,3.018253712159506,,3.018253712159506,reconstructed_landed
+Farakka Stps,1.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.7149261773078495,2.68,2.68,real_ISGS_ECR
+Mejia,4.0,Centre,domestic,G13,False,1534.13,2190.0,3.0570346685904157,3.142333333333333,3.142333333333333,real_ISGS_ECR
+Unchahar,4.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,3.0163023998271954,3.0225,3.0225,real_ISGS_ECR
+Anapara “C”,2.0,Private,domestic,G13,False,1534.13,2190.0,2.6171303807702815,,2.6171303807702815,reconstructed_landed
+Korba-West,4.0,State,domestic,G13,True,1534.13,360.0,1.6989446865384616,,1.6989446865384616,reconstructed_landed
+Raigarh TPP(OP Jindal Tps),3.0,Private,domestic,G15,False,1264.0,1280.0,2.4378784346378017,,2.4378784346378017,reconstructed_landed
+Anuppur TPP,2.0,Private,domestic,G13,False,1534.13,2190.0,2.9868609877121117,,2.9868609877121117,reconstructed_landed
+Chandrapura,7.0,Centre,domestic,G12,False,1616.2400000000002,1280.0,2.255237381179211,2.675,2.675,real_ISGS_ECR
+Unchahar,5.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.9570822954202725,3.0225,3.0225,real_ISGS_ECR
+Panipat,8.0,State,domestic,G12,False,1616.2400000000002,2190.0,3.0608597913305373,,3.0608597913305373,reconstructed_landed
+Vijaywada (Dr. N.TATA Rao Tps),6.0,State,domestic,G15,False,1264.0,2190.0,3.4470992190152803,,3.4470992190152803,reconstructed_landed
+Obra-A,11.0,State,domestic,G13,False,1534.13,2190.0,3.2846418982507286,,3.2846418982507286,reconstructed_landed
+Budge Budge,1.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.5870224004254188,,2.5870224004254188,reconstructed_landed
+I.B.Valley,1.0,State,domestic,G15,False,1264.0,2190.0,3.652223991726991,,3.652223991726991,reconstructed_landed
+Bhusawal,4.0,State,domestic,G13,False,1534.13,2190.0,3.321958334793297,,3.321958334793297,reconstructed_landed
+Jallippa Kapurdi TPP,5.0,Private,lignite,G14,True,1452.02,,1.5453000000000001,,1.5453000000000001,modelled_anchor
+Chhabra Tps,1.0,State,domestic,G13,False,1534.13,2190.0,2.99995464358674,,2.99995464358674,reconstructed_landed
+Anpara,2.0,State,domestic,G14,False,1452.02,2190.0,3.1765335758706468,,3.1765335758706468,reconstructed_landed
+Chandrapur_Coal,8.0,State,domestic,G14,False,1452.02,1280.0,2.2098673592779203,,2.2098673592779203,reconstructed_landed
+Obra-A,12.0,State,domestic,G13,False,1534.13,2190.0,3.260212474052478,,3.260212474052478,reconstructed_landed
+Dhanu,2.0,Private,domestic,G13,False,1534.13,2190.0,2.7514977572039623,,2.7514977572039623,reconstructed_landed
+Jallippa Kapurdi TPP,7.0,Private,lignite,G14,True,1452.02,,1.5465,,1.5465,modelled_anchor
+Avantha Bhandar TPP,1.0,Private,domestic,G14,False,1452.02,2190.0,3.035461598511819,,3.035461598511819,reconstructed_landed
+Amar Kantak Ext,5.0,State,domestic,G11,False,1698.3500000000001,2190.0,2.8042517378849374,,2.8042517378849374,reconstructed_landed
+Rosa TPP Ph - 1,2.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.754592980443286,,2.754592980443286,reconstructed_landed
+K_Gudem New,2.0,State,domestic,G15,False,1264.0,2190.0,3.1468167300380228,,3.1468167300380228,reconstructed_landed
+Jallippa Kapurdi TPP,8.0,Private,lignite,G14,True,1452.02,,1.5461999999999998,,1.5461999999999998,modelled_anchor
+R_Gundem Stps,6.0,Centre,domestic,G13,True,1534.13,360.0,1.473646300214439,2.365,2.365,real_ISGS_ECR
+Neyveli Fst Ext,2.0,Centre,lignite,G16,True,1233.06,,1.6079500000000002,2.454,2.454,real_ISGS_ECR
+Kamalanga,2.0,Private,domestic,G14,False,1452.02,2190.0,2.92920737021224,,2.92920737021224,reconstructed_landed
+Yamunanagar TPP,2.0,State,domestic,G14,False,1452.02,2190.0,2.8631072647598748,,2.8631072647598748,reconstructed_landed
+Kamalanga,1.0,Private,domestic,G14,False,1452.02,2190.0,2.9700486818892715,,2.9700486818892715,reconstructed_landed
+Farakka Stps,4.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.6595225549631887,2.68,2.68,real_ISGS_ECR
+Jallippa Kapurdi TPP,4.0,Private,lignite,G14,True,1452.02,,1.5454500000000002,,1.5454500000000002,modelled_anchor
+Farakka Stps,3.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.8310160701914087,2.68,2.68,real_ISGS_ECR
+Kamalanga,3.0,Private,domestic,G14,False,1452.02,2190.0,2.954326707407867,,2.954326707407867,reconstructed_landed
+Durgapur Steel Tps,1.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.721285631761258,2.946,2.946,real_ISGS_ECR
+R_Gundem Stps,3.0,Centre,domestic,G13,True,1534.13,360.0,1.5069234168831538,2.365,2.365,real_ISGS_ECR
+Barauni (Ext),8.0,State,domestic,G13,False,1534.13,2190.0,2.8801684628833484,,2.8801684628833484,reconstructed_landed
+Korba-V(Dspm Tps),7.0,State,domestic,G14,True,1452.02,360.0,1.5142204196507842,,1.5142204196507842,reconstructed_landed
+Baradarha TPP,1.0,Private,domestic,G14,False,1452.02,2190.0,2.8701123168613356,,2.8701123168613356,reconstructed_landed
+Mahadev Prasad STPP,1.0,Private,domestic,G13,False,1534.13,2190.0,2.8544194309948248,,2.8544194309948248,reconstructed_landed
+Simhadri,3.0,Centre,domestic,G14,False,1452.02,2190.0,3.105897498226836,2.9450000000000003,2.9450000000000003,real_ISGS_ECR
+Jallippa Kapurdi TPP,6.0,Private,lignite,G14,True,1452.02,,1.5457,,1.5457,modelled_anchor
+Korba-West,1.0,State,domestic,G13,True,1534.13,360.0,1.649978303846154,,1.649978303846154,reconstructed_landed
+Kota,4.0,State,domestic,G14,False,1452.02,2190.0,3.1277015166666673,,3.1277015166666673,reconstructed_landed
+Chhabra Tps,3.0,State,domestic,G12,False,1616.2400000000002,2190.0,2.9671293394548983,,2.9671293394548983,reconstructed_landed
+Budge Budge,2.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.5872248061685728,,2.5872248061685728,reconstructed_landed
+Maithon Rb TPP,1.0,Private,domestic,G11,False,1698.3500000000001,2190.0,2.492809753313697,2.54,2.54,real_ISGS_ECR
+R_Gundem Stps,4.0,Centre,domestic,G13,True,1534.13,360.0,1.4981110741482966,2.365,2.365,real_ISGS_ECR
+Dhanu,1.0,Private,domestic,G13,False,1534.13,2190.0,2.738458571749824,,2.738458571749824,reconstructed_landed
+Vijaywada TPP-Iv,1.0,State,domestic,G13,False,1534.13,2190.0,2.95726640070196,,2.95726640070196,reconstructed_landed
+Vindh_Chal Stps,3.0,Centre,domestic,G13,True,1534.13,360.0,1.4844230805957195,1.596,1.596,real_ISGS_ECR
+Chandrapur_Coal,9.0,State,domestic,G14,False,1452.02,1280.0,2.241929966609456,,2.241929966609456,reconstructed_landed
+Mouda Stps,2.0,Centre,domestic,G14,False,1452.02,2190.0,2.826001488128844,2.805,2.805,real_ISGS_ECR
+Barsingar Ligniteite,2.0,Centre,lignite,G15,True,1264.0,,1.5741999999999998,1.077,1.077,real_ISGS_ECR
+Simhadri,1.0,Centre,domestic,G14,False,1452.02,2190.0,3.1012531815565647,2.9450000000000003,2.9450000000000003,real_ISGS_ECR
+Chandrapura,8.0,Centre,domestic,G12,False,1616.2400000000002,1280.0,2.135168071834148,2.675,2.675,real_ISGS_ECR
+K_Kheda Ii,5.0,State,domestic,G13,False,1534.13,2190.0,3.267797020895867,,3.267797020895867,reconstructed_landed
+Haldia,2.0,Private,domestic,G14,False,1452.02,2190.0,2.8829038379905807,,2.8829038379905807,reconstructed_landed
+Haldia,1.0,Private,domestic,G14,False,1452.02,2190.0,3.0307751107644307,,3.0307751107644307,reconstructed_landed
+Emco GMR Warora TPP,2.0,Private,domestic,G13,False,1534.13,2190.0,2.7005099258067156,,2.7005099258067156,reconstructed_landed
+Talcher Stps,2.0,Centre,domestic,G14,True,1452.02,360.0,1.4953369671670074,1.985,1.985,real_ISGS_ECR
+K_Gudem New,3.0,State,domestic,G15,False,1264.0,2190.0,3.233869625520111,,3.233869625520111,reconstructed_landed
+Singrauli Stps,1.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.4722608098498116,1.39,1.39,real_ISGS_ECR
+Rihand,2.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.4156371741865903,1.403333333333333,1.403333333333333,real_ISGS_ECR
+Kota,7.0,State,domestic,G13,False,1534.13,2190.0,2.938466307058789,,2.938466307058789,reconstructed_landed
+Kahalgaon,6.0,Centre,domestic,G13,False,1534.13,1280.0,2.136272819211134,2.17,2.17,real_ISGS_ECR
+Amaravati TPP,4.0,Private,domestic,G13,False,1534.13,2190.0,2.763420864579342,,2.763420864579342,reconstructed_landed
+D.P.L.,8.0,State,domestic,G12,False,1616.2400000000002,2190.0,2.8799865131747255,,2.8799865131747255,reconstructed_landed
+Bhilai TPP,2.0,Centre,domestic,G14,False,1452.02,2190.0,2.987351212703057,2.347,2.347,real_ISGS_ECR
+Kahalgaon,1.0,Centre,domestic,G13,False,1534.13,1280.0,2.277400442551245,2.17,2.17,real_ISGS_ECR
+Vindh_Chal Stps,1.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.5431843859885301,1.596,1.596,real_ISGS_ECR
+Barauni (Ext),9.0,State,domestic,G13,False,1534.13,2190.0,2.8953063904884684,,2.8953063904884684,reconstructed_landed
+Yamunanagar TPP,1.0,State,domestic,G14,False,1452.02,2190.0,2.8662895468920877,,2.8662895468920877,reconstructed_landed
+Singrauli Stps,2.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.4995658192075365,1.39,1.39,real_ISGS_ECR
+Koderma,2.0,Centre,domestic,G11,False,1698.3500000000001,2190.0,2.737089567258472,2.657,2.657,real_ISGS_ECR
+Bongaigaon TPP,2.0,Centre,domestic,G11,False,1698.3500000000001,2190.0,2.6454902607946864,3.37,3.37,real_ISGS_ECR
+Amaravati TPP,1.0,Private,domestic,G13,False,1534.13,2190.0,2.7321937042716318,,2.7321937042716318,reconstructed_landed
+Neyveli New TPP,2.0,Centre,lignite,G16,True,1233.06,,1.5202499999999999,2.193,2.193,real_ISGS_ECR
+Anpara,1.0,State,domestic,G14,False,1452.02,2190.0,3.1563756293532337,,3.1563756293532337,reconstructed_landed
+Sipat Stps,1.0,Centre,domestic,G13,True,1534.13,360.0,1.4922504417426543,1.415,1.415,real_ISGS_ECR
+Mejia Tps Ext,2.0,Centre,domestic,G13,False,1534.13,2190.0,2.805710425455151,2.9,2.9,real_ISGS_ECR
+Muzaffarpur Exp,4.0,Centre,domestic,G13,False,1534.13,2190.0,2.837385579535707,,2.837385579535707,reconstructed_landed
+Korba-West,3.0,State,domestic,G13,True,1534.13,360.0,1.6698562615384613,,1.6698562615384613,reconstructed_landed
+Bakreswar,5.0,State,domestic,G11,False,1698.3500000000001,2190.0,2.483912005643076,,2.483912005643076,reconstructed_landed
+Bandel,5.0,State,domestic,G13,False,1534.13,2190.0,3.2512243632299525,,3.2512243632299525,reconstructed_landed
+Panipat,7.0,State,domestic,G12,False,1616.2400000000002,2190.0,3.047955784200178,,3.047955784200178,reconstructed_landed
+Mejia,5.0,Centre,domestic,G13,False,1534.13,2190.0,2.972989092649419,3.142333333333333,3.142333333333333,real_ISGS_ECR
+Jojbera,2.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.8809189570680633,,2.8809189570680633,reconstructed_landed
+Sagardighi TPP,2.0,State,domestic,G12,False,1616.2400000000002,2190.0,2.627386913879379,,2.627386913879379,reconstructed_landed
+Singrauli Stps,4.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.5110144814299482,1.39,1.39,real_ISGS_ECR
+Neyveli New TPP,1.0,Centre,lignite,G16,True,1233.06,,1.5191499999999998,2.193,2.193,real_ISGS_ECR
+Rihand,1.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.408766967046379,1.403333333333333,1.403333333333333,real_ISGS_ECR
+Anapara “C”,1.0,Private,domestic,G13,False,1534.13,2190.0,2.6171303807702815,,2.6171303807702815,reconstructed_landed
+Vindh_Chal Stps,4.0,Centre,domestic,G13,True,1534.13,360.0,1.466244556089352,1.596,1.596,real_ISGS_ECR
+Emco GMR Warora TPP,1.0,Private,domestic,G13,False,1534.13,2190.0,2.692022999781755,,2.692022999781755,reconstructed_landed
+Sagardighi TPP,1.0,State,domestic,G12,False,1616.2400000000002,2190.0,2.627386913879379,,2.627386913879379,reconstructed_landed
+Torr Power(Sabarmati),3.0,Private,domestic,G9,False,1918.5000000000002,2190.0,2.492031834963404,,2.492031834963404,reconstructed_landed
+Mettur,1.0,State,domestic,G15,False,1264.0,2190.0,3.169962063336598,,3.169962063336598,reconstructed_landed
+Satpura,10.0,State,domestic,G12,False,1616.2400000000002,2190.0,2.6445924689092766,,2.6445924689092766,reconstructed_landed
+Vallur NTPC/Ntecl,2.0,Centre,domestic,G14,False,1452.02,2190.0,3.0366360317761747,,3.0366360317761747,reconstructed_landed
+Rihand,6.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.3832624930914936,1.403333333333333,1.403333333333333,real_ISGS_ECR
+Vindh_Chal Stps,10.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.4531663542931135,1.596,1.596,real_ISGS_ECR
+Singrauli Stps,6.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.4693183610117866,1.39,1.39,real_ISGS_ECR
+Santaldih,6.0,State,domestic,G13,False,1534.13,2190.0,3.0205348521544884,,3.0205348521544884,reconstructed_landed
+K_Gudem New,4.0,State,domestic,G12,False,1616.2400000000002,2190.0,2.544536555378909,,2.544536555378909,reconstructed_landed
+Korba Stps,7.0,Centre,domestic,G14,True,1452.02,360.0,1.4238058547717842,1.375,1.375,real_ISGS_ECR
+Jojbera,3.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.897141768764815,,2.897141768764815,reconstructed_landed
+Kakatiya TPP (Stage-II),2.0,State,domestic,G12,False,1616.2400000000002,2190.0,2.4681030180360723,,2.4681030180360723,reconstructed_landed
+Vindh_Chal Stps,8.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.4597703918816802,1.596,1.596,real_ISGS_ECR
+Talcher Stps,6.0,Centre,domestic,G14,True,1452.02,360.0,1.478287346064608,1.985,1.985,real_ISGS_ECR
+Amaravati TPP,2.0,Private,domestic,G13,False,1534.13,2190.0,2.725321529199278,,2.725321529199278,reconstructed_landed
+Singareni TPP,2.0,State,domestic,G12,True,1616.2400000000002,360.0,1.3354098493870405,,1.3354098493870405,reconstructed_landed
+Bakreswar,3.0,State,domestic,G11,False,1698.3500000000001,2190.0,2.725459635551376,,2.725459635551376,reconstructed_landed
+Nabi Nagar TPP (Brbcl),4.0,Centre,domestic,G13,False,1534.13,2190.0,2.9673602966521107,,2.9673602966521107,reconstructed_landed
+Kahalgaon,7.0,Centre,domestic,G13,False,1534.13,1280.0,2.1405847998283014,2.17,2.17,real_ISGS_ECR
+Mejia Tps Ext,1.0,Centre,domestic,G13,False,1534.13,2190.0,2.7996124106349916,2.9,2.9,real_ISGS_ECR
+Talcher Stps,5.0,Centre,domestic,G14,True,1452.02,360.0,1.4830386114400755,1.985,1.985,real_ISGS_ECR
+Korba Stps,1.0,Centre,domestic,G13,True,1534.13,360.0,1.5418918313463217,1.375,1.375,real_ISGS_ECR
+Derang,1.0,Private,domestic,G14,False,1452.02,2190.0,2.8389338290380803,,2.8389338290380803,reconstructed_landed
+Korba-V(Dspm Tps),8.0,State,domestic,G14,True,1452.02,360.0,1.5253209860905592,,1.5253209860905592,reconstructed_landed
+Singrauli Stps,5.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.509565085304279,1.39,1.39,real_ISGS_ECR
+Durgapur Steel Tps,2.0,Centre,domestic,G12,False,1616.2400000000002,2190.0,2.720356725918042,2.946,2.946,real_ISGS_ECR
+Budge Budge,3.0,Private,domestic,G12,False,1616.2400000000002,2190.0,2.6527030640787026,,2.6527030640787026,reconstructed_landed
+Dhariwal Inf TPP,2.0,Private,domestic,G14,False,1452.02,2190.0,2.851515,,2.851515,reconstructed_landed
+Nabi Nagar TPP (Brbcl),1.0,Centre,domestic,G13,False,1534.13,2190.0,2.9673602966521107,,2.9673602966521107,reconstructed_landed
+Koderma,1.0,Centre,domestic,G11,False,1698.3500000000001,2190.0,2.7147562825983886,2.657,2.657,real_ISGS_ECR
+Maithon Rb TPP,2.0,Private,domestic,G11,False,1698.3500000000001,2190.0,2.492809753313697,2.54,2.54,real_ISGS_ECR
+Bokaro A ‘’Exp’’,1.0,Centre,domestic,G11,False,1698.3500000000001,2190.0,2.5144142309427155,2.273,2.273,real_ISGS_ECR
+Torr Power(Sabarmati),5.0,Private,domestic,G9,False,1918.5000000000002,2190.0,2.4351791912474527,,2.4351791912474527,reconstructed_landed
+Vindh_Chal Stps,5.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.5227408090737242,1.596,1.596,real_ISGS_ECR
+Vindh_Chal Stps,9.0,Centre,domestic,G13,True,1534.13,360.0,1.4045585570724306,1.596,1.596,real_ISGS_ECR
+Kota,6.0,State,domestic,G13,False,1534.13,2190.0,2.951876866126951,,2.951876866126951,reconstructed_landed
+Anpara,5.0,State,domestic,G13,False,1534.13,2190.0,2.7655658476876206,,2.7655658476876206,reconstructed_landed
+Muzaffarpur Exp,3.0,Centre,domestic,G13,False,1534.13,2190.0,2.851132071636818,,2.851132071636818,reconstructed_landed
+Korba Stps,6.0,Centre,domestic,G14,True,1452.02,360.0,1.4505587047731288,1.375,1.375,real_ISGS_ECR
+Bhilai TPP,1.0,Centre,domestic,G14,False,1452.02,2190.0,2.987351212703057,2.347,2.347,real_ISGS_ECR
+Neyveli Fst Ext,1.0,Centre,lignite,G16,True,1233.06,,1.6079500000000002,2.454,2.454,real_ISGS_ECR
+Torr Power(Sabarmati),4.0,Private,domestic,G9,False,1918.5000000000002,2190.0,2.4617451783525772,,2.4617451783525772,reconstructed_landed
+Sanjay Gandhi,5.0,State,domestic,G12,False,1616.2400000000002,1280.0,2.0666394712643683,,2.0666394712643683,reconstructed_landed
+Torangallu Imp,1.0,Private,imported,G7,False,2853.84,,3.62302,,3.62302,modelled_anchor
+Vindh_Chal Stps,2.0,Centre,domestic,G13,True,1534.13,360.0,1.4660097321621621,1.596,1.596,real_ISGS_ECR
+Korba-West Ext,5.0,State,domestic,G13,True,1534.13,360.0,1.5185340076923075,,1.5185340076923075,reconstructed_landed
+Vindh_Chal Stps,13.0,Centre,domestic,G13,True,1534.13,360.0,1.3987890561031087,1.596,1.596,real_ISGS_ECR
+Sagardighi TPP,4.0,State,domestic,G12,False,1616.2400000000002,2190.0,2.6872720710925253,,2.6872720710925253,reconstructed_landed
+Singrauli Stps,7.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.4704376537972,1.39,1.39,real_ISGS_ECR
+Talcher Stps,1.0,Centre,domestic,G14,True,1452.02,360.0,1.5060456085819567,1.985,1.985,real_ISGS_ECR
+Singareni TPP,,State,domestic,G11,True,1698.3500000000001,360.0,1.3783091641679164,,1.3783091641679164,reconstructed_landed
+Sipat Stps,2.0,Centre,domestic,G13,True,1534.13,360.0,1.4693284258699593,1.415,1.415,real_ISGS_ECR
+Talcher Stps,3.0,Centre,domestic,G14,True,1452.02,360.0,1.4903340756127958,1.985,1.985,real_ISGS_ECR
+Sagardighi TPP,3.0,State,domestic,G12,False,1616.2400000000002,2190.0,2.6868741369576585,,2.6868741369576585,reconstructed_landed
+Vindh_Chal Stps,7.0,Centre,domestic,G13,True,1534.13,360.0,1.415214858611825,1.596,1.596,real_ISGS_ECR
+Anpara,7.0,State,domestic,G13,False,1534.13,2190.0,2.6576989467966574,,2.6576989467966574,reconstructed_landed
+Singrauli Stps,3.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.5040825821546315,1.39,1.39,real_ISGS_ECR
+Satpura,11.0,State,domestic,G12,False,1616.2400000000002,2190.0,2.6436224791029566,,2.6436224791029566,reconstructed_landed
+Bakreswar,4.0,State,domestic,G11,False,1698.3500000000001,2190.0,2.5080484834234666,,2.5080484834234666,reconstructed_landed
+Korba Stps,4.0,Centre,domestic,G14,True,1452.02,360.0,1.4425081264705883,1.375,1.375,real_ISGS_ECR
+Bakreswar,1.0,State,domestic,G11,False,1698.3500000000001,2190.0,2.5906976346108634,,2.5906976346108634,reconstructed_landed
+Anpara,6.0,State,domestic,G13,False,1534.13,2190.0,2.656557848467967,,2.656557848467967,reconstructed_landed
+Korba Stps,3.0,Centre,domestic,G13,True,1534.13,360.0,1.547578801468429,1.375,1.375,real_ISGS_ECR
+Vindh_Chal Stps,6.0,Centre,domestic,G13,True,1534.13,360.0,1.4644657206184455,1.596,1.596,real_ISGS_ECR
+Santaldih,5.0,State,domestic,G13,False,1534.13,2190.0,2.995905810651931,,2.995905810651931,reconstructed_landed
+Bakreswar,2.0,State,domestic,G11,False,1698.3500000000001,2190.0,2.6019430390312723,,2.6019430390312723,reconstructed_landed
+Korba Stps,2.0,Centre,domestic,G13,True,1534.13,360.0,1.538872528495887,1.375,1.375,real_ISGS_ECR
+Rihand,3.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.4006845594803088,1.403333333333333,1.403333333333333,real_ISGS_ECR
+Rihand,4.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.4019315179523644,1.403333333333333,1.403333333333333,real_ISGS_ECR
+Rihand,5.0,Centre,domestic,G12,True,1616.2400000000002,360.0,1.3966709158327832,1.403333333333333,1.403333333333333,real_ISGS_ECR
+Talcher Stps,4.0,Centre,domestic,G14,True,1452.02,360.0,1.4712275264986197,1.985,1.985,real_ISGS_ECR
+Vindh_Chal Stps,12.0,Centre,domestic,G13,True,1534.13,360.0,1.3867330645204925,1.596,1.596,real_ISGS_ECR
+Korba Stps,5.0,Centre,domestic,G13,True,1534.13,360.0,1.5148898601645122,1.375,1.375,real_ISGS_ECR
+Bhadradri TPP,1.0,State,domestic,G13,False,1534.13,2190.0,3.0303266356521745,,3.0303266356521745,reconstructed_landed
+Vindh_Chal Stps,11.0,Centre,domestic,G13,True,1534.13,360.0,1.3854337220810127,1.596,1.596,real_ISGS_ECR

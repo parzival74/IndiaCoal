@@ -1,0 +1,43 @@
+==========================================================================
+11 - ALL-FLEET LANDED-COST RECONSTRUCTION (per-plant freight, calibrated on
+     real ISGS ECRs). Replaces 02's flat Rs900/t freight for domestic coal.
+==========================================================================
+Real-ECR domestic central stations used to calibrate: 26 (7 pithead, 19 distant).
+  Implied freight (Rs/tonne) = real delivered price - (CIL pithead + levies):
+    pithead/mine-mouth : median Rs 363/t  (IQR 262-819)  (short MGR/conveyor haul)
+    distant            : median Rs 2,193/t  (IQR 1,972-2,443)
+
+  CALIBRATED freight levels: pithead Rs 360 | borderline Rs 1,280 | distant Rs 2,190/t.
+  IR cross-check: distant Rs 2,190/t / Rs 1.5/t-km ~= 1,460 km average lead -- a plausible pithead->load-centre haul.
+
+--------------------------------------------------------------------------
+COVERAGE (every unit now has a cost; provenance labelled):
+--------------------------------------------------------------------------
+                      units  stations  cap_gw  mean_vc
+vc_source                                             
+modelled_anchor          38        16   10.51     3.16
+real_ISGS_ECR           124        31   44.96     2.35
+reconstructed_landed    293       108   85.35     3.05
+  total: 455 units / 155 stations. The 293 reconstructed units are the
+  state/private + uncovered-central coal plants the metered feeds never reached.
+
+Validation -- reconstructed vs real ECR on the calibration stations (in-sample, n=26):
+  r=0.85, R²=0.72, mean |Δ|=Rs 0.29/kWh. (In-sample because the
+  distant level is calibrated on these; the honest test is the PITHEAD step,
+  which is independent of the distant fit: pithead mean |Δ|=Rs 0.26/kWh.
+
+--------------------------------------------------------------------------
+COUNTERFACTUAL on the all-fleet reconstructed cost (vs 02's flat-freight model)
+--------------------------------------------------------------------------
+  As-run fuel cost: flat-freight model Rs 157,724 cr | reconstructed Rs 203,719 cr  (CO2 777.9 MT)
+  Cost-merit  : Rs 191,383 cr | CO2 772.5 MT
+  Carbon-merit: Rs 207,766 cr | CO2 746.0 MT
+  As-run is +6.4% above cost-optimal; cost-vs-carbon gap +26.5 MT for Rs +16,383 cr.
+  Per-plant freight widens the real cost spread the flat model compressed, so
+  the cheap-pithead vs costly-distant merit order is sharper than the headline.
+
+==========================================================================
+READ: this is the first ALL-FLEET cost grounded in real data -- real ECR for the
+~30 ISGS stations, and a freight calibrated on them for everyone else. The freight
+is a two-level MODEL (pithead vs distant), not metered per-plant lead distance, so
+state/private numbers are calibrated estimates, clearly labelled in vc_source.

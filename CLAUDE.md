@@ -58,6 +58,16 @@ merit order, and what would that cost in money and CO₂?
   (thin-sample, sources disagree; pithead coal cost is uniformly low/flat ~₹1.4
   regardless of heat rate). **Robust = the pithead flag predicts cost LEVEL** (location/
   freight, not efficiency). Still ISGS-only + 2021-23, not the FY2022-23 headline.
+- **All-fleet landed-cost reconstruction (`11`):** since metered state/private ECR is
+  unreachable (and data.gov.in has only ISGS), `11` replaces `02`'s flat ₹900/t freight
+  with a **per-plant freight calibrated on the real ISGS ECRs**. Back-out of implied
+  freight = real delivered ₹/t − (CIL pithead + levies): pithead **~₹360/t**, distant
+  **~₹2,190/t** (IR cross-check ≈1,460 km). Every unit now carries a cost, labelled in
+  `vc_source`: real_ISGS_ECR (124u/31s), reconstructed_landed (293u/108s), modelled_anchor
+  (38u, lignite/imported). Recon vs real R²=0.72, |Δ|₹0.29 (pithead step |Δ|₹0.26).
+  Counterfactual on the all-fleet cost: as-run +6.4% above cost-optimal; cost-vs-carbon
+  **+26.5 MT for ~₹16,400 cr**. MODELLED part = the freight *level* (2-step on pithead flag),
+  NOT per-plant lead distance. Output: `data/plant_cost_reconstructed.csv`.
 - **Domestic coal price is now REAL** (FY2022-23): CIL grade-wise pithead notified
   prices (notif. 194 dated 27-11-2020, in force all of FY2022-23) + published levies
   + flagged flat freight → domestic ≈ ₹2.1/kWh (was a ₹850/Gcal *assumed* anchor).
@@ -75,8 +85,8 @@ README.md            quick start + pipeline table
 CLAUDE.md            this file
 requirements.txt     pandas, numpy, scipy, openpyxl
 data/raw/            source xlsx; cil_grade_prices_fy2022-23.csv (REAL); plant_ecr_cerc_2018basis.csv (REAL, cross-check); datagov_tariff_ecr_2021-23.csv (REAL central ECR, 2021-23, cross-check); plant_ecr_template.csv; (drop plant_ecr.csv + sced_blocks.csv here)
-data/                cse_subcritical_clean.csv, plant_cost_blended.csv  (generated)
-analysis/            common.py + numbered pipeline scripts (01–10) + fetch_datagov_ecr.py + run_all.py
+data/                cse_subcritical_clean.csv, plant_cost_blended.csv, plant_real_ecr_central.csv (10), plant_cost_reconstructed.csv (11)  (generated)
+analysis/            common.py + numbered pipeline scripts (01–11) + fetch_datagov_ecr.py + run_all.py
 outputs/             *.txt results (committed)
 docs/                methodology_variable_cost.md, data_sources.md
 .claude/             SessionStart hook (installs deps + runs pipeline on web)
@@ -117,7 +127,13 @@ Pipeline scripts:
 - `10_datagov_ecr.py` — contemporaneous CENTRAL/ISGS ECR cross-check from data.gov.in
   (2021-22/2021-23). Curated exact-name map (gas/supercritical dropped; DVC paise→Rs);
   coverage, ECR ladder vs model & CERC-2018, the pithead cost-side re-run, illustrative
-  re-dispatch. Labelled cross-check, NOT the FY2022-23 headline.
+  re-dispatch. Labelled cross-check, NOT the FY2022-23 headline. Writes
+  `data/plant_real_ecr_central.csv` (matched real central ECR, consumed by `11`).
+- `11_landed_cost.py` — ALL-FLEET landed-cost reconstruction. Replaces `02`'s flat freight
+  with a per-plant freight calibrated on the real ISGS ECRs (pithead ~₹360/t, distant
+  ~₹2,190/t; IR-tariff cross-check). Real ECR where available, else reconstructed (domestic)
+  or modelled anchor (lignite/imported); all labelled in `vc_source`. Re-runs the
+  counterfactual. Writes `data/plant_cost_reconstructed.csv` + `outputs/11_landed_cost.txt`.
 
 ## CURRENT TASK — status (2026-06 Full-access session)
 Goal: replace modelled coal prices with real published data, FY2022-23 vintage.
