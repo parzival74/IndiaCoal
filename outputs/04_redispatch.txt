@@ -1,0 +1,25 @@
+======================================================================
+EXTENSION #4 - RE-DISPATCH COUNTERFACTUAL (same total energy)
+======================================================================
+Fleet: 455 units | total net generation held at 763,316 GWh
+Per-unit annual ceiling: 85% PLF | VC & EF held fixed
+
+Scenario                 Fuel cost (Rs cr)      CO2 (MT)    Served (GWh)
+------------------------------------------------------------------------
+1. Actual (as-run)                 188,599         777.9         763,316
+2. Cost-merit                      180,252         764.9         763,316
+3. Carbon-merit                    194,808         746.0         763,316
+
+Deltas vs actual:
+  Cost-merit   : fuel cost -8,347 cr (-4.4%),  CO2 -12.9 MT (-1.7%)
+  Carbon-merit : fuel cost +6,209 cr (+3.3%),  CO2 -31.9 MT (-4.1%)
+
+The trade-off, isolated (cost-merit minus carbon-merit):
+  Chasing least COST instead of least CARBON costs +18.9 MT of extra CO2 while saving +14,556 cr.
+
+INTERPRETATION: minimum-cost and minimum-carbon dispatch are NOT the
+same objective for this fleet. The cheapest units (pithead lignite/
+domestic) are among the dirtiest; the cleanest (imported) are dearest.
+So 'follow strict merit order' saves money but does not minimise CO2 --
+the two goals require a carbon price to reconcile. (Magnitudes scale
+with the fuel-price assumptions in 02_variable_cost.py.)

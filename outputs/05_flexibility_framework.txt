@@ -1,0 +1,20 @@
+======================================================================
+EXTENSION #3 - FLEXIBILITY FRAMEWORK (tests H1; needs block-level data)
+======================================================================
+No real SCED file found at data/raw/sced_blocks.csv.
+Running on SYNTHETIC demo data so the metrics are illustrated.
+To test H1 for real, supply that file (see docs/data_sources.md).
+
+Per-unit flexibility metrics [SYNTHETIC DEMO]:
+                    blocks  mean_mw  max_ramp_pct_cap  p95_ramp_pct_cap  starts  min_load_pct_cap
+unit_id                                                                                          
+BASE_central_250MW     288   212.50              0.00              0.00       1              85.0
+FLEX_WR_old_150MW      288   129.81              6.54              6.51       4               0.0
+
+How to test H1 once real data is in place:
+  1. Join these metrics to the plant table on unit_id.
+  2. Regress ramp/starts/min-load on age, capacity, region, sector.
+  3. H1 is supported only if SMALL/OLD/WESTERN units show HIGHER ramp
+     rates and MORE starts (two-shifting) -- not higher annual PLF.
+  4. Cross-check ramp timing against the evening net-load ramp
+     (demand minus solar) from the same region.
