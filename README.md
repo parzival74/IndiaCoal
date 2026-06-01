@@ -31,6 +31,7 @@ python3 analysis/run_all.py
 | `03_regions.py` | **Ext #2** grid-region proxy for "load proximity" | done (~60% coverage) |
 | `04_redispatch.py` | **Ext #4** cost vs carbon re-dispatch counterfactual | done (stylised) |
 | `05_flexibility_framework.py` | **Ext #3** ramp/cycling metrics for H1 | framework (needs SCED data) |
+| `06_apply_ecr.py` | apply **real plant-level ECR** (CERC/MOD/CEA) over the model | done (drop in `data/raw/plant_ecr.csv`) |
 
 Extensions #1–#3 are limited by data **not present in the source file**; see
 [`docs/data_sources.md`](docs/data_sources.md) for exactly what to add.

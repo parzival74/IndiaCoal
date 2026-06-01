@@ -22,6 +22,26 @@ RAW_XLSX = os.path.join(REPO, "data", "raw",
 CLEAN_CSV = os.path.join(REPO, "data", "cse_subcritical_clean.csv")
 OUT_DIR = os.path.join(REPO, "outputs")
 
+# Official Ministry of Coal / Coal Controller non-coking coal GCV grade slabs
+# (GCV kcal/kg, 300 kcal/kg bands). Source: coal.gov.in/major-statistics/coal-grades.
+# (lower_bound_exclusive, grade) ordered high -> low.
+COAL_GRADE_SLABS = [
+    (7000, "G1"), (6700, "G2"), (6400, "G3"), (6100, "G4"), (5800, "G5"),
+    (5500, "G6"), (5200, "G7"), (4900, "G8"), (4600, "G9"), (4300, "G10"),
+    (4000, "G11"), (3700, "G12"), (3400, "G13"), (3100, "G14"), (2800, "G15"),
+    (2500, "G16"), (2200, "G17"),
+]
+
+
+def grade_from_gcv(gcv) -> str:
+    """Map a GCV (kcal/kg) to its official non-coking coal grade (G1-G17)."""
+    if pd.isna(gcv):
+        return "NA"
+    for lower, grade in COAL_GRADE_SLABS:
+        if gcv > lower:
+            return grade
+    return "ungraded(<2200)"
+
 
 def load_clean() -> pd.DataFrame:
     """Load the cleaned plant-level CSV, building it from the raw xlsx if needed."""
@@ -59,6 +79,8 @@ def clean_from_raw() -> pd.DataFrame:
               "age_yr", "unit_no", "sr_no"]:
         df[c] = pd.to_numeric(df[c], errors="coerce")
     df = df.dropna(subset=["plf_pct", "efficiency_pct"]).reset_index(drop=True)
+    # Real, citable enrichment: official non-coking coal grade from GCV.
+    df["coal_grade"] = df["gcv_kcal_per_kg"].apply(grade_from_gcv)
     return df
 
 

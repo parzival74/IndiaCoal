@@ -55,12 +55,37 @@ R²≈14%) *worse* than efficiency (R²≈31%). Reasons:
 ⇒ backed down) but cannot, by itself, beat efficiency or be treated as
 plant-accurate.
 
-## How to make it accurate
+## Refinement now in place: grade-aware domestic pricing
+Each plant is tagged with its official **Ministry-of-Coal non-coking coal grade
+(G1–G17)** from its GCV (real 300 kcal/kg slabs, `common.grade_from_gcv`), and
+domestic coal is priced **by grade** rather than one flat number
+(`DOMESTIC_GRADE_PRICE_MULTIPLIER` in `02_variable_cost.py`). Lower grades carry
+a modestly higher ₹/Gcal (fixed per-tonne handling/freight over less heat),
+mirroring CIL notified-price behaviour. The grade *slabs* are authoritative; the
+*multipliers* remain representative until overridden by real ECR.
+
+## How to make it accurate — the ECR override layer (`06_apply_ecr.py`)
 Replace the assumed prices with **plant-level Energy Charge Rate (ECR)**, which
 *is* published:
 - **CERC / SERC tariff orders** (regulated central & state stations).
-- **Merit Order Despatch / "energy charge rate"** sheets from RLDCs / Grid-India.
+- **Merit Order Despatch / "energy charge rate"** sheets from RLDCs / Grid-India
+  / the MERIT portal (meritindia.in).
 - **CEA** fuel-cost and coal-source databases.
 
-Join those on unit/station and the variable-cost column becomes contract-accurate;
-the `02_variable_cost.py` structure is built to accept that drop-in replacement.
+**Workflow:** copy `data/raw/plant_ecr_template.csv` → `data/raw/plant_ecr.csv`,
+fill it (`match_name, ecr_rs_per_kwh, period, source`), and run
+`python3 analysis/06_apply_ecr.py`. It fuzzy-matches station names, overrides the
+modelled cost where real ECR exists (else falls back to the model), tracks a
+`vc_source` flag and coverage, and re-runs the cost-vs-carbon counterfactual on
+the blended cost. Output: `data/plant_cost_blended.csv`.
+
+**Worked example (shipped seed):** the model priced **Talcher at ~₹2.7/kWh**, but
+its **real CERC ECR is ₹1.48/kWh** — Talcher is *pithead*, which the GCV/source
+model cannot infer. This single real row shows the override changing a station's
+cost by ~45% in the right direction (and Talcher runs at 75–90% PLF). Pithead
+distance, e-auction share and freight only enter with real ECR.
+
+> **Network note:** cercind.gov.in / coal.gov.in / grid-india / meritindia.in
+> return HTTP 403 in this remote environment, so the full table cannot be
+> harvested in-session. Fetch locally (or allow-list those domains); the layer
+> then consumes the CSV unchanged.

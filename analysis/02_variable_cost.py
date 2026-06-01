@@ -30,10 +30,23 @@ from common import load_clean, analysis_set, CLEAN_CSV, OUT_DIR
 # ASSUMPTIONS  (representative 2022-23 INR; edit these for your own scenario)
 # --------------------------------------------------------------------------
 # Fuel cost per Gcal of heat input (separates fuel PRICE from plant EFFICIENCY).
+# These are MODELLED benchmarks; for plant accuracy supply real ECR via
+# data/raw/plant_ecr.csv (consumed by 06_apply_ecr.py).
 FUEL_PRICE_RS_PER_GCAL = {
     "lignite":  500.0,   # captive mine-mouth: cheap per tonne, low GCV
-    "domestic": 850.0,   # CIL linkage coal, landed (washing + rail freight)
-    "imported": 1700.0,  # seaborne thermal coal, ~2x domestic in 2022-23
+    "domestic": 850.0,   # fleet-anchor for CIL linkage coal, landed (see grade tiers)
+    "imported": 1700.0,  # seaborne (ICI GAR-4200); ~2x domestic, 2022-23 elevated
+}
+# Domestic coal is now priced by its official GCV GRADE rather than one flat
+# number. CIL notified price per Gcal rises modestly for lower grades (fixed
+# per-tonne handling/freight spread over less heat). Multipliers applied to the
+# "domestic" anchor above; chosen so the fleet domestic mean stays ~the anchor.
+# Structure follows CIL notified-price behaviour; values are representative, not
+# the exact notification (which 06_apply_ecr.py overrides with real ECR).
+DOMESTIC_GRADE_PRICE_MULTIPLIER = {
+    "G1": 0.80, "G2": 0.82, "G3": 0.84, "G4": 0.86, "G5": 0.88, "G6": 0.90,
+    "G7": 0.93, "G8": 0.96, "G9": 0.99, "G10": 1.02, "G11": 1.05, "G12": 1.08,
+    "G13": 1.12, "G14": 1.16, "G15": 1.20, "G16": 1.25, "G17": 1.30,
 }
 # Non-fuel variable cost (secondary fuel oil + variable O&M), Rs/kWh, flat.
 NON_FUEL_VARIABLE_RS_PER_KWH = 0.20
@@ -73,7 +86,12 @@ def classify_source(row) -> str:
 def add_variable_cost(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     df["coal_source"] = df.apply(classify_source, axis=1)
-    df["fuel_price_rs_per_gcal"] = df["coal_source"].map(FUEL_PRICE_RS_PER_GCAL)
+    base = df["coal_source"].map(FUEL_PRICE_RS_PER_GCAL)
+    # Domestic coal: tier the price by official GCV grade (real slabs from
+    # common.grade_from_gcv). Lignite/imported keep their flat anchor.
+    grade_mult = df["coal_grade"].map(DOMESTIC_GRADE_PRICE_MULTIPLIER).fillna(1.0)
+    is_dom = df["coal_source"] == "domestic"
+    df["fuel_price_rs_per_gcal"] = np.where(is_dom, base * grade_mult, base)
     df["vc_fuel_rs_per_kwh"] = (
         df["shr_kcal_per_kwh"] * df["fuel_price_rs_per_gcal"] / 1e6)
     df["variable_cost_rs_per_kwh"] = (

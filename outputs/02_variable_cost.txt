@@ -14,7 +14,7 @@ imported     19
 Variable cost & PLF by inferred source:
                n    VC    Eff    PLF    EF
 coal_source                               
-domestic     402  2.54  31.47  62.37  1.05
+domestic     402  2.83  31.47  62.37  1.05
 imported      19  4.65  33.15  26.60  0.94
 lignite       34  1.80  27.26  56.84  1.34
 
@@ -22,7 +22,7 @@ lignite       34  1.80  27.26  56.84  1.34
 Does modelled variable cost track PLF better than efficiency? (PLF>=20)
 ----------------------------------------------------------------------
   PLF ~ Efficiency        r=+0.552  R2=30.5%
-  PLF ~ Variable cost     r=-0.369  R2=13.6%
+  PLF ~ Variable cost     r=-0.377  R2=14.2%
   (variable cost should correlate NEGATIVELY and more strongly --
    cheaper plants run more. This is the merit-order signal that raw
    efficiency misses.)

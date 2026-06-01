@@ -10,7 +10,8 @@ STEPS = [
     "02_variable_cost.py",        # extension #1 (adds variable_cost column)
     "03_regions.py",              # extension #2
     "04_redispatch.py",           # extension #4 (needs #1)
-    "05_flexibility_framework.py" # extension #3
+    "05_flexibility_framework.py",# extension #3
+    "06_apply_ecr.py",            # apply real plant-level ECR over the model
 ]
 
 for s in STEPS:

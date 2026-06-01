@@ -10,11 +10,17 @@
 
 ## What each extension needs that the file lacks
 
-### #1 Variable cost (₹/kWh) — *partially done, see methodology doc*
-To upgrade from the modelled estimate to plant-accurate cost:
+### #1 Variable cost (₹/kWh) — *grade-aware model + ECR override layer done*
+The model is now grade-aware (official G1–G17 GCV slabs) and `06_apply_ecr.py`
+ingests real per-station ECR. To raise coverage above the seeded example, fill
+`data/raw/plant_ecr.csv` (copy from `plant_ecr_template.csv`) from:
 - **CERC / State ERC tariff orders** — regulated Energy Charge Rate (ECR).
-- **Grid-India / RLDC Merit-Order-Despatch & ECR sheets** — per-station ₹/kWh.
+- **Grid-India / RLDC Merit-Order-Despatch & ECR sheets**, **MERIT portal
+  (meritindia.in)** — per-station ₹/kWh.
 - **CEA** coal-source / fuel-cost database — to fix the domestic/imported tag.
+
+> All four host domains return HTTP 403 in this remote environment. Download
+> locally (or allow-list them) and place the compiled CSV under `data/raw/`.
 
 ### #2 Grid location / load proximity (H2) — *coarse proxy done*
 Region is inferred from the company name (state utilities only, ~60% coverage).

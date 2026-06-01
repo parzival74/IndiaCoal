@@ -238,9 +238,27 @@ actually tracks PLF *worse* than efficiency (R² ≈ 14% vs 31%) because:
    threshold — we fix it with a small curated importer list).
 
 **To make it accurate, join plant-level Energy Charge Rate (ECR)** from CERC/SERC
-tariff orders or Grid-India merit-order-despatch sheets. The code is structured to
-accept that as a drop-in replacement. Full detail in
+tariff orders or Grid-India merit-order-despatch sheets. This is now wired in:
+
+- The model is **grade-aware** — each plant is tagged with its official
+  Ministry-of-Coal GCV grade (G1–G17) and domestic coal is priced by grade.
+- **`06_apply_ecr.py` is a drop-in override layer.** Put real published ECR in
+  `data/raw/plant_ecr.csv` (`match_name, ecr_rs_per_kwh, period, source`); it
+  fuzzy-matches stations, overrides the model where data exists, falls back to
+  the model elsewhere, reports coverage, and re-runs the cost-vs-carbon
+  counterfactual on the blended cost.
+
+A seeded real example shows why this matters: the model put **Talcher at
+~₹2.7/kWh**, but its **real CERC ECR is ₹1.48/kWh** — because Talcher is a
+*pithead* station the GCV/source model can't know is cheap (and it duly runs at
+75–90% PLF). Pithead distance, e-auction share and freight — the dispersion that
+actually drives merit order — only arrive with real ECR. Full detail in
 [`docs/methodology_variable_cost.md`](docs/methodology_variable_cost.md).
+
+> **Network caveat:** cercind.gov.in / coal.gov.in / grid-india / meritindia.in
+> are firewalled in this remote environment (HTTP 403), so the 455-row ECR table
+> cannot be auto-harvested here. Run the session locally (or allow-list those
+> domains) to fetch them; the override layer then consumes the result.
 
 ---
 
@@ -248,7 +266,7 @@ accept that as a drop-in replacement. Full detail in
 
 | # | Extension | Status | Blocking data (not in file) |
 |---|---|---|---|
-| 1 | Variable cost (₹/kWh) | Modelled estimate | Plant-level ECR / coal price |
+| 1 | Variable cost (₹/kWh) | Grade-aware model **+ real-ECR override layer** (`06`) | Published per-station ECR to raise coverage |
 | 2 | Grid-region / load proximity | Coarse proxy (~60% coverage) | Lat/long, RLDC bus, load-pocket, congestion |
 | 3 | Flexibility / ramp (H1) | Framework + synthetic demo | Block-level SCED generation |
 | 4 | Cost-vs-carbon re-dispatch | Done (stylised) | Transmission/must-run limits for realism |

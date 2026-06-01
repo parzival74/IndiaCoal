@@ -1,0 +1,23 @@
+# Plant-level Energy Charge Rate (ECR) override table.
+# Copy this file to data/raw/plant_ecr.csv and fill it with REAL published ECR
+# (energy charge / variable cost, Rs/kWh) per station. 06_apply_ecr.py fuzzy-
+# matches match_name to the plant table and overrides the modelled cost.
+#
+# columns:
+#   match_name      station name (fuzzy-matched; punctuation/suffixes ignored)
+#   ecr_rs_per_kwh  published energy charge rate / variable cost, Rs/kWh
+#   period          provenance period, e.g. FY2022-23
+#   source          citation: CERC order no. / RLDC MOD sheet / CEA table / URL
+#
+# Sources to populate this from (see docs/data_sources.md):
+#   - CERC / SERC tariff orders (regulated central & state stations)
+#   - RLDC / Grid-India / MERIT (meritindia.in) merit-order-despatch ECR sheets
+#   - CEA fuel-cost / coal-source databases
+#
+# Lines starting with '#' are ignored. Below is ONE real, cited seed row
+# (to demonstrate the override end-to-end). Replace/extend with the full set.
+match_name,ecr_rs_per_kwh,period,source
+Talcher Stps,1.48,FY2022-23,"NTPC Talcher variable charge ~Rs 1.48/kWh per 2022 CERC tariff order (pithead, Odisha)"
+# Singrauli Stps,,FY2022-23,"<CERC order no.> - fill from tariff order"
+# Rihand,,FY2022-23,"<CERC order no.>"
+# Sipat Stps,,FY2022-23,"<CERC order no.>"
