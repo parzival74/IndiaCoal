@@ -84,10 +84,15 @@ is published and should override it. The seeded example proves why it matters:
 the model priced **Talcher at ~₹2.7/kWh**, but its **real CERC ECR is ₹1.48/kWh**
 (pithead) — the model can't infer pithead cheapness.
 
-**Sources** (best per-station coverage first): MERIT portal `meritindia.in`
-(station-wise variable charge — start here), CERC/SERC tariff orders
-`cercind.gov.in` (per-petition PDFs), Coal India notified prices `coal.gov.in`
-(grade-wise ₹/tonne → improves the domestic model), CEA fuel-cost/coal-source DB.
+**Vintage rule:** the performance data is FY2022-23, so collect **FY2022-23 ECR
+only** (coal prices swung hugely; don't mix vintages). **Sources, ranked** (detail
+in `docs/data_sources.md` #1): (1) **CERC FY2022-23 tariff orders** `cercind.gov.in`
+(regulated central/ISGS ECR; per-petition PDFs); (2) **Grid-India SCED statements**
+`grid-india.in` / `hrd.posoco.in/elibrary` (per-generator variable cost, ISGS);
+(3) **state SLDC daily merit-order stacks** (most granular, ~30 sites); (4) **Coal
+India 2022-23 grade prices** `coal.gov.in` × SHR (universal fallback). MERIT
+`meritindia.in` is an **interactive map** (dynamic XHR data, flaky) — last resort
+only. Wayback is NOT used (didn't capture MERIT's dynamic data; dated docs are better).
 
 **Network status:** these hosts were firewalled (HTTP 403) under the "Trusted"
 policy in prior sessions. The environment is now set to **Full** access, which

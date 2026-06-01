@@ -2,17 +2,19 @@
 
 ## Resuming with network access (read this first if you're a new session)
 Earlier sessions ran under the **Trusted** network policy, so government data
-hosts (`cercind.gov.in`, `coal.gov.in`, `cea.nic.in`, `meritindia.in`,
-Grid-India) returned HTTP 403 and real ECR could not be fetched. The environment
-has since been set to **Full** network access. If you are a fresh session on that
-environment, verify access (`curl -s -o /dev/null -w '%{http_code}' https://meritindia.in`
-should be 200, not 403), then:
-1. Open `analysis/07_fetch_ecr.py`, inspect the real MERIT/CERC responses, and
-   complete the parser TODOs (it is a scaffold that refuses to emit fake data).
-2. Run `python3 analysis/07_fetch_ecr.py` to write `data/raw/plant_ecr.csv`.
-3. Run `python3 analysis/06_apply_ecr.py` to override the model with real ECR and
-   re-run the cost-vs-carbon counterfactual at real coverage.
-4. Push to branch `claude/keen-newton-P0cFA` (PR #1).
+hosts (`cercind.gov.in`, `coal.gov.in`, `cea.nic.in`, `grid-india.in`, MERIT)
+returned HTTP 403 and real ECR could not be fetched. The environment is now set
+to **Full** access (applies to NEW sessions only). If you are that session:
+1. Verify access: `curl -s -o /dev/null -w '%{http_code}\n' https://cercind.gov.in`
+   → expect 200, not 403 (also try the other hosts in #1 below).
+2. **Vintage rule:** the performance data is FY2022-23, so every ECR you collect
+   must be FY2022-23 — do NOT use current-year prices (coal prices swung hugely;
+   mixing vintages would invalidate the cost↔PLF comparison).
+3. Collect ECR per the ranked sources in #1; complete the parser TODOs in
+   `analysis/07_fetch_ecr.py` (it refuses to emit fake data — keep it that way).
+4. Run `python3 analysis/07_fetch_ecr.py` → writes `data/raw/plant_ecr.csv`.
+5. Run `python3 analysis/06_apply_ecr.py` → real-coverage override + counterfactual.
+6. Update REPORT.md coverage; commit; push to `claude/keen-newton-P0cFA` (PR #1).
 
 
 ## Current dataset (in repo)
@@ -26,16 +28,35 @@ should be 200, not 403), then:
 ## What each extension needs that the file lacks
 
 ### #1 Variable cost (₹/kWh) — *grade-aware model + ECR override layer done*
-The model is now grade-aware (official G1–G17 GCV slabs) and `06_apply_ecr.py`
-ingests real per-station ECR. To raise coverage above the seeded example, fill
-`data/raw/plant_ecr.csv` (copy from `plant_ecr_template.csv`) from:
-- **CERC / State ERC tariff orders** — regulated Energy Charge Rate (ECR).
-- **Grid-India / RLDC Merit-Order-Despatch & ECR sheets**, **MERIT portal
-  (meritindia.in)** — per-station ₹/kWh.
-- **CEA** coal-source / fuel-cost database — to fix the domestic/imported tag.
+The model is grade-aware (official G1–G17 GCV slabs) and `06_apply_ecr.py` ingests
+real per-station ECR from `data/raw/plant_ecr.csv` (copy `plant_ecr_template.csv`).
+**All ECR must be FY2022-23** to match the performance data.
 
-> All four host domains return HTTP 403 in this remote environment. Download
-> locally (or allow-list them) and place the compiled CSV under `data/raw/`.
+Sources, ranked. (Wayback is deliberately NOT used: MERIT served its numbers
+dynamically so archived snapshots don't capture the data, and the dated documents
+below are both vintage-correct and more authoritative.)
+1. **CERC FY2022-23 tariff orders** (`cercind.gov.in`) — authoritative regulated
+   ECR for central / ISGS stations (NTPC, DVC, NLC). Date-stamped, still live;
+   per-petition PDFs → map order to station by petition title.
+2. **Grid-India FY2022-23 SCED statements / RLDC reports** (`grid-india.in`,
+   `posoco.in`, eLibrary `hrd.posoco.in/elibrary`, RLDCs nrldc/wrldc/srldc/erldc/
+   nerldc) — per-generator variable cost for all interstate stations; best for the
+   large central units (the highest-PLF ones in our data).
+3. **State SLDC daily Merit-Order-Despatch stacks** — most granular per-station
+   ₹/kWh (SLDCs must publish daily), but ~30 heterogeneous sites; covers state
+   gencos. e.g. Odisha SLDC `Merit_Order` page, plus MSLDC / KSLDC / GSLDC.
+4. **Coal India 2022-23 grade-wise notified prices** (`coal.gov.in`) × plant SHR
+   + freight → universal fallback so every unit gets a period-correct modelled ECR
+   even where 1–3 have no entry (also improves 02's domestic price).
+5. **MERIT / NPP mirror — last resort.** MERIT (`meritindia.in`) is an INTERACTIVE
+   MAP: its data loads via background XHR/JSON, so inspect the network calls for
+   the station/variable-cost endpoint rather than scraping HTML — and it is
+   flaky/semi-defunct. NPP mirror: `npp.gov.in/dashBoard/gc-map-dashboard-meritchart`.
+6. **Cross-checks:** Prayas (Energy Group) MOD analyses, NITI Aayog ICED
+   (`iced.niti.gov.in`), CEA operation reports, Ember.
+
+Tag each row's `source`; `06_apply_ecr.py` reports the real-vs-modelled coverage
+split and flags every unit via the `vc_source` column.
 
 ### #2 Grid location / load proximity (H2) — *coarse proxy done*
 Region is inferred from the company name (state utilities only, ~60% coverage).

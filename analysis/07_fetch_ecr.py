@@ -11,18 +11,27 @@ GOAL: produce data/raw/plant_ecr.csv with columns
     match_name, ecr_rs_per_kwh, period, source
 which 06_apply_ecr.py then fuzzy-matches onto the plant table.
 
-SOURCES (best per-station coverage first):
-  1. MERIT portal  https://meritindia.in   - station-wise variable charge / ECR.
-        Dynamic app; open it in the new session and inspect the XHR/API calls
-        (look for a JSON endpoint returning station name + variable cost). That
-        endpoint is the highest-yield single source.
-  2. CERC tariff orders  https://cercind.gov.in/recent_orders2022.html (and 2023)
-        Per-petition PDFs; extract the Energy Charge Rate for regulated central
-        stations. Map order -> station by petition title.
-  3. Coal India notified prices  https://coal.gov.in / subsidiary sites
-        Grade-wise Rs/tonne -> feeds the grade price model in 02 (domestic),
-        not per-plant ECR. Improves the fallback, not the override.
-  4. CEA fuel-cost / coal-source DB - to correct the domestic/imported tag in 02.
+VINTAGE RULE: the performance data is FY2022-23, so collect FY2022-23 ECR only.
+Do NOT use current-year prices (coal prices swung hugely; mixing vintages breaks
+the cost-vs-PLF comparison). Wayback is deliberately NOT used (MERIT's data was
+dynamic so snapshots don't capture it; the dated docs below are better anyway).
+
+SOURCES, ranked (see docs/data_sources.md #1 for detail):
+  1. CERC FY2022-23 tariff orders  https://cercind.gov.in/recent_orders2022.html
+        (+ .../recent_orders2023.html) - authoritative regulated ECR for central/
+        ISGS stations (NTPC, DVC, NLC). Per-petition PDFs; map order -> station.
+  2. Grid-India FY2022-23 SCED statements / RLDC reports - per-generator variable
+        cost for interstate stations. grid-india.in, posoco.in, eLibrary
+        https://hrd.posoco.in/elibrary, RLDCs (nrldc/wrldc/srldc/erldc/nerldc).
+  3. State SLDC daily Merit-Order-Despatch stacks - most granular per-station
+        Rs/kWh; ~30 heterogeneous sites (e.g. Odisha SLDC Merit_Order, MSLDC,
+        KSLDC, GSLDC). Covers state gencos.
+  4. Coal India 2022-23 grade-wise notified prices  https://coal.gov.in -> grade
+        Rs/tonne x plant SHR: universal modelled-ECR fallback + improves 02.
+  5. MERIT / NPP mirror (LAST RESORT): MERIT https://meritindia.in is an
+        INTERACTIVE MAP - inspect background XHR/JSON for the station/variable-cost
+        endpoint (don't scrape HTML); it is flaky. NPP mirror:
+        https://npp.gov.in/dashBoard/gc-map-dashboard-meritchart
 
 This file deliberately ships with parsers unimplemented so it never fabricates
 ECR values. Fill them against the real responses, then run 06_apply_ecr.py.
@@ -63,21 +72,40 @@ def _get(url: str, binary: bool = False, retries: int = 4):
             time.sleep(2 ** i)
 
 
-def fetch_merit_ecr() -> pd.DataFrame:
-    """TODO: hit MERIT's station endpoint, return [match_name, ecr_rs_per_kwh]."""
-    raise NotImplementedError(
-        "Inspect https://meritindia.in network calls for the station/variable-cost "
-        "JSON endpoint, then parse it here. See module docstring.")
-
-
 def fetch_cerc_ecr() -> pd.DataFrame:
-    """TODO: walk CERC order index, download station PDFs, extract ECR."""
-    raise NotImplementedError("Implement CERC tariff-order ECR extraction.")
+    """TODO (source 1): walk the CERC FY2022-23 order index, download per-station
+    tariff PDFs, extract the Energy Charge Rate, map petition title -> station.
+    Return [match_name, ecr_rs_per_kwh, period, source]."""
+    raise NotImplementedError("Implement CERC FY2022-23 tariff-order ECR extraction.")
+
+
+def fetch_sced_ecr() -> pd.DataFrame:
+    """TODO (source 2): pull Grid-India FY2022-23 SCED statements / RLDC reports;
+    extract per-generator variable cost for interstate stations."""
+    raise NotImplementedError("Implement Grid-India SCED variable-cost extraction.")
+
+
+def fetch_sldc_ecr() -> pd.DataFrame:
+    """TODO (source 3): scrape state SLDC daily MOD stacks (per-station Rs/kWh).
+    ~30 heterogeneous sites; start with ones publishing clean tables/CSV."""
+    raise NotImplementedError("Implement SLDC merit-order-stack ECR extraction.")
+
+
+def fetch_merit_ecr() -> pd.DataFrame:
+    """TODO (source 5, LAST RESORT): MERIT is an interactive map; inspect its
+    background XHR/JSON for the station/variable-cost endpoint (don't scrape HTML).
+    Try the NPP mirror npp.gov.in/dashBoard/gc-map-dashboard-meritchart if down."""
+    raise NotImplementedError(
+        "MERIT is an interactive map - find its XHR/JSON data endpoint. Prefer "
+        "sources 1-4 (CERC/SCED/SLDC/Coal-India) which are dated and reliable.")
 
 
 def main():
+    # Ordered by reliability/authority; MERIT is intentionally last.
+    sources = [("CERC", fetch_cerc_ecr), ("SCED", fetch_sced_ecr),
+               ("SLDC", fetch_sldc_ecr), ("MERIT", fetch_merit_ecr)]
     rows = []
-    for name, fn in [("MERIT", fetch_merit_ecr), ("CERC", fetch_cerc_ecr)]:
+    for name, fn in sources:
         try:
             df = fn()
             print(f"[{name}] fetched {len(df)} rows")

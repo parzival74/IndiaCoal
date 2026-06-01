@@ -20,17 +20,27 @@ has Full network access.
 Do this in order:
 
 1. First confirm network access actually works in THIS session:
-   curl -s -o /dev/null -w '%{http_code}\n' https://meritindia.in
+   curl -s -o /dev/null -w '%{http_code}\n' https://cercind.gov.in
    Expect 200. If it returns 403, stop and tell me — it means this session isn't
    running on the Full-access environment, and I need to fix the environment
    selection rather than have you keep trying.
 
-2. The highest-yield source is the MERIT portal (meritindia.in): it publishes
-   station-wise variable charge / ECR. Open it, inspect the actual API/XHR calls
-   (look for a JSON endpoint returning station name + variable cost), and build a
-   parser. Then add CERC tariff orders (cercind.gov.in) for regulated central
-   stations, and Coal India notified prices (coal.gov.in) to improve the domestic
-   grade-price model. CEA's coal-source DB can fix the domestic/imported tag.
+   VINTAGE RULE: the performance data is FY2022-23, so collect FY2022-23 ECR only.
+   Do not use current-year prices (coal prices swung hugely; mixing vintages would
+   break the cost-vs-PLF comparison).
+
+2. Work the sources in this priority order (full detail in docs/data_sources.md #1):
+   a. CERC FY2022-23 tariff orders (cercind.gov.in) — authoritative regulated ECR
+      for central/ISGS stations (NTPC, DVC, NLC); per-petition PDFs.
+   b. Grid-India FY2022-23 SCED statements / RLDC reports (grid-india.in,
+      hrd.posoco.in/elibrary) — per-generator variable cost for interstate stations.
+   c. State SLDC daily merit-order stacks — most granular per-station Rs/kWh, but
+      ~30 heterogeneous sites; covers state gencos.
+   d. Coal India 2022-23 grade-wise notified prices (coal.gov.in) × plant SHR —
+      universal fallback so every unit gets a period-correct number.
+   Do NOT rely on MERIT (meritindia.in): it's an interactive map (data via background
+   XHR, flaky/semi-defunct) — last resort only, and inspect its XHR endpoint rather
+   than scraping HTML. Wayback is not used (it didn't capture MERIT's dynamic data).
 
 3. Implement the parser TODOs in analysis/07_fetch_ecr.py against the REAL
    responses. Critical rule: never fabricate ECR values — if a source fails or a
@@ -59,10 +69,12 @@ real-data coverage, not 100% at the cost of made-up numbers.
 ---
 
 ## Notes
-- **Partial coverage is an acceptable outcome.** If MERIT only exposes data
-  through an interactive app with no clean endpoint, expect partial coverage;
-  CERC orders fill regulated-station gaps. The `06_apply_ecr.py` coverage report
+- **Partial coverage is an acceptable outcome.** CERC + SCED cover the central/
+  ISGS stations (the high-PLF ones); SLDC stacks add state gencos; Coal-India
+  grade prices backstop everything else. The `06_apply_ecr.py` coverage report
   states the real-vs-modelled split explicitly, and the `vc_source` column in
   `data/plant_cost_blended.csv` tags every unit as `published_ECR` or `modelled`.
+- **MERIT is last resort, not the plan.** It's an interactive map with flaky,
+  dynamically-loaded data; lead with the dated CERC/SCED/SLDC/Coal-India sources.
 - **Verify fuzzy matches.** The name matcher uses `difflib` with a 0.82 cutoff;
   eyeball the diagnostics table for wrong matches on similarly-named stations.
