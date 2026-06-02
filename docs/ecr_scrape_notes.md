@@ -614,3 +614,39 @@ Vintage/honesty note: CSERC's "Concessional Power through CSPTrdCL" rows are the
 but are disqualified twice over - FY2021-22 vintage AND mostly a flat Rs1.60/kWh contracted
 concessional rate (the order even states uncovered generators are billed a flat Rs1.60/kWh), i.e.
 not a plant-specific energy/variable charge. Left for the model fallback (`02`) rather than faked.
+
+## Fourth-wave VERIFICATION AUDIT (2026-06-02, post-merge critical review)
+
+Independent re-verification of all 9 fourth-wave rows against their cited source text
+(operator, not harvest agent). Every row passed; no value or mapping changed.
+
+- **Matching integrity (06).** All 9 ECR rows fuzzy-match to the correct plant/company
+  and no others. Specifically checked the only real collision risk: the dataset has TWO
+  Haldia plants — `Haldia` (Haldia Energy Ltd, CESC supplier) and
+  `India Power TPP (Haldia, Hiranmaye)` (Hiranmaye Energy Ltd). The 2.55 row maps ONLY to
+  HEL `Haldia` (exact norm key "haldia"); the Hiranmaye plant correctly stays modelled
+  (₹2.27/2.21). Verified `Korba Stps` (NTPC, 1.612, MahaSLDC) and `Korba-V(Dspm Tps)`
+  (CSPGCL DSPM, 1.612, CSERC true-up) showing the identical 1.612 is a COINCIDENCE, not a
+  mis-match — distinct norm keys ("korba" vs "korba v dspm"), two independent sources, both
+  Korba-coalfield pithead so genuinely similar.
+- **Vizag/HNPCL 3.02 (APERC FPPCA, line 2316).** Table shows HNPCL approved per-unit VC 2.76
+  vs ACTUAL 3.02 (9% higher), actual claim ₹1368.56 Cr admitted as filed. Using the actual
+  (3.02), correct for a "real FY2022-23 actual ECR" basis. Arithmetic: 1368.56×10/3.02 =
+  4532 MU = HNPCL FY2022-23 actual gen. Energy-only; fixed ₹1234.67 Cr is a separate arrears
+  line (excluded).
+- **Kamalanga 1.20 / Derang 1.12 (BERC, lines 5017-5018).** Component breakout confirms 1.20/1.12
+  is the ENERGY column (GMR: fixed 1.34 + energy 1.20 ... total 3.39; JITPL: fixed 2.03 +
+  energy 1.12 ... total 3.34; cost split 160.01+104.87+31.06 = 295.94 reconciles). NOT a
+  mis-read total. Independently validated physically: heat-rate × MCL G14 price (≈₹1.61/kg)
+  gives ≈1.24 (Kamalanga) / ≈1.12 (Derang) — matches. Sub-1.3 but real (deep-pithead Angul MCL).
+- **Budge Budge 1.96 / Haldia 2.55 (WBERC TP-96).** Both use Commission-ADMITTED, not proposed,
+  figures. Budge Budge: admitted fuel cost 96753.91 Lakh (line 2271) / ex-bus gen 4932.43 MU
+  (line 2237) = 1.9616. Haldia: HEL admitted availability 3863 MU (line 990); the earlier
+  2.80 figure was a projection column, 2.55 is admitted.
+- **DPL 2.251** remains the weakest row (H1-only, 2021-22 base + realized MFCA; flagged), and
+  **Maithon 2.74** a flagged secondary (company AR; ~5% above its own fuel-cost/gen sanity 2.57-2.61).
+  Both low-impact (2 units each), kept with explicit caveats per the secondary/partial-year precedent.
+
+Headline figures in REPORT/CLAUDE/README re-checked against `outputs/06_apply_ecr.txt`:
+207,066 / 178,720 / 214,386 cr; +43.7 MT / ₹35,666 cr; as-run +15.9% (= (207066-178720)/178720).
+No stale 62.9%/69.6% headline figures remain (only correct historical wave-transition markers).

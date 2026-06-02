@@ -371,6 +371,17 @@ the gap should be read as the best available FY2022-23 estimate, directionally r
 number. The qualitative conclusions hold and sharpen: merit order is broadly followed, and minimum-cost
 ≠ minimum-carbon (the cheapest coal power is the dirtiest).
 
+**Stability across the coverage expansion (a robustness check).** Lifting real coverage from the prior
+wave's 62.9% (286 units / 69.6% of gen) to 67.3% (306 units / 74.9% of gen) barely moved the headline:
+cost-optimal fuel cost ₹178,186→₹178,720 cr (+0.3%) and as-run excess +16.1%→+15.9%. The newly-metered
+stations were a *mix* — cheap pithead (Kamalanga ₹1.20, Derang ₹1.12, I.B.Valley ₹1.61) and mid-ladder
+(Bhavnagar ₹2.98, Vizag ₹3.02) — so each replaced a compressed ₹1.9–2.1 modelled value with a real one
+on either side, and the net shift was small. That the conclusion is no longer coverage-sensitive at this
+margin is itself evidence the remaining ~25% tail is unlikely to overturn it. (Note one number is *not*
+a convergence signal: carbon-optimal CO₂, 746.0 MT, is the structural minimum — units are ordered by
+emission factor, independent of cost — so it is fixed at any ECR coverage by construction; the genuine
+test is the cost side, which is what stabilised.)
+
 **(c) CERC tariff-order ECR — real per-station, but wrong vintage → cross-check
 only.** CERC orders *are* reachable, and we extracted the determined ECR for **14
 central stations** (NTPC/DVC/NLC) from the 2019-24 generation-tariff orders. But
