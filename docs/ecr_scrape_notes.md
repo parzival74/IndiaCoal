@@ -685,3 +685,33 @@ ONE REAL FINDING & FIX (user-approved):
   Residual basis heterogeneity remains (already caveated in REPORT §7b): GSECL/TANGEDCO/UPERC-APR rows are
   approved-base where actuals aren't separately published; WBPDCL now joins the actual-basis subset because
   its source uniquely publishes both.
+
+## 2026-06-02 COVERAGE-PUSH SESSION — local sync done, network harvest BLOCKED
+
+Attempted the documented next-step harvests. Outcome split cleanly:
+
+**DONE (local, no network needed):**
+- **Rich table synced** (`plant_tariff_details.csv`, 72→81 rows): added the 9 fourth-wave stations
+  (Budge Budge, Haldia, D.P.L., Maithon, Bhavnagar, I.B.Valley, Vizag, Kamalanga, Derang) with their
+  verified structured extras (gen MU, capacity, SHR/aux/transit for Bhavnagar, GCV/landed/grade for
+  I.B.Valley, fixed-charge for Kamalanga/Derang, etc.), and updated the 7 WBPDCL rows to the actual
+  with-MFCA basis (col C = base + MFCA) matching the plant_ecr.csv audit fix. The rich table does NOT
+  feed `06`, so no counterfactual change.
+- **WBPDCL deeper unit-split** check: no new coverage available — all 5 WB dataset stations are already
+  covered; Sagardighi Stage-I (2.0306) vs Stage-II (2.0314) are within 0.001, immaterial.
+
+**BLOCKED (need a network-enabled LOCAL session) — nothing added, per honesty rule:**
+- Network probe: state SERC sites all return curl `000` (tgerc.telangana.gov.in, herc.gov.in,
+  cserc.gov.in, aerc.gov.in, mperc.in) even with `--insecure`+browser-UA; central sites OK. Server-side
+  WebSearch works but WebFetch TIMES OUT on the large scanned SERC PDFs, and a background harvest agent
+  died with an API ConnectionRefused. So no source could be downloaded+verified here.
+- **Telangana TGGENCO** (highest-value, ~5 subcritical stations / ~19,600 GWh): located the FY2022-23
+  true-up order URL (tgerc.telangana.gov.in .../2024/FY 24-25 TGGenco MYT.pdf) — recorded in
+  docs/SCRAPE_ECR_PROMPT.md for a future local session. NOT harvested (couldn't download/verify).
+- **CG IPPs / KPCL / NLC expansions / Assam Bongaigaon / MPPGCL / basis-upgrades (HPGCL/UPRVUNL/
+  Jhajjar/DPL/Maithon approved orders):** all need the blocked state-SERC sites, or are confirmed
+  no-public-ECR / wrong-vintage. Honest skips; precise leads in SCRAPE_ECR_PROMPT.md.
+
+**Net:** coverage stays 306/455 = 67.3% (74.9% of gen) — this is the practical ceiling reachable from
+this (cloud/Drive-synced) environment. Pushing past it requires the LOCAL-network session described in
+docs/SCRAPE_ECR_PROMPT.md. No fabricated rows added.

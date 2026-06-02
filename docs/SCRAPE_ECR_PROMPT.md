@@ -82,11 +82,31 @@ The uncovered tail is now ~169 units (mostly private IPPs + some state). Work
 | 5 | WBPDCL | 4.2 | West Bengal | wbsldc.in | wberc.gov.in |
 | 6 | GSECL | 3.9 | Gujarat | Gujarat SLDC (GETCO) | gercin.org |
 | 7 | APGENCO | 3.4 | Andhra Pradesh | core.ap.gov.in / apsldc | aperc.gov.in |
-| 8 | TSGENCO | 3.2 | Telangana | tssldc | tserc.gov.in |
+| 8 | TSGENCO | 3.2 | Telangana | tssldc | **tgerc.telangana.gov.in** (NOT tserc.gov.in) |
 | 9 | KPCL | 2.7 | Karnataka | kptclsldc.in (KSLDC) | kerc.karnataka.gov.in |
 | 10 | HPGCL | 2.5 | Haryana | hvpnl SLDC | herc.gov.in |
 
 Then marginal returns: MPPGCL→mperc.in, CSPGCL→cserc.gov.in, PSPCL→pserc.gov.in, etc.
+
+### Reachability findings (2026-06-02 session) — READ before retrying remotely
+A coverage-push attempt from a cloud/Drive-synced session hit a wall: **every state SERC site
+returns curl `000`** (tgerc.telangana.gov.in, herc.gov.in, cserc.gov.in, aerc.gov.in, mperc.in,
+tserc.gov.in — even with `--insecure` + browser UA), while central sites (cercind.gov.in,
+data.gov.in) are fine. The server-side **WebSearch works**, but **WebFetch times out** on the large
+scanned SERC PDFs. **Conclusion: the remaining harvest MUST run from a true LOCAL session on an
+Indian-reachable network** (or via a browser/MCP that can download these PDFs). Concrete leads found:
+- **Telangana (highest-value remaining, ~5 subcritical stations, ~19,600 GWh uncovered):** the
+  FY2022-23 **true-up** order is at
+  `https://www.tgerc.telangana.gov.in/file_upload/uploads/Tariff%20Orders/Current%20Year%20Orders/2024/FY%2024-25%20TGGenco%20MYT.pdf`
+  ("order on true up for FY 2022-23 and MYT"). Targets: Kakatiya I/II (KTPP Chelpur), K_Gudem New
+  (= KTPS Stage V 2x250 + VI 1x500 SUBcritical — NOT the 1x800 supercritical KTPS-VII), R_Gundem-B,
+  Singareni TPP. EXCLUDE Bhadradri (supercritical). Also try the TG DISCOM RST orders
+  (tgsouthernpower.org / tgnpdcl.in) which carry a station-wise power-purchase variable-cost table.
+- **MPPGCL** (Amar Kantak Ext / Sanjay Gandhi / Satpura / Shri Singaji): on-disk true-up files already
+  checked — wrong vintage ("no truing up of Energy Charges"); needs a genuine FY22-23 actual order.
+- **CG merchant IPPs** (Tamnar/Baradarha/Raigarh-JPL/Lanco/BALCO), **KPCL** (Bellary/Raichur),
+  **NLC expansions**, **Assam Bongaigaon** (aerc.gov.in), captives (Bhilai/NSPCL): no public
+  FY22-23 station ECR located — likely permanent model-fallbacks. See docs/ecr_scrape_notes.md.
 
 **Two routes (use both; prefer A for breadth):**
 - **Route A — SERC tariff/true-up orders** → approved **per-station energy charge, FY2022-23**.

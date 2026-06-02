@@ -224,9 +224,14 @@ Kolaghat 2.78→3.4445, Bakreswar 1.83→2.284, Santaldih 1.95→2.4414, Bandel 
 1.79→2.0306. Headline moved <1% (cost-merit 178,720→180,035; as-run +15.9→+15.7%; gap ₹35,666→35,104 cr).
 Audit detail in `docs/ecr_scrape_notes.md`.
 
-**REMAINING (future sessions) — push coverage past 67.3%:**
-1. WBPDCL deeper unit-splits — order PDFs are **scanned** → need OCR (only the 5 Appendix-A1
-   MFCA-recoverable stations captured).
+**REMAINING (future sessions) — push coverage past 67.3%.** NOTE (2026-06-02): a coverage-push
+attempt confirmed **all remaining gains are network-blocked from this (cloud/Drive-synced) env** —
+every state SERC site returns curl `000` and WebFetch times out on the big scanned PDFs; only the LOCAL
+items got done (rich-table sync; WBPDCL = no new coverage). **67.3% is the practical ceiling here**;
+the rest needs the LOCAL-network session in `docs/SCRAPE_ECR_PROMPT.md` (now carries the confirmed
+Telangana true-up URL + reachability findings). Items below stand:
+1. WBPDCL deeper unit-splits — DONE checking: no new coverage (all 5 WB stations already covered;
+   Sagardighi Stg-I 2.0306 vs Stg-II 2.0314 immaterial). OCR pipeline (tesseract) now in place if needed.
 2. Replace HPGCL/UPRVUNL/UPERC-IPP filed-petition (APR) rows + DPL H1-only + Maithon/Jhajjar
    secondary rows with the corresponding *approved* SERC generation/true-up orders when located
    (would upgrade basis, not coverage). Jhajjar specifically: HERC `O20240305a(1).pdf` station-wise
