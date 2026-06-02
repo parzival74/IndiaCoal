@@ -543,7 +543,17 @@ and the §4 cost-optimal counterfactual widens once it is un-compressed.
 
 ---
 
-### Sources
+### External / background references
+
+*These are secondary web references for the **contextual** claims in the discussion only — the
+China USC-efficiency benchmark, the CO₂ emission-factor methodology, and near-real-time CO₂
+nowcasting. They are **not** the data sources for the analysis. The primary data — the CEA/CSE
+subcritical dataset, CIL FY2022-23 grade-wise notified prices, and the 86 per-station FY2022-23
+energy charges — is sourced from CEA and the individual CERC/SERC tariff orders and genco filings,
+cited **inline at point of use**, **per row in [`data/raw/plant_ecr.csv`](data/raw/plant_ecr.csv)**
+(each with order number, date, table/page and URL), and catalogued in
+[`docs/data_sources.md`](docs/data_sources.md) and [`docs/ecr_scrape_notes.md`](docs/ecr_scrape_notes.md).*
+
 - [POWER — Pingshan Phase II (49.37% net)](https://www.powermag.com/chinas-pingshan-phase-ii-sets-new-bar-as-worlds-most-efficient-coal-power-plant/)
 - [POWER — world's most efficient coal fleets](https://www.powermag.com/who-has-the-worlds-most-efficient-coal-power-plant-fleet/)
 - [Global Energy Monitor — estimating CO₂ from coal plants (HHV→LHV conversion)](https://www.gem.wiki/Estimating_carbon_dioxide_emissions_from_coal_plants)
