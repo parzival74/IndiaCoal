@@ -647,6 +647,41 @@ Independent re-verification of all 9 fourth-wave rows against their cited source
   **Maithon 2.74** a flagged secondary (company AR; ~5% above its own fuel-cost/gen sanity 2.57-2.61).
   Both low-impact (2 units each), kept with explicit caveats per the secondary/partial-year precedent.
 
-Headline figures in REPORT/CLAUDE/README re-checked against `outputs/06_apply_ecr.txt`:
-207,066 / 178,720 / 214,386 cr; +43.7 MT / ₹35,666 cr; as-run +15.9% (= (207066-178720)/178720).
+Headline figures in REPORT/CLAUDE/README re-checked against `outputs/06_apply_ecr.txt`.
 No stale 62.9%/69.6% headline figures remain (only correct historical wave-transition markers).
+
+## FULL 86-ROW VERIFICATION AUDIT (2026-06-02) — every row vs primary source
+
+Re-verified ALL 86 ECR rows against their cited primary source: 7 parallel agents by genco-cluster
+(MahaGenco/MahaSLDC, RRVUNL/HPGCL, GSECL/TANGEDCO/PSPCL, DVC/WBPDCL/CSPGCL, UPRVUNL/APGENCO/NLC,
+NTPC-central, UPERC-IPP/Jhajjar) + the 9 fourth-wave rows + operator adjudication of every flag.
+**Result: 86/86 values correctly extracted, correct energy-charge component, FY2022-23 vintage, 0 fabricated.**
+
+Two agent-raised flags were adjudicated and found to be FALSE ALARMS:
+- **DVC Mejia 3.649** — correct. The merged ECR (Mejia + Mejia-Ext, both _norm "mejia") is the
+  generation-weighted average by the *dataset's* per-unit generation: (3.715·7495.6 + 3.577·6867.3)/14362.9
+  = 3.6491. The agent recomputed with the source order's implied MU (→3.683); the dataset-generation
+  weighting is the right basis for the counterfactual and reproduces 3.649 exactly.
+- **WBPDCL Bandel 217.09 (base)** — real. The committed source `.txt` was a corrupt EMBEDDED-OCR layer in
+  which 217.09 was mangled. Fresh tesseract re-OCR of all 150 pages confirms the BTPS-V block on p.24:
+  `49.78 217.09 266.87` (MFCA / base / with-MFCA). The clean OCR now REPLACES the corrupt committed
+  `wbpdcl_wbsedcl_appendixA1.txt`. The dataset's Bandel = Unit-V (210 MW / 1407 GWh ≈ 117 MU/month), so
+  217.09 (not the small costly Unit-I 271.80) is the right unit.
+
+ONE REAL FINDING & FIX (user-approved):
+- The WBPDCL source publishes three columns — **MFCA adjustment (A) | base tariff-order ECR (B) |
+  Energy Charge with MFCA (C=A+B)**. Earlier waves harvested col B (base, EXCLUDING the fuel adjustment).
+  In the FY2022-23 coal-price spike that understated the 5 WBPDCL plants ~13–25% vs their actual cost,
+  and was inconsistent with the actual-basis rows (CSPGCL actual coal+oil, DVC true-up, APERC actual VC).
+  Switched all 5 to the ACTUAL col C ('Energy Charge with MFCA'), arithmetic col-A+col-B=col-C verified:
+  | plant | MFCA(A) | base(B) | with-MFCA(C)=ECR used |
+  | Kolaghat   | 66.04 | 278.41 | 344.45 → 3.4445 |
+  | Bakreswar  | 45.50 | 182.90 | 228.40 → 2.2840 |
+  | Santaldih  | 49.17 | 194.97 | 244.14 → 2.4414 |
+  | Bandel-V   | 49.78 | 217.09 | 266.87 → 2.6687 |
+  | Sagardighi | 23.95 | 179.11 | 203.06 → 2.0306 |
+  Caveat: the MFCA leg is the Apr–Sep FY22-23 average (the debit-note bundle covers H1). Headline after
+  fix: Actual 208,240 / Cost-merit 180,035 / Carbon-merit 215,139 cr; as-run +15.7%; gap +43.7 MT / ₹35,104 cr.
+  Residual basis heterogeneity remains (already caveated in REPORT §7b): GSECL/TANGEDCO/UPERC-APR rows are
+  approved-base where actuals aren't separately published; WBPDCL now joins the actual-basis subset because
+  its source uniquely publishes both.

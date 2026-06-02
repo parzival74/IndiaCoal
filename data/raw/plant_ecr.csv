@@ -102,17 +102,21 @@ Korba-West,1.508,FY2022-23,"CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 0
 Korba-V(Dspm Tps),1.612,FY2022-23,"CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4, DSPM TPS U7-8 2x250MW actual ECR (coal+oil)/net-gen = 1.612 Rs/kWh (cserc.gov.in)"
 Marwa TPP,1.837,FY2022-23,"CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4, ABVTPS Marwa U1-2 2x500MW actual ECR (coal+oil)/net-gen = 1.837 Rs/kWh (cserc.gov.in)"
 # --- West Bengal: WBPDCL state gencos, WBERC FY2022-23 tariff order --------------
-# Approved Energy Charge Rate (paise/kWh -> Rs/kWh) for FY2022-23 from WBERC order
-# TP-95/20-21 dated 26.07.2022, as quoted by WBPDCL in its FY2022-23 MFCA debit
-# notes attached to the WBSEDCL 8th Control Period (FY2023-26) Tariff Petition,
-# Appendix A1 (the WBERC order PDFs themselves are scanned/non-machine-readable).
+# ACTUAL fuel-inclusive 'Energy Charge with MFCA' (paise/kWh -> Rs/kWh) for FY2022-23,
+# from WBPDCL's FY2022-23 MFCA debit notes (Appendix A1 of the WBSEDCL 8th Control
+# Period FY2023-26 Tariff Petition). Each = base ECR (WBERC order TP-95/20-21 dtd
+# 26.07.2022) + the MFCA fuel-cost adjustment = the with-MFCA actual column (col B).
+# (Earlier waves used the base-only col A, excluding MFCA; switched to actual on
+# 2026-06-02 audit for consistency with the actual-cost basis of CSPGCL/DVC/APERC.)
+# MFCA here is the Apr-Sep FY22-23 average (the debit-note bundle covers H1).
+# Source PDF's embedded text is bad OCR; values re-verified by fresh tesseract OCR.
 # Bandel = Unit-V (1x210, matches dataset capacity); Sagardighi = Stage-I.
 # Raw: data/raw/sources/wbpdcl_wbsedcl_appendixA1.pdf
-Kolaghat,2.7841,FY2022-23,"WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, KTPS Kolaghat 278.41 paise = 2.7841 Rs/kWh (wbsedcl.in)"
-Bakreswar,1.8290,FY2022-23,"WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, BKTPS Bakreswar 182.90 paise = 1.8290 Rs/kWh (wbsedcl.in)"
-Santaldih,1.9497,FY2022-23,"WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, STPS Santaldih Stage-II 194.97 paise = 1.9497 Rs/kWh (wbsedcl.in)"
-Bandel,2.1709,FY2022-23,"WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, BTPS Bandel Unit-V (1x210, matches dataset) 217.09 paise = 2.1709 Rs/kWh (wbsedcl.in)"
-Sagardighi TPP,1.7911,FY2022-23,"WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, SgTPS Sagardighi Stage-I 179.11 paise = 1.7911 Rs/kWh (wbsedcl.in)"
+Kolaghat,3.4445,FY2022-23,"WBPDCL MFCA debit-notes, WBSEDCL FY2023-26 Petition Appendix A1, KTPS Kolaghat 'Energy Charge with MFCA' = base 278.41 + MFCA 66.04 = 344.45 paise = 3.4445 Rs/kWh; ACTUAL fuel-inclusive (MFCA Apr-Sep FY22-23 avg); fresh-OCR verified (wbsedcl.in)"
+Bakreswar,2.2840,FY2022-23,"WBPDCL MFCA debit-notes, WBSEDCL FY2023-26 Petition Appendix A1, BKTPS Bakreswar 'Energy Charge with MFCA' = base 182.90 + MFCA 45.50 = 228.40 paise = 2.2840 Rs/kWh; ACTUAL fuel-inclusive (MFCA Apr-Sep FY22-23 avg); fresh-OCR verified (wbsedcl.in)"
+Santaldih,2.4414,FY2022-23,"WBPDCL MFCA debit-notes, WBSEDCL FY2023-26 Petition Appendix A1, STPS Santaldih Stage-II 'Energy Charge with MFCA' = base 194.97 + MFCA 49.17 = 244.14 paise = 2.4414 Rs/kWh; ACTUAL fuel-inclusive (MFCA Apr-Sep FY22-23 avg); fresh-OCR verified (wbsedcl.in)"
+Bandel,2.6687,FY2022-23,"WBPDCL MFCA debit-notes, WBSEDCL FY2023-26 Petition Appendix A1, BTPS Bandel Unit-V (1x210, matches dataset) 'Energy Charge with MFCA' = base 217.09 + MFCA 49.78 = 266.87 paise = 2.6687 Rs/kWh; ACTUAL fuel-inclusive (MFCA Apr-Sep FY22-23 avg); fresh-OCR verified p.24 (small Unit-I 271.80/332.93 not used) (wbsedcl.in)"
+Sagardighi TPP,2.0306,FY2022-23,"WBPDCL MFCA debit-notes, WBSEDCL FY2023-26 Petition Appendix A1, SgTPS Sagardighi Stage-I 'Energy Charge with MFCA' = base 179.11 + MFCA 23.95 = 203.06 paise = 2.0306 Rs/kWh; ACTUAL fuel-inclusive (MFCA Apr-Sep FY22-23 avg); fresh-OCR verified (wbsedcl.in)"
 # --- Uttar Pradesh: UPRVUNL state gencos, UPERC FY2022-23 tariff (filed) ---------
 # Per-station Energy Charge Rate (Rs/kWh) for FY2022-23 from UPERC Tariff Order for
 # State Discoms dated 25-05-2023, Table 5-16 p.349 (UPRVUNL filed APR figures, not a

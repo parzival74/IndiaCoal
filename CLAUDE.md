@@ -63,7 +63,9 @@ merit order, and what would that cost in money and CO₂?
   freight, not efficiency). Still ISGS-only + 2021-23, not the FY2022-23 headline.
 - **FY2022-23 headline counterfactual (`06`, real-ECR override at 67.3% units / 74.9% gen):**
   re-dispatch on the blended cost (real ECR where covered, real-CIL flat-freight model for the
-  rest) → as-run **+15.9% above cost-optimal**; cost-vs-carbon **+43.7 MT for ~₹35,666 cr**.
+  rest) → as-run **+15.7% above cost-optimal**; cost-vs-carbon **+43.7 MT for ~₹35,104 cr**
+  (Actual 208,240 / Cost-merit 180,035 / Carbon-merit 215,139 cr; reflects the 2026-06-02 WBPDCL
+  with-MFCA actual-basis correction).
   Wider than the fully-modelled §4 (+5.5%; +21.1 MT/₹15,263 cr) because real ECRs **un-compress
   the cost ladder** (distant ₹2.7-4.6 vs pithead ₹1.4-1.6 vs modelled ₹1.9-2.1). Mixed-basis
   caveat: the uncovered ~25% (mostly private IPPs) is still modelled, so the ordering of that
@@ -170,7 +172,8 @@ regulatory documents** instead → `data/raw/plant_ecr.csv`, **86 ECR rows / 306
   9 gencos):* GSECL (GERC 30.03.2022 Table 6.1), TANGEDCO (TNERC 7/2022 Table 4-47), PSPCL
   (PSERC 68/2021 Table 7.7), DVC (JSERC 30-09-2024 true-up Table 38), CSPGCL (CSERC
   10/2024(T) Final True-Up, actual coal+oil/net-gen), WBPDCL (WBERC TP-95/20-21 via WBSEDCL
-  Appendix A1 MFCA notes), UPRVUNL (UPERC 25-05-2023 Table 5-16, flagged filed APR),
+  Appendix A1 MFCA notes; uses the ACTUAL 'Energy Charge with MFCA' col = base + MFCA, set
+  2026-06-02 audit — see below), UPRVUNL (UPERC 25-05-2023 Table 5-16, flagged filed APR),
   APGENCO (APERC FPPCA O.P.57-68/2024 true-up), NLC (CERC 2019-24 GT orders, lignite).
 - *Third wave (2026-06-01, NTPC + private IPPs → +22 rows, 43.3%→62.9%):* NTPC NR/ER via UPERC
   APR FY2022-23 power-purchase table (Rihand 1.754, Singrauli 1.67, Unchahar 4.357, Dadri 4.386,
@@ -208,6 +211,18 @@ regulatory documents** instead → `data/raw/plant_ecr.csv`, **86 ECR rows / 306
   per-station ECR). Raw artefacts + per-genco staging CSVs under `data/raw/sources/`; harvest
   log in `docs/ecr_scrape_notes.md`. Verified no 06 cross-assignment (Tuticorin JV / Neyveli
   variants correctly stay on the model; forward keying assigns by exact `_norm` key).
+
+**FULL 86-ROW VERIFICATION AUDIT (2026-06-02).** Re-verified every ECR row against its cited primary
+source (7 parallel agents by genco-cluster + operator adjudication). Result: **86/86 values correctly
+extracted, 0 fabricated.** Two agent flags were false alarms: (a) DVC Mejia 3.649 is correct — it's the
+gen-wtd merge by *dataset* generation ((3.715·7495.6+3.577·6867.3)/14362.9=3.649), the agent used the
+source order's MU; (b) WBPDCL Bandel 2.171 base was real — the committed `.txt` was corrupt embedded OCR,
+fresh tesseract OCR (now committed) confirms `49.78 217.09 266.87` on p.24. **One real finding & fix:**
+the 5 WBPDCL rows had used the BASE tariff-order ECR (col A), excluding the MFCA fuel adjustment the same
+source reports; switched (user-approved) to the ACTUAL **'Energy Charge with MFCA'** (col B = base+MFCA):
+Kolaghat 2.78→3.4445, Bakreswar 1.83→2.284, Santaldih 1.95→2.4414, Bandel 2.17→2.6687, Sagardighi
+1.79→2.0306. Headline moved <1% (cost-merit 178,720→180,035; as-run +15.9→+15.7%; gap ₹35,666→35,104 cr).
+Audit detail in `docs/ecr_scrape_notes.md`.
 
 **REMAINING (future sessions) — push coverage past 67.3%:**
 1. WBPDCL deeper unit-splits — order PDFs are **scanned** → need OCR (only the 5 Appendix-A1

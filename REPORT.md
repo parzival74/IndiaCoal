@@ -281,7 +281,9 @@ against its cited source line; **35 stations across 9 gencos**):
 - **CSPGCL** (CSERC Petn 10/2024(T) dtd 01-06-2024, Final True-Up — *actual coal+oil / actual net
   gen*) — Korba-West (+Ext, merged), DSPM, Marwa.
 - **WBPDCL** (WBERC TP-95/20-21 dtd 26.07.2022, via WBPDCL MFCA notes in the WBSEDCL FY23-26
-  petition Appendix A1) — Kolaghat, Bakreswar, Santaldih, Bandel, Sagardighi.
+  petition Appendix A1) — Kolaghat, Bakreswar, Santaldih, Bandel, Sagardighi. *These use the actual
+  fuel-inclusive "Energy Charge with MFCA" (base tariff-order ECR + the MFCA fuel adjustment), set in a
+  June-2026 audit for consistency with the actual-cost basis; the MFCA leg is an Apr–Sep FY22-23 average.*
 - **UPRVUNL** (UPERC State Discoms Order dtd 25-05-2023, Table 5-16) — Anpara, Obra, Parichha,
   Harduaganj-Ext, *flagged filed APR estimate*.
 - **APGENCO** (APERC FPPCA Common Order O.P.57-68/2024 true-up) — Rayalaseema, Dr-NTTPS,
@@ -356,12 +358,12 @@ real-CIL flat-freight model for the rest (`06_apply_ecr.py`, same total energy):
 
 | Scenario | Fuel cost (₹ cr) | CO₂ (MT) |
 |---|---|---|
-| Actual (as-run) | 207,066 | 777.9 |
-| Cost-merit (cheapest VC first) | **178,720** | 789.7 |
-| Carbon-merit (cleanest first) | 214,386 | **746.0** |
+| Actual (as-run) | 208,240 | 777.9 |
+| Cost-merit (cheapest VC first) | **180,035** | 789.7 |
+| Carbon-merit (cleanest first) | 215,139 | **746.0** |
 
-As-run is **+15.9% above cost-optimal**, and cost- vs carbon-optimal diverge by **+43.7 MT CO₂ for
-~₹35,666 cr**. Both gaps are *wider* than the fully-modelled §4 figures (+5.5%; +21.1 MT / ₹15,263 cr)
+As-run is **+15.7% above cost-optimal**, and cost- vs carbon-optimal diverge by **+43.7 MT CO₂ for
+~₹35,104 cr**. Both gaps are *wider* than the fully-modelled §4 figures (+5.5%; +21.1 MT / ₹15,263 cr)
 for one reason: real ECRs **un-compress the cost ladder** the flat-freight model had flattened (§11) —
 distant plants are genuinely dearer (₹2.7–4.6) and pithead genuinely cheaper (₹1.4–1.6) than the
 modelled ₹1.9–2.1 band, so both the fleet-average cost level and the spread between as-run and optimal
@@ -373,14 +375,16 @@ number. The qualitative conclusions hold and sharpen: merit order is broadly fol
 
 **Stability across the coverage expansion (a robustness check).** Lifting real coverage from the prior
 wave's 62.9% (286 units / 69.6% of gen) to 67.3% (306 units / 74.9% of gen) barely moved the headline:
-cost-optimal fuel cost ₹178,186→₹178,720 cr (+0.3%) and as-run excess +16.1%→+15.9%. The newly-metered
+cost-optimal fuel cost ₹178,186→₹180,035 cr (+1.0%) and as-run excess +16.1%→+15.7%. The newly-metered
 stations were a *mix* — cheap pithead (Kamalanga ₹1.20, Derang ₹1.12, I.B.Valley ₹1.61) and mid-ladder
 (Bhavnagar ₹2.98, Vizag ₹3.02) — so each replaced a compressed ₹1.9–2.1 modelled value with a real one
-on either side, and the net shift was small. That the conclusion is no longer coverage-sensitive at this
-margin is itself evidence the remaining ~25% tail is unlikely to overturn it. (Note one number is *not*
-a convergence signal: carbon-optimal CO₂, 746.0 MT, is the structural minimum — units are ordered by
-emission factor, independent of cost — so it is fixed at any ECR coverage by construction; the genuine
-test is the cost side, which is what stabilised.)
+on either side, and the net shift was small. (The ₹180,035 endpoint also folds in a June-2026 audit
+correction: the 5 WBPDCL plants were switched from the base tariff-order ECR to the actual *with-MFCA*
+fuel-inclusive charge, raising them ~13–25% — a ~₹1,300 cr lift, still leaving the headline within ~1%.)
+That the conclusion is no longer coverage-sensitive at this margin is itself evidence the remaining ~25%
+tail is unlikely to overturn it. (Note one number is *not* a convergence signal: carbon-optimal CO₂,
+746.0 MT, is the structural minimum — units are ordered by emission factor, independent of cost — so it
+is fixed at any ECR coverage by construction; the genuine test is the cost side, which is what stabilised.)
 
 **(c) CERC tariff-order ECR — real per-station, but wrong vintage → cross-check
 only.** CERC orders *are* reachable, and we extracted the determined ECR for **14

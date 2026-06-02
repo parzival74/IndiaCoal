@@ -49,11 +49,11 @@ Match diagnostics (ECR row -> plant key):
                     Korba-West          1.5080              korba west                                                                                                                                                                                                                                                        CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4; MERGED gen-wtd of HTPS U1-4 (1.589) + KWTPP U5 500MW (1.395) = 1.508 Rs/kWh; pithead SECL coal (cserc.gov.in)
              Korba-V(Dspm Tps)          1.6120            korba v dspm                                                                                                                                                                                                                                                                                    CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4, DSPM TPS U7-8 2x250MW actual ECR (coal+oil)/net-gen = 1.612 Rs/kWh (cserc.gov.in)
                      Marwa TPP          1.8370                   marwa                                                                                                                                                                                                                                                                                CSERC Tariff Order FY2024-25 (Petn 10/2024(T)) dtd 01-06-2024, Final True-Up FY2022-23 Sec 4, ABVTPS Marwa U1-2 2x500MW actual ECR (coal+oil)/net-gen = 1.837 Rs/kWh (cserc.gov.in)
-                      Kolaghat          2.7841                kolaghat                                                                                                                                                                                                                                                                               WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, KTPS Kolaghat 278.41 paise = 2.7841 Rs/kWh (wbsedcl.in)
-                     Bakreswar          1.8290               bakreswar                                                                                                                                                                                                                                                                             WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, BKTPS Bakreswar 182.90 paise = 1.8290 Rs/kWh (wbsedcl.in)
-                     Santaldih          1.9497               santaldih                                                                                                                                                                                                                                                                     WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, STPS Santaldih Stage-II 194.97 paise = 1.9497 Rs/kWh (wbsedcl.in)
-                        Bandel          2.1709                  bandel                                                                                                                                                                                                                                                 WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, BTPS Bandel Unit-V (1x210, matches dataset) 217.09 paise = 2.1709 Rs/kWh (wbsedcl.in)
-                Sagardighi TPP          1.7911              sagardighi                                                                                                                                                                                                                                                                    WBERC order TP-95/20-21 dtd 26.07.2022 ECR FY2022-23, via WBPDCL MFCA debit-notes in WBSEDCL FY2023-26 Petition Appendix A1, SgTPS Sagardighi Stage-I 179.11 paise = 1.7911 Rs/kWh (wbsedcl.in)
+                      Kolaghat          3.4445                kolaghat                                                                                                                                                                                                              WBPDCL MFCA debit-notes, WBSEDCL FY2023-26 Petition Appendix A1, KTPS Kolaghat 'Energy Charge with MFCA' = base 278.41 + MFCA 66.04 = 344.45 paise = 3.4445 Rs/kWh; ACTUAL fuel-inclusive (MFCA Apr-Sep FY22-23 avg); fresh-OCR verified (wbsedcl.in)
+                     Bakreswar          2.2840               bakreswar                                                                                                                                                                                                            WBPDCL MFCA debit-notes, WBSEDCL FY2023-26 Petition Appendix A1, BKTPS Bakreswar 'Energy Charge with MFCA' = base 182.90 + MFCA 45.50 = 228.40 paise = 2.2840 Rs/kWh; ACTUAL fuel-inclusive (MFCA Apr-Sep FY22-23 avg); fresh-OCR verified (wbsedcl.in)
+                     Santaldih          2.4414               santaldih                                                                                                                                                                                                    WBPDCL MFCA debit-notes, WBSEDCL FY2023-26 Petition Appendix A1, STPS Santaldih Stage-II 'Energy Charge with MFCA' = base 194.97 + MFCA 49.17 = 244.14 paise = 2.4414 Rs/kWh; ACTUAL fuel-inclusive (MFCA Apr-Sep FY22-23 avg); fresh-OCR verified (wbsedcl.in)
+                        Bandel          2.6687                  bandel                                                                                                                                     WBPDCL MFCA debit-notes, WBSEDCL FY2023-26 Petition Appendix A1, BTPS Bandel Unit-V (1x210, matches dataset) 'Energy Charge with MFCA' = base 217.09 + MFCA 49.78 = 266.87 paise = 2.6687 Rs/kWh; ACTUAL fuel-inclusive (MFCA Apr-Sep FY22-23 avg); fresh-OCR verified p.24 (small Unit-I 271.80/332.93 not used) (wbsedcl.in)
+                Sagardighi TPP          2.0306              sagardighi                                                                                                                                                                                                   WBPDCL MFCA debit-notes, WBSEDCL FY2023-26 Petition Appendix A1, SgTPS Sagardighi Stage-I 'Energy Charge with MFCA' = base 179.11 + MFCA 23.95 = 203.06 paise = 2.0306 Rs/kWh; ACTUAL fuel-inclusive (MFCA Apr-Sep FY22-23 avg); fresh-OCR verified (wbsedcl.in)
                         Anpara          1.9410                  anpara                                                                                                                                                                                                                                                     UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Anpara gen-wtd A (2.06) / B (1.98) / D (1.83) = 1.941 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)
                         Obra-A          2.5800                  obra a                                                                                                                                                                                                                                                                           UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Obra (order OBRA-B figure) 2.58 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)
                        Paricha          3.6570                 paricha                                                                                                                                                                                                                                                       UPERC Tariff Order State Discoms dtd 25-05-2023, Table 5-16 p.349 ECR FY2022-23, Parichha gen-wtd Ext (3.69) + Ext-II (3.62) = 3.657 Rs/kWh; FILED APR figure, not standalone approved gen order (uperc.org)
@@ -191,7 +191,7 @@ Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.391410 
        North Chennai Extension    domestic        G15                  2.142884          3.9400     56.5
                  Dadri (NcTPP)    domestic        G12                  2.018179          4.3860     56.7
                      Tuticorin    domestic        G15                  2.384381          3.9600     56.7
-                      Kolaghat    domestic        G14                  2.378687          2.7841     56.8
+                      Kolaghat    domestic        G14                  2.378687          3.4445     56.8
          Raghunathpur TPP Ph-I    domestic        G13                  1.903878          3.8810     56.9
              Indra Gandhi STPP    domestic        G12                  1.928760          4.0900     57.2
                      Kalisindh    domestic        G12                  2.013387          2.9500     57.6
@@ -205,21 +205,21 @@ Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.425105 
     Akaltara TPP /Nariyara TPP    domestic        G12                  1.966457          3.3800     59.6
                   Farakka Stps    domestic        G12                  1.994035          3.5500     60.1
                         Derang    domestic        G14                  1.955890          1.1200     60.3
-                      Kolaghat    domestic        G14                  2.348440          2.7841     60.3
+                      Kolaghat    domestic        G14                  2.348440          3.4445     60.3
                          Mejia    domestic        G13                  2.126700          3.6490     60.4
                      Wanakbori    domestic        G13                  2.241955          4.2320     60.4
     Akaltara TPP /Nariyara TPP    domestic        G12                  1.949567          3.3800     60.6
                   Gandhi Nagar    domestic        G13                  2.110580          4.2930     60.6
                    Chhabra Tps    domestic        G13                  2.098253          3.0500     60.7
                      Kahalgaon    domestic        G13                  2.049759          3.6140     60.8
-                      Kolaghat    domestic        G14                  2.375921          2.7841     61.0
+                      Kolaghat    domestic        G14                  2.375921          3.4445     61.0
                       Unchahar    domestic        G12                  2.106059          4.3570     61.1
                       Bhusawal    domestic        G13                  2.286781          3.5420     61.1
                  Dadri (NcTPP)    domestic        G12                  1.995908          4.3860     61.2
                      Wanakbori    domestic        G13                  2.120962          4.2320     61.8
                  Amaravati TPP    domestic        G13                  1.888655          2.4520     61.9
                       Rosa TPP    domestic        G12                  1.867870          3.1400     62.1
-                      Kolaghat    domestic        G14                  2.315398          2.7841     62.1
+                      Kolaghat    domestic        G14                  2.315398          3.4445     62.1
                       Simhadri    domestic        G14                  2.082294          4.4510     62.2
                      Kahalgaon    domestic        G13                  2.087615          3.6140     62.2
                        Paricha    domestic        G13                  2.116242          3.6570     62.2
@@ -333,28 +333,28 @@ Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.284494 
                  Mejia Tps Ext    domestic        G13                  1.955408          3.6490     76.3
                Muzaffarpur Exp    domestic        G13                  1.976111          2.9200     76.3
                     Korba-West    domestic        G13                  2.191707          1.5080     76.3
-                     Bakreswar    domestic        G11                  1.779660          1.8290     76.5
-                        Bandel    domestic        G13                  2.246601          2.1709     76.5
+                     Bakreswar    domestic        G11                  1.779660          2.2840     76.5
+                        Bandel    domestic        G13                  2.246601          2.6687     76.5
                        Panipat    domestic        G12                  2.135621          3.7230     76.6
                          Mejia    domestic        G13                  2.064743          3.6490     76.7
-                Sagardighi TPP    domestic        G12                  1.857590          1.7911     76.8
+                Sagardighi TPP    domestic        G12                  1.857590          2.0306     76.8
                 Singrauli Stps    domestic        G12                  1.971104          1.6700     77.0
                Neyveli New TPP     lignite        G16                  1.599150          2.1150     77.4
                         Rihand    domestic        G12                  1.840918          1.7540     77.5
                    Anapara “C”    domestic        G13                  1.832150          2.6100     77.6
                Vindh_Chal Stps    domestic        G13                  1.930047          1.6330     77.6
-                Sagardighi TPP    domestic        G12                  1.857590          1.7911     78.1
+                Sagardighi TPP    domestic        G12                  1.857590          2.0306     78.1
                         Mettur    domestic        G15                  2.110862          4.9960     78.1
              Vallur NTPC/Ntecl    domestic        G14                  2.083566          3.4780     78.3
                         Rihand    domestic        G12                  1.808444          1.7540     78.3
                Vindh_Chal Stps    domestic        G12                  1.897449          1.6330     78.4
                 Singrauli Stps    domestic        G12                  1.918014          1.6700     78.4
-                     Santaldih    domestic        G13                  2.095820          1.9497     78.4
+                     Santaldih    domestic        G13                  2.095820          2.4414     78.4
                     Korba Stps    domestic        G14                  1.892353          1.6120     78.9
                Vindh_Chal Stps    domestic        G12                  1.905858          1.6330     79.3
                   Talcher Stps    domestic        G14                  1.963070          1.9870     79.4
                  Amaravati TPP    domestic        G13                  1.902865          2.4520     79.6
-                     Bakreswar    domestic        G11                  1.941072          1.8290     79.7
+                     Bakreswar    domestic        G11                  1.941072          2.2840     79.7
         Nabi Nagar TPP (Brbcl)    domestic        G13                  2.061064          2.7500     80.3
                      Kahalgaon    domestic        G13                  1.947739          3.6140     80.4
                  Mejia Tps Ext    domestic        G13                  1.951422          3.6490     80.5
@@ -378,23 +378,23 @@ Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.284494 
                Vindh_Chal Stps    domestic        G13                  1.929745          1.6330     84.4
                 Korba-West Ext    domestic        G13                  1.997244          1.5080     84.8
                Vindh_Chal Stps    domestic        G13                  1.843361          1.6330     85.1
-                Sagardighi TPP    domestic        G12                  1.897180          1.7911     85.1
+                Sagardighi TPP    domestic        G12                  1.897180          2.0306     85.1
                 Singrauli Stps    domestic        G12                  1.919440          1.6700     85.4
                   Talcher Stps    domestic        G14                  1.999101          1.9870     85.9
                     Sipat Stps    domestic        G13                  1.934010          1.5680     86.6
                   Talcher Stps    domestic        G14                  1.978707          1.9870     86.8
-                Sagardighi TPP    domestic        G12                  1.896916          1.7911     87.0
+                Sagardighi TPP    domestic        G12                  1.896916          2.0306     87.0
                Vindh_Chal Stps    domestic        G13                  1.864469          1.6330     87.4
                         Anpara    domestic        G13                  1.858666          1.9410     87.7
                 Singrauli Stps    domestic        G12                  1.962278          1.6700     88.2
-                     Bakreswar    domestic        G11                  1.795789          1.8290     88.3
+                     Bakreswar    domestic        G11                  1.795789          2.2840     88.3
                     Korba Stps    domestic        G14                  1.916629          1.6120     88.6
-                     Bakreswar    domestic        G11                  1.851018          1.8290     88.7
+                     Bakreswar    domestic        G11                  1.851018          2.2840     88.7
                         Anpara    domestic        G13                  1.857921          1.9410     89.3
                     Korba Stps    domestic        G13                  2.034569          1.6120     89.4
                Vindh_Chal Stps    domestic        G13                  1.927761          1.6330     89.4
-                     Santaldih    domestic        G13                  2.079722          1.9497     89.4
-                     Bakreswar    domestic        G11                  1.858533          1.8290     89.4
+                     Santaldih    domestic        G13                  2.079722          2.4414     89.4
+                     Bakreswar    domestic        G11                  1.858533          2.2840     89.4
                     Korba Stps    domestic        G13                  2.023381          1.6120     89.5
                         Rihand    domestic        G12                  1.830627          1.7540     89.6
                         Rihand    domestic        G12                  1.832214          1.7540     89.7
@@ -407,7 +407,7 @@ Vijaywada (Dr. N.TATA Rao Tps)    domestic        G15                  2.284494 
 ----------------------------------------------------------------------
 Cost-vs-carbon re-dispatch on the BLENDED cost (same total energy):
 ----------------------------------------------------------------------
-  Actual      : fuel cost Rs 207,066 cr | CO2 777.9 MT
-  Cost-merit  : fuel cost Rs 178,720 cr | CO2 789.7 MT
-  Carbon-merit: fuel cost Rs 214,386 cr | CO2 746.0 MT
-  Cost-vs-carbon gap: +43.7 MT CO2 for Rs +35,666 cr.
+  Actual      : fuel cost Rs 208,240 cr | CO2 777.9 MT
+  Cost-merit  : fuel cost Rs 180,035 cr | CO2 789.7 MT
+  Carbon-merit: fuel cost Rs 215,139 cr | CO2 746.0 MT
+  Cost-vs-carbon gap: +43.7 MT CO2 for Rs +35,104 cr.
