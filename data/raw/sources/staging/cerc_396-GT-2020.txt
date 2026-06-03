@@ -1,0 +1,2485 @@
+                     CENTRAL ELECTRICITY REGULATORY COMMISSION
+                                     NEW DELHI
+
+                                    Petition No. 396/GT/2020
+
+                                    Coram:
+                                    Shri I.S. Jha, Member
+                                    Shri Arun Goyal, Member
+                                    Shri Pravas Kumar Singh, Member
+
+
+                                    Date of Order: 27th September, 2022
+
+IN THE MATTER OF
+Petition for determination of tariff of Bhilai Expansion Power Plant (500 MW) for the period
+from 1.4.2019 to 31.3.2024.
+
+AND
+IN THE MATTER OF
+NTPC-SAIL Power Company Limited,
+4th Floor, 15 Bhikaiji Cama Place,
+New Delhi – 110066.                                                          ….Petitioner
+
+Vs
+
+1. DNH Power Distribution Corporation Limited,
+UT of DNH, Silvassa – 396230.
+
+2. Electricity Department,
+Administration of Daman & Diu,
+Daman – 396210.
+
+3. Chhattisgarh State Power Distribution Company Limited,
+Vidyut Sewa Bhawan, Dagania,
+Raipur – 492001.
+4. Steel Authority of India Limited,
+Ispat Bhawan, Lodhi Road,
+New Delhi – 110003.                                                       ….Respondents
+
+Parties Present:
+Shri Tridib Deb, NTPC-SAIL
+Shri Soumitra Samanta, NTPC-SAIL
+Shri Dilip Kumar Tiwari, NTPC-SAIL
+
+Order in Petition No. 396/GT/2020                                                  Page 1 of 49
+                                               ORDER
+
+         This petition has been filed by the Petitioner, NTPC SAIL Power Company Limited
+
+for determination of tariff of Bhilai Expansion Power Plant (2 x 250 MW) (hereinafter
+
+referred to as ‘the generating station’) for the period from 1.4.2019 to 31.3.2024, in
+
+accordance with the provisions of the Central Electricity Regulatory Commission (Terms
+
+and Conditions of Tariff) Regulations, 2019 (hereinafter referred to as 'the 2019 Tariff
+
+Regulations').
+
+
+2.       The Petitioner is a joint venture company of NTPC Ltd. and Steel Authority of India
+
+Ltd. (SAIL) having equity participation of 50:50. The power generated from the generating
+
+station will be consumed to the extent of 51% for captive requirement of SAIL and the
+
+balance power is to be supplied to the Respondents 1 to 3 in terms of the Power Purchase
+
+Agreements (PPA) entered into between them. The generating station with a capacity
+
+of500 MW comprises of two units of 250 MW each. Unit-I and Unit-II of the generating
+
+station achieved COD on 22.4.2009 and 21.10.2009 respectively.
+
+
+3.       The Commission vide its order dated 2.8.2016 in Petition No. 257/GT/2014 had
+
+determined the tariff of the generating station for the period from 1.4.2014 to 31.3.2019.
+
+Subsequently, in Petition No.192/GT/2020 filed by the Petitioner for truing up of tariff of
+
+the generating station, for the 2014-19 tariff period, the Commission vide its order dated
+
+4.8.2022 approved the capital cost and the annual fixed charges as under:
+
+Annual Fixed Charges allowed
+                                                                         (Rs. in lakh)
+                                    2014-15    2015-16     2016-17    2017-18    2018-19
+ Depreciation                       13908.82   13926.89   13842.34   13726.63   13715.14
+ Interest on Loan                   11610.49   10314.91    9022.93    7159.23    5861.09
+ Return on Equity                   15654.49   15747.41   15752.43   15748.72   15803.66
+ Interest on Working Capital         4389.23    4418.48    4434.20    4512.94    4593.04
+ O&M Expenses                       13661.70   14512.56   15331.91   16328.24   18081.79
+ Total                              59224.73   58920.25   58383.80   57475.75   58054.71
+
+Order in Petition No. 396/GT/2020                                                        Page 2 of 49
+Capital Cost allowed
+                                                                                         (Rs. in lakh)
+                                        2014-15   2015-16   2016-17    2017-18  2018-19
+ Opening capital cost                  275920.76 276183.35 276498.71 276353.22 276373.12
+ Add: additional capital expenditure      262.59    315.36   (-)145.49    19.90   404.65
+ Closing capital cost                  276183.35 276498.71 276353.22 276373.12 276777.77
+ Average capital cost                  276052.05 276341.03 276425.96 276363.17 276575.44
+
+Present Petition
+4.     The Petitioner vide affidavit dated 22.1.2020 had filed the present Petition for
+
+determination of tariff of the generating station for the 2019-24 tariff period. Subsequently,
+
+the Petitioner, vide affidavit dated 24.5.2021, has revised its claim for annual fixed
+
+charges and capital cost as under:
+
+Annual Fixed Charges claimed
+                                                                         (Rs. in lakh)
+                                        2019-20    2020-21 2021-22      2022-23 2023-24
+ Depreciation                          14225.89   14255.96 14339.77     6182.76  6215.11
+ Interest on Loan                       4598.15    3458.58 2374.74      1624.46  1137.14
+ Return on Equity                      15067.60   15092.86 15149.59    15204.31 15216.49
+ Interest on Working Capital            4065.98    4062.12 4120.37      4031.76  4069.85
+ O&M Expenses                          20576.61   20780.14 22237.27    23139.77 24081.17
+ Total                                 58534.23   57649.66 58221.73    50183.06 50719.76
+
+
+Capital Cost claimed
+
+(a) Capital cost eligible for Return on Equity at normal rate
+                                                                         (Rs. in lakh)
+                                    2019-20           2020-21   2021-22   2022-23             2023-24
+ Opening capital cost             277170.39         277563.86 277753.86 278153.86           278153.86
+ Add: Addition during the year/      393.47            190.00    400.00      0.00                0.00
+ period
+ Less: De-capitalization during        0.00              0.00         0.00         0.00              0.00
+ the year/ period
+ Less: Reversal during the year/       0.00              0.00         0.00         0.00              0.00
+ period
+ Add: Discharges during the year/      0.00              0.00         0.00         0.00              0.00
+ period
+ Closing capital cost             277563.86         277753.86 278153.86 278153.86           278153.86
+ Average capital cost             277367.13         277658.86 277953.86 278153.86           278153.86
+
+
+
+
+Order in Petition No. 396/GT/2020                                                         Page 3 of 49
+(b) Capital Cost eligible for Return on Equity at weighted average rate of interest
+
+                                                                      (Rs. in lakh)
+                                      2019-20    2020-21    2021-22 2022-23           2023-24
+ Opening capital cost                    0.00       0.00     589.30 2677.90           3490.90
+ Add: Addition during the year/          0.00     589.30    2088.60 813.00               0.00
+ period
+ Less: De-capitalization during the      0.00       0.00       0.00       0.00           0.00
+ year/ period
+ Less: Reversal during the year/         0.00       0.00       0.00       0.00           0.00
+ period
+ Add: Discharges during the year/        0.00       0.00       0.00       0.00           0.00
+ period
+ Closing capital cost                    0.00     589.30    2677.90 3490.90           3490.90
+ Average capital cost                    0.00     294.65    1633.60 3084.40           3490.90
+
+5.       The Petition was heard on 17.3.2021 and the Commission, after directing the
+
+Petitioner to file certain additional information, reserved its order in the petition. In
+
+compliance to the said direction, the Petitioner has submitted the additional information
+
+vide its affidavit dated 24.5.2021, after serving copies on the Respondents. The
+
+Respondent, CSPDCL has filed its reply vide affidavit dated 21.5.2021 and the Petitioner
+
+vide affidavit dated 22.6.2021 has filed its rejoinder to the said reply. As order in this
+
+petition could not be passed prior to Member (ex-officio) demitting office, this petition was
+
+re-listed and heard through video conferencing on 29.6.2021 and the Commission after
+
+directing the Petitioner to file certain additional information, reserved its order in the
+
+matter. However, as order in the petition could not be passed prior to the Chairperson
+
+demitting office, this petition was re-listed and heard through video conferencing on
+
+14.7.202 and the Commission reserved its order. Based on the submissions of the
+
+parties, the documents available on record and on prudence check, we proceed to
+
+determine the tariff of the generating station for the 2019-24 tariff period, as stated in the
+
+subsequent paragraphs.
+
+
+Order in Petition No. 396/GT/2020                                                       Page 4 of 49
+Capital Cost
+
+6.       Regulation 19(1) of the 2019 Tariff Regulations provides that the capital cost as
+
+determined by the Commission after prudence check, in accordance with this regulation
+
+shall form the basis of determination of tariff for existing and new projects. Clause 3 of
+
+Regulation 19 of the 2019 Tariff Regulations provides as under:
+
+         “(3) The Capital cost of an existing project shall include the following:
+         (a) Capital cost admitted by the Commission prior to 1.4.2019 duly trued up by excluding
+             liability, if any, as on 1.4.2019;
+         (b) Additional capitalization and de-capitalization for the respective year of tariff as
+             determined in accordance with these regulations;
+         (c) Capital expenditure on account of renovation and modernisation as admitted by this
+             Commission in accordance with these regulations;
+         (d) Capital expenditure on account of ash disposal and utilization including handling and
+             transportation facility;
+         (e) Capital expenditure incurred towards railway infrastructure and its augmentation for
+             transportation of coal upto the receiving end of generating station but does not include
+             the transportation cost and any other appurtenant cost paid to the railway; and
+         (f) Capital cost incurred or projected to be incurred by a thermal generating station, on
+             account of implementation of the norms under Perform, Achieve and Trade (PAT)
+             scheme of Government of India shall be considered by the Commission subject to
+             sharing of benefits accrued under the PAT scheme with the beneficiaries.”
+
+7.       The Petitioner has claimed the opening capital cost of Rs.277170.39 lakh as on
+
+1.4.2019. However, the Commission vide its order dated 4.8.2022 in Petition No.
+
+192/GT/2020 had approved the closing capital cost of Rs.276777.77 lakh, on cash basis,
+
+as on 31.3.2019. Accordingly, in terms of Regulation 19(3) of the 2019 Tariff Regulations,
+
+the capital cost of Rs.276777.77 lakh, on cash basis, has been considered, as on
+
+1.4.2019, for the purpose of determination of tariff, for the 2019-24 tariff period.
+
+
+Additional Capital Expenditure
+
+8.       Regulations 25 and 26 of the 2019 Tariff Regulations, provides as under:
+
+         25. Additional Capitalization within the original scope and after the cut-off date:
+
+
+
+
+Order in Petition No. 396/GT/2020                                                              Page 5 of 49
+         (1) The additional capital expenditure incurred or projected to be incurred in respect of an
+         existing project or a new project on the following counts within the original scope of work
+         and after the cut-off date may be admitted by the Commission, subject to prudence check:
+         (a) Liabilities to meet award of arbitration or for compliance of the directions or order of
+         any statutory authority, or order or decree of any court of law;
+         (b) Change in law or compliance of any existing law;
+         (c) Deferred works relating to ash pond or ash handling system in the original scope of
+         work;
+         (d) Liability for works executed prior to the cut-off date;
+         (e) Force Majeure events;
+         (f) Liability for works admitted by the Commission after the cut-off date to the extent of
+         discharge of such liabilities by actual payments; and
+         (g) Raising of ash dyke as a part of ash disposal system.
+         (2) In case of replacement of assets deployed under the original scope of the existing
+         project after cut-off date, the additional capitalization may be admitted by the Commission,
+         after making necessary adjustments in the gross fixed assets and the cumulative
+         depreciation, subject to prudence check on the following grounds:
+         (a) The useful life of the assets is not commensurate with the useful life of the project and
+         such assets have been fully depreciated in accordance with the provisions of these
+         regulations;
+         (b) The replacement of the asset or equipment is necessary on account of change in law
+         or Force Majeure conditions;
+         (c) The replacement of such asset or equipment is necessary on account of obsolescence
+         of technology; and
+         (d) The replacement of such asset or equipment has otherwise been allowed by the
+         Commission.
+         26. Additional Capitalization beyond the original scope
+         (1) The capital expenditure, in respect of existing generating station or the transmission
+         system including communication system, incurred or projected to be incurred on the
+         following counts beyond the original scope, may be admitted by the Commission, subject
+         to prudence check:
+         (a) Liabilities to meet award of arbitration or for compliance of order or directions of any
+         statutory authority, or order or decree of any court of laokay w;
+         (b) Change in law or compliance of any existing law;
+         (c) Force Majeure.;
+         (d) Need for higher security and safety of the plant as advised or directed by appropriate
+         Indian Government Instrumentality or statutory authorities responsible for national or
+         internal security;
+         (e) Deferred works relating to ash pond or ash handling system in additional to the original
+         scope of work, on case to case basis:
+         Provided also that if any expenditure has been claimed under Renovation and
+         Modernization (R&M) or repairs and maintenance under O&M expenses, the same shall
+         not be claimed under this Regulation;
+         (f) Usage of water from sewage treatment plant in thermal generating station.
+
+
+
+Order in Petition No. 396/GT/2020                                                           Page 6 of 49
+         (2) In case of de-capitalization of assets of a generating company or the transmission
+         licensee, as the case may be, the original cost of such asset as on the date of
+         decapitalization shall be deducted from the value of gross fixed asset and corresponding
+         loan as well as equity shall be deducted from outstanding loan and the equity respectively
+         in the year such de-capitalization takes place with corresponding adjustments in
+         cumulative depreciation and cumulative repayment of loan, duly taking into consideration
+         the year in which it was capitalized.”
+
+9.       The year wise, projected additional capital expenditure claimed by the Petitioner
+
+are summarized and examined below:
+
+                                                                            (Rs. in lakh)
+                                   Regulation 2019-20 2020-21 2021-22 2022-23 2023-24
+ Works within original scope, change-in-law etc. eligible for ROE at Normal Rate
+(A) Items already allowed
+ Ash Dyke Raising                   26(1)(e)    250.00      50.00      0.00    0.00 0.00
+ Construction of concrete paving    26(1)(d)     11.00        0.00     0.00    0.00 0.00
+ for wagon inspection at MGR
+ Bomb Calorimeter                                34.47        0.00     0.00    0.00 0.00
+ (B) New Items
+ Implementation of Automatic 26(1)(b)            98.00        0.00     0.00    0.00 0.00
+ Generation Control
+ Compressor for Ash Evacuation 26(1)(b) &          0.00 100.00         0.00    0.00 0.00
+ System                             26(1)(e)
+ Zero Liquid Discharge System       26(1)(b)       0.00     40.00      0.00    0.00 0.00
+ CLO2 System                       26(1)(b) &      0.00       0.00 400.00      0.00 0.00
+                                    26(1)(d)
+              Sub-Total                         393.47 190.00 400.00           0.00 0.00
+ Works beyond original scope excluding add-cap due to change-in-law eligible for ROE at
+ Weighted Average Rate of Interest (WAROI)
+ LT ACB Retrofitting                26(1)(d)       0.00     60.00      0.00    0.00 0.00
+ Foam Tender                                       0.00     64.00      0.00    0.00 0.00
+ Installation of Security CCTV                     0.00 150.00         0.00    0.00 0.00
+ System
+ Hydraulic Platform for Safety as                  0.00     74.00      0.00    0.00 0.00
+ per recommendation
+ CISF Fire Fighting Equipment’s                    0.00     11.30     12.60    0.00 0.00
+ and Systems
+ Dozer Model BD 155                 25(2)(a)       0.00 230.00         0.00    0.00 0.00
+ IP Blade Rotor                        76          0.00       0.00 1600.00     0.00 0.00
+ Fire Tender                        26(1)(d)       0.00       0.00    64.00    0.00 0.00
+ Installation of Economizer Coil  26(1)(d) read    0.00       0.00 412.00 413.00 0.00
+ Handling platform                with 76 & 77
+ HMI Upgradation of MAX DNA       25(2)(c) read    0.00       0.00     0.00 400.00 0.00
+ DCS                               with 76 &77
+              Sub-Total                            0.00 589.30 2088.60 813.00 0.00
+ Additional capital expenditure                 393.47 779.30 2488.60 813.00 0.00
+ claimed (on projected basis)
+
+Order in Petition No. 396/GT/2020                                                           Page 7 of 49
+(A) Items already allowed by Commission
+
+Ash Dyke Raising Lagoon 1
+
+10.      The Petitioner has claimed projected additional capital expenditure of Rs. 250.00
+
+lakh in 2019-20 and Rs.50 lakh in 2020-21, towards Ash dyke raising works, under
+
+Regulation 26(1)(e) of the 2019 Tariff Regulations. In justification to the same, the
+
+Petitioner has submitted that the expenses towards ash dyke raising were approved by
+
+the Commission in its order dated 2.8.2016 in Petition No. 257/GT/2014. It has also
+
+submitted that the ash dyke has been operational since 28.3.2019 and the balance work
+
+pertaining to drains, roads and turfing which is in progress, shall be completed during the
+
+2019-24 tariff period.
+
+
+11.      The matter has been considered. It has been observed that the Commission in its
+
+order dated 2.8.2016 in Petition 257/GT/2014 had allowed an amount of Rs. 613.91 lakh
+
+towards Ash dyke raising under Regulation 14(3)(iv) of the 2014 Tariff Regulations. The
+
+Petitioner has already claimed an amount of Rs.412.47 (on accrual basis) in Petition no.
+
+192/GT/2020, pertaining to truing up tariff of the generating station for the 2014-19 tariff
+
+period. The Petitioner has claimed the projected additional capital expenditure towards
+
+ash dyke raising under Regulation 26(1)(e) of the 2019 Tariff Regulations. It is however
+
+noticed that the Commission vide its order dated 2.8.2016 in Petition No. 257/GT/2014
+
+had approved the additional capital expenditure under Regulation 14(3)(iv) of the 2014
+
+Tariff Regulations. Since, the ash generation and ash disposal are a continuous process
+
+to be carried out from time to time during the operating life of the plant, in order to ensure
+
+successful running of the plant, the projected additional capital expenditure claimed by
+
+
+
+
+Order in Petition No. 396/GT/2020                                                   Page 8 of 49
+the Petitioner towards ash dyke raising of Rs. 250.00 lakh in 2019-20 and Rs.50 lakh in
+
+2020-21 is allowed under Regulation 25(1)(g) of the 2019 Tariff Regulations.
+
+
+Construction of concrete paving for wagon inspection at MGR
+
+12.      The Petitioner has claimed additional capital expenditure for Rs. 11 lakh in 2019-
+
+20 towards Construction of concrete paving for wagon inspection at MGR under
+
+Regulation 26(1)(d) of 2019 Tariff Regulations. In justification of the same, the Petitioner
+
+has submitted that Commission had approved an amount of Rs. 44 lakh in respect of the
+
+said works in its order dated 2.8.2016 in Petition No. 257/GT/2014 for the 2014-19 tariff
+
+period and the same is a spill over item, as the work is in progress.
+
+
+13.      The matter has been considered. It has been observed that the Commission in its
+
+order dated 2.8.2016 in Petition 257/GT/2014 had approved an amount of Rs. 22 lakh
+
+under Regulation 14(3)(iii) towards the Civil works for MGR based on the circular dated
+
+23.5.2013 from the Vigilance Department, recommending these works for the security
+
+and safety of the plant. In view of this, and since these assets/works are spill over works
+
+which are in progress and is expected to be completed during the 2019-24 tariff period,
+
+we allow the projected additional capital expenditure of the same, under Regulation
+
+26(1)(d) of 2019 Tariff Regulations.
+
+
+Bomb Calorimeter
+
+14.      The Petitioner has claimed additional capital expenditure of Rs.34.47 lakh in 2019-
+
+20 towards Bomb calorimeter under Regulation 26(1)(d) of the 2019 Tariff Regulations.
+
+In justification for the same, the Petitioner has submitted that the Commission in its order
+
+dated 2.8.2016 in Petition 257/GT/2014 had allowed the projected additional capital
+
+
+
+
+Order in Petition No. 396/GT/2020                                                  Page 9 of 49
+expenditure of Rs.25 lakh towards this asset. The Petitioner has further submitted that as
+
+the item was capitalized during April 2019.
+
+
+15.      The matter has been considered. It has been observed that the Petitioner has
+
+claimed an expenditure of (-) Rs.0.24 lakh on cash basis and Rs. 34.23 lakh, on accrual
+
+basis, along with an undischarged liability of Rs.34.47 lakh, towards the said asset during
+
+the true up of the 2014-19 tariff period. Accordingly, the Commission vide order dated
+
+192/GT/2020 dated 4.8.2022 had allowed an amount of (-) Rs.0.24 lakh on cash basis for
+
+the said asset. Further, in the said order, the un-discharged liabilities of Rs. 25.24 lakh
+
+against this asset was also allowed, It has been observed that the Petitioner has claimed
+
+the amount of undischarged liability i.e., 34,47 lakh claimed in the 2014-19 tariff period
+
+against the item as additional capitalization during 2019-20.
+
+
+16.      In view of the above, an amount of Rs.25.24 lakh is allowed against Bomb
+
+Calorimeter in 2019-20. The Petitioner is further directed to submit the details of liabilities
+
+actually discharged against this item in Form 18 at the time of truing up of 2019-24 Tariff
+
+Period.
+
+
+(B) New Claims
+
+Implementation of Automatic Generation Control
+
+17.      The Petitioner has claimed additional capital expenditure of Rs.98.00 lakh in 2019-
+
+20 towards the Implementation of Automatic Generation Control system under Regulation
+
+26(1)(b) of the 2019 Tariff Regulations. In justification of the same, the Petitioner has
+
+submitted that the said expenditure has been claimed based on the directions of the
+
+Commission in its order dated 2.8.2019 in Petition No. 319/RC/2018.
+
+
+
+
+Order in Petition No. 396/GT/2020                                                   Page 10 of 49
+18.      The matter has been considered. It has been observed that in order dated 2.8.2019
+
+in Petition No. 319/RC/2018, the Commission had directed as under:
+
+         “All thermal ISGS stations with installed capacity of 200 MW and above and all hydro
+         stations having capacity exceeding 25 MW excluding the Run-of-River Hydro Projects
+         irrespective of size of the generating station and whose tariff is determined or adopted by
+         CERC are directed to install equipment at the unit control rooms for transferring the
+         required data for AGC as per the requirement to be notified by NLDC. NLDC shall notify
+         the said requirements within one month of this order”
+
+19.      It is therefore evident that the additional capital expenditure claimed by the
+
+Petitioner is for compliance to the directions contained in order dated 2.8.2019 in Petition
+
+319/RC/2018. This according to us, is a change in law event and therefore, the claim of
+
+the Petitioner is allowed under Regulation 26(1)(b) of the 2019 Tariff Regulations.
+
+
+Compressor for Ash Evacuation System
+
+20.      The Petitioner has claimed additional capital expenditure of Rs.100 lakh towards
+
+Compressor for dry ash evacuation system in 2020-21 under Regulation 26(1)(b) and
+
+26(1)(e) of the 2019 Tariff Regulations. In justification for the same, the Petitioner has
+
+submitted that as per the directive of the Environment authorities, 100% ash utilization is
+
+compulsory. The Petitioner has further submitted that the 100% ash utilization has also
+
+been directed by Chhattisgarh Environment Conservation Board (CESB) on consent to
+
+operate dated 21.3.2018.
+
+
+21.      The Respondent, CSPDCL has submitted that the Petitioner has claimed
+
+additional capitalization towards Compressor for Ash Evacuation System in 2020-21
+
+along with additional cost and hence the Commission may not consider this separately
+
+as being part of the capital cost. In response, the Petitioner has submitted that the claim
+
+for projected additional capital expenditure for the said asset is in terms of Regulation
+
+26(1)(b) (change in law) read with Regulation 26(1)(e) (deferred work of ash) of the 2019
+
+Order in Petition No. 396/GT/2020                                                        Page 11 of 49
+Tariff Regulations. It has also submitted that the expenditure towards the said item has
+
+arisen on account of the MoEF&CC notification dated 25.1.2016, which mandates 100%
+
+ash utilization by thermal power plants and the Commission in its order dated 5.11.2018
+
+in Petition 172/MP/2016 had considered the MoEF&CC notification as change in law
+
+event.
+
+
+22.      The matter has been considered. The Petitioner has claimed projected additional
+
+capital expenditure under Change in law/ compliance to existing law and deferred ash
+
+works, based on the ‘consent to operate’ granted by the CECB vide its letter dated
+
+21.3.2018 which is valid for the period from 1.4.2018 to 31.3.2023. It is also noticed that
+
+Clause 2(10) of the MoEFCC notification dated 25.1.2016 provides as under:
+
+         “Every Coal of lignite based thermal power plant shall install dedicated dry ash silos having
+         separate access roads so as to ease the delivery of fly ash.”
+
+23.      In our view, the asset claimed by the Petitioner would help in reducing the burden
+
+of ash disposal in the ash dyke area, which will reduce the regular time to time
+
+capitalization of expenditure for raising of ash dyke and environmental ground water
+
+pollution. In this background and keeping in view that the additional expenditure claimed
+
+is for compliance with the existing norms under the MOEF& CC notification and the
+
+directions of CECB, we allow the claim of the Petitioner, under Regulation 26(1)(b) of the
+
+2019 Tariff Regulations. The Petitioner is, however, directed to furnish the details of the
+
+revenue earned from the sale of fly ash (excluding transportation charges if any paid by
+
+the Petitioner) and a copy of accounts, duly certified by the auditor, as required to be
+
+mandatorily maintained by the Petitioner in terms of the said notification, at the time of
+
+truing up of tariff.
+
+
+
+
+Order in Petition No. 396/GT/2020                                                          Page 12 of 49
+Zero Liquid Discharge System
+
+24.      The Petitioner has claimed additional capital expenditure of Rs.40.00 lakh in 2020-
+
+21 towards Zero Liquid Discharge System under Regulation 26(1)(b) of the 2019 Tariff
+
+Regulations. In justification of the same, the Petitioner has submitted that ‘Consent to
+
+Operate’ granted by CECB vide its letter dated 21.3.2018 under the Water (Prevention
+
+and control of Pollution) Rules, is valid for the period from 1.4.2018 to 31.3.2023 and the
+
+same has mandated the generating station, to maintain Zero Liquid Discharge. The
+
+Petitioner has further submitted that the works under this head will help to achieve the
+
+mandate of statuary rules.
+
+
+25.      The matter has been considered. It has been observed that the Petitioner has
+
+claimed the projected additional capitalization towards the said works under Regulation
+
+26(1)(b) of the 2019 Tariff Regulations. In support of the claim, the Petitioner has
+
+submitted the copy of the CECB consent letter dated 21.3.2018, wherein, Clause 4 of the
+
+said letter provides as under:
+
+         “Industry shall operate and maintain the effluent treatment system efficiency and regularly.
+         Industry shall ensure treated effluent quality within the standards prescribed by Board
+         published in gazette notification dated 25.3.88. the treated effluent shall be utilized in plant
+         operations or for plantation within premises. All the pollution control systems shall be kept
+         in good running conditions all the time and failure (if any), shall be immediately rectified
+         without delay otherwise, similar alternate arrangements shall be made. In the event of
+         failure of any pollution control systems adopted by the industry, the respective production
+         until shall not be started until the control measures are rectified to achieve the desired
+         efficiency. Industry shall not discharge any treated/ untreated effluent into the river or any
+         surface water bodies. No effluent shall be discharged outside the factory premises in any
+         circumstances; hence zero discharge conditions outside the factory premises shall be
+         maintained at all the time. “
+
+26.      It is observed that the CECB in its letter has mandated the generating station to
+
+ensure that the effluents are utilized within the premises of the plant, and also to ensure
+
+that no effluents are discharged out from the Plant premises. In view of this, the projected
+
+
+
+Order in Petition No. 396/GT/2020                                                            Page 13 of 49
+additional capital expenditure of Rs. 40.00 lakh claimed towards Zero Liquid Discharge
+
+system is allowed under Regulation 26(1)(b) of the 2019 Tariff Regulations.
+
+
+ClO2 Package
+
+27. The Petitioner has claimed projected additional capital expenditure of Rs.400.00
+
+lakh in 2021-22 towards ClO2 package under Regulation 26(1)(b) read with Regulation
+
+26(1)(d) of the 2019 Tariff Regulations. In justification for the same, the Petitioner has
+
+submitted that at present Chlorine gas is being doze directly at various stages of water
+
+treatment to maintain water quality and to inhibit organic growth in the water retaining
+
+structures/ equipment such as clarifiers, storage tanks, cooling towers, condenser tubes
+
+& piping etc. It has also submitted that Chlorine dosing is done from chlorine stored in
+
+cylinders/ tonners and that Chlorine gas is very hazardous and may prove fatal in case of
+
+leakage; handling and storage of same involves risk to the life of public at large.
+
+Accordingly, the Petitioner has submitted that in the interest of public safety, the chlorine
+
+dozing system is being replaced by Chlorine Di-oxide (ClO2) system, which is much safer
+
+and less hazardous than Chlorine dozing system. It has added that in the proposed
+
+scheme, ClO2 shall be produced on site, by use of commercial grade HCl and sodium
+
+chlorite and thereby avoids handling and storage risk. The Petitioner has further
+
+submitted that for the safety of public, the Petitioner is replacing the Chlorination system
+
+with ClO2 system.
+
+
+28.      The matter has been considered. The Petitioner has not submitted any
+
+documentary evidence to justify that the claim for additional capital expenditure for this
+
+generating station is based on a change in law event in terms of Regulation 26(1)(b) of
+
+the 2014 Tariff Regulations. It has also not demonstrated that the said claim is based on
+
+
+Order in Petition No. 396/GT/2020                                                  Page 14 of 49
+any specific direction or advice from any Governmental or statutory authorities, with
+
+regard to the requirement of this item for the safety and security of the generating station,
+
+in terms of Regulation 26(1)(d) of the 2019 Tariff Regulations. It is also noticed that similar
+
+claims of NTPC in some of its generating stations had not been allowed, in the tariff orders
+
+issued for the 2019-24 tariff period. Accordingly, the projected additional capital
+
+expenditure claimed by the Petitioner is not allowed.
+
+
+LT ACB Retrofitting
+
+29.      The Petitioner has claimed additional capital expenditure for Rs. 60.00 lakh in
+
+2020-21 towards Low Tension Air Circuit Breakers (LT ACB) Retrofitting under Regulation
+
+26 (1)(d) of the 2019 Tariff Regulations. In justification of the same, the Petitioner has
+
+submitted that in order to ensure safety, drives of more than 100 kw, are to be retrofitted
+
+with LT ACB, to avoid flash over for safety of equipment, as well as safety of the
+
+Personnel. It has further submitted that use of breakers for LT Motors >100 kW would
+
+enhance reliability of the system.
+
+
+30.      The matter has been examined. Though the Petitioner has claimed projected
+
+additional capital expenditure of this asset, under Regulation 26(1)(d) of the 2019 Tariff
+
+Regulations, it has not been able to demonstrate through documentary evidence, that the
+
+requirement of this asset, is based on any specific directions or advice from any
+
+Governmental or statutory authorities as regards to the requirement of this item. In view
+
+of this, the claim of the Petitioner is not allowed.
+
+
+Foam Tender & Water Tender
+
+31.      The Petitioner has claimed additional capital expenditure for Rs. 64.00 lakh each
+
+towards the Procurement of foam tender and Water Tender in 2020-21 and 2021-22
+
+
+Order in Petition No. 396/GT/2020                                                   Page 15 of 49
+respectively, under Regulation 26(1)(d) of the 2019 Tariff Regulations. In justification of
+
+the same, the Petitioner has submitted that as per the recommendation of Standing
+
+Advising Committee of the Ministry of Home affairs, GOI, and as per letter dated 7.5.2019
+
+of the Deputy Commandant, CISF such Foam tender & Water tender are to be procured
+
+in view of safety of the generating station. The Petitioner has also submitted the copy of
+
+letter from the Deputy Commandant, CISF.
+
+
+32.      The matter has been examined. It is observed that the claim of the Petitioner for
+
+projected additional capital expenditure for this asset, is based on the recommendations
+
+of CISF, which is a statutory body. In the recommendation letter, it has been indicated
+
+that foam tenders and water tenders, available at site have completed their service life
+
+and are not working properly, and that there is no annual maintenance contract for these
+
+items. It has also been mentioned that there is huge storage of highly inflammable oil at
+
+various locations in the plant and accordingly recommended the Procurement of new
+
+Foam and water tender. Keeping in view that the additional capital expenditure claimed
+
+by the Petitioner is based on the recommendations of CISF, which is for safety of the
+
+generating station, the claim is allowed.
+
+
+Installation of Security CCTV System
+
+33.      The Petitioner has claimed additional capital expenditure for Rs. 150.00 lakh in
+
+2020-21 towards the Installation of security CCTV system under Regulation 26(1)(d) of
+
+the 2019 Tariff Regulations. In justification of the same, the Petitioner has submitted that
+
+the projected additional capital expenditure towards the work is being claimed on the
+
+recommendation of CISF.
+
+
+
+
+Order in Petition No. 396/GT/2020                                                 Page 16 of 49
+34.      We have examined the matter. It has been observed that the Petitioner in
+
+justification of its claim has submitted the minutes of the security review meeting with
+
+CISF. On perusal of minutes of the meeting, it could not be made out as to whether the
+
+issue related to the installation of CCTV system. The minutes of meeting evidence the
+
+following:
+
+       “AC CISF informed that as per the security audit recommendation, security surveillance is
+       to be done through extensive use of CCTV. DGM (C&I) informed that CCTV available have
+       been installed at main gate. However, it was informed that the requirement of CISF can be
+       looked into holistic manner. BUH advised that joint inspection may be done for relocating
+       the 17 Nos. of existing CCTV as per immediate requirement and considering the security
+       sensitivity.”
+
+35.      As there is no specific mandate of the CISF for the procurement of new CCTV
+
+system, as evident in the minutes of meeting, the claim of the Petitioner is not allowed.
+
+
+Hydraulic platform for safety
+
+36.      The Petitioner has claimed additional capital expenditure for Rs. 74.00 lakh
+
+towards Hydraulic platform for safety in 2020-21 under Regulation 26(1)(d) of the 2019
+
+Tariff Regulations. In justification of the same, the Petitioner has submitted that as per the
+
+Standard electrical safety procedure, it is been recommended to install the said asset
+
+from the safety point of view.
+
+
+37.      The matter has been examined. Though the Petitioner has claimed projected
+
+additional capital expenditure of this asset, under Regulation 26(1)(d) of the 2019 Tariff
+
+Regulations, it has not been able to demonstrate through documentary evidence, that the
+
+requirement of this asset, is based on any specific directions or advice from any
+
+Governmental or statutory authorities as regards to the requirement of this item. In view
+
+of this, the claim of the Petitioner is not allowed.
+
+
+
+
+Order in Petition No. 396/GT/2020                                                    Page 17 of 49
+CISF Fire Fighting Equipment and Systems
+
+38. The Petitioner has claimed additional capital expenditure for Rs. 11.30 lakh in 2020-
+
+21 and Rs. 12.60 lakh in 2021-22 towards the Procurement of CISF fire-fighting
+
+equipment and Systems under Regulation 26(1)(d) of the 2019 Tariff Regulations. In
+
+justification of the same, the Petitioner has submitted the recommendation letters from
+
+CISF dated 19.7.2019 and 23.7.2019 in support of the claims.
+
+
+39.      The matter has been examined. It is noticed from letters dated 19.7.2019 and
+
+23.7.2019 of the Assistant Commandant Fire (CISF Unit-Bhilai) that the procurement of
+
+the firefighting systems and equipment with an estimated cost of Rs. 23.82 lakh, has been
+
+recommended for the generating station. Since the additional capital expenditure incurred
+
+is based on the recommendations of CISF, which is a statutory authority, the claim of
+
+Petitioner is allowed.
+
+
+Dozer Model BD 155
+
+40.      The Petitioner has claimed additional capital expenditure for Rs. 230.00 lakh
+
+towards Procurement of Dozer Model BD 155 in 2020-21 under Regulation 25(2)(a) of
+
+the 2019 Tariff Regulations. In justification of the same, the Petitioner has submitted that
+
+as per OEM, the life of the Dozer is 10 years. It has also submitted that since inception,
+
+these dozers are running, and therefore, the replacement of Dozers will be done in
+
+phased manner.
+
+
+41.      The matter has been considered. It is observed that the Petitioner has claimed the
+
+replacement of the existing dozers with new ones. In support of the claim, the Petitioner
+
+has submitted the letter from M/s BEML, the OEM, which has recommended the
+
+
+Order in Petition No. 396/GT/2020                                                 Page 18 of 49
+replacement of the existing dozer. In view of this, the claim of the Petitioner is allowed.
+
+However, the Petitioner has not submitted the details of de-capitalization, such as the
+
+year of put to use and the estimated de-capitalization value. Therefore, the de-
+
+capitalization value has been dealt with under the head ‘Assumed deletion’ basis as
+
+discussed in para 49 of this order.
+
+
+IP Blade Rotor
+
+42.      The Petitioner has claimed additional capital expenditure for Rs.1600 lakh towards
+
+the Procurement of IP Blade rotor in 2021-22 under Regulation 76 of the 2019 Tariff
+
+Regulations. In justification of the same, the Petitioner has submitted that the design of
+
+NSPCL IP rotor is different from other 250 MW units at NTPC and the same may not be
+
+matched with pool list and spare rotor available for IP module of 250 MW unit and lead
+
+time is also very high.
+
+
+43.      We have examined the matter. The Petitioner has claimed the procurement of IP
+
+blade rotor apparently as spare. Since, spares are not allowed to be capitalized after the
+
+cut-off date of the generating station, in terms of the 2019 Tariff Regulations, the claim of
+
+the Petitioner is not allowed, in exercise of the power to relax. However, the Petitioner
+
+may claim the amount, if admissible, as Capital Spares under O&M on consumption
+
+basis.
+
+
+Installation of Economizer Coil Handling Platform
+
+44.      The Petitioner has claimed additional capital expenditure for Rs. 412.00 lakh in
+
+2021-22 and Rs.413 lakh in 2022-23 towards the Installation of Economizer Coil Handling
+
+System under Regulation 26(1)(d) of the 2019 Tariff Regulations read with Regulation 76
+
+and Regulation 77 of the 2019 Tariff Regulations. In justification of the same, the
+
+
+Order in Petition No. 396/GT/2020                                                  Page 19 of 49
+Petitioner has submitted that the plant is in operation for more than 10 years and there is
+
+requirement for the Replacement & Repair of economizer coils in boiler and Platform and
+
+is also required for the safe lifting and replacement of economizer tubes.
+
+
+45.      The matter has been considered. Though the Petitioner has claimed projected
+
+additional capital expenditure of this asset, under Regulation 26(1)(d) of the 2019 Tariff
+
+Regulations, it has not been able to demonstrate through documentary evidence, that the
+
+requirement of this asset, is based on any specific directions or advice or based on OEM
+
+recommendation. There is also no merit in the claim of the Petitioner to consider the
+
+additional capitalization of this item in exercise of the power to relax under Regulation 76
+
+of the 2019 Tariff Regulations. Accordingly, the claim of the Petitioner under this head is
+
+not allowed.
+
+
+HMI upgradation of MAX DNA DCS
+
+46.      The Petitioner has claimed additional capital expenditure for Rs. 400.00 lakh
+
+towards HMI upgradation of MAX DNA DCS under Regulation 25(2)(c) read with
+
+Regulation 76 and Regulation 77 of the 2019 Tariff Regulations. In justification of the
+
+same, the Petitioner has submitted that as per the original scope of work, Max DNA
+
+system was supplied by M/s BHEL (the OEM) based on windows XP workstations in MAX
+
+DNA DCS. It has also submitted that Windows XP has been declared obsolete by
+
+Microsoft and M/s BHEL has recommended for HMI Upgrade and this Upgradation of
+
+MAX DNA DCS is compulsory for the reliable operation of Units of the generating station.
+
+The Petitioner has also submitted the email communication from the M/s BHEL in support
+
+of the claim.
+
+
+
+
+Order in Petition No. 396/GT/2020                                                 Page 20 of 49
+47.      The matter has been examined. The Petitioner has claimed the upgradation of HMI
+
+under Regulation 25(2)(c) of the 2019 Tariff Regulations read with Regulation 76 of the
+
+2019 Tariff Regulations. The documentary evidence submitted by the Petitioner shows
+
+that the product support has been withdrawn by Microsoft XP operating system and hence
+
+the upgradation of the operating system is required. In view of the above, we allow the
+
+projected additional capital expenditure towards the works, on replacement basis, under
+
+Regulation 25(2)(c) of the 2019 Tariff Regulations. However, it is observed that the
+
+Petitioner has not considered the estimated de-capitalization of the old asset.
+
+Accordingly, the decapitalization has been considered under ‘Assumed Deletion’ as
+
+discussed at para 49 of this order.
+
+48.      Based on above discussions, the projected additional capital expenditure allowed
+
+for the 2019-24 tariff period, is summarized below:
+
+                                                                          (Rs. in lakh)
+                                             2020-
+                                 2019-20               2021-22 2022-23 2023-24
+                                              21
+ Works within original scope, change-in-law etc. eligible for ROE at Normal Rate
+ (a) Items already allowed
+ Ash Dyke Raising                  250.00     50.00         0.00      0.00       0.00
+ Construction of concrete           11.00      0.00         0.00      0.00       0.00
+ paving for wagon inspection at
+ MGR
+ Bomb Calorimeter                   25.24      0.00         0.00      0.00       0.00
+ (b) New Items
+ Implementation of Automatic        98.00      0.00         0.00      0.00       0.00
+ Generation Control
+ Compressor        for     Ash       0.00 100.00            0.00      0.00       0.00
+ Evacuation System
+ Zero Liquid Discharge System        0.00     40.00         0.00      0.00       0.00
+ Dozer Model BD 155                  0.00 230.00            0.00      0.00       0.00
+ CLO2 System                         0.00      0.00         0.00      0.00       0.00
+ HMI Upgradation of MAX DNA          0.00      0.00         0.00    400.00       0.00
+ DCS
+         Sub-Total (A)             384.24 420.00            0.00    400.00       0.00
+ Works beyond original scope excluding add-cap due to change-in-law eligible for
+ ROE at Weighted Average Rate of Interest (WAROI)
+
+Order in Petition No. 396/GT/2020                                                Page 21 of 49
+ LT ACB Retrofitting                    0.00     0.00        0.00       0.00        0.00
+ Foam Tender                            0.00    64.00        0.00       0.00        0.00
+ Installation of Security CCTV          0.00     0.00        0.00       0.00        0.00
+ System
+ Hydraulic Platform for Safety          0.00      0.00       0.00       0.00        0.00
+ as per recommendation
+ CISF Fire Fighting                     0.00    11.30       12.60       0.00        0.00
+ Equipment’s and Systems
+ IP Blade Rotor                         0.00      0.00       0.00       0.00        0.00
+ Fire Tender                            0.00      0.00      64.00       0.00        0.00
+ Installation of Economizer Coil        0.00      0.00       0.00       0.00        0.00
+ Handling platform
+ Sub-Total (B)                         0.00     75.30       76.60       0.00        0.00
+ Additional capital                  384.24    495.30       76.60     400.00        0.00
+ expenditure allowed (on
+ projected basis)
+
+Assumed Deletion
+
+49.      As per consistent methodology adopted by the Commission in its orders, the
+
+expenditure on replacement of assets, if found justified, is allowed for the purpose of tariff
+
+provided that the capitalization of the said asset, is followed by de-capitalization of the
+
+gross value of the old asset. However, in certain cases, where the de-capitalization is
+
+proposed to be effected during the future years to the year of capitalization of the new
+
+asset, the de-capitalization of the old asset for the purpose of tariff is shifted to the very
+
+same year in which the capitalization of the new asset is allowed. Such de-capitalization
+
+which is not a book entry in the year of capitalization is termed as “Assumed Deletions”.
+
+The methodology of arriving at the fair value of the de-capitalized asset, i.e. de -
+
+escalation rate of 5% per annum from the COD has been considered in order to arrive at
+
+the gross value of old asset in comparison to the cost of new asset. In the present petition,
+
+the COD year of the generating station is during 2009-10. We have considered the value
+
+of asset under consideration, as on COD as 100 and escalated it @5% till the year during
+
+which additional capital expenditure is claimed against replacement of the same. The
+
+
+Order in Petition No. 396/GT/2020                                                   Page 22 of 49
+amount claimed for additional capital expenditure against this asset is multiplied by the
+
+derived ratio from above two values i.e., value in COD year divided by value in additional
+
+capitalized year to work out the de-capitalization amount. However, the Petitioner is
+
+granted liberty to furnish the actual gross value of replaced assets at the time of truing up
+
+exercise and the same will be considered in accordance with law.
+
+50.      The Petitioner has claimed additional capital expenditure for certain assets/ works
+
+but has not furnished the estimated de-capitalized value of the old, replaced
+
+assets/works.
+
+51.      Accordingly, in terms of the above methodology, the value of ‘assumed deletions’
+
+considered for the replaced asset for the purpose of tariff is detailed as under:
+
+                                                                        (Rs. in lakh)
+      S No.           Details of Asset      Additions           De-            Assumed
+                                           claimed by      capitalization   Deletion for Old
+                                         Petitioner for   on value of old   Assets Allowed
+                                         new assets on    asset claimed
+                                          replacement
+ 2020-21
+     1              Dozer model BD 155      230.00             0.00              134.48
+ 2022-23
+     2            HMI UPGRADATION           400.00             0.00              212.13
+                  OF MAX DNA DCS
+
+
+Undischarged Liabilities
+
+52.      The balance of undischarged liabilities as on 31.3.2019, as per order dated
+
+4.8.2022 in Petition No. 192/GT/2020 is Rs. 353.42 lakh. The Petitioner has not claimed
+
+the creation of any additional undischarged liabilities and discharges of undischarged
+
+liabilities during the 2019-24 tariff period. However, as directed vide paragraph 50 of the
+
+order dated 4.8.2022, the Petitioner shall submit the detailed reconciliation of the
+
+discharges, additions and reversal of liabilities, at the time of truing-up of tariff for the
+
+
+
+Order in Petition No. 396/GT/2020                                                       Page 23 of 49
+   2019-24 tariff period. Accordingly, the undischarged liabilities shall be reviewed at the
+
+   time of truing up of tariff for the 2019-24 tariff period.
+
+   Capital Cost
+
+   53.      Based on the above, the capital cost allowed for the generating station for the
+
+   2019-24 tariff period is as under:
+
+                                                                                             (Rs. in lakh)
+                                   2019-20        2020-21      2021-22           2022-23            2023-24
+Opening Capital Cost             276777.77      277162.01    277522.83         277599.43          277787.31
+Add: Additional capital
+                                       384.24      495.30          76.60           400.00                    0.00
+expenditure
+Less: De-capitalization
+                                         0.00    (-)134.48          0.00         (-)212.13                   0.00
+(Assumed Deletion)
+Closing Capital Cost             277162.01      277522.83    277599.43         277787.31          277787.31
+Average Capital Cost             276969.89      277342.42    277561.13         277693.37          277787.31
+
+   Debt Equity Ratio
+
+   54.      Regulation 18 of the 2019 Tariff Regulations provides as under:
+
+            “18. Debt-Equity Ratio: (1) For a new project, the debt-equity ratio of 70:30 as on date of
+            commercial operation shall be considered. If the equity actually deployed is more than
+            30% of the capital cost, equity in excess of 30% shall be treated as normative loan:
+            Provided that:
+            i. where equity actually deployed is less than 30% of the capital cost, actual equity shall
+            be considered for determination of tariff:
+            ii. the equity invested in foreign currency shall be designated in Indian rupees on the date
+            of each investment:
+            iii. any grant obtained for the execution of the project shall not be considered as a part of
+            capital structure for the purpose of debt: equity ratio.
+            Explanation.-The premium, if any, raised by the generating company or the transmission
+            licensee, as the case may be, while issuing share capital and investment of internal
+            resources created out of its free reserve, for the funding of the project, shall be reckoned
+            as paid up capital for the purpose of computing return on equity, only if such premium
+            amount and internal resources are actually utilised for meeting the capital expenditure of
+            the generating station or the transmission system.
+            (2)The generating company or the transmission licensee, as the case may be, shall submit
+            the resolution of the Board of the company or approval of the competent authority in other
+            cases regarding infusion of funds from internal resources in support of the utilization made
+            or proposed to be made to meet the capital expenditure of the generating station or the
+            transmission system including communication system, as the case may be.
+            (3) In case of the generating station and the transmission system including communication
+            system declared under commercial operation prior to 1.4.2019, debt: equity ratio allowed
+            by the Commission for determination of tariff for the period ending 31.3.2019 shall be
+            considered:
+
+   Order in Petition No. 396/GT/2020                                                           Page 24 of 49
+         Provided that in case of generating station or a transmission system including
+         communication system which has completed its useful life as on or after 1.4.2019, if the
+         equity actually deployed as on 1.4.2019 is more than 30% of the capital cost, equity in
+         excess of 30% shall not be taken into account for tariff computation;
+         Provided further that in case of projects owned by Damodar Valley Corporation, the debt:
+         equity ratio shall be governed as per sub-clause (ii) of clause (2) of Regulation 72 of these
+         regulations.
+         (4) In case of the generating station and the transmission system including communication
+         system declared under commercial operation prior to 1.4.2019, but where debt: equity
+         ratio has not been determined by the Commission for determination of tariff for the period
+         ending 31.3.2019, the Commission shall approve the debt: equity ratio in accordance with
+         clause (1) of this Regulation.
+         (5) Any expenditure incurred or projected to be incurred on or after 1.4.2019 as may be
+         admitted by the Commission as additional capital expenditure for determination of tariff,
+         and renovation and modernization expenditure for life extension shall be serviced in the
+         manner specified in clause (1) of this Regulation.
+
+55.      The gross normative loan and equity of the generating station, as on 31.3.2019 as
+
+approved by order dated 4.8.2022 in Petition 192/GT/2020 is Rs.196730.97 lakh and
+
+80046.80 lakh respectively, which has been retained as on 1.4.2019. Further the
+
+projected additional capital expenditure approved as above, has been allocated in the
+
+debt to equity of 70:30. Accordingly the debt: equity ratio is worked out as under:
+
+                   Capital cost      (%)             Additional      (%)      Total cost as        (%)
+                      as on                           capital                 on 31.3.2024
+                     1.4.2019                       expenditure               (Rs. in lakh)
+                   (Rs. in lakh)                    (Rs. in lakh)
+    Debt              196730.97      71.08%                706.67    70.00%     197437.64        71.08%
+   Equity              80,046.80     28.92%                302.86    30.00%      80349.66        28.92%
+   Total              276777.77     100.00%              1009.54    100.00%     277787.31       100.00%
+
+Return on Equity
+
+56.      Regulation 30 of the 2019 Tariff Regulations provides as under:
+
+         “30. Return on Equity:
+         (1) Return on equity shall be computed in rupee terms on the equity base determined in
+         accordance with Regulation 18 of these regulations.
+                                              (1)
+
+
+         (2) Return on equity shall be computed at the base rate of 15.50% for thermal generating
+         stations transmission system including communication system and run of river hydro
+         generating station and at the base rate of 16.50% for the storage type hydro generating
+         stations including pumped storage hydro generating stations and run of river generating
+         station with pondage:
+         Provided that return on equity in respect of additional capitalization after cut-off date
+         beyond the original scope excluding additional capitalization due to Change in Law shall
+
+Order in Petition No. 396/GT/2020                                                             Page 25 of 49
+             be computed at the weighted average rate of interest on actual loan portfolio of the
+             generating station or the transmission system;
+             Provided further that:
+             (i) In case of a new project the rate of return on equity shall be reduced by 1.00% for such
+             period as may be decided by the Commission if the generating station or transmission
+             system is found to be declared under commercial operation without commissioning of any
+             of the Restricted Governor Mode Operation (RGMO) or Free Governor Mode Operation
+             (FGMO) data telemetry communication system up to load dispatch centre or protection
+             system based on the report submitted by the respective RLDC;
+             (ii) in case of existing generating station as and when any of the requirements under (i)
+             above of this Regulation are found lacking based on the report submitted by the concerned
+             RLDC rate of return on equity shall be reduced by 1.00% for the period for which the
+       (i)
+             deficiency continues;
+             (iii) in case of a thermal generating station with effect from 1.4.2020:
+                      a)
+
+
+             (a) rate of return on equity shall be reduced by 0.25% in case of failure to achieve the
+             ramp rate of 1% per minute;
+                      b)
+
+
+             (b) an additional rate of return on equity of 0.25% shall be allowed for every incremental
+             ramp rate of 1% per minute achieved over and above the ramp rate of 1% per minute
+             subject to ceiling of additional rate of return on equity of 1.00%:
+             Provided that the detailed guidelines in this regard shall be issued by National Load
+             Dispatch Centre by 30.6.2019.
+
+57.          Regulation 31 of the 2019 Tariff Regulations provides as under:
+
+             “31. Tax on Return on Equity:
+             (1) The base rate of return on equity as allowed by the Commission under Regulation 30
+             of these regulations shall be grossed up with the effective tax rate of the respective
+             financial year. For this purpose, the effective tax rate shall be considered on the basis of
+             actual tax paid in respect of the financial year in line with the provisions of the relevant
+             Finance Acts by the concerned generating company or the transmission licensee as the
+             case may be. The actual tax paid on income from other businesses including deferred tax
+             liability (i.e., income from business other than business of generation or transmission as
+       (1)
+             the case may be) shall be excluded for the calculation of effective tax rate.
+             (2) Rate of return on equity shall be rounded off to three decimal places and shall be
+             computed as per the formula given below:
+             Rate of pre-tax return on equity = Base rate / (1-t)
+             Where “t” is the effective tax rate in accordance with Clause (1) of this Regulation and
+             shall be calculated at the beginning of every financial year based on the estimated profit
+             and tax to be paid estimated in line with the provisions of the relevant Finance Act
+             applicable for that financial year to the company on pro-rata basis by excluding the income
+             of non-generation or non-transmission business as the case may be and the
+             corresponding tax thereon. In case of generating company or transmission licensee
+             paying Minimum Alternate Tax (MAT) “t” shall be considered as MAT rate including
+             surcharge and cess.
+             Illustration-
+             (i) In case of the generating company or the transmission licensee paying Minimum
+             Alternate Tax (MAT) @ 21.55% including surcharge and cess:
+       (i)
+             Rate of return on equity = 15.50/(1-0.2155) = 19.758%
+
+Order in Petition No. 396/GT/2020                                                             Page 26 of 49
+          (ii) In case of a generating company or the transmission licensee paying normal corporate
+          tax including surcharge and cess:
+                 (a)
+
+
+          (a) Estimated Gross Income from generation or transmission business for FY 2019-20 is
+          Rs 1000 crore.
+                 (b)
+
+
+          (b) Estimated Advance Tax for the year on above is Rs 240 crore.
+                 (c)
+
+
+          (c) Effective Tax Rate for the year 2019-20 = Rs 240 Crore/Rs 1000 Crore = 24%.
+                 (d)
+
+
+          (d) Rate of return on equity = 15.50/ (1-0.24) = 20.395%.
+          (3) The generating company or the transmission licensee as the case may shall true up
+          the grossed-up rate of return on equity at the end of every financial year based on actual
+          tax paid together with any additional tax demand including interest thereon duly adjusted
+          for any refund of tax including interest received from the income tax authorities pertaining
+          to the tariff period 2019-24 on actual gross income of any financial year. However, penalty
+          if any arising on account of delay in deposit or short deposit of tax amount shall not be
+          claimed by the generating company or the transmission licensee as the case may be. Any
+          under-recovery or over-recovery of grossed up rate on return on equity after truing up shall
+          be recovered or refunded to beneficiaries or the long-term transmission customers as the
+          case may be on year to year basis.”
+
+58.       The Petitioner has claimed Return on Equity (ROE) considering base rate of
+
+15.50% and effective tax rate of 17.472% for the opening equity as on 1.4.2019 and
+
+projected additional capital expenditure claimed under original scope of work, change in
+
+law etc. for the 2019-24 tariff period. The same has been considered for the purpose of
+
+tariff.
+
+
+59.       The Petitioner has further claimed ROE on the additional capital expenditure
+
+beyond the original scope of work (except due to change in law) at the weighted average
+
+rate of interest of each year for the 2019-24 tariff period, in line with the second proviso
+
+to Regulation 30 of 2019 Tariff Regulation. Regulation 30(1) of the 2019 Tariff Regulations
+
+provides for computation of ROE, on the equity base, as determined in accordance with
+
+Regulation 18 of the 2019 Tariff Regulations. While clause (1) of Regulation 18 provides
+
+for the determination of the debt-equity ratio for new projects, clauses (3) and (4) of the
+
+said Regulation provides for consideration/ determination of the debt-equity ratio in
+
+respect of the generating stations declared under commercial operation prior to 1.4.2019.
+
+Further, clause (5) of the said regulation provides that the admitted additional capital
+
+Order in Petition No. 396/GT/2020                                                          Page 27 of 49
+expenditure incurred or projected to be incurred on or after 1.4.2019, is to be serviced in
+
+the manner specified in clause (1) of Regulation 18 of the 2019 Tariff Regulations. On the
+
+same analogy, Regulation 30(2) of the 2019 Tariff Regulations provides for the
+
+computation of ROE at the base rate of 15.50% (for thermal generating stations) while
+
+the proviso to Regulation 30(2) provides for computation of ROE in respect of additional
+
+capitalization after cut-off date, beyond the original scope, excluding additional
+
+capitalization due to change in law, at the weighted average rate of interest on actual loan
+
+portfolio of the generating station. It is however noticed that as per clause (1) of
+
+Regulations 31 of the 2019 Tariff Regulations (Tax on ROE), the base rate of return on
+
+equity, as allowed by the Commission under Regulation 30 of the said regulations, is
+
+required to be grossed up with the effective tax rate of the respective financial year. Thus,
+
+we are of the view, that on a harmonious construction of the provisions of Regulation 18
+
+read with Regulation 30 and 31 of the 2019 Tariff Regulations, the ROE computed at the
+
+predetermined base rate of 15.50% and ROE computed at the weighted average rate of
+
+interest (WAROI) are required to be grossed up with the effective tax rate of the respective
+
+financial year. Accordingly, ROE has been worked out and allowed as under:
+
+Return on Equity at Normal Rate:
+                                                                                    (Rs. in lakh)
+                                      2019-20    2020-21     2021-22    2022-23      2023-24
+Notional Equity- Opening (A)         80046.80   80154.50    80240.16   80240.16     80296.52
+Addition of Equity due to              115.27      85.66        0.00       56.36           0.00
+additional capital expenditure (B)
+Normative Equity – Closing (C) =     80162.07   80247.73   80247.73    80304.09     80304.09
+(A+B)
+Average Normative Equity (D) =       80104.44   80204.90   80247.73    80275.91     80304.09
+(A+C)/2
+Return on Equity (Base Rate) (E)      15.500%   15.500%     15.500%     15.500%      15.500%
+Effective Tax Rate (F)               17.4720%   17.472%     17.472%     17.472%      17.472%
+Rate of Return on Equity (Pre-
+                                     18.782%    18.782%     18.782%     18.782%      18.782%
+tax) (G) = (E)/(1-F)
+Return on Equity (Pre-tax) -         15045.22   15064.08   15072.13    15077.42     15082.71
+(annualized) (H) = (DxG)
+
+Order in Petition No. 396/GT/2020                                                  Page 28 of 49
+Return on Equity at WAROI
+                                                                                               (Rs. in lakh)
+                                       2019-20       2020-21      2021-22      2022-23       2023-24
+Notional Equity- Opening (A)              0.00          0.00        22.59        45.57         45.57
+Addition of Equity due to
+additional capital expenditure             0.00        22.59         22.98         0.00           0.00
+(B)
+Normative Equity – Closing (C)             0.00        22.59         45.57        45.57         45.57
+= (A+B)
+Average Normative Equity (D) =             0.00        11.30         34.08        45.57         45.57
+(A+C)/2
+Return on Equity (Base Rate)
+                                      8.2396%       8.2396%       8.2396%     8.2396%       8.2396%
+(E)
+Effective Tax Rate (F)                17.472%       17.472%       17.472%     17.472%       17.472%
+Rate of Return on Equity (Pre-
+                                       9.984%        9.984%        9.984%       9.984%        9.984%
+tax) (G) = (E)/(1-F)
+Return on Equity (Pre-tax) -               0.00          1.13         3.40         4.55           4.55
+(annualized) (H) = (DxG)
+
+Interest on loan
+
+60.      Regulation32 of the 2019 Tariff Regulations provides as under:
+
+         “32. Interest on loan capital: (1) The loans arrived at in the manner indicated in Regulation
+         18of these regulations shall be considered as gross normative loan for calculation of
+         interest on loan.
+         (2) The normative loan outstanding as on 1.4.2019 shall be worked out by deducting the
+         cumulative repayment as admitted by the Commission up to 31.3.2019 from the gross
+         normative loan.
+         (3) The repayment for each of the year of the tariff period 2019-24 shall be deemed to be
+         equal to the depreciation allowed for the corresponding year/period. In case of de-
+         capitalization of assets, the repayment shall be adjusted by taking into account cumulative
+         repayment on a pro rata basis and the adjustment should not exceed cumulative
+         depreciation recovered upto the date of de-capitalization of such asset.
+         (4) Notwithstanding any moratorium period availed by the generating company or the
+         transmission licensee, as the case may be, the repayment of loan shall be considered
+         from the first year of commercial operation of the project and shall be equal to the
+         depreciation allowed for the year or part of the year.
+         (5) The rate of interest shall be the weighted average rate of interest calculated on the
+         basis of the actual loan portfolio after providing appropriate accounting adjustment for
+         interest capitalized:
+         Provided that if there is no actual loan for a particular year but normative loan is still
+         outstanding, the last available weighted average rate of interest shall be considered:
+         Provided further that if the generating station or the transmission system, as the case may
+         be, does not have actual loan, then the weighted average rate of interest of the generating
+         company or the transmission licensee as a whole shall be considered.
+         (6) The interest on loan shall be calculated on the normative average loan of the year by
+         applying the weighted average rate of interest.
+
+
+Order in Petition No. 396/GT/2020                                                          Page 29 of 49
+            (7) The changes to the terms and conditions of the loan shall be reflected from the date of
+            such re-financing.”
+
+
+61.         The Petitioner has claimed tariff considering WAROI of 8.2396% for the entire
+
+2019-24 tariff period, based on the actual WAROI of 2018-19, and has submitted that the
+
+WAROI, shall be claimed at actuals, at the time of truing-up of tariff. Interest on loan has
+
+been worked out as under:
+
+       i)     The gross normative loan amounting to Rs.196730.97 lakh has been considered
+              as on 1.4.2019;
+
+       ii)    Cumulative repayment of Rs.132306.11 lakh as on 31.3.2019 as considered in
+              order dated 4.8.2022 in Petition No. 192/GT/2020 has been considered as on
+              1.4.2019.
+
+       iii) Accordingly, the net normative opening loan as on 1.4.2019 works out to
+            Rs.64424.86 lakh;
+
+       iv) Addition to normative loan on account of additional capital expenditure approved
+           above has been considered;
+
+       v) Depreciation allowed has been considered as repayment of normative loan
+          during the respective year of the 2019-24 tariff period. Further, repayments have
+          been adjusted for de-capitalization of assets considered for the purpose of tariff;
+
+       vi) The weighted average rate of interest has been considered as 8.2396% as
+           claimed by the Petitioner which is subject to true up;
+
+62.         Necessary calculation of interest of loan is as under:
+                                                                                (Rs. in lakh)
+                                 2019-20   2020-21   2021-22                  2022-23             2023-24
+ Gross opening loan (A)        196730.97 196982.27 197234.85                197288.47           197419.98
+ Cumulative repayment of 132306.11 146040.19 159733.9                       173496.66           179603.52
+ loan upto previous year /
+ period (B)
+ Net Loan Opening (C) =         64424.86 50942.08   37500.95                 23791.81            17816.46
+ (A-B)
+ Addition on account of           268.97    252.58     53.62                    131.51                0.00
+ additional            capital
+ expenditure (D)
+ Repayment of loan during       13734.70 13753.17   13764.02                  6213.25             6230.00
+ the year (E)
+ Less:           Repayment          0.00     58.22      0.00                    104.81                0.00
+ adjustment on account of
+ de-capitalization (F)
+
+Order in Petition No. 396/GT/2020                                                                Page 30 of 49
+ Net Repayment (G) = (E-F)          13734.70    13694.96      13764.02        6108.45        6230.00
+ Net Loan Closing (H) =             50959.13    37516.74      23806.34       17829.41       11599.41
+ (C+D-G)
+ Average Loan (I) =                 57691.99    44237.94      30661.54       20817.88       14714.41
+ (C+H)/2
+ Weighted Average Rate of           8.2396%     8.2396%       8.2396%        8.2396%        8.2396%
+ Interest on Loan (J)
+ Interest on Loan (K) =              4753.58     3645.02       2526.39        1715.31        1212.41
+ (IxJ)
+
+Depreciation
+
+63. Regulation 33 of the 2019 Tariff Regulations provides as under:
+
+       “33. Depreciation: (1) Depreciation shall be computed from the date of commercial operation
+       of a generating station or unit thereof or a transmission system or element thereof including
+       communication system. In case of the tariff of all the units of a generating station or all
+       elements of a transmission system including communication system for which a single tariff
+       needs to be determined, the depreciation shall be computed from the effective date of
+       commercial operation of the generating station or the transmission system taking into
+       consideration the depreciation of individual units:
+       Provided that effective date of commercial operation shall be worked out by considering the
+       actual date of commercial operation and installed capacity of all the units of the generating
+       station or capital cost of all elements of the transmission system, for which single tariff needs
+       to be determined.
+       (2) The value base for the purpose of depreciation shall be the capital cost of the asset
+       admitted by the Commission. In case of multiple units of a generating station or multiple
+       elements of a transmission system, weighted average life for the generating station of the
+       transmission system shall be applied. Depreciation shall be chargeable from the first year
+       of commercial operation. In case of commercial operation of the asset for part of the year,
+       depreciation shall be charged on pro rata basis.
+       (3) The salvage value of the asset shall be considered as 10% and depreciation shall be
+       allowed up to maximum of 90% of the capital cost of the asset:
+       Provided that the salvage value for IT equipment and software shall be considered as NIL
+       and 100% value of the assets shall be considered depreciable;
+       Provided further that in case of hydro generating stations, the salvage value shall be as
+       provided in the agreement, if any, signed by the developers with the State Government for
+       development of the generating station:
+       Provided also that the capital cost of the assets of the hydro generating station for the
+       purpose of computation of depreciated value shall correspond to the percentage of sale of
+       electricity under long-term power purchase agreement at regulated tariff:
+       Provided also that any depreciation disallowed on account of lower availability of the
+       generating station or unit or transmission system as the case may be, shall not be allowed
+       to be recovered at a later stage during the useful life or the extended life.
+
+       (4) Land other than the land held under lease and the land for reservoir in case of hydro
+       generating station shall not be a depreciable asset and its cost shall be excluded from the
+
+Order in Petition No. 396/GT/2020                                                            Page 31 of 49
+       capital cost while computing depreciable value of the asset.
+       (5) Depreciation shall be calculated annually based on Straight Line Method and at rates
+       specified in Appendix-I to these regulations for the assets of the generating station and
+       transmission system:
+
+       Provided that the remaining depreciable value as on 31st March of the year closing after a
+       period of 12 years from the effective date of commercial operation of the station shall be
+       spread over the balance useful life of the assets.
+       (6) In case of the existing projects, the balance depreciable value as on 1.4.2019 shall be
+       worked out by deducting the cumulative depreciation as admitted by the Commission upto
+       31.3.2019 from the gross depreciable value of the assets.
+       (7) The generating company or the transmission licensee, as the case may be, shall submit
+       the details of proposed capital expenditure five years before the completion of useful life of
+       the project along with justification and proposed life extension. The Commission based on
+       prudence check of such submissions shall approve the depreciation on capital expenditure.
+       (8) In case of de-capitalization of assets in respect of generating station or unit thereof or
+       transmission system or element thereof, the cumulative depreciation shall be adjusted by
+       taking into account the depreciation recovered in tariff by the de-capitalized asset during its
+       useful services.”
+
+
+64.      The cumulative depreciation amounting to Rs. 132306.11 lakh as on 31.3.2019 as
+
+considered in order dated 4.8.2022 in Petition No. 192/GT/2020, has been considered as
+
+on 1.4.2019. The value of freehold land has been considered as nil. Accordingly, the
+
+balance depreciable value, before providing depreciation for the year 2019-20, works out
+
+to Rs.116997.37 lakh. As on 1.4.2019, the used life of the generating station i.e., 9.69
+
+years is less than 12 years from the effective station COD of 22.7.2009. Accordingly,
+
+depreciation has been calculated by applying the weighted average rate of depreciation
+
+for the period from 2019-20 to 2021-22 and thereafter, depreciation has been calculated
+
+by spreading over the balance depreciable value over the balance life of the generating
+
+station. The Petitioner has considered WAROD as 5.13%, which is same as those
+
+claimed by the Petitioner in 2018-19 in Petition 192/GT/2020. However, it is observed that
+
+the Commission in its order dated 4.8.2022 in Petition 192/GT/2020 had approved the
+
+depreciation rate of 4.9589% for 2018-19. Accordingly, the same has been considered
+
+for the calculation of depreciation. Further, the value of IT assets has been considered as
+
+Order in Petition No. 396/GT/2020                                                          Page 32 of 49
+   submitted by the Petitioner. Necessary calculations in support of depreciation are as
+
+   under:
+                                                                                (Rs. in lakh)
+                                            2019-20      2020-21     2021-22      2022-23         2023-24
+  Average Capital Cost (A)                276969.89    277342.42   277561.13    277693.37       277787.31
+  Value of freehold land included              0.00         0.00        0.00         0.00            0.00
+  above (B)
+  Value of IT assets (C)                419.26       419.26       419.26           419.26          419.26
+  Aggregated depreciable value      249314.83 249650.11 249846.95               249965.96       250050.50
+  (D) = (A-B-C)x90%+C
+  Remaining             aggregate   117008.73 103609.30        90111.19          76466.18         70442.27
+  depreciable value at the
+  beginning of the year (E) =(D-
+  cumulative depreciation at ‘J’
+  at the end of previous s. year)
+  No. of completed years at the           9.69        10.69        11.69             12.69             13.69
+  beginning of the year (F)
+  Balance useful life at the             15.31        14.31        13.31             12.31             11.31
+  beginning of the year (G)
+  Weighted Average Rate of            4.9589%      4.9589%      4.9589%                   ---               ---
+  Depreciation (WAROD) (H)
+  Depreciation during the year       13734.70     13753.17     13764.02           6213.25           6230.00
+  (I)
+  Cumulative Depreciation at the    146040.80 159793.98 173499.78               179713.04       185838.23
+  end of the year (before
+  adjustment         for      de-
+  capitalization)       (J)     =
+  (cumulative depreciation at ‘J’
+  at the end of previous. year +
+  I)
+  Less: Depreciation adjustment           0.00        58.22         0.00           104.81                0.00
+  on account of de-capitalization
+  (K)
+  Cumulative depreciation at the 146040.80 159735.76 173499.78                  179608.23       185838.23
+  end of the year (L) = (J-K)
+     *Cumulative Depreciation as on 31.3.2019 is Rs. 132306.11 lakh
+
+
+
+   O&M Expenses
+
+   65.      The O&M expenses claimed by the Petitioner are as under:
+                                                                                                 (Rs. in lakh)
+                                       2019-20        2020-21      2021-22           2022-23                 2023-24
+O&M expenses under                      16480.00       17060.00      17655.00          18280.00                18920.00
+Regulation 35(1)(1) of the
+2019 Tariff Regulations
+
+
+
+   Order in Petition No. 396/GT/2020                                                            Page 33 of 49
+O&M expenses under Regulation 35(6) of
+the 2019 Tariff Regulations:
+- Water Charges (Net)         1293.16         1293.16         1293.16         1293.16             1293.16
+-     Capital      Spares         0.00           0.00            0.00            0.00                0.00
+consumed
+-Security Expenses            2054.87         2260.36         2486.39         2735.03             3008.54
+
+O&M expenses under Regulation 35(3) of
+the 2019 Tariff Regulations:
+- O&M expenses for 7 no.       225.05          232.96          241.15          249.62              258.37
+of bays
+- O&M expenses for               12.15           12.58          13.02           13.48               13.95
+13.794 Km double ckt line
+for associated
+transmission line
+- O&M expenses for 6 no.       511.38          529.96          548.54          568.48              587.16
+of transformers
+Total O&M Expenses           20576.61        21389.02        22237.27        23139.77            24081.17
+
+
+  66.      The normative O&M expenses claimed by the Petitioner, in terms of the Regulation
+
+  35(1)(1) of the 2019 Tariff Regulation, is in order and is therefore allowed. However, in
+
+  the O&M expenses claimed under Regulation 35(3) of the 2019 Tariff Regulations, it has
+
+  been observed that the Petitioner has included O&M expenses towards Generator
+
+  Transformer (2 Nos.), Inter-connecting Transformer (2 Nos.), Unit Auxiliary Transformer
+
+  (2 Nos.) and Station Transformer (2 Nos.) while claiming the O&M expenses for the
+
+  associated transmission facilities. The Commission is of the view that the O&M expenses
+
+  towards these transformers had already been covered under the normative O&M
+
+  expenses of the generating station under Regulation 35(1)(1) of the 2019 Tariff
+
+  Regulations and therefore the claim for transformers under Regulation 35(3) of the 2019
+
+  Tariff Regulations is not allowed. However, the O&M expenses for 7 no. of 400 kV bays
+
+  and 13.794 Ckt Km claimed under Regulation 35(3) of 2019 Tariff Regulations have only
+
+  been allowed.
+
+
+
+
+  Order in Petition No. 396/GT/2020                                              Page 34 of 49
+Water Charges
+
+67.      The first proviso to Regulation 35(6) of the 2019 Tariff Regulations provides for the
+
+claim for Water charges as under:
+
+   “35(6) The Water Charges, Security Expenses and Capital Spares for thermal generating
+   stations shall be allowed separately after prudence check: Provided that water charges shall
+   be allowed based on water consumption depending upon type of plant and type of cooling
+   water system, subject to prudence check. The details regarding the same shall be furnished
+   along with the petition;
+   xxxxxxxx.”
+
+68.      The actual water charges claimed by the Petitioner in Petition 192/GT/2020 for the
+
+2014-19 tariff period and allowed by order dated 4.8.2022 are as under:
+                                                                                   (Rs. in lakh)
+                                    2014-15   2015-16       2016-17      2017-18     2018-19
+    Water Charges Claimed           1275.02   1293.16       1293.16      1393.16     1293.16
+    Water Charges allowed           1275.02   1293.16       1293.16      1393.16     1293.16
+
+
+69.      The water charges allowed, on projected basis, by order dated 4.8.2022 in Petition
+
+No. 192/GT/2020 are as under:
+                                                                                       (Rs. in lakh)
+                                        2014-15   2015-16     2016-17      2017-18     2018-19
+Actual Water charges                    1855.02   1873.16     1873.16      1873.16     1873.16
+Less: Adjustment of water
+charges towards advance for              580.00    580.00       580.00      580.00       580.00
+Mohad reservoir
+Net water charges allowed               1275.02   1293.16      1293.16     1393.16      1293.16
+
+70.      In terms of the first proviso to Regulation 35(1)(6) of the 2019 Tariff Regulations,
+
+Water charges shall be allowed separately based on the water consumption depending
+
+upon the type of plant, type of cooling water system etc., subject to prudence check. The
+
+details in respect of water charges for the 2019-24 tariff period as furnished by the
+
+Petitioner are as under:
+
+                      Description                                 Remarks
+ Type of Plant                                             Coal Based Power Plant
+ Type of cooling water system                           Closed Circuit Cooling System
+ Yearly allocation of water                               16990107.96 cubic meters
+ Consumption of water                                      15291097 cubic meters
+Order in Petition No. 396/GT/2020                                                     Page 35 of 49
+ Rate of water charges*                                                 Rs.12.25/Cubic Meter
+ Total water charges*                                                     Rs.1873.16 lakh
+* As per truing up petition filed for the instant station for 2018-19
+
+
+71.      For the 2019-24 tariff period, the Petitioner has claimed water charges, on the
+
+basis of the actual water charges claimed for 2018-19 without any escalation.
+
+
+72.      The Respondent CSPDCL has submitted that the Petitioner has indicated only the
+
+amount of water consumed, and not the power generated by the Petitioner. It has also
+
+submitted that as per MOEF &CC Notification dated 7.12.2015, the Thermal power plants
+
+installed before 1st January 2017, must meet specific water consumption up to Maximum
+
+of 3.5 m3/Mwh. Accordingly, the Respondent has submitted that the water charges may
+
+be allowed only after prudence check. The Petitioner has however, clarified that the claim
+
+is within the norms prescribed in the said notification. Further, the Petitioner has submitted
+
+that it has claimed water charges as per the agreement entered into between Water
+
+Resource Department, Chhattisgarh and NSPCL. As per the said agreement, the
+
+Petitioner is liable to pay water charges for at least 90% of allocation. The Petitioner has
+
+also submitted that the water charges have been claimed on the same basis, as approved
+
+for 2014-19 tariff period.
+
+
+73.      We have examined the matter. It has been observed that the water charges
+
+claimed in the present Petition are based on the actual water charges paid in 2018-19,
+
+based on the audited accounts of 2018-19. The same was approved by order dated
+
+4.8.2022 in Petition 192/GT/2020. In view of the above, the water charges claimed by the
+
+Petitioner, on projection basis, for the 2019-24 tariff period is allowed. However, the
+
+petitioner is directed to review the contracted water as per actual requirement.
+
+Accordingly, the water charges allowed is as under:
+
+
+Order in Petition No. 396/GT/2020                                                              Page 36 of 49
+                                                                           (Rs. in lakh)
+                                      2019-20   2020-21   2021-22    2022-23       2023-24
+          Water           charges     1293.16   1293.16   1293.16    1293.16       1293.16
+          claimed
+          Water           charges     1293.16   1293.16   1293.16    1293.16       1293.16
+          allowed
+
+74.      However, the Petitioner is directed to submit the current status of Rs. 110 crore as
+
+advance paid to water department shown under the head “part of loans and advances” in
+
+Petition 308/GT/2009 at the time of truing up of 2019-24 tariff period.
+
+
+Security Expenses
+
+75.      The second proviso to Regulation 35(6) of the 2019 Tariff Regulations provides for
+
+the claim for Security expenses as under:
+
+         “35(6) The Water Charges, Security Expenses and Capital Spares for thermal generating
+         stations shall be allowed separately after prudence check:
+         xxxx;
+         Provided further that the generating station shall submit the assessment of the security
+         requirement and estimated expenses;
+         xxxx”
+
+76.      The security expenses claimed by the Petitioner is as under:
+                                                                               (Rs. in lakh)
+                  2019-20           2020-21     2021-22       2022-23          2023-24
+                  2054.87           2260.36     2486.39       2735.03          3008.54
+
+77.      The Petitioner has submitted that the security expenses has been claimed, based
+
+on the estimated expenses for 2019-24 tariff period and shall be subject to adjustment,
+
+based on actuals, at the time of truing up of tariff.
+
+
+78.      We have examined the matter. The Petitioner has claimed projected security
+
+expenses for the 2019-24 tariff period, but has not furnished the assessment of security
+
+requirement, as required, under the provisions of the 2019 Tariff Regulations.
+
+Accordingly, the Petitioner is directed to furnish the requisite details for carrying out the
+
+prudence check of the security expenses, at the time of truing up of tariff. With regards to
+
+
+Order in Petition No. 396/GT/2020                                                          Page 37 of 49
+the present claim of the Petitioner, it has been observed that the Petitioner has claimed
+
+security expenses by applying an escalation factor of 10% for each year of the 2019-24
+
+tariff period. However, the Petitioner has not submitted any justification for the security
+
+expenses claimed for base year i.e., 2019-20. Further, it has been observed that the
+
+Petitioner, in Petition 192/GT/2020, had submitted the actual O&M expenses for the 2014-
+
+19 tariff period vide affidavit dated 16.7.2021, wherein the actual security expenses
+
+incurred for 2018-19 is stated to be Rs.1663.67 lakh. Thus, the security expenses claimed
+
+by the Petitioner for 2019-20 i.e., Rs. 2054.87 lakh is around 24% higher than the actual
+
+expenses for 2018-19. In our view, the escalation of 24% is not justified. Accordingly, the
+
+Commission has considered an escalation of 10% on the actual security expenses of
+
+2018-19 submitted by the Petitioner vide affidavit dated 16.7.2021 in Petition
+
+192/GT/2020 to arrive at the security expenses for 2019-20 and an escalation of 10% has
+
+been considered for each year of the 2019-24 tariff period. Accordingly, the security
+
+expenses claimed and allowed, for the generating station for the 2019-24 tariff period is
+
+as under:
+
+                                                                                  (Rs. in lakh)
+                                    2019-20      2020-21      2021-22     2022-23     2023-24
+Security expenses claimed           2054.87      2260.36      2486.39     2735.03     3008.54
+Security expenses allowed           1830.04      2013.04      2214.34     2435.78     2679.36
+
+Capital Spares
+
+79.      The Petitioner has not claimed any capital spares of the 2019-24 tariff period, but
+
+has submitted that the same shall be claimed on actual consumption of spares at the time
+
+of truing up, in terms of proviso to Regulation 35(1)(6) of the 2019 Tariff Regulations.
+
+Accordingly, the same has not been considered in this order. The claim of the Petitioner
+
+if any, towards capital spares, at the time of truing up, shall be considered on merits, after
+
+prudence check.
+
+Order in Petition No. 396/GT/2020                                                   Page 38 of 49
+    80.      Accordingly, the total O&M expenses allowed to the generating station for the
+
+    2019-24 tariff period is as under:
+                                                                                         (Rs. in lakh)
+                                             2019-20 2020-21         2021-22      2022-23       2023-24
+Normative O&M expenses claimed under        16480.00 17060.00       17655.00     18280.00      18920.00
+Regulation 35(1)(1) of the 2019 Tariff
+Regulations (a)
+Normative O&M expenses allowed under        16480.00 17060.00       17655.00     18280.00      18920.00
+Regulation 35(1)(1) of the 2019 Tariff
+Regulations (a)
+Normative O&M expenses claimed under          748.58      775.50      802.71       831.58         859.48
+Regulation 35(3) of the 2019 Tariff
+Regulations: (c)
+Normative O&M expenses allowed under          237.20      245.54      254.17       263.10         272.32
+Regulation 35(3) of the 2019 Tariff
+Regulations (d)
+Water Charges (Net) claimed under            1293.16    1293.16      1293.16      1293.16        1293.16
+Regulation 35(6) of the 2019 Tariff
+Regulations (e)
+Water Charges (Net) allowed under            1293.16    1293.16      1293.16      1293.16        1293.16
+Regulation 35(6) of the 2019 Tariff
+Regulations (f)
+Security Expenses claimed under              2054.87    2260.36      2486.39      2735.03        3008.54
+Regulation 35(6) of the 2019 Tariff
+Regulations (g)
+Security Expenses allowed under              1830.04    2013.04      2214.34      2435.78        2679.36
+Regulation 35(6) of the 2019 Tariff
+Regulations (h)
+Total O&M expenses claimed under            20576.61 21389.02       22237.26     23139.77      24081.18
+Regulation 29 of the 2014 Tariff
+Regulations (a + c + e + g + i)
+Total O&M expenses allowed under            19840.40 20611.74       21416.68     22272.04      23164.83
+Regulation 29 of the 2014 Tariff
+Regulations (b + d + f + h + j)
+
+    Operational Norms
+
+    81.      The operational norms in respect of the generating station i.e. normative annual
+
+    plant availability factor, gross station heat rate, specific fuel oil consumption and auxiliary
+
+    power consumption are discussed as under:
+
+    Normative Annual Plant Availability Factor
+
+    82.      Regulation 49(A) of the 2019 Tariff Regulations provides as under:
+
+
+    Order in Petition No. 396/GT/2020                                                   Page 39 of 49
+         “(A) Normative Annual Plant Availability Factor (NAPAF)
+         (a) For all thermal generating stations, except those covered under clauses (b), (c), (d), &
+             (e) - 85%;
+             xxx.”
+
+83.      In terms of Regulation 49(A)(a) of the 2019 Tariff Regulations, the Petitioner has
+
+considered Normative Annual Plant Availability Factor of 85% during the 2019-24 tariff
+
+period, the same is allowed.
+
+Gross Station Heat Rate (kCal/kWh)
+
+84.      Regulation 49(C)(b)(i) of 2019 Tariff Regulations provides as under:
+
+         “(i) For Coal-based and lignite-fired Thermal Generating Stations:
+             1.05 X Design Heat Rate (kCal/kWh)
+         Where the Design Heat Rate of a generating unit means the unit heat rate guaranteed by
+         the supplier at conditions of 100% MCR, zero percent make up, design coal and design
+         cooling water temperature/back pressure.
+         Provided that the design heat rate shall not exceed the following maximum design unit
+         heat rates depending upon the pressure and temperature ratings of the units:
+
+        Pressure Rating (Kg/cm2)            150                 170               170
+                    0
+        SHT/RHT ( C)                     535/535              537/537           537/565
+        Type of BFP                  Electrical Driven     Turbine Driven    Turbine Driven
+        Max Turbine Heat Rate              1955                1950              1935
+        (kCal/kWh)
+        Min. Boiler Efficiency
+        Sub-Bituminous Indian Coal         0.86                  0.86              0.86
+        Bituminous Imported Coal           0.89                  0.89              0.89
+        Max. Design Heat Rate (kCal/kWh)
+        Sub-Bituminous Indian Coal         2273                 2267              2250
+        Bituminous Imported Coal           2197                 2191              2174
+        Pressure Rating (Kg/cm2)          247                   247               270                270
+        SHT/RHT (0C)                    537/565               565/593           593/593            600/600
+        Type of BFP                  Turbine Driven        Turbine Driven    Turbine Driven     Turbine Driven
+        Max Turbine Heat Rate             1900                 1850              1810               1800
+        (kCal/kWh)
+        Min. Boiler Efficiency
+        Sub-Bituminous Indian Coal        0.86                   0.86             0.865               0.865
+        Bituminous Imported Coal          0.89                   0.89             0.895               0.895
+        Max. Design Heat Rate (kCal/kWh)
+        Sub-Bituminous Indian Coal        2222                  2151              2105                    2081
+        Bituminous Imported Coal          2135                  2078              2034                    2022
+
+
+
+
+Order in Petition No. 396/GT/2020                                                         Page 40 of 49
+         Provided further that in case pressure and temperature parameters of a unit are different
+         from above ratings, the maximum design heat rate of the unit of the nearest class shall be
+         taken:
+         Provided also that where heat rate of the unit has not been guaranteed but turbine cycle
+         heat rate and boiler efficiency are guaranteed separately by the same supplier or different
+         suppliers, the design heat rate of the unit shall be arrived at by using guaranteed turbine
+         cycle heat rate and boiler efficiency:
+         Provided also that where the boiler efficiency is lower than 86% for Subbituminous Indian
+         coal and 89% for bituminous imported coal, the same shall be considered as 86% and
+         89% for Sub-bituminous Indian coal and bituminous imported coal respectively, for
+         computation of station heat rate:
+         Provided also that maximum turbine cycle heat rate shall be adjusted for type of dry
+         cooling system:
+         Provided also that in case of coal based generating station if one or more generating units
+         were declared under commercial operation prior to 1.4.2019, the heat rate norms for those
+         generating units as well as generating units declared under commercial operation on or
+         after 1.4.2019 shall be lowest of the heat rate norms considered by the Commission during
+         tariff period 2014-19 or those arrived at by above methodology or the norms as per the
+         sub-clause (C)(a)(i) of this Regulation:
+         Provided also that in case of lignite-fired generating stations (including stations based on
+         CFBC technology), maximum design heat rates shall be increased using factor for
+         moisture content given in sub-clause (C)(a)(iv) of this Regulation:
+         Provided also that for Generating stations based on coal rejects, the Commission shall
+         approve the Station Heat Rate on case to case basis.
+         Note: In respect of generating units where the boiler feed pumps are electrically operated,
+         the maximum design heat rate of the unit shall be 40 kCal/kWh lower than the maximum
+         design heat rate of the unit specified above with turbine driven Boiler Feed Pump.”
+
+85.      The Petitioner has considered the Gross Station Heat Rate (GSHR) of 2415
+
+kcal/kWh for the 2019-24 tariff period. It is observed that the Commission in its order
+
+2.8.2016 in Petition 257/GT/2014, had considered the design heat rate of 2300 kcal/kWh.
+
+Accordingly, considering the normative deviation of 5% in terms of the provisions of the
+
+2019 Tariff Regulations, the Gross Station Heat Rate (GSHR) works out as 2415
+
+kcal/kWh. The Petitioner has also claimed the Normative Station Heat Rate of 2415 kcal/
+
+kWh, which is in line with the provisions of the 2019 Tariff Regulations and hence allowed.
+
+Secondary Fuel Oil Consumption
+
+86.      Regulation 49(D)(a) of 2019 Tariff Regulations provides as under:
+
+         “(a) For Coal-based generating stations other than at (c) below: 0.50 ml/kWh”
+
+
+Order in Petition No. 396/GT/2020                                                         Page 41 of 49
+87.      In terms of Regulation 49(D)(a) of the 2019 Tariff Regulations, the Petitioner has
+
+considered the secondary fuel oil consumption of 0.50 ml/kWh during the 2019-24 tariff
+
+period and the same is allowed.
+
+
+Auxiliary Power Consumption
+
+88.      Regulation 49(E)(a) of 2019 Tariff Regulations provides as under:
+
+         “(a) For Coal-based generating stations except at (b) below:
+                  S. No.              Generating Station               With Natural Draft cooling
+                                                                        tower or without cooling
+                                                                                 tower
+                     (i)     200 MW series                           8.50%
+                     (ii)    300 MW and above
+                             Steam driven boiler feed pumps          5.75%
+                             Electrically driven boiler feed pumps   8.00%
+
+         Provided that for thermal generating stations with induced draft cooling towers and where
+         tube type coal mill is used, the norms shall be further increased by 0.5% and 0.8%,
+         respectively:
+         Provided further that Additional Auxiliary Energy Consumption as follows shall be allowed
+         for plants with Dry Cooling Systems:
+
+                    Type of Dry Cooling System                               (% of gross generation)
+  Direct cooling air cooled condensers with mechanical draft fans                     1.0%
+  Indirect cooling system employing jet condensers with pressure
+                                                                                      0.5%
+  recovery turbine and natural draft tower
+         Note: The auxiliary energy consumption for the unit capacity of less than 200 MW sets
+         shall be dealt on case-to-case basis.”
+
+89.      In terms of Regulation 49(E)(a) of the 2019 Tariff Regulations, the Petitioner has
+
+considered the Auxiliary Energy Consumption of 9.00% (8.5% for 200 MW series
+
+generating stations plus 0.5% for IDCT) during the 2019-24 tariff period and the same is
+
+allowed.
+
+
+Interest on Working Capital
+90.      Sub-section (a) of clause (1) of Regulation 34 of the 2019 Tariff Regulations
+
+provides as under:
+
+         “34. Interest on Working Capital: (1) The working capital shall cover:
+
+Order in Petition No. 396/GT/2020                                                            Page 42 of 49
+         (a) For Coal-based/lignite-fired thermal generating stations:
+         (i) Cost of coal or lignite and limestone towards stock if applicable for 10 days for pit-
+         head generating stations and 20 days for non-pit-head generating stations for
+         generation corresponding to the normative annual plant availability factor or the
+         maximum coal/lignite stock storage capacity whichever is lower;
+         (ii) Advance payment for 30 days towards cost of coal or lignite and limestone for
+         generation corresponding to the normative annual plant availability factor;
+         (iii) Cost of secondary fuel oil for two months for generation corresponding to the
+         normative annual plant availability factor and in case of use of more than one
+         secondary fuel oil cost of fuel oil stock for the main secondary fuel oil;
+         (iv) Maintenance spares @ 20% of operation and maintenance expenses including
+         water charges and security expenses;
+         (v) Receivables equivalent to 45 days of capacity charge and energy charge for sale
+         of electricity calculated on the normative annual plant availability factor; and
+         (vi) Operation and maintenance expenses including water charges and security
+         expenses for one month.
+         (b) For Open-cycle Gas Turbine/Combined Cycle thermal generating stations:
+         (i) Fuel cost for 30 days corresponding to the normative annual plant availability
+         factor duly taking into account mode of operation of the generating station on gas
+         fuel and liquid fuel;
+         (ii) Liquid fuel stock for 15 days corresponding to the normative annual plant
+         availability factor and in case of use of more than one liquid fuel cost of main liquid
+         fuel duly taking into account mode of operation of the generating stations of gas fuel
+         and liquid fuel;
+         (iii) Maintenance spares @ 30% of operation and maintenance expenses including
+         water charges and security expenses;
+         (iv) Receivables equivalent to 45 days of capacity charge and energy charge for sale
+         of electricity calculated on normative plant availability factor duly taking Order in
+         Petition No. 410/GT/2020 Page 32 of 37 into account mode of operation of the
+         generating station on gas fuel and liquid fuel; and
+         (v) Operation and maintenance expenses including water charges and security
+         expenses for one month.
+         (c) For Hydro generating station (including Pumped Storage Hydro Generating
+         Station) and transmission system:
+         (i) Receivables equivalent to 45 days of annual fixed cost;
+         (ii) Maintenance spares @ 15% of operation and maintenance expenses including
+         security expenses; and
+         (iii) Operation and maintenance expenses including security expenses for one
+         month.
+         (2) The cost of fuel in cases covered under sub-clauses (a) and (b) of clause (1) of
+         this Regulation shall be based on the landed fuel cost (taking into account normative
+         transit and handling losses in terms of Regulation 39 of these regulations) by the
+         generating station and gross calorific value of the fuel as per actual weighted
+         average for the third quarter of preceding financial year in case of each financial year
+         for which tariff is to be determined:
+         Provided that in case of new generating station the cost of fuel for the first financial
+         year shall be considered based on landed fuel cost (taking into account normative
+         transit and handling losses in terms of Regulation 39 of these regulations) and gross
+
+Order in Petition No. 396/GT/2020                                                             Page 43 of 49
+         calorific value of the fuel as per actual weighted average for three months as used
+         for infirm power preceding date of commercial operation for which tariff is to be
+         determined.
+         (3) Rate of interest on working capital shall be on normative basis and shall be
+         considered as the bank rate as on 1.4.2019 or as on 1st April of the year during the
+         tariff period 2019-24 in which the generating station or a unit thereof or the
+         transmission system including communication system or element thereof as the
+         case may be is declared under commercial operation whichever is later.
+         Provided that in case of truing-up the rate of interest on working capital shall be
+         considered at bank rate as on 1st April of each of the financial year during the tariff
+         period 2019-24.
+         (4) Interest on working capital shall be payable on normative basis notwithstanding
+         that the generating company or the transmission licensee has not taken loan for
+         working capital from any outside agency.”
+
+Fuel Cost and Energy Charges in Working Capital
+
+91.      Regulation 34(2) of the 2019 Tariff Regulations provides that the computation of
+
+cost of fuel as part of Interest on Working Capital (IWC) is to be based on the landed price
+
+and GCV of fuel as per actuals, for the third quarter of preceding financial year in case of
+
+each financial year for which tariff is to be determined.
+
+92.      Regulation 43(2) of the 2019 Tariff Regulations provides as under:
+
+         “(2) Energy charge rate (ECR) in Rupees per kWh on ex-power plant basis shall be
+         determined to three decimal places in accordance with the following formulae:
+         (a) For coal based and lignite fired stations:
+         ECR = {(SHR – SFC x CVSF) x LPPF / CVPF + SFC x LPSFi + LC x LPL} x 100 / (100 –
+         AUX)
+         (b) For gas and liquid fuel based stations:
+         ECR = SHR x LPPF x 100 / {(CVPF) x (100 – AUX)}
+         Where,
+         AUX = Normative auxiliary energy consumption in percentage.
+         CVPF = (a) Weighted Average Gross calorific value of coal as received, in kCal per kg for
+         coal based stations less 85 Kcal/Kg on account of variation during storage at generating
+         station;
+         (b) Weighted Average Gross calorific value of primary fuel as received, in kCal per kg, per
+         litre or per standard cubic meter, as applicable for lignite, gas and liquid fuel based
+         stations;
+         (c) In case of blending of fuel from different sources, the weighted average Gross calorific
+         value of primary fuel shall be arrived in proportion to blending ratio:
+         CVSF = Calorific value of secondary fuel, in kCal per ml;
+         ECR = Energy charge rate, in Rupees per kWh sent out;
+         SHR = Gross station heat rate, in kCal per kWh;
+
+Order in Petition No. 396/GT/2020                                                          Page 44 of 49
+         LC = Normative limestone consumption in kg per kWh;
+         LPL = Weighted average landed cost of limestone in Rupees per kg;
+         LPPF = Weighted average landed fuel cost of primary fuel, in Rupees per kg, per litre or
+         per standard cubic metre, as applicable, during the month. (In case of blending of fuel from
+         different sources, the weighted average landed fuel cost of primary fuel shall be arrived in
+         proportion to blending ratio);
+         SFC= Normative specific fuel oil consumption, in ml per kWh;
+         LPSFi= Weighted Average Landed Fuel Cost of Secondary Fuel in Rs./ ml during the
+         month:
+         Provided that energy charge rate for a gas or liquid fuel based station shall be adjusted
+         for open cycle operation based on certification of Member Secretary of respective
+         Regional Power Committee during the month.”
+
+93.      The Petitioner has claimed the cost of fuel component in working capital and
+
+Energy Charge Rate (ECR) based on followings:
+
+         (a) Operational norms as per the 2019 Tariff Regulations;
+
+         (b) Price and ‘as received GCV of coal (after reducing the same by 85 kCal/kWh
+         in terms of above quoted Regulation) procured for the three months of October
+         2018, November 2018 and December 2018;
+
+         (c) Price and GCV of secondary fuel oil for the three months of October 2018,
+         November 2018 and December 2018.
+
+94.      Accordingly, the Petitioner has claimed the ECR of Rs.2.347 per kWh and the
+
+following fuel cost components in working capital for the 2019-24 tariff period:
+                                                                                      (Rs. in lakh)
+                                          2019-20   2020-21     2021-22      2022-23     2023-24
+  Cost of Coal (50                  days 10797.84 10797.84     10797.84      10797.84 10797.84
+  (generation corresponding to
+  NAPAF)
+  Cost of secondary fuel oil (2            114.97    114.66       114.66       114.66       114.97
+  months            generation
+  corresponding to NAPAF)
+
+95.      On perusal of the Form-15 furnished by the Petitioner vide affidavit dated
+
+29.6.2021, it is observed that the Petitioner has included opening stock of coal and its
+
+corresponding value while computing weighted average price of coal for the month of
+
+October 2018, November 2018 and December 2018. However, in terms of Regulation
+
+34(2) of the 2019 Tariff Regulations the computation of cost of fuel as part of IWC is to
+
+Order in Petition No. 396/GT/2020                                                         Page 45 of 49
+   be based on the landed price and GCV of fuel as per actuals, which means that only fuel
+
+   received during these three months is only to be considered and no opening stock shall
+
+   be included therein. Accordingly, the opening stock of coal and its corresponding values
+
+   have been excluded while computing the weighted average price and GCV of coal. Based
+
+   on the above the weighted average price and GCV of coal and oil claimed and allowed
+
+   for the 2019-24 tariff period, subject to truing up is as under:
+
+                                                                       Claimed            Allowed
+                 Weighted average price of coal (Rs. /MT)              2915.28            2901.40
+                 Weighted average GCV of Coal (kcal/kg)                3318.49            3317.99
+                 Weighted average price of oil (Rs. /KL)              36957.30           36928.98
+                 Weighted average GCV of oil (kcal/KL)                 9883.67            9884.07
+            * The change in claimed GCV and price as compared to allowed GCV and price is due to reason
+            that Petitioner has considered simple average whereas weighted average has been considered for
+            the purpose of tariff in line with the provisions of the 2019 Tariff Regulations.
+
+   96.      Accordingly, the fuel component in working capital, Energy Charges and ECR
+
+   claimed and allowed for the 2019-24 tariff period are as under:
+
+                                                           Claimed                           Allowed
+                                                   2019-20 &      2020-21 to         2019-20 &        2020-21 to
+                                                    2023-24        2022-23            2023-24          2022-23
+Cost of coal for 50 days of generation                              10797.84                             10748.05
+corresponding to NAPAF
+Cost of secondary fuel oil for 2 months of             114.97          114.66              114.89           114.57
+generation corresponding to NAPAF
+ECR (Rs. /kWh)                                                          2.347                                2.336
+
+   97.      The Petitioner, on a month-to-month basis, shall compute and claim the energy
+
+   charges from the beneficiaries based on formulae given under Regulation 43 of the 2019
+
+   Tariff Regulations.
+
+
+   Working Capital for Maintenance Spares
+
+   98.      The Petitioner in has claimed maintenance spares in working capital as under:
+                                                                         (Rs. in lakh)
+                                 2019-20 2020-21 2021-22 2022-23 2023-24
+                                 4115.32 4156.03 4447.45 4627.95 4816.23
+
+
+   Order in Petition No. 396/GT/2020                                                                Page 46 of 49
+ 99.      Regulation 34(1)(a)(iv) of the 2019 Tariff Regulations provide for maintenance
+
+ spares @ 20% of the O&M expenses (including water charges and security expenses).
+
+ Accordingly, maintenance spares @ 20% of the O&M expenses (including the water
+
+ charges and security expenses) allowed for the 2019-24 tariff period is as under:
+
+                                                                     (Rs. in lakh)
+                        2019-20      2020-21        2021-22    2022-23        2023-24
+                        3968.08      4122.35        4283.34    4454.41        4632.97
+
+ Working Capital for Receivables
+
+ 100.     In terms of Regulation 34(1)(a)(v) of the 2019 Tariff Regulations, the receivables
+
+ equivalent to 45 days of capacity charges and energy charges is worked out and allowed
+
+ as under:
+
+
+
+                                                                                                 (Rs. in lakh)
+                                               2019-20    2020-21    2021-22         2022-23         2023-24
+Variable Charges - for 45 days of              9757.24    9757.24    9757.24         9757.24         9757.24
+generation corresponding to NAPAF
+Fixed Charges – for 45 days of                  7055.68    7007.70    6942.80         6009.19        6047.18
+generation corresponding to NAPAF
+Total                                          16812.92   16764.94   16700.04        15766.43      15804.42
+
+
+ Working Capital for O&M Expenses (1 month)
+ 101.     The O&M expenses for 1 month as claimed by the Petitioner in Form-O is as under:
+
+                                                                     (Rs. in lakh)
+                               2019-20 2020-21 2021-22 2022-23 2023-24
+                               1714.72 1731.68 1853.11 1928.31 2006.76
+
+ 102.     Regulation 34(1)(a)(vi) of the 2019 Tariff Regulations provide for O&M expenses
+
+ equivalent to 1 month of the O&M expenses (including water charges and security
+
+ expenses). Accordingly, O&M expenses equivalent to 1 month of the O&M expenses
+
+ (including water charges and security expenses) allowed for the 2019-24 tariff period is
+
+ as under: Accordingly, in terms of Regulation 34(1)(a)(vi) of the 2019 Tariff Regulations,
+
+ one month’s O&M expenses allowed is as under:
+ Order in Petition No. 396/GT/2020                                                              Page 47 of 49
+                                                                      (Rs. in lakh)
+                          2019-20   2020-21    2021-22    2022-23     2023-24
+                          1653.37   1717.65    1784.72    1856.00     1930.40
+
+103.     In line with the Regulation 34(3) of the 2019 Tariff Regulations, the rate of interest
+
+on working capital is considered as 12.05% (i.e. 1 year SBI MCLR of 8.55% as on
+
+01.04.2019 + 350 bps) for the year 2019-20, 11.25% (i.e. 1 year SBI MCLR of 7.75% as
+
+on 01.04.2020 + 350 bps) for the year 2020-21,10.50% (i.e. 1 year SBI MCLR of 7.00%
+
+as on 01.04.2021 + 350 bps) for the year 2021-22 and 10.50% (i.e. 1 year SBI MCLR of
+
+7.00% as on 01.04.2022 + 350 bps) for the period 2022-24. Accordingly, Interest on
+
+working capital has been computed as under:
+                                                                                                  (Rs. in lakh)
+                                              2019-20    2020-21    2021-22           2022-23       2023-24
+Working Capital for Cost of Coal              4299.22    4299.22    4299.22           4299.22       4299.22
+towards Stock (20 days
+corresponding to generation at
+NAPAF)
+Working Capital for Cost of Coal              6448.83    6448.83     6448.83           6448.83      6448.83
+towards Generation (30 days
+corresponding to generation at
+NAPAF)
+Working Capital for Cost of                    114.89     114.57      114.57            114.57        114.89
+Secondary fuel oil (2 months
+corresponding to generation at
+NAPAF)
+Working Capital for Maintenance               3968.08    4122.35     4283.34           4454.41      4632.97
+Spares      20% of Annual O&M
+expenses)
+Working Capital for Receivables –         16812.92 16764.94         16700.04          15766.43     15804.42
+45 days
+Working Capital for O&M expenses              1653.37    1717.65     1784.72           1856.00      1930.40
+– 1 month
+Total Working Capital                     33297.31 33467.56         33630.73          32939.47     33230.73
+Rate of Interest                           12.0500 11.2500           10.5000           10.5000      10.5000
+Interest on Working Capital                4012.33 3765.10           3531.23           3458.64      3489.23
+
+Annual Fixed Charges
+
+104.     Accordingly, the annual fixed charges approved for the 2014-19 tariff period for the
+
+generating station is summarized as under:
+
+
+Order in Petition No. 396/GT/2020                                                                Page 48 of 49
+                                                                                                           (Rs. in lakh)
+                                                 2019-20         2020-21 2021-22 2022-23 2023-24
+ Depreciation                                   13734.70        13753.17 13764.02 6213.25 6230.00
+ Interest on Loan                                4753.58         3645.02 2526.39 1715.31 1212.41
+ Return on Equity                               15045.22        15065.21 15075.53 15081.97 15087.26
+ Interest on Working Capital                     4012.33         3765.10 3531.23 3458.64 3489.23
+ O&M Expenses                                   19840.40        20611.74 21416.68 22272.04 23164.83
+ Total                                          57386.22        56840.25 56313.84 48741.21 49183.73
+Note: (1) All figures are on annualized basis. (2) All figures under each head have been rounded. The figure in total column in each
+year is also rounded. As such the sum of individual items may not be equal to the arithmetic total of the column.
+
+
+105.      The annual fixed charges approved above are subject to truing up in terms of
+
+Regulation 13 of the 2019 Tariff Regulations.
+
+
+Application Fee and Publication expenses
+
+106.      The Petitioner has sought reimbursement of fee paid by it for filing the petition for
+
+the 2019-24 tariff period and for publication expenses. The Petitioner shall be entitled for
+
+reimbursement of the filing fees and publication expenses in connection with the present
+
+petition, directly from the beneficiaries on pro-rata basis in accordance with Regulation
+
+70(1) of the 2019 Tariff Regulations.
+
+
+107.      Similarly, RLDC Fees & Charges paid by the Petitioner in terms of the Central
+
+Electricity Regulatory Commission (Fees and Charges of Regional Load Dispatch Centre
+
+and other related matters) Regulations, 2019, shall be recovered from the beneficiaries.
+
+In addition, the Petitioner is entitled for recovery of statutory taxes, levies, duties, cess
+
+etc. levied by the statutory authorities in accordance with the 2019 Tariff Regulations.
+
+
+108.      Petition No. 396/GT/2020 is disposed of in terms of the above.
+
+
+
+             Sd/-                                             Sd/-                                         Sd/-
+    (Pravas Kumar Singh)                                  (Arun Goyal)                                 (I.S Jha)
+          Member                                            Member                                     Member
+
+
+
+
+Order in Petition No. 396/GT/2020                                                                                    Page 49 of 49
+                                                                           CERC Website S. No. 482/2022
+

@@ -1,0 +1,1661 @@
+             ODISHA ELECTRICITY REGULATORY COMMISSION
+                       BIDYUT NIYAMAK BHAWAN
+              PLOT NO. 4, CHUNOKOLI, SHAILASHREE VIHAR,
+                          BHUBANESWAR – 751021
+                               *** *** ***
+
+                    Present:        Shri Gajendra Mohapatra, Chairperson
+                                    Shri Sushanta Kumar Ray Mohapatra, Member
+
+                                  CASE NO. 104/2021
+
+                    DATE OF HEARING                : 15.02.2022
+
+                    DATE OF ORDER                  : 24.03.2022
+
+IN THE MATTER OF:       Application for determination of Generation Tariff of Odisha
+                        Power Generation Corporation Ltd. (OPGC) (Unit I &II) for
+                        FY 2022-23 under Section 62 & 86 of the Electricity Act, 2003
+                        read with Approved Bulk Supply Agreement along with
+                        Supplemental Agreement (together referred to as the Amended
+                        PPA), related provisions of OERC (Terms & Conditions for
+                        Determination of Generation Tariff) Regulations, 2020 and
+                        OERC (Conduct of Business) Regulations, 2004 and Hon’ble
+                        Supreme Court order dated April 19, 2018 in Case No 9485 of
+                        2017.
+
+                                        ORDER
+
+      The Petitioner, M/s. Odisha Power Generation Corporation (OPGC) Ltd. has filed an
+      application before the Commission for determination of Generation Tariff of its power
+      station of 420 MW (2 X 210 MW) for FY 2022-23. The principle of tariff
+      determination has been settled by Hon’ble Apex Court in its judgement dated
+      19.04.2018 in Civil Appeal No. 9485/2017 wherein the Apex Court has held as under:
+
+      “6.    We are of the view that the Commission vide Order dated 27.04.2015 on the
+             joint application of the parties dated 26.02.2014 rightly fixed the tariff but the
+             view taken in subsequent order dated 21.03.2016 which has been upheld on
+             appeal is unsustainable.
+      7.      Accordingly, we set aside the impugned order and remand the matter to the
+             State Commission for fresh decision. The State Commission may take into
+             account the Notification dated 21.06.2008 for the fixed costs, the PPA for the
+             variable costs specified therein and for other costs not reflected in the PPA,
+             statutory Regulations may be applied.
+      8.     The appeal shall stand disposed of as indicated above.
+      9.     The parties may appear before the State Commission for further proceedings
+             on 2.07.2018.”
+      Accordingly, OPGC has been filing annual tariff petition before the Commission since
+                                                                                             1
+     2016-17 as per the judgement of the Apex Court.
+
+2.   The present petition has been filed on 30.11.2021 for determination of Generation
+     Tariff for FY 2022-23 under Sections 62 and 86 of the Electricity Act, 2003 read with
+     approved power purchase agreement, supplemental agreement and related provisions
+     of OERC (Terms & Conditions for Determination of Generation Tariff) Regulations,
+     2020, OERC (Conduct of Business) Regulations, 2004 and Hon’ble Supreme Court’s
+     order in CA No. 9485 of 2017 dated 19.04.2018. The present petition shall be
+     disposed of by the Commission in accordance with the principle already laid down by
+     the Hon’ble Apex Court. Under the existing legal set up, GRIDCO Ltd. is the state
+     designated entity to procure power on behalf of the state of Odisha from the
+     generating stations of OPGC Ltd. for bulk supply to the Distribution Licensees of
+     Odisha.
+
+3.   After due scrutiny and admission of the aforesaid application, the Commission
+     directed OPGC Ltd. to publish its application in the approved format in the newspaper
+     and in the website. In compliance to the same, public notice was given in leading
+     widely circulated newspapers and was also posted in the website of the Commission
+     and OPGC in order to invite objections/suggestions from the general public. The
+     applicant was also directed to submit its rejoinder to the objections/suggestions filed
+     by the objectors. In response to the aforesaid public notice the Commission received
+     four numbers of objections from the following persons /organizations:
+
+     a)     Mr. R. P. Mahapatra, Rtd. Chief Engineer & Member (Gen) OSEB. Plot No.
+            775(P), Lane-3, Jayadev Vihar, Bhubaneswar-751013;
+     b)     Mr. Soumya Ranjan Patnaik, Plot No-185, VIP Colony, Nayapalli, BSSR,
+            Odisha-15;
+     c)     Shri Ramesh Ch. Satpathy, Secretary, National Institute of Indian Labour, Plot
+            No.302(B), Beherasahi, Nayapalli, Bhubaneswar-751012; and
+     d)     The General Manager, GRIDCO Ltd. Janpath, Bhubaneswar-751022.
+
+     All the above named Objectors along with the representative of Department of
+     Energy, Government of Odisha were present during tariff hearing and their written
+     submissions filed before the Commission were taken on record and were also
+     considered by the Commission. The applicant submitted its reply to the issues raised
+     by the various objectors during hearing.
+
+
+
+                                                                                          2
+4.    In exercise of the power conferred under Section 94(3) of the Electricity Act, 2003
+      and to protect the interest of the consumers, the Commission has appointed World
+      Institute of Sustainable Energy (WISE), Pune as Consumer Counsel for objective
+      analysis of the applicant’s petition for determination of generation tariff proposal for
+      its different power stations for the financial year 2022-23. The Consumer Counsel
+      presented views on the matter during the hearing.
+
+5.    The date of hearing was fixed as 15.02.2022 at 3.00 PM and was duly notified in the
+      leading and widely circulated newspaper mentioning the list of objectors. The
+      Commission also issued notice to each objectors and the Department of Energy,
+      Government of Odisha informing them about the date and time of hearing through
+      virtual mode due to COVID-19 pandemic situation in the State. Accordingly, the
+      Applicant, Objectors and the representative of DoE, GoO had participated during the
+      proceedings and offered their views/ suggestion/ proposal in the hearing on virtual
+      mode on the date and time fixed by the Commission.
+
+6.    As the part of the consultative process, the Commission conducted a public hearing
+      through video conferencing on 15.02.2022 at 3.00 P.M and heard the Applicant,
+      Objectors, Consumer Counsel and the Representative of the Dept. of Energy,
+      Government of Odisha at length. The Commission convened the State Advisory
+      Committee (SAC) meeting on 11.03.2022 at 11.00 AM to discuss about the
+      application for determination of generation tariff proposal of the generating company
+      for FY 2022-23. The Members of SAC presented their valuable suggestions and views
+      on the matter for consideration of the Commission.
+
+OPGC PROPOSAL FOR DETERMINATION OF GENARATION TARIFF FOR THE
+FY 2022-23 (PARA 7 TO 27)
+
+7.    OPGC has stated that they had entered into Bulk Power Supply Agreement with
+      GRIDCO dated 13.08.1996 (“PPA”) to sell power from its generating Units- I & II
+      having capacity of 420 MW (2x 210 MW) of IB thermal power station. The said PPA
+      was approved by the Government of Odisha and came into force from 01.01.1995.
+      Further, a Tripartite Agreement was signed between OPGC, GRIDCO and
+      Government of Odisha on dated 18.10.1998 (“Tripartite Agreement”) providing
+      certain amendments to the existing PPA. Further, an escrow and securitization
+      agreement dated 30.11.1998 was entered between OPGC, GRIDCO and Union Bank
+      of India. Thereafter, an agreement was signed between OPGC and GRIDCO on
+
+                                                                                            3
+     06.09.2012 as supplemental to the Tripartite Agreement based on Government of
+     Odisha Notification dated 21.06.2008 which was made effective from 12.10.2009.
+     Subsequently, OPGC and GRIDCO had signed an amendment to the existing PPA on
+     19.12.2012 (together called the “Amended PPA”) which has been approved by the
+     Commission vide its order dated 27.04.2015 passed in Case No. 13/2002.
+     Accordingly, OPGC had filed a petition before this Commission for approval of its
+     generation tariff for FY 2016-17. The Commission vide its order dated 21.03.2016
+     had determined the generation tariff of Units-I & II in accordance with the Terms and
+     Conditions of the OERC Generation Tariff Regulations, 2014.
+
+8.   OPGC had filed an appeal before the Hon’ble Appellate Tribunal for Electricity
+     (“APTEL”) against the said Tariff Order and Hon’ble APTEL vide its Judgment dated
+     April 6, 2017 had upheld the Commission’s Order in this regard. Being aggrieved of
+     the judgment of the Hon’ble APTEL, OPGC had filed a Civil Appeal No. 9485 of
+     2017 before the Hon’ble Supreme Court of India. Hon’ble Supreme Court vide its
+     judgment dated 19.04.2018 had remanded the matter to this Commission for a fresh
+     decision. Hon’ble Supreme Court had held that notification dated 21.06.2008 and the
+     PPA are to be followed for determination of fixed and variable cost respectively and
+     for other cost the provisions of OERC (Generation Tariff) Regulations may be relied
+     upon by the Commission to determine the tariff for OPGC. In accordance with the
+     judgment of the Hon’ble Supreme Court, OPGC had filed petitions before the
+     Commission for re-determination of tariff for the FY 2016-17, 2017-18 and 2018-19,
+     and the Commission vide its order dated 28.03.2019 had re-determined the generation
+     tariff of OPGC for the aforesaid years based on the original project cost as per the
+     approved amended PPA.
+
+9.   Based on the above principle, the generation tariff for the FY 2019-20, FY 2020-21
+     and FY 2021-22 has also been determined by the Commission vide its order dated
+     29.03.2019, 22.04.2020, and 26.03.2021 passed in Case No. 70/2018, Case no.
+     69/2019, and Case No. 71/2020 respectively. In the meantime, The Commission
+     notified the Odhisa Electricity Regulatory Commission (Terms and Conditions for
+     Determination of Generation Tariff) Regulations, 2020 (“OERC Generation Tariff
+     Regulations, 2020”) on July 15, 2020 in exercise of the powers conferred by Section
+     61 and Section 62 read with Section 181 of the Act. As per these Regulations, the
+     Tariff Period is for four years, i.e., FY 2020-21 to FY 2023-24.
+
+
+                                                                                        4
+10.   Further, the Commission vide its Order dated 28.10.2020 in Case No. 43 of 2017, on
+      the Petition filed by OPGC, has opined that for computation of Energy Charges, the
+      Gross Calorific Value of coal is to be considered on “as delivered basis”. OPGC has
+      filed Appeal No. 189 of 2020 before the Hon’ble APTEL against the said order and
+      the case is sub-judice.
+
+11.   Further the Commission vide order dated 21.05.2021 in Petition No. 54 of 2018
+      disallowed actual additional capitalization for FY 2015-16 to FY 2017-18 and
+      proposed additional capital expenditure for FY 2018-19. OPGC has filed an Appeal
+      before Hon’ble APTEL, which was registered as DFR No. 407/2021, against the
+      Commission’s Order dated May 21, 2021 in Case No. 54 of 2018.
+
+12.   Considering various provisions of OERC Generation Tariff Regulations, 2020, and
+      the Hon’ble Supreme Court’s Judgment dated 19.04.2018, instant petition has been
+      filed by OPGC, in line with the approach adopted in Petition in Case No. 71 of 2020,
+      for approval of its generation tariff for FY 2022-23.
+
+13.   Computation of Annual Fixed Cost
+
+      OPGC has submitted the Annual Fixed Cost as per Clause 3.0 of Schedule II of the
+      Amended PPA which comprises of the following components:
+
+         Return on Equity;
+
+         Interest on loan capital;
+
+         Depreciation;
+
+         Interest on working capital;
+
+         Operation and maintenance expenses.
+
+14.   Capital Cost
+
+      OPGC has submitted that, it has considered capital cost of the Project as Rs. 1060
+      Crore for FY 2022-23 as per the Amended PPA signed between OPGC and GRIDCO
+      and approved by OERC vide its Order dated 27.04.2015.
+
+15.   Debt – Equity Ratio
+
+      OPGC submitted that it has considered the equity amount of Rs. 450 Crore and loan
+      amount of Rs. 610 Crore of the original project cost of Rs. 1060 crore as per amended
+      PPA approved by the OERC vide Order dated 27.04.2015.
+
+                                                                                         5
+16.   Depreciation
+
+      OPGC has submitted that, as per Clause 3.0 (a) of Schedule II of the Amended PPA,
+      depreciation charges shall be equal to 7.5% of the Capital Cost during the year.
+      However, OPGC has not claimed any amount towards depreciation on the original
+      project cost for FY 2022-23 as the assets of the generating Stations are fully
+      depreciated by the financial year ending March 31, 2009.
+
+17.   Return on Equity
+
+      OPGC has submitted that Clause 8.0 (10) of Schedule II of PPA provides for Return
+      on Equity at the rate of 16%. Considering the equity capital of Rs.450 crore of the
+      original project cost, OPGC has claimed Rs.72 Crore towards RoE for determination
+      of generation tariff for FY 2022-23.
+
+18.   Interest on Loan Capital
+
+      OPGC has submitted that Clause 8.0 (7) and (11) of Schedule II of the Amended PPA
+      stipulates that the loan amount shall be Rs. 610 Crore and interest on loan is to be
+      allowed as per actual. As the loan amount of the original project cost has been fully
+      repaid by financial year ending 2011-12, OPGC has not considered any amount
+      towards Interest on loan capital for determination of generation tariff of FY 2022-23.
+
+19.   O&M Expenses
+
+      OPGC has submitted that, as per Clause 3.0 (d) and (e) of Schedule II of the Amended
+      PPA, O&M expenses for first year of operation shall be at the rate of 2.5% of the
+      capital cost of Rs 1030 Crore; which shall be escalated by 8% each year from April 1,
+      1996. Considering the above methodology, the O&M expense proposed by OPGC for
+      generation of tariff for FY 2022-23 is Rs. 190.46 Crore.
+
+20.   Interest on Working Capital
+
+      OPGC has submitted that it has considered the components of working capital
+      requirement as per the Clause 3.0 (f) of Schedule II of the Amended PPA. OPGC
+      submitted that, it has started availing working capital from external sources, and the
+      actual interest rate for the Working Capital facility availed by OPGC in FY 2021-22 is
+      7.20%. Accordingly, the same rate has been considered by OPGC for FY 2022-23.
+      Accordingly, OPGC claimed interest on working capital as Rs. 13.10 Crore for FY
+
+
+
+
+                                                                                               6
+      2022-23. The detailed calculation of working capital requirement and interest on
+      working capital is given in Table - 1 below.
+
+                                           Table - 1
+               Proposed interest on working capital by OPGC for FY 2022-23
+                                                               (Rs. Crore)
+         Sl. No.   Particulars                                  Amount
+          1.       Cost of Coal for one and half months           45.21
+          2.       Cost of Secondary Fuel Oil for two months      7.33
+          3.       O&M Expenses for one month                    15.87
+          4.       Receivables equivalent to two months          113.54
+          5.       Total Working Capital Requirement             181.95
+          6.       Interest Rate %                               7.20%
+          7.       Interest on Working Capital                   13.10
+
+
+21.   Summary of Annual Fixed Cost
+
+      Considering the above annual fixed cost components, OPGC has proposed the total
+      Annual Fixed Cost for FY 2022-23 corresponding to the original project cost as Rs.
+      275.56 Crore. The details are given in the Table - 2 below.
+
+                                      Table - 2
+            Proposed Total Annual Fixed Cost by OPGC for FY 2022-23,
+                         considering original project cost
+                                                    (Rs. Crore)
+                             Particulars           Amount
+                    Return on Equity                  72.00
+                    Interest on loan capital          0.00
+                    Depreciation                      0.00
+                    O&M expenses                     190.46
+                    Interest on Working Capital       13.10
+                    Total Annual Fixed Cost          275.56
+22.   Operation Performance Parameters
+
+      For calculation of energy charges, OPGC has proposed the operational performance
+      parameters as per Clause 8 of Schedule-II of the amended PPA. Accordingly, OPGC
+      has considered following operational norms for determination of energy charges of
+      FY 2022-23. Details of these norms are given in Table - 3 below.
+
+                                        Table - 3
+      Proposed Operational Performance Parameters by OPGC for FY 2022-23
+                      Particulars                 Unit      Values
+         Normative Availability Factor             %        68.49%
+         Target Plant Load Factor for incentive    %        80.00%
+
+                                                                                      7
+                          Particulars                     Unit          Values
+            Auxiliary consumption                          %            9.50%
+            Gross Station Heat Rate                    kcal / kWh        2500
+            Specific fuel oil consumption               ml/kWh           3.50
+
+23.   Price and GCV of Coal & Secondary Fuel Oil
+
+      (a)      OPGC submitted that during FY 2022-23, the entire coal requirement is
+               proposed to be met from coal supply under existing Fuel Supply Agreement
+               (FSA) with Mahanadi Coal Fields Limited. In line with the Judgement of the
+               Hon’ble Supreme Court of India dated 18.04.2018 in Civil Appeal No. 9485 of
+               2017, variable costs for OPGC are to be determined as per the PPA. OPGC
+               further submitted that, Price & Gross Calorific Value (GCV) of Coal and
+               Secondary fuel oil will be considered as per Clause 7 of Schedule-II of the
+               PPA and also as per Clause 9 of Schedule II of the PPA which stipulate that
+               the prices and GCV of coal and oil for one year shall be the base for the next
+               year. The Commission vide its Order dated October 28, 2020 in Case No. 43
+               of 2017 on the Petition filed by OPGC regarding the dispute on Gross
+               Calorific Value, finalized a formula of calculating GCV of coal as delivered to
+               the power station (on total moisture basis). OPGC has filed Appeal No. 189 of
+               2020 before the Hon’ble APTEL against this Commission’s Order dated
+               October 28, 2020 in Case No. 43 of 2017 on the GCV to be considered for
+               tariff computation and case is subjudice.
+
+      (b)      As per the provision of PPA, the GCV of Oil and Coal is to be considered as
+               actually delivered to the power station. Accordingly, OPGC has considered the
+               GCV of coal and oil as actually delivered to the power station for the
+               computation of energy charges. As it is not possible to provide the auditor
+               certified value of delivered price and GCV of oil & coal for the whole year FY
+               2021-22, OPGC has considered the actual weighted average prices and GCV
+               of oil & coal for the period from April to September 2021 for purpose of
+               computation of energy charges for FY 2022-23. Details of these parameters are
+               given in Table - 4 below:
+                                   Table - 4
+         Proposed Price and GCV of Coal and Oil by OPGC for FY 2022-23
+        Sl. No. Particulars                         Unit      Values
+            1   Price of Coal                    (Rs. /MT)    1614.28
+            2   Price of LDO                      (Rs./kL)   52744.07
+
+                                                                                            8
+            3        Price of HFO                        (Rs./kL)       49540.30
+            4        Gross Calorific Value of Coal      (kCal/kg)       2772.64
+            5        Gross Calorific value of LDO       (kCal/ltr.)      10000
+            6        Gross Calorific value of HFO       (kCal/ltr.)      10000
+            7        Specific Coal Consumption           (kg /kWh)        0.89
+            8        Specific Oil Consumption-LDO        (ml/kWh)         0.35
+            9        Specific Oil Consumption-HFO        (ml/kWh)         3.15
+
+24.   Energy charges
+
+      OPGC has computed Variable Charges for FY 2022-23 as per Clause 7.0 of Schedule
+      II of the Amended PPA. Considering the above stated operational norms, price and
+      GCV of Coal & Secondary fuel oil parameters as per PPA, OPGC has proposed
+      energy charges of 177.89 paisa/kWh for FY 2022-23 for its generating station I & II.
+      Further, OPGC submitted that any variation in energy charges during the year on
+      account of fuel prices and calorific value will be claimed through Fuel Price
+      Adjustment in supplementary bills on half yearly basis as per the provisions of PPA.
+
+25.   Reimbursement of Other Charges
+
+      (a)       Apart from the Annual Fixed Cost and Energy Charges, OPGC has proposed
+                for reimbursement of the other charges and expenses such as Electricity duty,
+                water cess and water charges, Energy Compensation charges, tax and cess on
+                land, SOC and MOC paid to SLDC, EPRC charges, Income tax, recovery of
+                ARR and tariff petition fees and contribution to Water Conservation Fund etc
+                as per clause Nos. 10.0 and 11.0 (vii) of Schedule-II of PPA. The details are
+                given in Table - 5 below:
+                                          Table - 5
+                    Proposal for Other Charges by OPGC for FY 2022-23
+                               considering original project cost
+                                                                 (Rs. Crore)
+                S. No.                 Particulars                Amount
+                   1     Electricity Duty                          17.35
+                   2     Water Cess and Water Charges              8.58
+                   3     Energy Compensation Charges               0.71
+                   4     Tax and Cess on land                      0.05
+                   5     SOC and MOC for SLDC                      0.34
+                   6     ERPC Charges                               0.16
+                   7     Income Tax                                38.67
+                   8     Recovery of ARR & Tariff Petition Fee      0.30
+                   9     Contribution towards Water                 6.13
+                         Conservation Fund
+                                          Total                    72.29
+
+                                                                                             9
+      (b)   Accordingly, OPGC requested to provisionally approve the other charges of
+            Rs. 72.29 Crore considering the original project cost and direct GRIDCO Ltd.
+            to reimburse the other charges on actual basis during the FY 2022-23.
+
+26.   Additional Capitalization
+
+      (a)   OPGC submitted that it had claimed the additional capitalisation of Rs. 13.32
+            Crore, Rs. 20.94 Crore and Rs. 44.11 Crore for FY 2015-16, FY 2016-17 and
+            FY 2017-18 respectively vide Case No. 54 of 2018 respectively. OPGC had
+            claimed vide Case No. 69 of 2019 the actual additional capitalization of Rs.
+            43.78 Crore for FY 2018-19. Similarly Vide Case No. 71 of 2020, OPGC had
+            claimed the actual additional capitalisation of Rs. 6.41 Crore for FY 2019-20.
+            The Commission vide order dated May 21, 2021 in Petition No. 54 of 2018
+            disallowed actual additional capital expenditure for FY 2015-16 to FY 2017-
+            18. OPGC has filed an Appeal on November 15, 2021, registered as DFR No.
+            407/2021 before Hon’ble APTEL against the Commission’s Order dated
+            21.05.2021 in Case No. 54 of 2018.
+
+      (b)   According to order dated 21.05.2021 in Petition No.54 of 2018, actual
+            additional capital expenditure for FY 2015-16 to FY 2017-18 is disallowed by
+            the Commission. Therefore, it is not possible to consider additional capital
+            expenditure incurred by OPGC; rather they would come under relaxed O&M
+            norms of PPA.
+
+      (c)   Further, OPGC has submitted that after detailed discussions/deliberations with
+            GRIDCO towards Renovation & Modernisation for enhancement of plant life
+            and implementation of FGD & FGC for complying the revised Emission
+            Standards as prescribed by MoEF&CC, OPGC had filed a Petition for in-
+            principle approval of the Commission. The Commission has disposed off the
+            Petition vide its Order dated 03.11.2021 in Case No 66 of 2021.
+
+      (d)   In the present Petition, OPGC has not claimed actual additional capitalisation
+            for FY 2020-21 and projected additional capitalisation for FY 2021-22 and FY
+            2022-23. Based on the outcome of the Appeal filed in Hon’ble APTEL against
+            the Commission’s order in Case No. 54 of 2018, OPGC will approach the
+            Commission for approval of actual additional capitalisation for FY 2015-16 to
+            FY 2020-21 and projected additional capitalisation for FY 2021-22 and FY
+            2022-23 through a separate petition.
+                                                                                       10
+27.   Summary of Tariff proposal for FY 2022-23
+
+      (a)    Considering as proposed above, the summary of tariff proposed by OPGC for
+             FY 2022-23 is given in the Table - 6 below:
+                                        Table - 6
+                     Summary of Tariff Proposal of OPGC for FY 2022-23
+                       Particulars                Units      Corresponding to
+                                                           original project cost
+            Depreciation                         Rs. Crore           -
+            Return on Equity                     Rs. Crore         72.00
+            Interest on loan                     Rs. Crore           -
+            O&M expenses                         Rs. Crore        190.46
+            Interest on working capital          Rs. Crore         13.10
+            Total Annual Fixed Cost             Rs. Crore         275.56
+            Variable Charges per kWh            Paisa/kWh         177.89
+            Other charges                        Rs. Crore         72.29
+
+
+      (b)    OPGC has prayed to the Commission to approve the annual fixed cost and
+             variable charges, other charges as proposed for FY 2022-23 along with
+             approval of the recovery of other charges on actual basis. OPGC has also
+             prayed to approve the variation in energy charges during the year on account
+             of fuel prices and calorific value, to be claimed through Fuel Price Adjustment
+             in supplementary bills on half yearly basis, as per the provisions of PPA.
+             Further, OPGC prayed to allow to file a separate Petition regarding additional
+             capitalisation from FY 2015-16 to FY 2022-23 after the APTEL Judgment is
+             issued on the Appeal filed by OPGC on the Commission’s Order dated May
+             21, 2021 in Case No. 54 of 2018.
+
+VIEWS OF THE OBJECTORS AND RESPONSE OF OPGC (PETITIONER) ON
+THE GENERATION TARIFF PROPOSAL FOR FY 2022-23 (PARA 28 TO 44)
+
+      The views of the objectors and response of OPGC on various issues are as follows:
+
+28.   Additional capitalization
+
+      GRIDCO submitted that in view of in-principle approval of R & M with 15 years’ life
+      extension allowed by the Commission (Case No 66 of 2021), there may not be any
+      further need of additional capitalisation for Stage-I of OPGC.
+
+
+
+
+                                                                                          11
+      Response of OPGC
+
+      OPGC submitted that it has filed an appeal before Hon’ble APTEL against the
+      Commission’s order dated May 21, 2021 in Case No. 54 of 2018, in regard to
+      additional capitalization of past period, which is yet to be admitted by the Hon’ble
+      APTEL. Further, OPGC submitted that as the matter of allowance of additional
+      capitalization is sub-judice, OPGC has not claimed tariff on account of additional
+      capitalization for the period from FY 2015-16 to FY 2022-23 in the present petition.
+      OPGC shall file a separate petition regarding allowance of tariff due to additional
+      capitalization from FY 2015-16 to FY 2022-23 based on the outcome of the appeal
+      filed by OPGC before Hon’ble APTEL.
+
+29.   Return on Equity
+
+      GRIDCO has submitted that considering the equity capital as Rs. 450 Crore and rate
+      of Return on Equity as 16%, the Commission may calculate the Return on Equity
+      while determining the tariff. One of the Objectors has pointed out that the RoE related
+      provisions mentioned under OERC Generation Tariff Regulations, 2020 (regulation
+      nos. 19 & 21) and CERC (Terms & Conditions of Tariff) Regulations, 2019
+      (Regulation nos. 15 & 31) contradict each other.
+
+      Response of OPGC
+
+      OPGC submitted that the claim on Return on Equity is in accordance to the approved
+      amended PPA. Therefore, OPGC has requested to the Commission to approve the
+      Return on Equity as claimed in the Petition.
+
+30.   O&M expenses
+
+      GRIDCO submitted that based on the methodology given in amended PPA, O&M
+      expenses may be determined. However, actual O&M expenses and its growth rate
+      may be reviewed by the Commission.
+
+      Response of OPGC
+
+      OPGC submitted that OPGC has claimed the O&M Expenses at 2.50% of the capital
+      cost of Rs. 1030 Crore and escalated it by 8% each year from 01.04.1996 in
+      accordance to provision of the approved amended PPA and order of the Hon’ble
+      Supreme Court. Therefore, OPGC has requested to the Commission to allow O&M
+      expenses as claimed in the petition.
+
+
+                                                                                          12
+31.   Interest on Working Capital
+
+      GRIDCO submitted that interest on working capital may be reviewed based on actual
+      information. The cost of coal may be prudently verified. OPGC is not submitting Coal
+      and secondary fuel oil data in Form 7(c ) and 7 (o) format and also not providing the
+      CIMFR reports to derive/work out the "As Received" GCV of linkage coal as per the
+      Commission's order dated 28.10.2020 in Case No. 43 of 2017. Another Objector
+      submitted that interest on working capital may be reviewed as for the FY 21-22, the
+      Commission allowed interest on working capital amounting to Rs 161.12 Crore
+      against Rs 171.36 Crore now proposed by OPGC. The requirement of coal cost
+      thereof is to be calculated assuming PLF of 68.49%.
+
+      Response of OPGC
+
+      OPGC submitted that the Petitioner has computed the working capital in accordance
+      to the Clause 3.0(f) of Schedule II of the approved Amended PPA. Further, the
+      Petitioner has considered the actual prevailing rate of interest of working capital in
+      November 2021. The supporting document of actual interest rate of 7.20% is also
+      submitted by OPGC. Further, OPGC has claimed Interest on Working Capital
+      computed considering the normative PLF of 68.49% in accordance to the provision of
+      the approved amended PPA. It is not appropriate to compare the absolute amount of
+      interest on working capital proposed by the Petitioner for FY 2022-23 with the
+      Interest on Working Capital approved by the Commission for FY 2021-22. With the
+      increase in coal prices and O&M expenses, Working Capital computed for FY 2022-
+      23 will be higher. The Interest on Working Capital mainly depends upon coal cost, oil
+      cost, O&M expenses and other components of Annual Fixed Charges.
+
+32.   Annual Fixed Cost
+
+      GRIDCO stated that OPGC has proposed 6% hike in fixed charges, which is quite
+      high. Another Objector submitted that the increase in fixed cost is due to higher
+      provision under interest on working capital, which is on account of providing higher
+      interest rate, lower GCV towards coal cost and higher rate for secondary fuel oil.
+
+      Response of OPGC
+
+      OPGC has not specifically responded to GRIDCO’s comment. However, OPGC has
+      provided its comments about working capital, GCV of Coal and cost of secondary fuel
+      oil, which are included under respective para, hence not repeated here.
+
+                                                                                           13
+ 33.   Non-Tariff Income
+
+       An Objector has submitted that the OPGC failed to project Non-Tariff Income (NTI)
+       under petition filed for Stage-1 of its power stations. The Objector has submitted that
+       NTI proposed by OPGC should be disclosed as per regulation nos. 19, 26 & 41 of the
+       OERC (Terms and Conditions for determination of Generation Tariff) regulations,
+       2020. The NTI is to be deducted from gross AFC to arrive at net AFC for
+       determination of generation Tariff. The Objector also claimed that petitioner-OPGC
+       had not furnished the reason behind the reduction in income from investment during
+       FY 2020-21 and requested a prudent check of the Financial Statement of the FY2020-
+       21 of OPGC and approve NTI accordingly. An Objector has requested OPGC to
+       submit   necessary    data   on    revenue   earned   on   account   of   interest   on
+       deposits/advances/any other receipts, so as to facilitate prudent passing out of the
+       project cost in the instant proceeding.
+
+       Response of OPGC
+
+       OPGC submitted that the instant Petition has been filed in accordance with the
+       approved Amended PPA which does not provide for any adjustment of Non -Tariff
+       Income from Annual Fixed Cost.
+
+34.    Plant Load Factor
+
+       An Objector submitted that OPGC has proposed PLF reduction i.e. 81.46% but all
+       thermal power stations of the state such as IPPs and central sector generation
+       project(s) of NTPC are now generating/ operating at PLF of more than 85% to 90%.
+       The objector requested that the Commission should pass an order directing OPGC to
+       operate with PLF more than 85%.
+
+       Response of OPGC
+
+       OPGC submitted that OPGC has projected the PLF of 78.03% for FY 2022-23 and
+       not 81.46% as stated by the stakeholder. OPGC submitted that the actual PLF of the
+       plant depends on scheduled maintenance outages and other operating conditions
+       beyond the control of OPGC during a given year. Accordingly, the PLF varies from
+       year to year.
+
+
+
+
+                                                                                            14
+35.     Auxiliary Consumption
+
+        An Objector submitted that OPGC has proposed 9.5% as auxiliary consumption;
+        whereas, the central thermal power stations like NTPC have auxiliary consumption of
+        5.5%. As such, the auxiliary consumption calculation should be made as per the
+        provisions given in the regulations.
+
+         Response of OPGC
+
+        OPGC submitted that the normative auxiliary consumption claimed by OPGC is 9.5%
+        in accordance with the approved Amended PPA even though the actual auxiliary
+        consumption has remained above 10% since COD of the station. The reference to
+        auxiliary consumption of central generating stations is misplaced as they are governed
+        by Tariff Regulations of the Central Electricity Regulatory Commission. Further, even
+        the auxiliary consumption of 5.5% mentioned is for super critical units with capacity
+        of 660 MW and above and not for Units with capacity of 210 MW. Moreover, the
+        auxiliary consumption as per CERC Tariff Regulations, 2019, for 200 MW unit series
+        with induced draft cooling towers is 9.0%.
+
+ 36.    Fuel Cost and GCV of Coal
+
+        (a)    GRIDCO has stated the following on Fuel prices and GCV of coal:
+
+         i.    The submission of OPGC regarding GCV of coal is in complete violation of
+               provisions of PPA as well as Order of Hon'ble Supreme Court. OPGC has
+               submitted that it is not possible to provide Auditor Certified Value of delivered
+               price and GCV of oil & coal as part of tariff submissions which is contrary to
+               the Commission's Order dated 28.10.2020, which states that for determination
+               of tariff, sampling report by CIMFR at mine's end with moisture correction
+               would be considered for determining GCV of 'as delivered' Coal on total
+               moisture basis.
+
+        ii.    In absence of sufficient data/information, the Commission may direct OPGC
+               to provide the Annual Notification for FY 2021-22 by MCL and accordingly
+               take prudent decision in the matter.
+
+       iii.    It is essential on the part of long term beneficiary like GRIDCO to be vigilant
+               enough while scrutinizing each and every parameter contributing to
+               determination of Energy Charge Rate (ECR), when the generator is availing
+               linkage coal at concessional rate for supply of firm power to the State
+
+                                                                                             15
+        consumers. The GCV of linkage coal procured from MCL ought to
+        commensurate in quality with landed cost paid for the notified Grade of GCV
+        of coal by the coal supplier.
+
+iv.     OPGC ought not to be allowed to cherry pick the provisions of the PPA for
+        unilateral benefit to the generator only in contradiction to provisions laid down
+        under Section 61 (d) of Electricity Act, 2003.
+
+ v.     The Petitioner-OPGC may be directed to provide the GCV of coal measured at
+        billing end as per the Joint Third Party Sampling of Coal at colliery end by
+        CIMFR (jointly engaged by OPGC and MCL) for the FY 2021-22 up to
+        December, 2021 and for every month along with landed price of coal.
+
+vi.     OPGC may be directed to provide the details of GCV of secondary fuel oil
+        along with ratio of LDO: HFO for FY 2020-21 and up to Dec 2021 (FY 2021-
+        22) for necessary scrutiny and consideration.
+
+vii.    The Commission has approved the coal cost as Rs 1573 per MT for generation
+        tariff of FY 2021-22, as per price circular of MCL, which may also be
+        considered for FY 2022-23.
+
+  (b)   An Objector submitted that OPGC has considered the GCV as fired basis.
+        However, OPGC filed an appeal to APTEL against the Commission order
+        dated October 28, 2020. As there is no interim order from APTEL, hence,
+        GCV cannot be considered on as fired basis. The test report of CIMFR or the
+        monthly invoices of MCL have also not been submitted. Therefore, the
+        Commission may determine the energy charges based on GCV of coal of 3101
+        Kcal/kg.
+
+  Response of OPGC
+  (a)   OPGC submitted that as per terms of the Amended PPA, GCV of coal shall be
+        considered ‘as delivered to the power station’. The Ministry of Power
+        Notification dated 30.03.1992 based on which the Amended PPA has been
+        structured, clearly provides for considering GCV of coal ‘actually received and
+        burnt’ for purposes of determining energy charge. Since implementation of the
+        PPA from 1996, OPGC has been providing the GCV of coal only on the basis
+        of this principle, which has been accepted by GRIDCO and paid accordingly.
+        GRIDCO cannot be allowed to adopt a different principle now to suit its own
+
+
+                                                                                      16
+      interest and withhold energy charge payments on the grounds of re-interpreting
+      the term ‘as delivered to the power station’ value of GCV as ‘grade GCV’
+      value (with moisture adjustment formula).
+
+(b)   Further, the Commission vide its Order dated October 28, 2020 in Case No. 43
+      of 2017 on the Petition filed by OPGC regarding the dispute on GCV to be
+      considered for tariff has finalized the formula to be considered for GCV of
+      coal as delivered to the power station (total moisture basis). OPGC has
+      filed Appeal No. 189 of 2020 before the Hon’ble APTEL against the
+      Commission’s Order in this regard.
+
+(c)   Since 1996, OPGC has been measuring GCV of coal at the boiler end/ firing
+      point within its Power Plant and GRIDCO has paid OPGC variable costs on
+      such basis without any objections. If GRIDCO’s submissions are accepted, it
+      will amount to precipitating the matter, before the Hon’ble APTEL has had the
+      opportunity to adjudicate upon the matter pending before it. GRIDCO cannot
+      be allowed to precipitate the matter until the final disposal of Appeal No. 189
+      of 2020 in deference to the fact that the Hon’ble APTEL is seized of the
+      matter.
+
+(d)   In line with the Judgement of the Hon’ble Supreme Court of India dated
+      18.04.2018 in Civil Appeal No. 9485 of 2017, variable costs for OPGC are to
+      be determined as per the PPA. As per the provision of PPA, the GCV of Oil
+      and Coal is to be considered as actually delivered to the power station, which
+      implies GCV measured at the ‘boiler end’ on a Total Moisture basis.
+      Accordingly, OPGC has considered the GCV of coal and oil as actually
+      delivered to the power station for the computation of energy charges. In view
+      of the above, OPGC has requested the Commission to consider the actual GCV
+      of coal as provided by OPGC for base ECR in line with Clause 9, Schedule II
+      of the PPA, till the final disposal of Appeal No. 189 of 2020 by the Hon’ble
+      APTEL.
+
+(e)   OPGC further submitted that in accordance with the direction of the
+      Commission in its Case No 33/2018 (Para 41), 70/2018 (Para 104) and Case
+      No. 69/2019 (Para 100) and terms of the PPA (Clause 9 of Schedule-II),
+      OPGC has submitted the audited prices and GCV for oil and coal while
+      claiming the half yearly fuel price adjustment and as such, Coal Sampling
+
+                                                                                  17
+             Report of CIMFR has no bearing on the monthly energy bill and hence the
+             same is not being submitted along with the monthly bills.
+
+      (f)    OPGC has already submitted the actual quantum of oil consumed for
+             generation for the Period of April 2021 to November 2021. As there is no
+             arrangement for use of HFO in OPGC Units 1&2, there is no actual
+             consumption of HFO. However, the details of price and GCV of both LDO
+             and HFO have been submitted to GRIDCO vide its Half Yearly Fuel Price
+             Adjustment bill.
+
+37.   Operational Performance Parameters
+
+      GRIDCO submitted that based on the monthly energy accounting statement issued by
+      SLDC for the FY 2021-22 (up to Dec-21) the cumulative PAFM works out to be
+      76.87%. The Commission may prudently fix the operational parameters for FY 2022-
+      23 in respect of the OPGC's Unit no. 1&2. Further, the Plant Availability Factor for
+      the Month, Plant Load Factor for FY 2022-23 shall have to be certified by SLDC on
+      month-to-month basis as is being carried out at present.
+
+      Response of OPGC
+
+      OPGC has considered the operational performance parameters as per Clause 8 of
+      Schedule II of the approved Amended PPA. OPGC submitted that the Hon’ble
+      Supreme Court vide its Judgment dated 19.04.2018 has held that primarily the tariff
+      norms under the PPA are to be followed in determining OPGC’s tariff. Further, to the
+      extent there are tariff norms not covered by the PPA, the Tariff Regulations may be
+      relied upon by the OERC to determine OPGC’s tariff. The suggestion of GRIDCO to
+      again prudently fix the operational parameters which are already agreed in PPA is in
+      contradiction to Hon’ble Supreme Court’s Judgment as well as Commission’s Orders
+      on re-determination of tariff of previous years and any attempt to revise the
+      operational norms which are already covered in the PPA will lead to violation of
+      Hon’ble Supreme Court’s Judgment.
+
+38.   Energy Charge
+
+      An Objector submitted that the test Reports of CIMFR for Coal delivered at the mine
+      end has not been submitted. Hence, in absence of CIMFR report the variable charges
+      should be calculated considering the GCV of coal as 3101 Kcal/kg. The invoices of
+
+
+
+                                                                                       18
+      the supplier namely MCL and invoices related to LDO and Price Circulars for HFO
+      have not been submitted.
+
+      Response of OPGC
+
+      (a)    With regard to cost of coal, LDO and HFO, OPGC submitted that for
+             computation of the fuel cost, OPGC has relied on the Clause 7.0 of Schedule II
+             of the Amended PPA which provides that the Price and GCV of coal and oil
+             shall be considered as delivered to the Power Station. Clause 8 of Schedule II
+             has mentioned the normative operational performance parameters. Further,
+             Clause 9 of Schedule II of the PPA mentioned that monthly fuel price
+             adjustment shall be consolidated at the end of the financial year and certified
+             by the Statutory Auditor. As the instant Petition is filed before the end of the
+             current year FY 2021-22, it is not possible to provide the auditor certified
+             value of delivered price and GCV of oil and coal as part of the tariff
+             submissions for the whole year; however, the actual delivered fuel prices and
+             GCV of oil and coal for the period from April to September 2021, has been
+             considered for the purpose of computation of tariff based on the auditor
+             certified Half Yearly Fuel Price Invoice.
+
+      (b)    OPGC submitted that the price of coal has been inadvertently submitted as Rs.
+             1614.28 per MT, as against the actual coal price of Rs. 1614.52 per MT as per
+             Half Yearly Fuel Price for the period April, 2021 to September, 2021.
+             Therefore, OPGC requested the Commission to consider the coal cost of Rs.
+             1614.52 per MT for the computation of Energy Charges for FY 2022-23. The
+             indicative break-up of the landed price of coal (Rs 1584.48/MT) is as notified
+             by Mahanadi Coalfields Limited (MCL) for the declared grade of coal of
+             Lakhanpur mines (G-14). The difference with coal cost proposed is        due to
+             declared grade of coal vis-à-vis coal quality report received based on third
+             party sampling, other charges including testing fee and revision in surface
+             transportation charges from August 1, 2021.
+
+39.   Water Charges and Water Conservation Fund
+
+      (a)    In the matter related to waiver of DPS in water charges, GRIDCO prayed to
+             direct OPGC to expedite the matter and in no case such amount should be
+             allowed as Pass-through.
+
+
+                                                                                          19
+      (b)    GRIDCO stated that OPGC has not sufficiently explained as to why the
+             additional charges payable to OHPC for drawl of water in the form of energy
+             compensation is required to be reimbursed by GRIDCO instead of being met
+             from O & M expenses which is being paid under relaxed norms fixed in the
+             subsisting PPA.
+
+      (c)    With respect to payment towards Water Conservation Fund pursuant to the
+             Resolution of Department of Water Resources, Government of Odisha dated
+             03.11.2015, GRIDCO submitted that GRIDCO shall reimburse the amount as
+             per the installment paid by OPGC subject to necessary direction by the
+             Commission and submission of all supporting documents in this regard.
+
+      Response of OPGC
+
+      OPGC submitted that as per Government of Odisha letter No. 6140 dated July 31,
+      2012, OPGC is required to pay additional charges to OHPC for drawl of water in the
+      form of Energy Compensation Charge (ECC). Further, OHPC has raised invoice from
+      FY 2005-06 till March 2021 towards delayed payment surcharge and ECC, which has
+      not been paid since levy of the charge by OHPC. OPGC is continuously pursuing the
+      matter with the Water Resources Department, Government of Odisha to waive the
+      penalty along with interest, which is under active consideration and till date the matter
+      has not been resolved. In accordance with Clause 10.0 of the approved Amended
+      PPA, the above claimed amount by the State Government being statutory in nature,
+      the request of GRIDCO to meet such expenses from O&M expenses is without merit
+      and deserves outright rejection.
+
+40.   Payment of Income Tax
+
+      With regard to payment of income tax and proposed reimbursement in the instant
+      ARR, the Objector submitted that the petitioner - OPGC, as per the provision under
+      OERC generation tariff Regulations 2020, considers income tax as a component of
+      AFC and allow pass through in the tariff; whereas the CERC Regulations do not
+      specify recovery of income tax from the beneficiaries. CERC recommends grossing of
+      RoE with the applicable tax rate of respective financial year. Therefore, the approval
+      of flat income tax as a reimbursement is illegal, unlawful and does not uphold the
+      principles of cost-based tariff. The proposal may be rejected by enforcing power to
+      relax clause no 49 of OERC Regulations and amend the same to consistent with
+      CERC Regulations. The Objector has requested the Commission to follow the CERC
+                                                                                            20
+      methodology for calculation of RoE by gross-up the ROE, by considering core
+      income of FY 2020-21 and tax paid for the same FY 2020-21. The effective tax rate
+      of OPGC for FY 2020-21 may be considered for grossing up the ROE for the ensuring
+      year. The Objector urged the Commission to rectify the past mistakes and be pleased
+      to allow the Income Tax as per CERC Regulations in view of the Section 61(a) of the
+      Act. Also, the tax rate of 34.94% is an old rate and the same has reduced to 15% for
+      FY 2022-23.
+
+      Response of OPGC
+
+      OPGC has proposed income tax for the FY 2022-23 considering RoE of Rs. 72 Crore
+      corresponding to the original capital cost as per the PPA. OPGC submitted that as per
+      Clause 6.0 of the approved amended PPA of Unit-1&2, income tax on the income for
+      supply of power shall be passed to GRIDCO.
+
+41.   Reimbursement of Other Charges
+
+      (a)          An Objector submitted that there is major variation in the proposal for the FY
+                   2022-23 of 17.35 Cr towards Electricity Duty against Rs. 12.98 Cr proposed
+                   and approved by the commission for FY 2021-22. The electricity duty should
+                   be limited to Normative Auxiliary Consumption of 9.5% of gross generation at
+                   PLF of 68.49%. The generation station has to operate within that limit and
+                   clause 10.0 of the Amended PPA is obviously to be limited to that payable for
+                   generation of power with above parameters.
+
+      (b)          GRIDCO proposed the following:
+
+              i.        GRIDCO shall make payment of monthly ECR on an actual basis and
+                        thus there will be no necessity of Fuel Price Adjustment on Half Yearly
+                        and Annual basis, for which OPGC may be directed to submit the
+                        necessary certified coal and oil data in required format prescribed in
+                        OERC Regulation from time to time.
+             ii.        Incentive/Disincentive shall be paid as per certified monthly energy
+                        accounting statement by SLDC and formula provided in the subsisting
+                        PPA.
+            iii.        Any other charges/taxes etc shall be scrutinized properly before
+                        consideration of payment by GRIDCO.
+
+
+
+                                                                                              21
+      iv.        The Petitioner-OPGC shall have to provide all supporting documents in
+                 support of their claim raised on GRIDCO in respect of fixed charges,
+                 energy charges and reimbursement of other charges.
+
+Response of OPGC
+
+(a)         OPGC submitted that Electricity Duty is payable on the actual auxiliary
+            consumption of the generating station at the prevailing rates, which is
+            currently Rs. 0.55/kWh. OPGC has claimed the reimbursement of Electricity
+            Duty of Rs. 17.35 Crore in FY 2020-21 from GRIDCO in accordance with the
+            PPA as per which reimbursement of Electricity Duty is limited to 9% of
+            auxiliary consumption against the Stakeholder’s comment to restrict the
+            reimbursement to 9.5%. Accordingly, OPGC has claimed Electricity duty of
+            Rs. 17.35 Crore provisionally for determination of tariff for FY 2022-23. The
+            actual Electricity Duty payable shall be billed in accordance with the
+            provisions of the approved Amended PPA.
+
+(b)         OPGC submitted that the present Petition has been filed for determination of
+            Generation Tariff for its Units 1&2 following the same principles in Case No.
+            33 of 2018, Case No.70 of 2018, Case No. 69 of 2019 and Case No. 71 of
+            2020. Accordingly, OPGC prayed for allowing variation in energy charges
+            during the year on account of fuel prices and calorific value to be claimed
+            through Fuel Price Adjustment in supplementary bills on half yearly basis in
+            accordance with the provisions of the approved Amended PPA. Further, the
+            Commission vide its orders in Case No. 33 of 2018 (Para 42), Case No.70 of
+            2018 (Para 105), Case No. 69 of 2019 (Para 101) and Case No. 71 of 2020
+            (Para 108) directed OPGC to claim the Fuel Price Adjustment and other
+            charges through supplementary bills, which is being followed by OPGC. The
+            practice being followed is in accordance with the approved PPA and any
+            direction to change the practice beyond Half Yearly/Annual Fuel Price
+            Adjustment will alter the terms and conditions of PPA.
+
+(c)         OPGC requested to the Commission to issue appropriate direction to GRIDCO
+            for reimbursement of Tax & Cess on land, SOC and MOC for SLDC ERP
+            Charges, Income Tax, ARR / Tariff Application fee, publication expenses and
+            contribution to water conservation fund on actuals.
+
+
+                                                                                      22
+42.   Not Truing up of Tariff Orders
+
+      An Objector submitted that the Commission has not carried out Truing up of capital
+      expenditure and tariff exercise for OPGC for past years. The Objector has pointed out
+      that the truing up of past expenses is necessary and mandated in OERC Generation
+      Tariff Regulations 2014. The Clause No 2.13 of the said Regulations has given
+      emphasis for filing true-up petition with respect to capital expenditure including
+      additional capitalization and determination of revenue gap /surplus. The Objector
+      submitted that the repeated failure of the OPGC to submit the true up petition and
+      failure to observe the prescribed procedure for tariff determination could result in
+      dismissal of the instant petition by the Commission. Further, as per first proviso of
+      Clause No 2.13, the Commission shall compare the approved ARR and tariff recovery
+      with the financial performance of the Petitioner for previous year. However, OPGC
+      does not admit such provision of the regulations, and restricts the truing up only
+      within capital expenditure. The Objector submitted that determination of generation
+      tariff for ensuing year without ascertaining the gain/loss of actual tariff recovery done
+      by OPGC in previous tariff period may not be prudent and shall be against the MYT
+      principles. OPGC has huge revenue surplus recovered from the tariff determined by
+      the Commission for previous years but they are neither passing out nor filing true-up
+      up petition nor sharing the same with consumer.
+
+      Response of OPGC
+
+      (a)    OPGC submitted that as per Regulations 2.12 of the OERC Generation Tariff
+             Regulations, 2014, the Commission shall carry out the truing up exercise along
+             with the tariff petition filed for the next tariff period with respect to the capital
+             expenditure including additional capital expenditure incurred up to
+             31.03.2019, as admitted by the Commission after prudence check at the time
+             of truing up. Further, the Regulation 2.13 also specifies that the existing
+             generating plants of OPGC may file an application each year for truing up of
+             its generating stations with respect to its capital expenditure including
+             additional capital expenditure incurred up to the last day of the previous
+             year(s) and determination of revenue gap / surplus for the ensuing year.
+
+      (b)    OPGC submitted that the effect of the Supreme Court’s Judgment is that the
+             arrangement would apply for the entire term of the subsistence of the PPA viz.
+             till 30.06.2026. Accordingly, the Commission determined the tariff for FY
+
+                                                                                               23
+             2016-17 to FY 2021-22 in accordance to the provision of the approved
+             amended PPA considering the approved original project cost. It is important to
+             note that as per OERC Generation Tariff Regulations, 2014 truing up of tariff
+             of generating stations is to be carried out only with respect to the capital
+             expenditure including additional capital expenditure.
+
+      (c)    Further, OPGC submitted that OPGC had filed a separate Petition, numbered
+             as Case No. 54 of 2018, for approval of additional capitalisation and the
+             Commission disallowed actual additional capitalisation for FY 2015-16 to FY
+             2017-18 and proposed additional capital expenditure for FY 2018-19. OPGC
+             has filed an Appeal before Hon’ble APTEL on November 15, 2021, as DFR
+             No. 407/2021 against the said Commission’s Order. Therefore, the tariff
+             determined by the Commission up to FY 2021-22 is as per the provision of the
+             approved PPA and as such no additional capital expenditure has been admitted
+             by the Commission for the period FY 2015-16 to FY 2020-21 and hence filing
+             of true up Petition for truing up of “Additional Capital Expenditure” in
+             accordance to the OERC Generation Tariff Regulations is not required.
+             However, OPGC shall be filing petition for true up of additional capital
+             expenditure for FY 2015-16 to FY 2022-23 should the outcome of the
+             aforesaid appeal filed by OPGC on the Commission’s Order before Hon’ble
+             APTEL, comes in it’s favour. Therefore, it is wrong on the part of the
+             stakeholder to submit that OPGC has not complied with the OERC Tariff
+             Regulations issued by the Commission.
+
+43.   Absence of MYT
+
+      An Objector has claimed that the provisions as per clause no. 6(2) of OERC
+      Generation Tariff Regulation 2020, along with the 1st and 2nd tariff period, are not
+      considered in the instant filing. The Objector has requested to submit the necessary
+      data as per regulations in the instant proceeding well in advance of the public hearing
+      so as to facilitate others to submit their views during the instant proceeding. The
+      Objector has observed that the absence of MYT approach in tariff determination and
+      truing up of previous years’ tariff order commenced by OERC is illegal and unlawful
+      as the tariff determined has been based on only estimated and projected figures
+      submitted by the petitioner.
+
+
+
+                                                                                          24
+      Response of OPGC
+
+      OPGC submitted that as per OERC Generation Tariff Regulations, 2020, OPGC is
+      required to file annual tariff petition for its existing stations Unit-1&2. OPGC has
+      complied with the provision of the Regulations, and accordingly filed tariff petition
+      for FY 2022-23 before November 30, 2021 along with all the information required in
+      accordance to the Regulations. Therefore, the stakeholder’s submission that the OPGC
+      has not complied with the Regulations is misplaced and devoid of any merit.
+
+44.   Other Issues
+
+      (a)    An Objector submitted that OPGC has availed undue benefits for more than 25
+             years in accordance to the judgment of the Supreme Court dated 19.04.2018 in
+             Civil Appeal No.9485 of 2017, which allowed (a) PLF of 68.49% (against
+             85% as per OERC Generation Tariff Regulations, 2020) (b) Higher Station
+             Heat Rate of 2500 Kcal/kWh (against 2430 Kcal/kWh as per OERC
+             Generation Tariff Regulations, 2020) (c) Auxiliary Consumption of 9.50%
+             (against 1% as per OERC Generation Tariff Regulations, 2020) (d) Secondary
+             Fuel Oil Consumption of 3.50 ml/kWh, and (e) Return on equity of Rs 72 Cr
+             (compared to Rs 50.8 Cr on the basis of 30% equity as stipulated in the
+             Generation Tariff Regulations of the Commission).
+
+      (b)    The objector observed that in the previous generation tariff orders issued by
+             the Commission on the ARR and Tariff application filed by the OPGC, the
+             Commission has not explicitly provided its views on the objections raised by
+             the various objectors during the tariff proceedings. It is seen from the previous
+             tariff orders issued by the Commission that the objections raised during the
+             tariff proceedings are not disposed of with reasons. To substantiate his
+             submission, the objector has annexed the RST orders issued by the SERCs of
+             Telangana, Chhattisgarh and Tamil Nadu wherein the observations, analysis
+             and Ruling of the SERCs are given below the objections raised by various
+             stakeholders. The objector urged the Commission to provide its valuable
+             observations, analysis and ruling in the instant tariff proceedings.
+
+      (c)    An Objector has requested that the Commission should direct the OPGC
+             authorities to conduct the audit through CAG.
+
+
+
+
+                                                                                           25
+(d)   Another Objector has suggested that, as at present the government is the owner
+      of 100% share of OPGC, the calculation of PPA as per direction of the
+      Hon’ble Supreme Court should be stopped.
+
+(e)   Another Objector suggested that OPGC should submit the month wise cash
+      flow statement showing sources of inflow and outflow of cash from FY 2010-
+      11 to 2021-2022.
+
+(f)   One of the Objectors has requested OPGC to produce the number of pending
+      cases and the amount paid for legal expenses. The Objector has suggested all
+      cases should be dropped considering the merit.
+
+(g)   GRIDCO suggested that the Commission may consider to fixing the rate of
+      imported power from the grid system to be the actual full tariff at which power
+      is procured from OPGC by GRIDCO. GRIDCO has been adjusting the cost of
+      imported power from FY 2016-17 onwards as per the actual rate of power
+      arrived at, considering all charges paid to OPGC.
+
+(h)   GRIDCO stated that the Commission may kindly consider to give necessary
+      direction regarding Deviation Settlement Mechanism (DSM) Charges payable
+      by OPGC in case of deviation between scheduled generation and actual export
+      to GRIDCO.
+
+(i)   OPGC may be directed to fully utilise the ash generated from the power
+      station.
+
+Response of OPGC
+
+(a)   OPGC submitted that contention raised by the stakeholder with respect to
+      undue benefit gained by OPGC pursuant to the Judgment of the Hon'ble
+      Supreme Court of India, is baseless and devoid of any merit. OPGC submitted
+      that the Hon’ble Supreme Court vide its judgment dated April 19, 2018 in
+      Civil Appeal No. 9485 of 2017 held that primarily the tariff norms under the
+      PPA are to be followed in determining OPGC’s tariff. Further, to the extent
+      there are tariff norms not covered by the PPA, the Tariff Regulations may be
+      relied upon by the OERC to determine OPGC’s tariff. The effect of the
+      Hon’ble Supreme Court’s Judgment is that this arrangement would apply for
+      the entire term of the subsistence of the PPA viz. till 30.06.2026. Accordingly,
+      the instant Petition for approval of Generation Tariff for FY 2022-23 has been
+
+                                                                                   26
+             filed in accordance with the approved Amended PPA pursuant to the Hon’ble
+             Supreme Court’s Order dated April 19, 2018 in Civil Appeal No. 9485 of 2017
+             and the Commission’s previous tariff Orders.
+
+      (b)    OPGC submitted that being a Government Company, the accounts of OPGC
+             are audited by the Comptroller and Auditor General of India (CAG) under the
+             provisions of the Companies Act.
+
+      (c)    Irrespective of ownership of the Company, the basic principles of tariff
+             determination cannot change and tariff needs to be determined as per the
+             provisions of the PPA in compliance with the Hon’ble Supreme Court
+             Judgment. Hence, the stakeholder’s statements for not complying with the
+             Orders of the Supreme Court are unwarranted.
+
+      (d)    OPGC submitted that the audited annual accounts for FY 2020-21 have been
+             submitted to the Commission along with the Tariff Petition on dated
+             November 30, 2021.
+
+      (e)    OPGC submitted that the information on pending cases and legal expenses is
+             not relevant and has not separately sought any compensation for legal
+             expenses.
+
+      (f)    OPGC submitted that imported power from the grid system is being settled in
+             accordance with the practice being followed as per the Approved PPA and
+             record note of discussion held on 13.08.1996 between OPGC and GRIDCO.
+             The approved PPA has the appropriate provision for considering the tariff for
+             power imported by OPGC for black start up along with its settlement. Hence,
+             OPGC submitted before the Commission for settlement of the imported power
+             in accordance with the approved PPA.
+
+      (g)    OPGC submitted that the energy scheduling to GRIDCO from its power
+             station is being settled on net exchange basis every month, wherein actual
+             generation being considered as scheduled generation, in accordance with the
+             practice being followed as per the approved Amended PPA.
+
+VIEWS OF CONSUMER COUNSEL (PARA 45)
+
+45.   WISE, Pune on behalf of the Consumers made a presentation on the Analysis of ARR
+      and tariff filing of OPGC for FY 2022-23. The Consumer Counsel’s observations/
+      suggestions are as given below:
+
+                                                                                       27
+  i.   OPGC has not proposed any additional capitalization as the same was decided
+       in the Commission’s order in Case No. 54 of 2018. ROE has been claimed
+       based only on original capital cost.
+
+ ii.   OPGC has proposed interest on working capital @7.20% based on actual
+       interest rate for working capital for FY 2021-22. So, interest on working
+       capital may be reviewed by the Commission based on actual information and
+       working capital requirement should be based on approved values.
+
+iii.   OPGC has considered the Clause 3.0 (d) and (e) of Schedule II of the
+       Amended PPA which provides that O&M expenses for first year of operation
+       at the rate of 2.5% of the capital cost and which shall be escalated by 8% each
+       year from April 1, 1996. Actual O&M expenses and its growth rate can be
+       reviewed by the Commission in this regard.
+
+iv.    OPGC proposed the PLF as 68.49%, as per Amended PPA. However, the
+       actual PLF for FY 2020-21 was 70.93%. Also, as per Regulations, NAPLF of
+       thermal power stations is considered as 85%. However, actual Average PLF of
+       OPGC (FY 2011-12 to FY 2021-22) is 79.83%. So, the Commission can
+       appropriately decide the PLF for FY 2022-23.
+
+ v.    OPGC has submitted the specific oil consumption as 3.5 ml/kWh for FY 2022-
+       23 as a mix of HFO and LDO in the ratio of 90:10. As per actual data, they
+       have used LDO only but now proposing to use LDO and HFO. OPGC should
+       justify its proposal.
+
+vi.    The Commission, in the ARR of FY 2021-22, has approved the GCV as 3101
+       Kcal/kg. However, OPGC proposes the same as 2772.64 Kcal/kg for FY 2022-
+       23, whereas, the actual GCV of FY 2020-21 is 2728 Kcal/kg and 2850 Kcal/kg
+       (up to November 2021) is for FY 2021-22. In Para 92 of last year’s order the
+       Commission opined that: “As per Commission’s Order dated 28.10.2020,
+       sampling report by CIMFR at mine’s end with moisture correction would be
+       considered for determining GCV of ‘as delivered’ Coal on total moisture
+       basis. This is in line with PPA and order of Hon’ble Supreme Court. ……, the
+       Commission has decided to consider the base GCV of Grade-14 (G-14), i.e.
+       3101 kcal/kg similar to last year order.” So, without availability of data as per
+       the direction of the Commission, the MCL declared grade’s GCV (G-14) can
+       be considered for present tariff determination process.
+                                                                                     28
+      vii.           The weighted average coal price for FY 2020-21 was 1583 Rs/ MT and in FY
+                     2021-22 the average price was 1599 Rs/MT (up to November 2021). So, the
+                     latest available price of coal can be considered.
+
+      viii.          OPGC has proposed the electricity duty payment for FY 2022-23 as per
+                     payment made in FY 2020-21. However, it should be as approved by the
+                     Commission for FY 2021-22, i.e. at the rate of Rs.0.55/kWh in accordance
+                     with PPA norms, i.e. 9.5% of auxiliary Consumption on normative generation
+                     of 68.49%.
+
+       ix.           Along with water cess and water charges, energy compensation to OHPC is
+                     proposed by OPGC for FY 2022-23. This charge should be reviewed and
+                     OPGC should produce proper justification of payment of such charges along
+                     with relevant documents while claiming reimbursement from GRIDCO. Water
+                     contribution fund payment should be reviewed based on actual payment made
+                     vis-a-vis the Govt. order and verification of the same by GRIDCO.
+
+        x.           Income tax claim can be approved on the basis of approved RoE, which is
+                     derived from approved equity, as approved by the Commission.
+
+OBSERVATIONS OF THE STATE ADVISORY COMMITTEE (SAC) (PARA 46)
+
+46.           The Commission convened the State Advisory Committee (SAC) meeting on
+              11.03.2022. No specific reference was made relating to Annual Revenue Requirement
+              and Tariff filing of OPGC in that meeting.
+
+VIEWS OF THE GOVT. OF ODISHA (PARA 47)
+
+47.           Government of Odisha vide their Lr. No. 2428/ En., Bhubaneswar, dated 22.03.2022
+              have submitted their views on the tariff proceeding for FY 2022-23 as follows:
+
+              “Operation of OPGC has become unviable because of present level of provisional
+              tariff. OPGC has also filed an application before the Commission for determination of
+              tariff and it may take some time. Hence, OPGC may be allowed reasonable and
+              prudent provisional tariff w.e.f. 01.04.2022 for covering its fixed cost in full.”
+
+
+
+
+                                                                                                   29
+ANALYSIS OF OPGC'S PROPOSAL AND COMMISSION’S OBSERVATIONS
+WITH REFERENCE TO DETERMINATION OF GENERATION TARIFF FOR FY
+2022-23 (PARA 48 TO 61)
+
+48.   The present petition for determination of Generation Tariff for FY 2022-23 has been
+      filed by OPGC under Sections 62 and 86 of the Electricity Act, 2003 read with
+      Amended PPA, related provisions of OERC (Terms and Conditions for Determination
+      of Generation Tariff) Regulations, 2020, OERC (Conduct of Business) Regulations,
+      2004 and Hon’ble Supreme Court Order dated April 19, 2018 in Case No. 9485 of
+      2017.
+
+49.   As per the judgement of Hon’ble Supreme Court, the Commission while determining
+      the tariff of the Generating Company for FY 2022-23 has relied upon the norms of
+      PPA for fixed & variable costs and statutory Regulations for other costs not reflected
+      in the PPA. The detailed analysis and observations of the Commission are as follows:
+
+50.   Computation of Annual Fixed Cost
+
+      (a)          The Commission has considered the norms as per Clause 3.0 of Schedule II of
+                   the Amended PPA for approval of the Annual Fixed Cost. Accordingly the
+                   component wise annual fixed cost of OPGC for determination of generation
+                   tariff for FY 2022-23 is as under:
+              i.         Capital Cost: As per the Amended PPA signed between OPGC and
+                         GRIDCO and approved by the OERC vide its order dated 27.04.2015,
+                         the original capital cost of the project is Rs. 1060 Crore. Accordingly,
+                         the same is approved for determination of generation tariff of OPGC for
+                         FY 2022-23.
+             ii.         Debt – Equity Ratio: As per Clause No.8.0 of Schedule II of the PPA,
+                         the original capital cost of the project (Rs. 1060 Crore) consists of equity
+                         of Rs. 450 crore and debt of Rs. 610 crore. Accordingly the Commission
+                         approves the same debt-equity ratio for determination of generation tariff
+                         for FY 2022-23.
+            iii.         Depreciation: The Clause no. 3.0(a) of Schedule II of the Amended
+                         PPA provides that depreciation charges shall be equal to 7.5% of the
+                         Capital Cost during the year. Since the assets of the generating Stations
+                         have fully depreciated by the end of FY 2008-09, OPGC has not
+                         considered any amount towards depreciation. Accordingly, the
+
+                                                                                                  30
+       Commission does not approve any amount towards depreciation for
+       determination of generation tariff for FY 2022-23.
+iv.    Return on Equity (RoE): As per Clause 8.0 (10) of Schedule II of PPA,
+       Return on Equity is to be paid @ 16% on Equity Capital. Considering
+       the equity capital of Rs. 450 crore, OPGC has claimed the RoE of Rs.72
+       crore (@ 16% per annum). Accordingly, the Commission approves Rs.
+       72 crore towards RoE for determination of generation tariff for FY 2022-
+       23.
+ v.    Interest on Loan Capital: As per Clause 8.0 (7) and (11) of Schedule II
+       of the Amended PPA, loan amount is Rs. 610 Crore and interest on loan
+       will be paid as per actual. As the loan amount of the original project cost
+       has been fully repaid by financial year ending 2011-12, OPGC has not
+       claimed any amount towards Interest on loan capital. Accordingly, the
+       Commission does not approve any amount towards interest on loan
+       capital for determination of generation tariff for FY 2022-23.
+vi.    O&M Expenses: As per clause 3 (d) & (e) of Schedule-II of the
+       amended PPA, capital cost is to be taken as Rs.1030 crore and O & M
+       Expense for the first year of operation shall be @ 2.5% of the capital
+       cost and it shall be escalated @ 8% each year from 01.04.1996 with the
+       first escalation factor becoming applicable on 01.04.1997. Based on the
+       above methodology OPGC has claimed Rs. 190.46 crore towards O&M
+       expenses. Accordingly, the Commission approves the same amount of
+       Rs. 190.46 crore, i.e., [Rs.1030 cr x 2.5% x (1.08)26] towards O&M
+       expenses for determination of generation tariff for FY 2022-23.
+vii.   Interest on Working Capital: As per the Clause 3.0 (f) of Schedule II
+       of the PPA, working capital requirement is to be worked out by
+       considering coal cost for 1.5 months, Oil cost for 2 months, O & M
+       expenses for one month and Receivable for 2 months on the normative
+       level of generation. The interest rate applicable for working capital shall
+       be as on the date when the fixed charges are computed. OPGC has
+       submitted that it has started availing working capital requirement from
+       external sources and the actual interest rate for the working capital
+       facility is 7.20% in the FY 2021-22 till November 2021. The same has
+       been considered for FY 2022-23. The detailed calculation of working
+
+                                                                               31
+                    capital requirement and interest on working capital approved by
+                    commission against OPGC’s proposal for determination of generation
+                    tariff for FY 2022-23 is given in table below:
+                                        Table-7
+          Interest on working capital Approved by Commission for determination
+                            of Generation Tariff for FY 2022-23
+                                                                     (Rs Crore)
+                                                              FY 2022-23
+                  Particulars
+                                           Norms          OPGC         OERC
+                                                         Proposal     Approval
+      Cost of Coal                       1.5 Months           45.21        40.42
+      Cost of Secondary Fuel Oil          2 Month              7.33         7.33
+      O&M expenses                        1 Month             15.87        15.87
+      Receivables                         2 Month            113.54       107.02
+      Working Capital Requirements                           181.95       170.64
+      Rate of Interest                                       7.20%        7.20%
+      Interest on working capital                             13.10        12.29
+
+               Accordingly the Commission approves Rs. 12.29 Crore towards interest on
+               working capital as against OPGC proposal of Rs. 13.10 Crore.
+      (b)      The proposal of OPGC and approval of the Commission with respect to
+               Annual Fixed cost of OPGC (Unit-I&II) is summarised in the table below:
+                                              Table- 8
+              Total Annual Fixed Cost Approved by Commission for determination of
+                         Generation Tariff of OPGC for FY 2022-23
+                                                                      (Rs Crore)
+                    Particulars          OPGC Proposal      OERC Approval
+            Depreciation                               0.00              0.00
+            Return on Equity                          72.00             72.00
+            Interest on Loan Capital                   0.00              0.00
+            O&M Expenses                             190.46            190.46
+            Interest on working capital               13.19             12.29
+                       Total                         275.56            274.74
+                The total AFC comes to Rs 274.74 Crore as against OPGC’s proposal of Rs.
+               275.56 Crore.
+51.   Computation of Energy Charges:
+      (a)      Operational Performance Parameters
+               Regarding operational parameter, the Commission adopts the norms
+               mentioned in the PPA. Details of these parameters are given in table below:
+                                          Table-9
+         Operational norms adopted by the Commission in accordance with PPA for
+             Determination of Generation Tariff of OPGC for FY 2022-23
+              Particulars            Unit       OPGC Proposal OERC Approval
+      Plant Load Factor (PLF)-        %              68.49             68.49
+                                                                                             32
+        Particulars                Unit       OPGC Proposal         OERC Approval
+Normative
+Auxiliary consumption             %                 9.50                  9.50
+Gross Station Heat Rate       (Kcal/Kwh)            2500                  2500
+Secondary fuel oil
+                               (ml/Kwh)              3.50                 3.50
+consumption
+
+(b)    Price & GCV of Coal and Secondary fuel oil
+       The Commission vide its Order dated 28.10.2020 in Case No. 43/2017 has
+       provided the basis for calculation of GCV of coal as delivered to the power
+       station (total moisture basis). This has been challenged by OPGC in APTEL
+       which is subjudice. As per Clause 7 of Schedule-II of the PPA, Gross Calorific
+       Value (GCV) of Secondary Oil and Coal is to be considered “as delivered”
+       basis to the power station. During the present proceeding, the details of GCV
+       of Coal “as delivered” (at the delivery point) was sought from OPGC in line
+       with the PPA and the Order of Hon’ble Supreme Court. OPGC has not
+       submitted the details of the coal at the delivery point (based on as billed GCV
+       with moisture correction) and has rather submitted GCV of coal on “as fired”
+       basis (based on total moisture method) which does not appear even in their
+       PPA. As per Commission’s Order dated 28.10.2020, sampling report by
+       CIMFR at mine’s end with moisture correction would be considered for
+       determining GCV of ‘as delivered’ Coal on total moisture basis. This is in line
+       with PPA and order of Hon’ble Supreme Court. However, OPGC has taken a
+       plea at para 3.40 of their tariff application that the order of the Commission in
+       this regard in Case No. 43/2017 dated 28.10.2020 has been challenged before
+       Hon’ble APTEL in Appeal No. 189/2020. Therefore, in the absence of above
+       details, the Commission has decided to consider the base GCV of Grade-14 (G-
+       14) coal, i.e. 3101 kcal/kg similar to last year order. On the query of the
+       Commission, OPGC has submitted that the price of G-14 coal has also been
+       revised to Rs. 1614.52/ MT including all charges w.e.f. 01.08.2021.
+
+(c)    Considering all the above operational norms, price and GCV of Coal and
+       Secondary fuel oil parameters of PPA, details for calculation of energy charges
+       are given in table below:
+
+
+
+
+                                                                                     33
+                                        Table-10
+            Computation of Energy Charges for determination of Generation
+                             Tariff of OPGC for FY 2022-23
+                                                        OPGC         OERC
+                 Particulars                  Unit
+                                                       Proposal    Approval
+      Price of Coal                        (Rs./MT)     1614.52      1614.52
+      Price of LDO                          (Rs./KL)   52744.07     52744.07
+      Price of HFO                          (Rs./KL)   49540.30     49540.30
+      GCV of Coal                          (Kcal/Kg)    2772.64       3101
+      GCV of Oil                           (Kcal/Kg)     10000        10000
+      Secondary Fuel Oil Consumption
+                                           (ml/kWh)       3.50         3.50
+      (LDO-10% & HFO-90%)
+      Energy Charges                     (Paisa/kWh)    177.89       161.09
+
+       The Commission approves indicative Energy charges as 161.09 paisa/kWh for OPGC
+       as against OPGC’s proposal of @ 177.89 paisa/kWh for FY 2022-23.
+
+52.    Reimbursement of Other Charges
+
+       Apart from the Annual Fixed Cost and Energy Charges, as per Clause 10 and 11 (vii)
+       of Schedule II of PPA, other charges such as levies, taxes, duties cess, tariff filing fee
+       etc. and supplementary bills, if any, are to be reimbursed from GRIDCO. Accordingly,
+       OPGC has proposed to consider other charges of Rs. 72.29 Crore for FY 2022-23 as
+       part of the reimbursement from GRIDCO. These are to be examined item-wise by
+       GRIDCO based on their paid bills as per appropriate rules applicable to those charges.
+       However, the following expenditure towards Other Charges is allowed provisionally:
+
+       (a)    Electricity Duty
+
+              OPGC has submitted that Rs. 17.35 Crore (@ Rs.0.55/kWh) has been claimed
+              towards reimbursement of electricity duty from GRIDCO during the FY 2020-
+              21 in accordance with PPA and has requested the Commission to approve
+              provisionally the same amount for FY 2022-23. It has been observed that in
+              the application before Arbitral Tribunal in the year 2004, both OPGC and
+              GRIDCO had agreed to consider auxiliary consumption of 9% for the purpose
+              of calculation of Electricity Duty. Further, in response to the Commission’s
+              queries, OPGC has submitted an estimated PLF of 79.17% for FY 2022-23.
+              Considering 9% auxiliary Consumption at 79.17% PLF, the Commission
+              provisionally approves Rs. 14.42 Crore (@ Rs.0.55/kWh) towards electricity
+              duty for FY 2022-23.
+
+
+
+
+                                                                                              34
+(b)   Water Cess & Water Charges
+
+      OPGC has submitted that, during the FY 2020-21, it has incurred an
+      expenditure of Rs.8.58 Crore towards water cess and water charges and
+      accordingly the same has been claimed to allow for reimbursement in the ARR
+      for the FY 2022-23. Based on the above proposal of OPGC, the Commission
+      provisionally approves the amount of Rs. 8.58 Crore towards water cess and
+      water charges for FY 2022-23 and direct OPGC to produce proper justification
+      of payment of such charges along with relevant documents while claiming
+      reimbursement from GRIDCO. The Commission also directs GRIDCO to
+      verify the documents while making payment to OPGC.
+
+(c)   Energy Compensation Charge
+
+      OPGC has submitted that in addition to water cess and water charges, it has to
+      pay an additional charge to OHPC for drawal of water in the form of Energy
+      Compensation Charges (ECC) based on Govt. of Odisha letter dated
+      31.07.2012. The estimated charge on this account is Rs. 0.71 Crore
+      approximately in line with the invoice raised by OHPC for the FY 2020-21.
+      Based on the above proposal of OPGC, the Commission provisionally
+      approves the amount of Rs. 0.71 Crore towards ECC for FY 2022-23 and
+      direct OPGC to submit proper justification of payment of such charges along
+      with relevant documents while claiming reimbursement from GRIDCO. The
+      Commission also direct GRIDCO to verify the documents while making
+      payment to OPGC.
+
+(d)   Tax and Cess on Land
+
+      OPGC has submitted that it has incurred an expenditure of Rs. 0.05 Crore
+      towards tax and cess on land during the FY 2020-21 and claims the same
+      amount for reimbursement from GRIDCO during FY 2022-23. The
+      Commission allows reimbursement of tax and cess on land based on the actual
+      expenditure by the Petitioner. Accordingly, an amount of Rs. 0.05 Crore is
+      provisionally approved for reimbursement from GRIDCO during FY 2022-23
+      towards payment of tax and cess on land by OPGC.
+
+
+
+
+                                                                                 35
+(e)   System Operation Charges (SOC) & Market Operation Charges (MoC)
+      for SLDC
+
+      OPGC has claimed Rs.0.34 Crore towards SoC & MoC charges payable to
+      SLDC. The Commission approves Rs. 0.36 Crore (@ Rs.8574.352/MW/year)
+      for FY 2022-23 towards SoC & MoC charges of OPGC payable to SLDC as
+      per the latest SLDC Charges and Fees order.
+
+(f)   ERPC Charges
+
+      OPGC has proposed an amount of Rs. 0.16 Crore towards reimbursement
+      against ERPC charges which has been actually paid by OPGC during FY 2020-
+      21. The Commission provisionally approves the same amount towards
+      reimbursement by GRIDCO during FY 2022-23.
+
+(g)   Income Tax
+
+      OPGC has proposed an amount of Rs. 38.67 crore towards reimbursement of
+      income tax for the FY 2022-23 considering the RoE of Rs. 72 Crore
+      corresponding to the original capital cost and the applicable tax rate of 34.94%
+      on pre-tax RoE. As per Clause 6 of Schedule II of the PPA, income tax on the
+      income for supply of power will be passed on to GRIDCO. In response to
+      queries raised by the Commission, It has been observed that OPGC has not
+      claimed any income tax for FY 2020-21. Accordingly, the Commission is not
+      considering any income tax under other charges of OPGC for FY 2022-23.
+      However, Income tax shall be reimbursed by GRIDCO on actual basis as per
+      the applicable provisions in PPA as and when claimed by OPGC for FY 2022-
+      23 and such amount shall be reflected during Truing-up of GRIDCO.
+
+(h)   Reimbursement of contribution towards Water Conservation Fund
+      (WCF)
+
+      As per the resolution of Department of Water Resources, Govt. of Odisha,
+      dated 18.05.2015, OPGC has proposed approval of Rs. 6.13 Crore towards
+      reimbursement of contribution to WCF during FY 2022-23. Accordingly, the
+      Commission provisionally allows Rs 6.13 Crore for reimbursement of
+      contribution towards WCF by GRIDCO during FY 2022-23. It is further
+      directed that the above amount shall be reimbursed by GRIDCO subject to
+
+
+
+                                                                                   36
+                  verification of supporting documents of actual payment vis-a-vis the Govt.
+                  order in this regard.
+
+      (i)         Recovery of ARR and Tariff Petition Fees & Publication Expenses
+
+                  The Commission provisionally approves an amount of Rs. 0.30 Crore for FY
+                  2022-23 towards recovery of ARR and Tariff petition fees & publication
+                  expenses as proposed by OPGC.
+
+      The summary of reimbursement of other charges allowed by the Commission for the
+      FY 2022-23 on provisional basis is given in the table below:
+                                         Table – 11
+                          Reimbursement of Other Charges for 2022-23
+                                                                         (Rs. in Crore)
+            Sl.                                                OPGC        OERC
+                                    Particulars
+            No.                                               Proposal    Approval
+            (a)    Electricity Duty                              17.35         14.42
+            (b)    Water Cess and Water Charges                   8.58           8.58
+            (c)    Energy Compensation Charges                    0.71           0.71
+            (d)    Tax and Cess on land                           0.05           0.05
+            (e)    SOC and MOC for SLDC                           0.34           0.36
+            (f)    ERPC Charges                                   0.16           0.16
+            (g)    Income Tax                                    38.67              0
+            (h)    Recovery of ARR and Tariff Petition Fees       0.30           0.30
+            (i)    Water Conservation Fund                        6.13           6.13
+                   Total                                         72.29         30.71
+
+      Since the above charges are reimbursable, the same shall be reflected in the ARR of
+      GRIDCO. As per Clauses 10 & 11(vii) of Schedule II of the PPA, GRIDCO is
+      directed to reimburse the charges as mentioned in the above table on actual basis as
+      and when claimed by OPGC with appropriate documentary evidences.
+
+53.   Additional Capitalization
+
+      The Commission had earlier disallowed additional capitalisation in its Order dated
+      21.05.2021. In the instant petition, OPGC has not claimed additional capitalization for
+      FY 2020-21 and projected additional capitalization for FY 2021-22 and FY 2022-23.
+      OPGC has filed an appeal with Hon’ble APTEL against this Commission’s Order
+      dated 21.05.2021 and based on the outcome, OPGC will approach the Commission
+      through a separate petition for approval of additional capitalization. As per the prayer
+      of OPGC, the Commission hereby allow OPGC to file a separate petition regarding
+      additional capitalisation from FY 2015-16 to FY 2022-23 after the APTEL Judgement
+
+
+                                                                                           37
+      is issued against the appeal filed by OPGC on Commission’s Order dated 21.05.2021
+      in Case No. 54 of 2018.
+
+54.   Non-Tariff Income
+
+      As per Regulation 19 (2) of the OERC (Terms and Conditions for Determination of
+      Generation Tariff) Regulations, 2020, “the Annual Fixed Cost for OHPC and OPGC
+      (Unit-I & II) will be determined by the Commission by taking into account the
+      notification(s) issued by the Government of Odisha from time to time and their PPAs.”
+      The notifications of Government of Odisha does not mention about deduction of NTI
+      from the Fixed Cost. Since fixed cost is firmed up by Govt. of Odisha, the
+      Commission cannot deviate from it in view of the Order of Hon’ble Supreme Court.
+      Further, the approved amended PPA of OPGC does not provide for any adjustment of
+      Non-Tariff Income from AFC, therefore, Non-Tariff Income has not been factored in
+      the tariff determination.
+
+55.   Plant Load Factor
+
+      As per Clause 8 of the amended PPA, the Normative Availability Factor shall be
+      68.49% and target PLF to avail incentive shall be more than 80%. It is observed that
+      the PLF submitted by OPGC in response to Commission’s queries is 79.17%. The
+      Commission takes a note of PLFs of other thermal power plants operating in the state
+      and accordingly expects OPGC to put sincere efforts for improving the PLF so as to
+      avail incentives.
+
+56.   MYT Principles
+
+      As per Regulation 7 (6) of OERC (Terms and Conditions for Determination of
+      Generation Tariff) Regulations, 2020, the existing generation plants of OPGC (Unit 1
+      & 2) has to submit an application to the Commission for determination of tariff as per
+      annual schedule by 30th November every year. Accordingly, OPGC has filed its tariff
+      application for FY 2022-23 before 30th November, 2021 along with all the
+      information required in accordance to the regulations. The MYT principles are
+      nothing but certain sets of principles for determination of tariff for a control period.
+      The OERC regulation strictly follows the same. Therefore, it is inappropriate to say
+      that MYT principles have not been followed.
+
+
+
+
+                                                                                           38
+57.    Truing up of Tariff Orders
+
+       A separate petition has been filed by OPGC for approval of additional capitalisation
+       (i.e. the only additional capital expenditure for OPGC) from FY 2015-16 to FY 2018-
+       19 which has been disallowed by the Commission. OPGC then filed an Appeal before
+       Hon’ble APTEL on 15.11.2021 against the said Commission’s Order. However,
+       OPGC has not filed any truing up application for the period FY 2019-20 and FY
+       2020-21. Once these applications are filed, the Commission will decide the matter
+       basing on the outcome of cases pending in this regard before Hon’ble APTEL.
+
+58.    Other Issues
+
+       The Commission takes a note of other issues raised by Objectors mentioning Station
+       Heat Rate, Auxiliary Consumption, Secondary fuel oil consumption, PLF and Return
+       on Equity not aligned as per OERC Generation Tariff Regulations, 2020. It may be
+       noted that these aspects shall be dealt as per the PPA following the directions of
+       Hon’ble Supreme Court. Further, since they are a public sector company now, their
+       auditing shall be governed as per the rules of the Government.
+
+59.    Summary of Approved Generation Tariff of OPGC for FY 2022-23
+
+       The summary of generation tariff for OPGC as approved by the Commission for FY
+       2022-23 is given in Table below:
+                                     Table - 12
+             Summary of Approved Generation Tariff of OPGC for 2022-23
+               Particulars     Units    OPGC Proposal OERC Approval
+            Annual Fixed Cost Rs. Crore       275.56         274.74
+            Variable Charges Paisa/kWh        177.89         161.09
+            Other Charges     Rs. Crore        72.29          30.71
+
+60.    Directives of the Commission
+
+      (a)   Recovery of monthly Capacity Charges approved by the Commission shall be
+            made as per the methodology stipulated in the Amended PPA and GRIDCO shall
+            make payment after prudence check.
+
+      (b)   Based on the operational norms like Auxiliary Consumption, Gross Station Heat
+            Rate and specific secondary Oil consumption as indicated in Clause 8 of
+            Schedule-II of the PPA, Price and GCV of Oil & Coal as actually delivered to
+            power station as per Clause 7 of Schedule-II of the PPA, bills shall be raised by
+            OPGC and it shall be paid by GRIDCO after verification.
+
+                                                                                          39
+      (c)   Incentives/ Disincentives, other charges, supplementary bills etc. are to be
+            recovered by OPGC from GRIDCO as per Clause 10 and 11 (vii) of the PPA on
+            production of documentary evidence.
+
+      (d)   In addition to the above, OPGC is directed to provide the following details to this
+            Commission:
+
+             i. Efforts being made for ash disposal/ utilization in line with MOEF&CC
+                Notification dated 31.12.2021 and MoP Notification No.9/7/2011-ST.TH
+                (Vol. IV) dated 22.02.2022.
+            ii. Measures relating to safety being taken in line with CEA (Safety
+                Requirements for Construction, Operation and maintenance of Electrical
+                Plants and Electric Lines) Regulation as amended from time to time.
+            iii. The feasibility for development of solar power plant within the existing
+                power plant area and other steps being taken in this regard.
+            iv. Steps being taken to improve performance and availability of IB TPS.
+
+      (e)   The Tariff now approved shall be effective from 01.04.2022 for energy sold to
+            GRIDCO and shall be in force until further orders.
+
+61.    Since no substantial capacity addition from hydro/thermal source is expected in near
+       future and considering the large scale penetration of renewable energy, there is need
+       for adequate system balancing in the form of Pumped Storage System (PSS) or other
+       Energy Storage Systems (ESS) including Battery Energy Storage System (BESS).
+       Further, to meet the peak demand and base load during night time there would be
+       requirement of coal based and hydro based plant until Round the Clock (RTC) supply
+       is available through RE sources. Taking into account the dependency on coal based
+       generation that cannot be totally eliminated even in longer run; OPGC may take pro-
+       active steps for capacity addition and plan accordingly in consultation with
+       Government of Odisha, OPTCL and GRIDCO.
+
+62.    The case is accordingly disposed of.
+
+
+
+
+                 Sd/-                                                      Sd/-
+       (S.K. RAY MOHAPATRA)                                         (G. MOHAPATRA)
+             MEMBER                                                  CHAIRPERSON
+
+
+                                                                                            40
+

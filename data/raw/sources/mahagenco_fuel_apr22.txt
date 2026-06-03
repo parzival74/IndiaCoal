@@ -1,0 +1,182 @@
+               MoD stack is preapared as per Clause 33 of State Grid Code Regulation 2020 issued by Hon. MERC on dtd. 02.09.2020
+                            DISCOM WISE MOD STACK OF VARIABLE CHARGES (VC) FOR MAY-2022 (R2)
+                                                                (Effective from 08.06.2022 to 15.06.2022)
+
+                                                                                                                               Variable Charge Rs./KWh in Descending Order
+                                                                                                Installed
+                                                                              OWNER/
+Sr. no.                       Generating Station                                            Capacity/ Share Type of Fuel                      Impact for          Total Variable
+                                                                               TYPE
+                                                                                             in ISGS (MW)                Approved Variable approved change
+                                                                                                                               Charge(Rs/KWh)   in law (if any)
+                                                                                                                                                                   Charge(Rs/
+                                                                                                                                                  Rs./KWh)            KWh)
+  1                                      2                                        3                 4                   5            6                7                 8
+                                                                   DECENTRALISED MOD STACK FOR MSEDCL
+  1       KAWAS (NAPM COM GAS)                                                   CS                204              Gas           25.9558         0.0000            25.9558
+  2       JGPS (NAPM COM GAS)                                                    CS                200              Gas           25.7688         0.0000            25.7688
+  3       KAWAS (RLNG)                                                           CS               XXX               Gas           11.5366         0.0000            11.5366
+  4       JGPS (RLNG)                                                            CS               XXX               Gas           11.3455         0.0000            11.3455
+  5       CGPL                                                                   CS                760              Coal          6.4264          0.0000             6.4264
+  6       Solapur STPS                                                           CS                642              Coal          4.9015          0.0000             4.9015
+  7       Uran GTPS                                                          MSPGCL                840              Gas           4.4300          0.0000             4.4300
+  8       MSTPS-II                                                               CS                531              Coal          4.2216          0.0000             4.2216
+  9       MSTPS-I                                                                CS                394              Coal          4.1793          0.0000             4.1793
+  10      Parali Unit - 06 & 07                                              MSPGCL                500              Coal          3.9220          0.0000             3.9220
+  11      Nasik Unit - 03 to 05                                              MSPGCL                630              Coal          3.9110          0.0000             3.9110
+  12      Parali Unit -08                                                    MSPGCL                250              Coal          3.8820          0.0000             3.8820
+  13      Bhusawal Unit - 03                                                 MSPGCL                210              Coal          3.8760          0.0000             3.8760
+  14      APML, 440 MW                                                           IPP               440              Coal          2.4381          1.2635             3.7016
+  15      Khargone                                                               CS                85               Coal          3.6927          0.0000             3.6927
+  16      APML, Unit 1,4 & 5 1200 MW                                             IPP              1200              Coal          2.3781          1.2635             3.6416
+  17      APML, Unit 1,4 & 5 125 MW                                              IPP               125              Coal          2.3781          1.2635             3.6416
+  18      Gadarwara                                                              CS                92               Coal          3.4975          0.0000             3.4975
+  19      JSW U1, Jaigad                                                         IPP               300              Coal          3.1688          0.2336             3.4024
+  20      Paras Unit - 03 & 04                                               MSPGCL                500              Coal          3.3050          0.0000             3.3050
+  21      KHTPS-II                                                               CS                148              Coal          3.2618          0.0000             3.2618
+  22      Chandrapur Unit - 03 to 07                                         MSPGCL               1920              Coal          3.0300          0.0000             3.0300
+  23      Bhusawal Unit - 04 & 05                                            MSPGCL               1000              Coal          2.9500          0.0000             2.9500
+  24      SWPGL                                                                 LTOA               240              Coal          2.5581          0.3863             2.9444
+  25      Khaperkheda Unit - 01 to 04                                        MSPGCL                840              Coal          2.7990          0.0000             2.7990
+  26      RattanIndia Power Ltd, Amravati                                        IPP              1200              Coal          2.4523          0.3418             2.7941
+  27      APML, Unit 2 & 3 (1320 MW)                                             IPP              1320              Coal          1.5390          1.1146             2.6536
+  28      Khaperkheda Unit - 05                                              MSPGCL                500              Coal          2.5800          0.0000             2.5800
+  29      Chandrapur Unit - 08,09                                            MSPGCL               1000              Coal          2.5710          0.0000             2.5710
+  30      Koradi Unit - 06 to 07                                             MSPGCL                420              Coal          2.5500          0.0000             2.5500
+  31      EMCO                                                                   CS                200              Coal          2.5236          0.0000             2.5236
+  32      Koradi Unit - 08 to 10                                             MSPGCL               1980              Coal          2.4030          0.0000             2.4030
+  33      Lara                                                                   CS                228              Coal          2.2483          0.0000             2.2483
+  34      VSTP-I                                                                 CS                432              Coal          1.6775          0.0000             1.6775
+  35      JGPS (APM GAS)                                                         CS               XXX               Gas           1.6479          0.0000             1.6479
+  36      VSTP-II                                                                CS                336              Coal          1.5949          0.0000             1.5949
+  37      SSTPS-II                                                               CS                274              Coal          1.5890          0.0000             1.5890
+  38      VSTPS-III                                                              CS                275              Coal          1.5732          0.0000             1.5732
+  39      KAWAS (APM GAS)                                                        CS               XXX               Gas           1.5694          0.0000             1.5694
+  40      VSTP-IV                                                                CS                294              Coal          1.5531          0.0000             1.5531
+  41      SSTPS-I                                                                CS                556              Coal          1.5414          0.0000             1.5414
+  42      VSTPS-V                                                                CS                161              Coal          1.5333          0.0000             1.5333
+  43      KSTPS I AND II                                                         CS                635              Coal          1.5122          0.0000             1.5122
+  44      KSTPS-III                                                              CS                120              Coal          1.4675          0.0000             1.4675
+
+                                                                     DECENTRALISED MOD STACK FOR AEML
+
+  1       DTPS U-1 & 2                                                          DTPS               500              Coal          4.8933          0.0000             4.8933
+
+                                                                   DECCENTRALISED MOD STACK FOR TPCL-D
+
+  1       TPC U-7 (RLNG)                                                        TATA               xxx              Gas           25.2720         0.0000            25.2720
+  3       TPC U-5                                                               TATA               500          Coal/Oil/Gas      8.1730          0.0000             8.1730
+  2       TPC U-8                                                               TATA               250              Coal          8.0530          0.0000             8.0530
+  4       TPC U-7 (APM) *                                                       TATA               180              Gas           4.5690          0.0000             4.5690
+
+                                                                     DECENTRALISED MOD STACK FOR BEST
+
+  1       TPC U-7 (RLNG)                                                        TATA               xxx              Gas           25.2720         0.0000            25.2720
+
+  2       TPC U-5                                                               TATA               500          Coal/Oil/Gas      8.1730          0.0000             8.1730
+
+  3       TPC U-8                                                               TATA               250              Coal          8.0530          0.0000             8.0530
+
+  4       Dhariwal to BEST                                                     STOA                60               Coal          4.9500          0.0000             4.9500
+  5       TPC U-7 (APM) *                                                       TATA               180              Gas           4.5690          0.0000             4.5690
+  6       SWPGL TO BEST                                                        MTOA                100              Coal          2.2000          0.0000             2.2000
+                                                                  DECENTRALISED MOD STACK FOR RAILWAY
+  1       DHARIWAL U-1 TO RAILWAY                                              MTOA                210              Coal          2.1800          0.0000             2.1800
+NOTE-
+          1) Prepared as per Clause 33 of State Grid Code Regulation 2020 issued by Hon'ble MERC dtd. 2nd sept 2020 .
+          2) "R2" updated on mahasldc.in website on dtd. 07.06.2022.Due to revised MOD rates of CGPL are submitted by CEPP
+
+          3) Actual rates of NTPC Kawas and Gandhar are displayed on WRLDC web-site daily.
+           4) Hydro generation is not considered for MOD.
+          *5) Gas and RE and Nuclear Generation is considered as MUST RUN.
+          6) ISGS Share of Maharashtra during peak hours (18:00 to 22:00Hrs)is shown as capacity allocated to MSEDCL.
+                        MAHARASHTRA STATE POWER GENERATION CO. LTD.
+PH: 26474211, 26472131                                                Regulatory & Commercial Dept.
+FAX:91-22-26580643                                                    Prakashgad, 3rd Floor,
+Email: rcgen@mahagenco.in                                             Bandra (E) Mumbai 400 051
+
+      Ref No: RCD22/45-A/LT0359                                                      Date:     01-May-22
+To,
+The Chief Engineer (Power Purchase)
+Maharashtra State Electricity Distribution Company,
+5th floor, Prakashgad, Bandra ( E),
+Mumbai, Maharashtra - 400051
+Sub: Provisional Energy Bill for the supply of power from MSPGCL's Thermal & Gas Power Stations’ for
+the month of April 2022
+Ref: 1) Power Purchase Agreement between MSPGCL & MSEDCL, dated 01.04.2009
+      2) Jointly signed meter readings
+      3) MERC order in Case No. 296 of 2019 dated 30th March 2020
+      4) DSM Regulation 2019
+      5) Suo-Muto MERC Order dated 07th Oct 2021
+Dear Sir,
+Please find attached herewith the monthly energy bill for the Month of April 2022, Bill No. (001/2022)
+for supply of Power from for MSPGCL's Thermal & Gas Power Stations to MSEDCL.
+Mahagenco’s Thermal & Gas Power Stations have supplied Total 4729.413866 MUs to MSEDCL, in the
+month of April 2022. Net Energy Bill amount for MAHAGENCO’s Thermal & Gas Power Stations is
+Rs.2012.2451685 Crores; Bill amount in words Rs. Two thousand Twelve Hundred Crore Twenty Four
+Lakhs Fifty One Thousand Six Hundred Eighty Five Only
+This bill is raised as per the Tariff order passed by MERC on 26th April 2020, Case No. 296 of 2019 , vide ref.3.
+As the MERC MYT regulation is effective from 1st april 2020, therfore the calculation of AFC disallowance is
+done as per MYT regulations 2019 considering Apr-2022 as the first month in High demand season as
+declared by SLDC, therefore the AVF calculations are done accordingly.
+As per MERC DSM Regulation and MERC Suo-Muto Order dated 07th Oct 2021, DSM is made commercially
+applicable from 11th Oct 2021 onwards. As per the related regulatory provisions, the energy billing under
+DSM is to be done as per scheduled generation. Accordingly, MSPGCL has carried out the energy bill as per
+schedule data available on SLDC's DSM scheduling software. Billing for the remote auxilary consumtions and
+supply provided by MSPGCL (to other agencies) on bahalf of MSEDCL will be carried out separately.
+This bill is subject to amendments/ revision based on orders that may be passed by MERC /APTEL or reason
+of any subsequent development at later stage.
+It is requested to issue necessary directives for the payment of the above.
+Thanking you,                                                                 Regard's
+Enclosure: Bill No: 001/2022
+                                                                                         01 May, 2022
+
+                                                                   Chief Engineer (RCD), MSPGCL
+                                                            MAHARASHTRA STATE POWER GENERATION CO. LTD.
+          PH: 26472211, 26472131                                                                Regulatory & Commercial Dept.
+
+          FAX:91-22-26580643                                                                    Prakashgad, 3rd Floor,
+
+          Email: rcgen@mahagenco.in                                                             Bandra (E) Mumbai 400 051
+
+                        Energy Bill No: 001/2022                                   Bill Date: 01-05-2022                                                       Due date: 30-05-2022
+                                         Energy Bill of MAHAGENCO for the Month of Apr - 2022 (From 01.04.2022 (00.00Hrs) to 30.04.2022(24:00Hrs)
+                                                                                    THERMAL & GAS STATIONS
+
+                                                                                                                                        ADDITIONAL AFC
+                                                                                                                                                           NET FC AFTER
+                                                                                                APPROVED                                DISALLOWANCE
+                                            UNITS SENT OUT       ENERGY      MONTHLY ENERGY                   BILL CLAIMED                               ADJUSTING THE AFC   NET BILL CLAIMED FOR
+                                                                                              MONTHLY FIXED                              ADJUSTED FOR
+SR. NO.           POWER STATION           Sheduled generation     RATE        CHARGE ( Rs. in                FOR THE MONTH                                 DISALLOWANCE       THE MONTH (Rs.in
+                                                                                               CHARGE (Rs.in                             THE CURRENT
+                                                ( Mus)          (Rs./Unit)       Lakhs)                        (Rs.in Lakhs)                              UPTO THE MONTH            Lakhs)
+                                                                                                  Lakhs)                                    MONTH
+                                                                                                                                                            (Rs.in Lakhs)
+                                                                                                                                          (Rs.LAKHS.)
+
+  a                        b                       c                d          e = (c * d)*10            f                 g=e+f            h = oo            i=f-h                j=g-h
+  1       BHUSAWAL (Unit 3)                       67.061897          4.102        2750.87901         1150.37952            3901.25853        320.90289          829.47663             3580.35564
+  2       BHUSAWAL (Unit 4-5)                    512.485032          3.436      17608.98570          8954.28116           26563.26686      955.745760          7998.53540            25607.52110
+  3       KHAPARKHEDA ( Unit 1- 4)               362.256011          2.945      10668.43952          3876.87742           14545.31694         43.04217         3833.83525            14502.27477
+  4       KHAPARKHEDA U # 5                      307.200675          2.583        7934.99344         4340.66862           12275.66206       -189.00488         4529.67350            12464.66694
+  5       NASHIK (Unit 3-5)                      220.545495          3.569        7871.26872         4057.95615           11929.22487      1047.86836          3010.08779            10881.35651
+  6       CHANDRAPUR ( Unit 3-7)                 866.479004          2.658      23031.01193          7213.28326           30244.29519        -66.35999         7279.64325            30310.65518
+  7       CHANDRAPUR ( Unit- 8 & 9)              580.427226          2.573      14934.39252          9135.01454           24069.40706       -205.27141         9340.28595            24274.67847
+  8       PARAS (Unit 3- 4)                      272.678964          3.146        8578.48021         3676.44947           12254.92968       -195.04676         3871.49623            12449.97644
+  9       PARLI (Unit 6- 7)                      226.580324          4.240        9607.00574         3533.76696           13140.77270        357.13021         3176.63675            12783.64249
+  10      PARLI (Unit 8)                          85.541023          4.060        3472.96553         2803.39288            6276.35841        785.99916         2017.39372             5490.35925
+  11      KORADI (Unit 6)                        110.356991          3.311        3653.91997          794.98486            4448.90483       -797.69441         1592.67927             5246.59924
+  12      KORADI (Unit- 8,9 & 10)                931.065724          2.398      22326.95606        12658.92014            34985.87620      -1950.12779        14609.04793            36936.00399
+  13      GTPS URAN (Unit 5 -10)                 186.735500          2.847        5316.35969         1759.92196            7076.28165        379.85482         1380.06714             6696.42683
+          TOTAL THERMAL                        4729.413866                     137755.65804        63955.89694           201711.55498        487.03813        63468.85881           201224.51685
+                      ENERGY BILL FOR SUPPLY OF ENERGY FROM MAHAGENCO's THERMAL & GAS POWER STATIONS TO MAHAVITARAN FOR THE MONTH OF April 2022                                   201224.51685
+                    Bill amount in words Rs. Two thousand Twelve Hundred Crore Twenty Four Lakhs Fifty One Thousand Six Hundred Eighty Five Only
+
+
+
+
+                                                                                                                                                                             01 May, 2022
+                                                                                                                                                            Chief Engineer,
+                                                                                                                                                     Regulatory & Commercial Dept.
+

@@ -1,0 +1,336 @@
+                                                               March 19, 2024
+
+                            Aravali Power Company Private Limited: Ratings reaffirmed
+    Summary of rating action
+
+                                                     Previous Rated Amount   Current Rated Amount
+      Instrument*                                                                                   Rating Actions
+                                                           (Rs. crore)             (Rs. crore)
+      Long term - Fund based - Term loans                  3,762.38                2,381.28         [ICRA]AA(Stable); reaffirmed
+
+      Long term - Fund based - Cash credit                 1,200.00                 800.00          [ICRA]AA(Stable); reaffirmed
+
+      Long term - Unallocated                                  -                   1,781.10         [ICRA]AA(Stable); reaffirmed
+
+      Short term – Non-fund based - LC/BG                   125.00                  125.00          [ICRA]A1+; reaffirmed
+
+      Total                                                5,087.38                5,087.38
+    *Instrument details are provided in Annexure-I
+
+    Rationale
+
+    The rating action factors in the healthy receivable and liquidity position of Aravali Power Company Private Limited (APCPL)
+    owing to the clearance of past dues and timely inflow of current dues from all the discoms. Liquidation of the past dues of
+    BSES Rajdhani Power Limited (BRPL), BSES Yamuna Power Ltd (BYPL) and Jammu & Kashmir (J&K) discom along with the timely
+    payments from its key offtakers - Haryana distribution utilities (discoms) and Tata Power Delhi Distribution Limited (TPDDL) -
+    which account for 87% of APCPL’s capacity, have significantly improved the company’s liquidity position, despite paying a high
+    dividend of Rs. 950 crore in FY2023 and ~Rs. 750 crore in YTD FY2024. The improvement in the working capital cycle is visible
+    from the receivable days (including unbilled revenue), which stood at 74 days as on March 31, 2023, and 51 days as on
+    December 31, 2023, compared to 122 days as on March 31, 2022.
+    The company had to install flue gas desulphurisation (FGD) units for all its plants, the timeline for which was deferred to
+    December 2024 by the Ministry of Power (MoP) from June 2022 earlier. The company is on track to complete the FGD capex
+    by Q1 FY2025 for all the three units and thus will be able to meet the stipulated timeline comfortably within the envisaged
+    capital outlay, adding to the rating comfort.
+    The ratings continue to take into account APCPL’s strong credit profile, backed by the presence of power purchase agreements
+    (PPAs) with cost-plus tariff for the entire 1,500-MW capacity, adequate fuel supply agreements and the strong collection
+    efficiency demonstrated over the past four fiscals. The company has been able to earn higher-than-normative return on equity
+    on the approved capital cost on account of the late payment surcharges (LPS) on delayed payments by the offtakers, and
+    savings in operations and maintenance (O&M) costs and working capital interest. While the LPS income will reduce significantly
+    following the timely inflow of dues from the discoms, the company will continue to benefit from the savings in O&M expenses
+    and interest on working capital.
+    The company’s capital structure and debt protection metrics have consistently improved over the past few years and remain
+    strong. The company’s gearing was comfortable at 0.44 times as on December 31,2023, while its debt coverage indicators
+    remained healthy with total debt/OPBDITA of 1.6 times, interest coverage of 9.0 times and DSCR of 2.0 times in 9M FY2024.
+    Additionally, APCPL benefits from the in-house technical and managerial expertise provided by NTPC Limited (holds a 50%
+    stake in APCPL), which reduces the operational and maintenance risks for the project.
+    Rating concerns emanate from APCPL’s high cost of power due to the high landed cost of coal, which adversely impacts its
+    competitiveness. The variable/energy charge stood at Rs. 4.09 per unit for FY2023, excluding compensation for partial loading.
+    Although APCPL’s plant forms part of the lower quartiles of the merit order despatch (MoD) for the Delhi and Haryana discoms,
+    the regulatory support to allow the company to bill the entire fixed charge remains dependent on the plant availability and
+    not the PLF, and remains a key mitigant to the risk of lack of offtake of power by the beneficiaries.
+
+
+
+
+www.icra .in
+                                                                                                                     Page |   1
+    The ratings also take note of the counterparty credit risk pertaining to its offtakers - Haryana’s discoms (46%.2 capacity), Delhi’s
+    discoms of TPDDL, BRPL & BYPL (46.2% capacity) and the discoms allocated by the MoP for 7.6% capacity.
+    The Stable outlook reflects ICRA’s expectation that the company will continue to report satisfactory plant availability and
+    efficiency levels, allowing it to adequately bill and recover the fixed capacity charges as per the tariff order/PPA, and recover
+    the payments in a timely manner from its key offtakers (Haryana discoms and TPDDL).
+
+    Key rating drivers and their description
+
+    Credit strengths
+
+    Presence of long-term PPAs (cost-plus return tariff) for entire capacity; managerial expertise provided by NTPC - The PPAs
+    for the entire quantum of power generated by APCPL are in place, which limit the offtake risks for the company. The power is
+    mainly sold to the Haryana and Delhi discoms (46.2% each to both state discoms), and the balance 7.6% is allocated as per the
+    directions of the MoP from time to time. APCPL also benefits from the in-house technical and managerial expertise provided
+    by NTPC Limited, which reduces the operational and maintenance risks for the project. The presence of NTPC also helps the
+    company file tariff petitions and recover dues from the discoms.
+
+    Healthy capital structure, characterised by stable cash generation and improving credit metrics - The tariff payable by the
+    beneficiaries is based on the CERC regulations, which allows for full recovery of the variable and fixed costs with 15.5% return
+    on equity (subject to achieving normative operating parameters) and any incentives (for better-than-normative performance).
+    In addition, the regulations allow for the levy of late payment surcharge (LPS) on the delayed payments from the beneficiaries.
+    The tariff structure - being two part in nature – allows billing of the entire fixed charge to the beneficiaries, subject to the
+    company ensuring higher-than-normative plant availability (PAF of 85%). The cash generation has remained stable over the
+    years because of the cost-plus nature of the tariff and the company ensuring its compliance to normative PAF. Additionally,
+    there have been no major disallowances in the capital cost for the FY2015-FY2019 and FY2020-FY2024 periods, indicating
+    stable cash generation.
+
+    Strong collection efficiency; enhanced liquidity position on account of recovery of past overdues - APCPL’s collection
+    efficiency has remained healthy over the years along with the timely clearance of dues by two of its major beneficiaries i.e.
+    Haryana discoms and Tata Power Delhi Distribution Limited (TPDDL, rated [ICRA]AA (Stable)/[ICRA]A1+), which has aided its
+    liquidity position. All past dues have been cleared and the current dues are also being paid in a timely manner by all the
+    discoms, which is expected to result in a continued healthy liquidity position.
+
+
+
+    Credit challenges
+
+    High cost of power affecting tariff competitiveness for offtakers - Since the commissioning of the plant, higher fuel charges
+    have increased the average tariff, which in turn has impacted the PLF levels of the plant. The landed cost of coal is relatively
+    high due to the inland location of the plant, resulting in high variable cost of power and affecting the tariff competitiveness.
+    Lower offtake does not impact the company’s ability to recover its fixed charges, subject to maintaining normative plant
+    availability of 85% and energy charges (compensation for partial loading allowing for under-recovery of normative energy
+    charge resulting from operating at reduced load from FY2020 onwards).
+
+    Counterparty credit risk from exposure to discoms in Haryana and Delhi - APCPL is exposed to counterparty credit risks
+    pertaining to the Haryana discoms (46.2% capacity), Delhi discoms (46.2% capacity) and the discoms allocated for 7.6% capacity
+    through central pool allocation by the MoP. The presence of a payment security mechanism in the form of letters of credit (LC)
+    mitigates the risk to some extent. Post implementation of Late payment scheme (LPS), June 2022, the payments have been
+    timely, however the company will remain exposed to counterparty credit risk emanating from offtakers with weaker credit
+    profile.
+
+
+
+
+www.icra .in
+                                                                                                                       Page |    2
+    Liquidity position: Strong
+
+    APCPL’s liquidity is expected to remain strong, backed by the cost-plus nature of operations, healthy collections from the
+    offtakers and the available cash balances. As on December 31, 2023, the company had a healthy free cash balance of Rs
+    1,178.04 crore. The company is expected to generate adequate cash flows for debt servicing and still have surplus cash from
+    operations. ICRA expects the incremental liquidity released to be paid out in the form of dividends, thus limiting the upside to
+    the liquidity, which remains strong.
+
+    Rating sensitivities
+
+    Positive factors – ICRA may upgrade the rating if the company continues to demonstrate a healthy operating performance
+    with timely collections from counterparties on a sustained basis, leading to strong cash flows and reduced leverage. Approval
+    of pending capital costs without any major disallowances by the regulator, leading to a further improvement in the debt
+    coverage and return indicators, would be another key trigger for an upgrade.
+
+    Negative factors – Any deterioration in the operating parameters, impacting the company’s ability to bill for the full capacity
+    charges, and/or under recovery on energy charges materially impacting the cash generation may result in a downgrade.
+    Significant delays in payments from the counterparties affecting the liquidity will also weigh on the ratings. Further,
+    disallowances in capital or operating costs by the regulator adversely impacting the company’s debt coverage metrics with the
+    cumulative DSCR falling below 1.40 times on a sustained basis may warrant a downgrade.
+
+    Analytical approach
+
+      Analytical Approach                     Comments
+                                              Corporate Credit Rating Methodology
+      Applicable rating methodologies
+                                              Power – Thermal
+
+      Parent/Group support                    Not applicable
+
+      Consolidation/Standalone                Standalone
+
+
+
+
+    About the company
+
+    APCPL is a joint venture company of NTPC Ltd (50%), Haryana Power Generation Company Ltd (HPGCL; 25%) and Indraprastha
+    Power Generation Company Ltd (IPGCL; 25%). It has constructed a 1,500-MW coal-based power plant near Jharli village, Jhajjar
+    district (Haryana), named Indira Gandhi Super Thermal Power Project (IGSTPP). All the three units of the project have been
+    commissioned with the last unit achieving COD on April 26, 2013. The cost of the project is Rs. 1,0131 crore, funded in a D:E
+    ratio of 70:30. Presently, the company is having FSA with NCL – 1.50 MMT, ECL – 0.58 MMT and CCL – 3.54 MMT.
+
+    With majority ownership of NTPC (50%), APCPL has been designated a central generating station, whereby the MOP can
+    regulate its power, as per the notification issued in April 2000 for the allocation of power from the central generating stations.
+    As per the initial allocation, the MOP allocated 46.2% capacity each to the Haryana and Delhi discoms and retained 7.6% of
+    the total capacity as unallocated quota, which can be allocated to the other beneficiary states.
+
+
+
+
+www.icra .in
+                                                                                                                      Page |   3
+    Key financial indicators (audited)
+
+      APCPL                                                                                                         FY2022                   FY2023
+      Operating income                                                                                              4,405.1                  5,329.3
+      PAT                                                                                                            823.1                    496.5
+      OPBDIT/OI                                                                                                      35.4%                    21.7%
+      PAT/OI                                                                                                         18.7%                    9.3%
+      Total outside liabilities/Tangible net worth (times)                                                             0.7                      0.7
+      Total debt/OPBDIT (times)                                                                                       1.89                     2.23
+      Interest coverage (times)                                                                                       8.36                     6.96
+    Source: Company, ICRA Research; All ratios as per ICRA’s calculations; Amount in Rs. crore
+    PAT: Profit after tax; OPBDIT: Operating profit before depreciation, interest, taxes and amortisation
+
+    Status of non-cooperation with previous CRA: Not applicable
+
+    Any other information: None
+
+    Rating history for past three years
+
+                                                                                                            Chronology of rating history for the past 3
+                                                   Current rating (FY2024)
+                                                                                                                              years
+                                                                Amount                                       Date &                            Date &
+                                                Amount                             Date & rating                         Date & rating
+      SN      Instrument                                     outstanding as                                 rating in                         rating in
+                                                 rated                              in FY2024                               in FY2022
+                              Type                             on Dec 31,                                    FY2023                            FY2021
+                                                  (Rs.
+                                                                  2023
+                                                 crore)                            Mar 19, 2024        Jan 06, 2023       Nov 29, 2021      Oct 19, 2020
+                                                               (Rs. Crore)
+                                                                                       [ICRA]AA             [ICRA]AA          [ICRA]AA-      [ICRA]A+
+      1     Term loans        Long-Term        2,381.28           2,305.8
+                                                                                        (Stable)             (Stable)          (Stable)       (Stable)
+            Working
+                                                                                       [ICRA]AA             [ICRA]AA          [ICRA]AA-      [ICRA]A+
+      2     capital           Long-Term          800.00              -
+                                                                                        (Stable)             (Stable)          (Stable)       (Stable)
+            facilities
+                                                                                       [ICRA]AA
+      3     Unallocated       Long-Term        1,781.10              -                                          -                 -               -
+                                                                                        (Stable)
+            Non-fund
+      4                       Short-Term         125.00              -               [ICRA]A1+          [ICRA]A1+             [ICRA]A1+      [ICRA]A1+
+            based limit
+
+    Complexity level of the rated instruments
+
+      Instrument                                                                  Complexity Indicator
+      Long term - Fund based - Term loans                                         Simple
+      Long term - Fund based - Cash credit                                        Simple
+      Long term-Unallocated                                                       NA
+      Short term - Non-fund based - LC/BG                                         Very simple
+
+    The Complexity Indicator refers to the ease with which the returns associated with the rated instrument could be estimated.
+    It does not indicate the risk related to the timely payments on the instrument, which is rather indicated by the instrument's
+    credit rating. It also does not indicate the complexity associated with analysing an entity's financial, business, industry risks or
+    complexity related to the structural, transactional or legal aspects. Details on the complexity levels of the instruments are
+    available on ICRA’s website: Click Here
+
+
+
+
+www.icra .in
+                                                                                                                                            Page |     4
+    Annexure I: Instrument details
+
+                      Instrument                               Coupon                 Amount Rated
+        ISIN                             Date of Issuance                  Maturity                  Current Rating and Outlook
+                      Name                                      Rate                   (Rs. crore)
+         NA           Term loans              FY2021               -        FY2028        807.69     [ICRA]AA (Stable)
+         NA           Term loans              FY2021               -        FY2028        803.59     [ICRA]AA (Stable)
+         NA           Term loans              FY2021               -        FY2036        770.00     [ICRA]AA (Stable)
+         NA           Fund based,                                                                    [ICRA]AA (Stable)
+                                                 -                 -            -         300.00
+                      working capital
+         NA           Fund based,                                                                    [ICRA]AA (Stable)
+                                                 -                 -            -         500.00
+                      Working capital
+         NA           Unallocated                -                 -            -         1781.10    [ICRA]AA (Stable)
+         NA           Non-fund based             -                 -            -          75.00     [ICRA]A1+
+         NA           Non-fund based             -                 -            -          50.00     [ICRA]A1+
+
+    Source: Company
+
+
+
+
+    Please click here to view details of lender-wise facilities rated by ICRA
+
+
+
+    Annexure II: List of entities considered for consolidated analysis – Not Applicable
+
+
+
+
+www.icra .in
+                                                                                                                 Page |   5
+    ANALYST CONTACTS
+    Girishkumar Kadam                                          Vikram V
+    +91 22 6114 3441                                           +91 40 6939 6410
+    girishkumar@icraindia.com                                  vikram.v@icraindia.com
+
+    Siddhartha Kaushik                                         Saurabh Gupta
+    +91 124 4545 323                                           +91 22 6169 339
+    siddhartha.kaushik@icraindia.com                           saurabh.gupta@icraindia.com
+
+
+
+
+    RELATIONSHIP CONTACT
+    L. Shivakumar
+    +91 22 6114 3406
+    shivakumar@icraindia.com
+
+
+
+
+    MEDIA AND PUBLIC RELATIONS CONTACT
+    Ms. Naznin Prodhani
+    Tel: +91 124 4545 860
+    communications@icraindia.com
+
+
+    Helpline for business queries
+    +91-9354738909 (open Monday to Friday, from 9:30 am to 6 pm)
+
+    info@icraindia.com
+
+
+
+
+    About ICRA Limited:
+    ICRA Limited was set up in 1991 by leading financial/investment institutions, commercial banks and financial services
+    companies as an independent and professional investment Information and Credit Rating Agency.
+
+    Today, ICRA and its subsidiaries together form the ICRA Group of Companies (Group ICRA). ICRA is a Public Limited Company,
+    with its shares listed on the Bombay Stock Exchange and the National Stock Exchange. The international Credit Rating Agency
+    Moody’s Investors Service is ICRA’s largest shareholder.
+
+    For more information, visit www.icra.in
+
+
+
+
+www.icra .in
+                                                                                                               Page |   6
+ICRA Limited
+
+            Registered Office
+B-710, Statesman House, 148, Barakhamba Road, New Delhi-110001
+Tel: +91 11 23357940-45
+
+           Branches
+
+
+
+
+© Copyright, 2024 ICRA Limited. All Rights Reserved.
+Contents may be used freely with due acknowledgement to ICRA.
+ICRA ratings should not be treated as recommendation to buy, sell or hold the rated debt instruments. ICRA ratings are subject to a process of surveillance,
+which may lead to revision in ratings. An ICRA rating is a symbolic indicator of ICRA’s current opinion on the relative capability of the issuer concerned to
+timely service debts and obligations, with reference to the instrument rated. Please visit our website www.icra.in or contact any ICRA office for the latest
+information on ICRA ratings outstanding. All information contained herein has been obtained by ICRA from sources believed by it to be accurate and reliable,
+including the rated issuer. ICRA however has not conducted any audit of the rated issuer or of the information provided by it. While reasonable care has been
+taken to ensure that the information herein is true, such information is provided ‘as is’ without any warranty of any kind, and ICRA in particular, makes no
+representation or warranty, express or implied, as to the accuracy, timeliness or completeness of any such information. Also, ICRA or any of its group
+companies may have provided services other than rating to the issuer rated. All information contained herein must be construed solely as statements of
+opinion, and ICRA shall not be liable for any losses incurred by users from any use of this publication or its contents.
+

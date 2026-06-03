@@ -1,0 +1,346 @@
+       Press Release
+
+
+
+                                                                Maithon Power Limited
+                                                                           June 24, 2025
+
+
+    Facilities/Instruments                                     Amount (₹ crore)                             Rating1               Rating Action
+
+    Long-term bank facilities                                           510.50                       CARE AA+; Stable              Reaffirmed
+
+                                                                     200.00
+    Non-convertible debentures                                                                       CARE AA+; Stable              Reaffirmed
+                                                              (Reduced from 300.00)
+Details of instruments/facilities in Annexure-1.
+
+
+Rationale and key rating drivers
+
+Ratings reaffirmation on bank facilities and non-convertible debentures (NCDs) of Maithon Power Limited (MPL), which operates
+a 1,050 MW thermal power plant in the Dhanbad district of Jharkhand continues to factor in strong operational performance with
+Plant availability factor (PAF) remaining above the normative level of 85%. PAF had declined to 87% in FY25 due to scheduled
+maintenance undertaken between November 2024 and January 2025, which remained above normative levels leading to full
+recovery of fixed charges per Central Electricity Regulatory Commission (CERC) regulations. The company also has a comfortable
+receivable position of 36 days (PY: 32 days), which reflects timely receipts from the off-takers.
+
+MPL is a joint venture of the Tata Power Company Limited (TPCL) and Damodar Valley Corporation (DVC) with their respective
+shareholding being 74% and 26%. Rating continues to draw strength from its strong linkages with its majority shareholder TPCL
+(rated CARE AA+; Stable). MPL accounted for ~12% to TPCL’s operational thermal capacity and ~7% to its overall generation
+capacity as on March 31, 2025. Ratings continue to derive strength from presence of 30-year power purchase agreements (PPAs)
+with multiple off-takers including Damodar Valley Corporation (DVC, 150 MW), Tata Power Trading Company Limited (TPTCL,
+600 MW), and Kerala State Electricity Board Limited (KSEBL), which impart revenue visibility. TPTCL has executed Power Sale
+Agreements (PSAs) with Tata Power Delhi Distribution Limited (TPDDL) and West Bengal State Electricity Distribution Company
+Limited (WBSEDCL) for 300 MW each. The tariff is determined on a cost-plus basis by CERC, allowing for full recovery of fixed
+costs subject to the operations in line with normative parameters. Variable costs are fully pass-through in nature subject to within
+the range of normative parameters, mitigating fuel price risk. Ratings draw comfort from low fuel supply risk, underpinned by
+presence of long-term fuel supply agreements (FSAs) for 4.63 million MT with Central Coalfields Limited (CCL). This is sufficient
+to meet the coal requirement corresponding to a plant load factor (PLF) of ~83%. The company also has the flexibility to source
+coal from alternate avenues, including e-auctions and variation in fuel price is pass through in tariff. MPL continues to maintain a
+comfortable financial risk profile, with total debt to earnings before interest, taxation, depreciation, and amortisation (TD/EBITDA)
+at 2.3x as on March 31, 2025 (PY: 1.9x) and healthy coverage metrics, including an interest coverage of 7.05x (PY: 7.59x) and
+TD to gross cash accruals (GCA) of 2.98x (PY: 2.46x).
+
+Ratings continue to be constrained considering counterparty credit risk owing to exposure to off-takers such as KSEBL and
+WBSEDL, which have modest credit profiles reflected by high aggregate technical & commercial (AT&C) losses and significant
+average cost of supply–average revenue realised (ACS–ARR) gaps. The company also remains exposed to asset concentration
+risk due to the plant’s single-location operations. Ratings are constrained by execution risk associated with the installation of a
+flue gas desulphurisation (FGD) unit and recovery of this cost via subsequent tariff hikes. CARE Ratings notes that in FY25, the
+company’s operating revenue witnessed a decline primarily considering a reduction in annual fixed charges due to lower
+depreciation component in fixed charges, which is in line with the extant CERC regulations. MPL has generated sufficient profits
+for its shareholders with a cumulative amount of ₹1,130 crore upstreamed in the last three years (FY23: ₹630 crore, FY24: ₹250
+crore, FY25: ₹250 crore).
+
+In the year, the company repaid the NCDs bearing ISIN INE082G07048 of ₹100 crore.
+
+Rating sensitivities: Factors likely to lead to rating actions
+
+Positive factors
+
+•       Material improvement in the credit profile of the majority shareholder, TPCL.
+
+
+
+1
+    Complete definition of ratings assigned are available at www.careratings.com and other CARE Ratings Limited’s publications.
+
+
+            1                                                                                                                      CARE Ratings Ltd.
+    Press Release
+
+
+
+Negative factors
+
+•    Inability of the plant to maintain normative PAF on a sustained basis leading to significant under recovery of fixed charges.
+•    Deterioration in MPL’s financial profile as characterised by debt levels, increasing significantly or significant elongation in
+     receivables.
+•    Deterioration in TPCL’s credit profile or change in support stance of TPCL.
+
+Analytical approach:
+
+Standalone, factoring in support from majority shareholder TPCL. Ratings factor in operational and financial linkages with TPCL.
+MPL has common management and shares a common treasury with TPCL.
+
+Outlook: Stable
+
+The stable outlook is supported by presence of long-term PPA for 30 years under a cost-plus tariff structure, availability of long-
+term FSA, satisfactory operational performance and timely realisation of receivables.
+
+Detailed description of key rating drivers:
+
+Key strengths
+
+Strong promoter and experienced management providing operational support
+MPL is a 74:26 joint venture (JV) between TPCL and DVC. MPL benefits from technical and managerial support from TPCL, given
+the latter’s vast and diversified presence in the power business, including generation, transmission, distribution, renewable, and
+the engineering, procurement and construction (EPC) space. The board of MPL consists of six directors, including the company’s
+chairman, who is nominated by TPCL. MPL accounts for ~ 12% of TPCL’s consolidated thermal power capacity and ~7% of TPCL’s
+generation capacity as on March 31, 2025. MPL has been providing loans and dividends to group companies on a regular basis.
+
+Long-term PPAs providing revenue visibility and adequate FSAs
+MPL signed a 30-year PPAs for its entire capacity of 1,050 MW with multiple off-takers including DVC (150 MW), TPTCL (600
+MW), and KSEBL leading to revenue visibility. TPTCL has executed PSAs with TPDDL and WBSEDCL. Tariffs are based on CERC
+tariff guidelines, assuring 15.5% return-on-equity (RoE), and ensuring stable cash accruals. Capacity charges are recoverable in
+full, if the plant availability achieves a normative PAF of 85%. Capacity charges comprises depreciation, interest on term loan,
+interest on working capital loan, operation and maintenance expenses and RoE (post tax). Energy charges are determined based
+on landed cost of fuel applied on quantity of fuel consumption at normative operating conditions. The company had received tariff
+order for the control period FY19-24 and true-up order for control period FY14-19 on January 08, 2022. Petition for tariff
+determination for control period FY24-29 has been filed. The company has also tied up for its entire coal requirement (4.63 million
+tonne per annum [MTPA]) through long-term FSAs with CCL. Due to healthy ACQ materialisation under linkage coal supply in the
+past,        dependence          on      alternative    sources      such      as      e-auction        is      relatively    low.
+
+Healthy operational performance of power plant
+MPL’s PAF continues to be strong at 87% for FY25 although lower than 95% in FY24 and 90% in FY23 due to maintenance of
+plant in November 2024 to January 2025. However, the company was able to recovery entire fixed charges since plant availability
+was higher than normative PAF of 85%. Other operating parameters (auxiliary consumption, station heat rate [SHR], gross
+calorific value [GCV]) remained better than normative (PAF, auxiliary and SHR) for FY25. Given the regulated nature of MPL’s
+business and healthy operational performance, the company has stable cash flows and profitability.
+
+Moderate financial risk profile with coverage indicators
+MPL continues to maintain a comfortable financial risk profile, supported by stable GCA and a low interest burden, resulting in
+healthy coverage indicators and comfortable leverage metrics. The company’s TD/EBITDA stood at 2.3x as on March 31, 2025
+(PY: 1.9x), which, although higher than the previous year, remains at a comfortable level. The company has availed debt
+undertaken for implementation of the FGD system, which is expected to be completed by FY26. Cash flows are expected to
+improve further upon receipt of the final tariff order for the FGD-related capital expenditure.
+
+In FY25, the company’s operating revenue declined primarily considering a reduction in total capacity charges, driven by the lower
+depreciation component in fixed charges in line with CERC regulations (lower depreciation rate from the 13th year onward). The
+
+
+        2                                                                                                     CARE Ratings Ltd.
+   Press Release
+
+
+
+profit before interest, lease rentals, depreciation and taxation (PBILDT) interest coverage improved to 7.05x (PY: 7.59x) and the
+TD/GCA improved to 2.98x (PY: 2.46x). Average collection period continued to be comfortable in FY24 at 36 days (PY: 32 days)
+considering timely payments from counterparties within the credit period available in the year.
+
+Key weaknesses
+
+Moderate counterparty risk
+The company is exposed to counterparty credit risk owing to exposure to state distribution utilities including WBSEDCL and KSEB,
+which have weak credit profile. However, average payment from off-takers is within 60 days (allowed credit period) and therefore
+the risk remains moderate. MPL’s collection period remained healthy in FY25, leading to a comfortable average collection period
+of 36 days in FY25.
+
+Liquidity: Strong
+MPL’s liquidity profile remains strong, supported by cash and cash equivalents (including liquid investments) of ₹154.4 crore as
+on March 31, 2025. The company’s projected cash accruals for FY26 are expected to remain adequate to comfortably meet its
+debt servicing obligations. Utilisation of fund-based working capital limits has remained moderate, aided by timely realisation of
+receivables from off-takers. The company also avails non-fund-based limits primarily for issuance of letters of credit (LCs) to fuel
+suppliers. As part of the Tata Group, MPL benefits from significant financial flexibility and strong access to capital markets.
+
+Applicable criteria
+
+Policy on Default Recognition
+Notching by Factoring Linkages in Ratings
+Financial Ratios – Non financial Sector
+Liquidity Analysis of Non-financial sector entities
+Assigning ‘Outlook’ or ‘Rating Watch’ to Credit Ratings
+Infrastructure Sector Ratings
+Thermal Power
+
+
+About the company and industry
+
+Industry classification
+ Macroeconomic indicator               Sector                        Industry                       Basic industry
+ Utilities                             Power                         Power                          Power generation
+
+MPL is a joint venture between TPCL and DVC, with TPCL holding a 74% stake and DVC holding 26%. MPL set up a thermal
+power generation plant having a total capacity of 1,050 MW at Jharkhand. The first unit of 525 MW (Unit I) was commissioned
+in September 2011, while the second unit (Unit II) was commissioned in July 2012. MPL entered long-term PPAs for full capacity
+with DVC (150 MW), TPDDL (300 MW), WBSEDCL (300 MW), and KSEBL (300 MW). MPL has long-term Fuel Supply Agreements
+(FSAs) with subsidiaries of Coal India Limited (CIL) for its coal requirement
+
+ Brief Financials (₹ crore)                                     March 31, 2024 (A)                   March 31, 2025 (A)
+ Total Operating Income                                              3,359.5                               2,952.5
+ PBILDT/EBITDA                                                        849.7                                 619.1
+ PAT                                                                  448.8                                 346.1
+ Overall gearing (times)                                              0.69                                   0.57
+ Interest coverage (times)                                            7.59                                   7.05
+A: Audited Note: these are latest available financial results
+
+Status of non-cooperation with previous CRA: Not applicable
+
+Any other information: Not applicable
+
+Rating history for last three years: Annexure-2
+
+Detailed explanation of covenants of rated instrument / facility: Annexure-3
+
+        3                                                                                                     CARE Ratings Ltd.
+   Press Release
+
+
+
+
+Complexity level of instruments rated: Annexure-4
+
+Lender details: Annexure-5
+
+Annexure-1: Details of instruments/facilities
+                                                                                                                     Rating
+                                                                         Coupon                    Size of the
+ Name of the                                             Date of                    Maturity                        Assigned
+                                     ISIN#                                Rate                        Issue
+ Instrument                                             Issuance                     Date                          and Rating
+                                                                          (%)                       (₹ crore)
+                                                                                                                    Outlook
+ Debentures-Non                                                                                                     CARE AA+;
+                                 INE082G07055          09-Feb-2017       8.00%     09-Feb-2026       100.00
+ Convertible Debentures                                                                                               Stable
+
+ Debentures-Non                                                                                                     CARE AA+;
+                                 INE082G07063          09-Feb-2017       8.00%     09-Feb-2027       100.00
+ Convertible Debentures                                                                                               Stable
+
+                                                                                                                    CARE AA+;
+ Term Loan-Long Term                                        -              -       Sep 30, 2032      510.50
+                                                                                                                      Stable
+#ISIN INE082G07048 has been redeemed.
+
+Annexure-2: Rating history for last three years
+                                          Current Ratings                                 Rating History
+
+                                                                                                    Date(s)         Date(s)
+        Name of the                                                  Date(s)         Date(s)
+ Sr.                                       Amount                                                   and             and
+        Instrument/Bank                                              and             and
+ No.                                       Outstandi                                                Rating(s)       Rating(s)
+        Facilities                 Type                   Rating     Rating(s)       Rating(s)
+                                           ng (₹                                                    assigned        assigned
+                                                                     assigned in     assigned in
+                                           crore)                                                   in 2023-        in 2022-
+                                                                     2025-2026       2024-2025
+                                                                                                    2024            2023
+                                                                                                    1)CARE AA;
+        Debentures-Non                                    CARE                       1)CARE                         1)CARE AA;
+                                                                                                    Stable
+  1     Convertible                 LT        200.00      AA+;       -               AA+; Stable                    Stable
+                                                                                                    (31-Aug-
+        Debentures                                        Stable                     (27-Jun-24)                    (02-Sep-22)
+                                                                                                    23)
+                                                                                                    1)CARE AA;
+                                                          CARE                       1)CARE                         1)CARE AA;
+                                                                                                    Stable
+  2     Term Loan-Long Term         LT        510.50      AA+;       -               AA+; Stable                    Stable
+                                                                                                    (31-Aug-
+                                                          Stable                     (27-Jun-24)                    (02-Sep-22)
+                                                                                                    23)
+LT: Long term
+
+
+Annexure-3: Detailed explanation of covenants of rated instruments/facilities: Not applicable
+
+Annexure-4: Complexity level of instruments rated
+   Sr. No.      Name of the Instrument                                                             Complexity Level
+      1         Debentures-Non Convertible Debentures                                                  Simple
+      2         Term Loan-Long Term                                                                    Simple
+
+Annexure-5: Lender details
+ To view lender-wise details of bank facilities please click here
+
+Note on complexity levels of rated instruments: CareEdge Ratings has classified instruments rated by it based on
+complexity. Investors/market intermediaries/regulators or others are welcome to write to care@careedge.in for clarifications.
+
+
+
+
+       4                                                                                                      CARE Ratings Ltd.
+    Press Release
+
+
+
+                                                                             Contact us
+
+ Media Contact                                                                         Analytical Contacts
+
+ Mradul Mishra                                                                         Sabyasachi Majumdar
+ Director                                                                              Senior Director
+ CARE Ratings Limited                                                                  CARE Ratings Limited
+ Phone: +91-22-6754 3596                                                               Phone: 91-120-445 2006
+ E-mail: mradul.mishra@careedge.in                                                     E-mail: Sabyasachi.majumdar@careedge.in
+
+ Relationship Contact                                                                  Jatin Arya
+                                                                                       Director
+ Saikat Roy                                                                            CARE Ratings Limited
+ Senior Director                                                                       Phone: 91-120-4452021
+ CARE Ratings Limited                                                                  E-mail: Jatin.Arya@careedge.in
+ Phone: 912267543404
+ E-mail: saikat.roy@careedge.in                                                        Shailendra Singh Baghel
+                                                                                       Associate Director
+                                                                                       CARE Ratings Limited
+                                                                                       Phone: 91-226-837 4340
+                                                                                       E-mail: Shailendra.baghel@careedge.in
+
+About us:
+Established in 1993, CareEdge Ratings is one of the leading credit rating agencies in India. Registered under the Securities and
+Exchange Board of India, it has been acknowledged as an External Credit Assessment Institution by the Reserve Bank of India.
+With an equitable position in the Indian capital market, CareEdge Ratings provides a wide array of credit rating services that help
+corporates raise capital and enable investors to make informed decisions. With an established track record of rating companies
+over almost three decades, CareEdge Ratings follows a robust and transparent rating process that leverages its domain and
+analytical expertise, backed by the methodologies congruent with the international best practices. CareEdge Ratings has played
+a pivotal role in developing bank debt and capital market instruments, including commercial papers, corporate bonds and
+debentures, and structured credit. For more information: www.careratings.com
+
+Disclaimer:
+This disclaimer pertains to the ratings issued and content published by CareEdge Ratings Limited (“CareEdge Ratings”). Ratings are opinions on the likelihood of timely
+payment of the obligations under the rated instrument and are not recommendations to sanction, renew, disburse, or recall the concerned bank facilities or to buy,
+sell, or hold any security. Any opinions expressed herein are in good faith and are subject to change without notice. The rating reflects the opinions as on the date of
+the rating. A rating does not convey suitability or price for the investor. The rating agency does not conduct an audit on the rated entity or an independent verification
+of any information it receives and/or relies on for the rating exercise. CareEdge Ratings has based its ratings/outlook on the information obtained from reliable and
+credible sources. CareEdge Ratings does not, however, guarantee the accuracy, adequacy, or completeness of any information and is not responsible for any errors
+or omissions and the results obtained from the use of such information. The users of the rating should rely on their own judgment and may take professional advice
+while using the rating in any way. CareEdge Ratings shall not be liable for any losses that user may incur or any financial liability whatsoever to the user of the rating.
+The use or access of the rating does not create a client relationship between CareEdge Ratings and the user.
+
+CAREEDGE RATINGS DISCLAIMS WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR OTHER WARRANTIES OR CONDITIONS, TO THE EXTENT PERMITTED BY
+APPLICABLE LAWS, INCLUDING WARRANTIES OF MERCHANTABILITY, ACCURACY, COMPLETENESS, ERROR-FREE, NON-INFRINGEMENT, NON-INTERRUPTION,
+SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE OR INTENDED USAGE.
+
+Most entities whose bank facilities/instruments are rated by CareEdge Ratings have paid a credit rating fee, based on the amount and type of bank facilities/instruments.
+CareEdge Ratings or its subsidiaries/associates may also be involved with other commercial transactions with the entity. CareEdge Ratings does not act as a fiduciary
+by providing the rating. The ratings are intended for use only within the jurisdiction of India. The ratings of CareEdge Ratings do not factor in any rating-related trigger
+clauses as per the terms of the facilities/instruments, which may involve acceleration of payments in case of rating downgrades. However, if any such clauses are
+introduced and triggered, the ratings may see volatility and sharp downgrades. CareEdge Ratings has established policies and procedures as required under applicable
+laws and regulations which are available on its website.
+
+Privacy Policy applies. For Privacy Policy please refer to https://www.careratings.com/privacy_policy
+
+© 2025, CARE Ratings Limited. All Rights Reserved.
+This content is being published for the purpose of dissemination of information. Any use or reference to the contents herein on an “as-is” basis is permitted with due
+acknowledgement to CareEdge Ratings. Reproduction or retransmission in whole or in part is prohibited except with prior written consent from CareEdge Ratings.
+
+
+                                          For detailed Rating Report and subscription information,
+                                                      please visit www.careratings.com
+
+
+
+
+          5                                                                                                                                     CARE Ratings Ltd.
+

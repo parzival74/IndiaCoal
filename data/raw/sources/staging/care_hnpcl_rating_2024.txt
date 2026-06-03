@@ -1,0 +1,464 @@
+       Press Release
+
+
+
+                                             Hinduja National Power Corporation Limited
+                                                                          January 05, 2024
+
+     Facilities/Instruments                                Amount (₹ crore)                                Rating1            Rating Action
+                                                                7,125.95
+     Long-term bank facilities                                                                        CARE A-; Stable          Reaffirmed
+                                                         (Reduced from 8,024.95)
+     Long-term bank facilities                                      -                                           -              Withdrawn
+Details of instruments/facilities in Annexure-1.
+
+
+Rationale and key rating drivers
+The reaffirmation of rating assigned to the long-term bank facilities of Hinduja National Power Corporation Limited (HNPCL)
+continues to derive strength from the financial flexibility of Machen Holdings SA (MHSA, the ultimate holding entity of HNPCL and
+the support provider) evidenced as satisfactory cover i.e. 4.30x in the form of market value of investments indirectly held in
+various listed companies vis-à-vis the combined debt. Apart from this, the rating also takes cognisance of HNPCL being part of its
+financially resourceful Hinduja group, which has reputed stature and well-established management track record. The rating
+continues to favourably factor in the promoter support in the form of undertaking towards meeting financial obligations as well
+as demonstrated support in the form of regular infusion of loans/ deposits to assist its operations and debt repayment.
+Furthermore, the rating continues to derive comfort from HNPCL’s low sales risk and long-term revenue visibility due to its power
+purchase agreement (PPA) for entire capacity at a tariff determined by the Andhra Pradesh Electricity Regulatory Commission
+(APERC) which ensures fixed return, HNPCL’s long-term fuel supply agreement (FSA) and improvement in plant load factor (PLF)
+during FY23 (refers to the period from April 01 to March 31) and H1FY24 (refers to April 01 to September 30). The improvement
+in liquidity profile of the company characterized by sizable collection from its off-taker during FY23 and H1FY24, enhancement in
+working capital limit and creation of debt service reserve account (DSRA) equivalent of one quarter of debt servicing adds strength
+to the rating.
+The rating strengths are, however, tempered by the partial recovery of the claimed capital cost leading to lower-than-previously
+envisaged annual capacity charge (AFC). HNPCL’s review petition for reconsidering its tariff had been dismissed by APERC in June
+2023. The credit profile of the off-takers is weak and HNPCL has elongated receivables period. The rating is also sensitive to
+HNPCL’s impending capital expenditure for meeting environmental guidelines. CARE Ratings Limited (CARE Ratings) expects that
+the group will continue to provide need-based financial support to HNPCL till stabilisation of its operations and improvement in
+the financial profile. Moreover, CARE Ratings would also continue to monitor the adherence to the stipulations by HNPCL under
+one-time restructuring (OTR) scheme implemented on June 25, 2021.
+CARE Ratings has withdrawn the outstanding rating on the long-term bank facilities in respect to Funded Interest Term Loan – 2
+(FITL -2) with immediate effect, as the company has entirely repaid the rated amount and there is no outstanding as on date.
+
+
+
+
+Rating sensitivities: Factors likely to lead to rating actions
+Positive factors
+• Higher-than-envisaged liquidation of regulatory assets translating into improvement in the financial risk profile.
+• Improvement in the credit profile of counterparties leading to traction in collection period to less than 90 days.
+
+Negative factors
+• Significant deterioration in the credit profile of the promoter or dilution in its support philosophy towards HNPCL.
+• Substantial decline in the market value of investments to debt coverage of the holdcos/sub-holdcos below 3.5x on a sustained
+   basis.
+• Unfavourable regulatory outcome adversely impacting the cash accruals of the company.
+
+Analytical approach: Standalone, while factoring linkages with MHSA, the ultimate holding company of the group owning
+91.33% interest in HNPCL through various sub hold-cos including Hinduja Energy (India) Limited.
+
+Outlook: Stable
+Operational risk is likely to remain moderate due to regulatory uncertainty leading to partial recovery of claimed capital cost,
+offset by existence of long term PPA and FSA. This is expected to limit the improvement in its financial risk profile in the medium
+term. However, HNPCL is likely to benefit from the operational and financial linkages being part of the Hinduja group.
+
+
+
+1
+    Complete definition of the ratings assigned are available at www.careedge.in and other CARE Ratings Ltd.’s publications
+
+
+            1                                                                                                                  CARE Ratings Ltd.
+   Press Release
+
+
+
+Detailed description of the key rating drivers
+Key strengths
+Long-term power off-take arrangement for a period of 25 years acknowledged by APERC
+By virtue of its PPA (valid for 25 years from the COD of Unit-II (i.e., April 30, 2016) as approved by APERC), HNPCL has long-
+term revenue visibility for its entire capacity of 1,040 MW. The cost-plus nature of determination of tariff ensures recovery of cost
+at normative parameters along with earning of fixed return. Actual fuel cost shall be pass-through for determination of energy
+charges as per APERC regulations. AFC (as determined by APERC) is recoverable fully upon achievement of normative plant
+availability factor (NAPAF) of 85%.
+
+FSA with Mahanadi Coalfields Limited (MCL)
+HNPCL has fuel supply agreement with MCL with annual contracted quantity (ACQ) of 4.624 million tonne per annum (MTPA).
+While the plant is in proximity to two well-developed ports (Gangavaram Port and Vizag Port), it has plans to set up railway siding.
+Estimated capex to be incurred is ₹166 crore. CARE Ratings expects the same to be funded in a debt-equity ratio of 70-30.
+Commissioning of the same will reduce the landed cost of coal and improve the plant’s competitiveness.
+
+Improvement in operational performance
+The beneficiaries had stopped scheduling power from HNPCL’s plant since August 2020, and the same resumed only post the
+Hon'ble Supreme Court's judgement in February 2022. PLF has improved to 53% in FY23 (PY: 3%) and 64% during H1FY24.
+Plant availability factor (PAF) continued to remain above normative during these periods ensuring full recovery of capacity charge.
+However, the company’s station heat rate and auxiliary consumption has been inferior to the normative level set by APERC.
+HNPCL has raised invoices for part loading compensation, which will offset the losses due to part loading.
+
+Part of a reputed and resourceful promoter group with proven financial support in the past
+HNPCL belongs to the Hinduja Group, which is one of the largest diversified groups in the world with direct presence in 38
+countries and activities spanning across 100 countries. The group has presence across various sectors, viz., automotive, banking
+and finance, energy & chemicals, power, healthcare, information technology, real estate and media and entertainment amongst
+others. MHSA is the ultimate holding company of HNPCL. MHSA has majority stake in Hinduja Automotive Limited – United
+Kingdom (HAL-UK, the holding company of Ashok Leyland Limited [ALL, rated ‘CARE AA; Stable/ CARE A1+’]). ALL, the flagship
+company of Hinduja group, is a prominent manufacturer of commercial vehicles in India. Furthermore, MHSA also has majority
+stake in Hinduja Capital Limited – Mauritius (HCL-M, the holding company of GOCL Corporation Limited (GOCL)). GOCL’s multi-
+division businesses include energetics, commercial explosives and realty. The management has articulated that there is adequate
+financial flexibility of MHSA due to fungibility of cashflows between MHSA and its subsidiaries, i.e., HAL-UK, HCL-M and the Hinduja
+Energy holdcos. The market value of the investments in listed instruments of these sub-holdcos vis-à-vis their external debt
+outstanding as on December 01, 2023 is 4.30x, which is moderate. CARE Ratings has observed moderation in the market value
+of these holdings vis a vis the total debt in the energy hold-cos/sub-hold-cos since last review, albeit slightly better than threshold
+level. CARE Ratings expects that the group will continue to provide need based financial support to HNPCL given the existing
+headroom available in leveraging these holdcos.
+
+Promoter supporter towards meeting HNPCL’s financial obligations
+MHSA and Hinduja Energy (India) Limited (HEIL), both as promoters of HNPCL have extended Promoter Support Undertaking to
+the lenders for the primary project loan and working capital facilities towards timely debt servicing. Major covenants of the
+agreement are as under:
+• Debt service requirement: The promoters have undertaken that, until the determination of the regular tariff, the promoters
+shall, from time to time, provide additional funds to the borrower in the event there is any shortfall in the cash flows of the
+borrower so that the borrower is able to meet the debt service requirements, without any delay.
+• Repayment of excess loan amounts: The promoters shall provide additional funds to the borrower in the amount equivalent
+to the excess loan amount upon determination of the target loan amount without any recourse to the borrower, project assets
+and/or lenders to enable the borrower to prepay the loans to the lenders to the extent of the excess loan amount without any
+delay.
+• Initial DSRA: The promoters have confirmed that in the event there is any shortfall in the cash flows of the borrower to build
+up the initial debt service reserve as required in terms of the financing documents, the promoters shall provide additional funds
+to meet such shortfall.
+The promoter’s support undertaking continues till the final settlement of dues from the project lenders. The promoters of the
+company have been regularly infusing funds in HNPCL by way of inter corporate deposit (ICD)/loan.
+Going forward, timely extension of support from promoter group will continue to be a key rating monitorable.
+
+
+
+       2                                                                                                         CARE Ratings Ltd.
+   Press Release
+
+
+
+Key weaknesses
+Approved capital cost is lower than prayed; tightening of few other normative parameters
+The significant difference (around ₹ 2,000 crore) in capital cost prayed by HNPCL and the actual cost allowed by APERC vide its
+August’22 order has material bearing on project viability. The interim tariff for previous period were considered as final. Moreover,
+APERC has also allowed stricter station heat rate, auxiliary consumption, specific fuel oil consumption which may lead to under-
+recovery in energy charge. The same is expected to offset to some extent with the part-load compensation permitted under the
+PPA. HNPCL had filed review petition with APERC with justification for relaxation which was dismissed in June 2023. Thereafter,
+HNCPL filed an appeal in Appellate Tribunal for Electricity (APTEL) to review the tariff order received from APERC. In case there
+is delay in relaxation in various norms and HNPCL continue to bill the off-taker basis existing tariff, a large cash gap may arise
+during FY24 and FY25. Hence timely resolution of the issue favourably, along with realisation of receivables is to be seen.
+
+Leveraged capital structure
+HNPCL’s term debt has been increasing year on year on account of moratoriums availed by the company in line with the RBI
+guidelines and stood at ₹ 9,410 crore (including ₹ 2263 crore advances from group companies) as on March 31, 2023 (PY: ₹
+8,696 crore including ₹ 1985 crore advances from group companies). Total debt/PBILDT (excluding regulatory income) remained
+elevated at 8.34x in FY23 (PY: 6.32x). Despite weaker cash accruals, the plant did not require financial support from the parent
+for several months, as cited by the management. However, full recognition of capital cost and full pass-through of variable cost
+will be critical for the plant’s operation going forward, and thus remain a rating monitorable.
+
+
+High counterparty credit risk yet, collection efficiency has improved
+The credit profile of AP discoms is weak characterised by high leverage and stretched payable and collection period. Average
+collection period has however decreased from 474 days in FY22 to 290 days in FY23. The monthly collections from off-takers
+have picked up post the commencement of scheduling of power by the off-takers and the collection efficiency stood at 90%
+during FY23 and 100% in Q1FY24.
+
+Liquidity: Adequate
+The liquidity profile of the company has been supported by timely infusion of funds from the promoters and access to fund-based
+working capital limits. The lead working capital lender has appraised enhancement of working capital limit by ₹ 650 cr to ₹ 1940
+crore and has already disbursed its share of ₹ 230 cr to the company during Oct’23. The company has created DSRA equivalent
+to one quarter of debt servicing during Q1FY24 (refers to the period from April 01 to June 30). The average utilization of the fund
+based working capital limit during FY23 was 77%. The company had a cash and bank balance of ~₹ 320 crore as on June 30,
+2023.
+
+Applicable criteria
+Definition of Default
+Factoring Linkages Parent Sub JV Group
+Rating Outlook and Rating Watch
+Infrastructure Sector Ratings
+Thermal Power
+Financial Ratios – Non financial Sector
+Liquidity Analysis of Non-financial sector entities
+Withdrawal Policy
+
+About the company and industry
+
+Industry classification
+ Macro economic Indicator               Sector                 Industry                      Basic Industry
+ Utilities                              Power                  Power                         Power Generation
+HNPCL is part of Hinduja Group. The company operates coal-based sub-critical thermal power project of 1,040 MW (2 x 520) in
+Village Palavalasa, Dist. Vishakhapatnam, Andhra Pradesh. The company is promoted by HEIL (holds 51.05 % stake), Hinduja
+Energy (Mauritius) Limited (holds 40.27% stake), Machen Development Corporation (holds 4.84% stake) and balance is held by
+Steag Energy Services GmbH.
+
+
+
+
+       3                                                                                                       CARE Ratings Ltd.
+   Press Release
+
+
+
+
+ Brief Financials (₹ crore)*                                                        FY22 (A)                            FY23 (A)
+ Total operating income                                                               811                                 2,391
+ PBILDT                                                                               621                                 1,051
+ PAT                                                                                  291                                 -325
+ Overall gearing (times)                                                              2.66                                3.20
+ Interest coverage (times)                                                            0.77                                1.15
+A: Audited UA: Unaudited; NA: Not available; Note: ‘the above results are latest financial results available’; *analytically adjusted as per CARE
+Ratings’ methodology
+
+Status of non-cooperation with previous CRA: Not applicable
+Any other information: Not applicable
+Rating history for last three years: Please refer Annexure-2
+Covenants of rated instrument / facility: Detailed explanation of covenants of the rated instruments/facilities is given in
+Annexure-3
+Complexity level of various instruments rated: Annexure-4
+Lender details: Annexure-5
+Annexure-1: Details of instruments/facilities
+ Name of the                      Date of        Coupon             Maturity            Size of the Issue         Rating Assigned along
+                        ISIN
+ Instrument                      Issuance       Rate (%)             Date                   (₹ crore)              with Rating Outlook
+ Fund-based -
+                                       -              -                  -                    1290.00                  CARE A-; Stable
+ LT-Cash Credit
+ Fund-based -
+                                       -              -           March 2039                  244.94                   CARE A-; Stable
+ LT-Term Loan
+ Fund-based -
+                                       -              -           March 2039                  4439.95                  CARE A-; Stable
+ LT-Term Loan
+ Fund-based -
+                                       -              -           March 2025                  900.00                   CARE A-; Stable
+ LT-Term Loan
+ Fund-based -
+                                       -              -         September 2023                  0.00                      Withdrawn
+ LT-Term Loan
+ Fund-based -
+                                       -              -          February 2023                  0.00                      Withdrawn
+ LT-Term Loan
+ Non-fund-based
+ - LT-Bank                             -              -                  -                    251.06                   CARE A-; Stable
+ Guarantee
+
+Annexure-2: Rating history for the last three years
+                                                Current Ratings                                     Rating History
+                                                                                Date(s)        Date(s)
+                                                                                                          Date(s)               Date(s)
+             Name of the                                                        and            and
+   Sr.                                            Amount                                                  and                   and
+             Instrument/Bank                                                    Rating(s)      Rating(s)
+   No.                                Type*       Outstanding        Rating                               Rating(s)             Rating(s)
+             Facilities                                                         assigned       assigned
+                                                  (₹ crore)                                               assigned in           assigned in
+                                                                                in 2023-       in 2022-
+                                                                                                          2021-2022             2020-2021
+                                                                                2024           2023
+                                                                                                                                1)CARE A-
+                                                                                               1)CARE A-                        (CW with
+                                                                                               ; Stable                         Negative
+                                                                                               (06-Jan-        1)CARE A-        Implications)
+                                                                     CARE                      23)             (CW with         (30-Mar-21)
+             Fund-based - LT-
+     1                                     LT        1290.00         A-;        -                              Negative
+             Cash Credit
+                                                                     Stable                    2)CARE A-       Implications)    2)CARE A-
+                                                                                               (RWN)           (07-Oct-21)      (CW with
+                                                                                               (27-Dec-                         Negative
+                                                                                               22)                              Implications)
+                                                                                                                                (22-Oct-20)
+
+
+
+
+         4                                                                                                               CARE Ratings Ltd.
+Press Release
+
+
+
+                                      Current Ratings                             Rating History
+                                                                 Date(s)     Date(s)
+                                                                                        Date(s)          Date(s)
+          Name of the                                            and         and
+Sr.                                    Amount                                           and              and
+          Instrument/Bank                                        Rating(s)   Rating(s)
+No.                           Type*    Outstanding      Rating                          Rating(s)        Rating(s)
+          Facilities                                             assigned    assigned
+                                       (₹ crore)                                        assigned in      assigned in
+                                                                 in 2023-    in 2022-
+                                                                                        2021-2022        2020-2021
+                                                                 2024        2023
+                                                                                                         1)CARE A-
+                                                                             1)CARE A-                   (CW with
+                                                                             ; Stable                    Negative
+                                                                             (06-Jan-    1)CARE A-       Implications)
+                                                        CARE                 23)         (CW with        (30-Mar-21)
+          Fund-based - LT-
+ 2                             LT         244.94        A-;      -                       Negative
+          Term Loan
+                                                        Stable               2)CARE A-   Implications)   2)CARE A-
+                                                                             (RWN)       (07-Oct-21)     (CW with
+                                                                             (27-Dec-                    Negative
+                                                                             22)                         Implications)
+                                                                                                         (22-Oct-20)
+                                                                                                         1)CARE A-
+                                                                             1)CARE A-                   (CW with
+                                                                             ; Stable                    Negative
+                                                                             (06-Jan-    1)CARE A-       Implications)
+                                                        CARE                 23)         (CW with        (30-Mar-21)
+          Fund-based - LT-
+ 3                             LT         4439.95       A-;      -                       Negative
+          Term Loan
+                                                        Stable               2)CARE A-   Implications)   2)CARE A-
+                                                                             (RWN)       (07-Oct-21)     (CW with
+                                                                             (27-Dec-                    Negative
+                                                                             22)                         Implications)
+                                                                                                         (22-Oct-20)
+                                                                                                         1)CARE A-
+                                                                             1)CARE A-                   (CW with
+                                                                             ; Stable                    Negative
+                                                                             (06-Jan-    1)CARE A-       Implications)
+                                                        CARE                 23)         (CW with        (30-Mar-21)
+          Fund-based - LT-
+ 4                             LT         900.00        A-;      -                       Negative
+          Term Loan
+                                                        Stable               2)CARE A-   Implications)   2)CARE A-
+                                                                             (RWN)       (07-Oct-21)     (CW with
+                                                                             (27-Dec-                    Negative
+                                                                             22)                         Implications)
+                                                                                                         (22-Oct-20)
+                                                                                                         1)CARE A-
+                                                                             1)CARE A-                   (CW with
+                                                                             ; Stable                    Negative
+                                                                             (06-Jan-    1)CARE A-       Implications)
+                                                        CARE                 23)         (CW with        (30-Mar-21)
+          Non-fund-based -
+ 5                             LT         251.06        A-;      -                       Negative
+          LT-Bank Guarantee
+                                                        Stable               2)CARE A-   Implications)   2)CARE A-
+                                                                             (RWN)       (07-Oct-21)     (CW with
+                                                                             (27-Dec-                    Negative
+                                                                             22)                         Implications)
+                                                                                                         (22-Oct-20)
+                                                                             1)CARE A-
+                                                                             ; Stable
+          Fund-based - LT-
+ 6                             LT            -          -        -           (06-Jan-    -               -
+          Term Loan
+                                                                             23)
+
+
+
+      5                                                                                           CARE Ratings Ltd.
+   Press Release
+
+
+
+                                            Current Ratings                               Rating History
+                                                                        Date(s)     Date(s)
+                                                                                                Date(s)       Date(s)
+             Name of the                                                and         and
+   Sr.                                        Amount                                            and           and
+             Instrument/Bank                                            Rating(s)   Rating(s)
+   No.                             Type*      Outstanding      Rating                           Rating(s)     Rating(s)
+             Facilities                                                 assigned    assigned
+                                              (₹ crore)                                         assigned in   assigned in
+                                                                        in 2023-    in 2022-
+                                                                                                2021-2022     2020-2021
+                                                                        2024        2023
+                                                                                    2)CARE A-
+                                                                                    (RWN)
+                                                                                    (27-Dec-
+                                                                                    22)
+                                                                                    1)CARE A-
+                                                                                    ; Stable
+                                                                                    (06-Jan-
+                                                                                    23)
+             Fund-based - LT-
+    7                                 LT             -         -        -                       -             -
+             Term Loan
+                                                                                    2)CARE A-
+                                                                                    (RWN)
+                                                                                    (27-Dec-
+                                                                                    22)
+*Long term/Short term.
+
+
+Annexure-3: Detailed explanation of covenants of the rated instruments/facilities: Not applicable
+
+Annexure-4: Complexity level of the various instruments rated
+  Sr. No.      Name of the Instrument                                                         Complexity Level
+     1         Fund-based - LT-Cash Credit                                                        Simple
+     2         Fund-based - LT-Term Loan                                                          Simple
+     3         Non-fund-based - LT-Bank Guarantee                                                 Simple
+
+Annexure-5: Lender details
+ To view the lender wise details of bank facilities please click here
+
+
+Note on the complexity levels of the rated instruments: CARE Ratings has classified instruments rated by it on the basis
+of complexity. Investors/market intermediaries/regulators or others are welcome to write to care@careedge.in for any
+clarifications.
+
+
+
+
+         6                                                                                             CARE Ratings Ltd.
+    Press Release
+
+
+
+                                                                             Contact us
+
+ Media Contact                                                                         Analytical Contacts
+
+ Mradul Mishra                                                                         Rajashree Murkute
+ Director                                                                              Senior Director
+ CARE Ratings Limited                                                                  CARE Ratings Limited
+ Phone: +91-22-6754 3596                                                               Phone: +91-22-6837 4474
+ E-mail: mradul.mishra@careedge.in                                                     E-mail: rajashree.murkute@careedge.in
+
+ Relationship Contact                                                                  Agnimitra Kar
+                                                                                       Associate Director
+ Saikat Roy                                                                            CARE Ratings Limited
+ Senior Director                                                                       Phone: 91-120-445-2019
+ CARE Ratings Limited                                                                  E-mail: agnimitra.kar@careedge.in
+ Phone: 91 22 6754 3404
+ E-mail: saikat.roy@careedge.in                                                        Sweta Lodha
+                                                                                       Analyst
+                                                                                       CARE Ratings Limited
+                                                                                       E-mail: sweta.lodha@careedge.in
+
+
+
+
+About us:
+Established in 1993, CARE Ratings is one of the leading credit rating agencies in India. Registered under the Securities and
+Exchange Board of India, it has been acknowledged as an External Credit Assessment Institution by the RBI. With an equitable
+position in the Indian capital market, CARE Ratings provides a wide array of credit rating services that help corporates raise capital
+and enable investors to make informed decisions. With an established track record of rating companies over almost three decades,
+CARE Ratings follows a robust and transparent rating process that leverages its domain and analytical expertise, backed by the
+methodologies congruent with the international best practices. CARE Ratings has played a pivotal role in developing bank debt
+and capital market instruments, including commercial papers, corporate bonds and debentures, and structured credit.
+
+Disclaimer:
+The ratings issued by CARE Ratings are opinions on the likelihood of timely payment of the obligations under the rated instrument and are not recommendations to
+sanction, renew, disburse, or recall the concerned bank facilities or to buy, sell, or hold any security. These ratings do not convey suitability or price for the investor.
+The agency does not constitute an audit on the rated entity. CARE Ratings has based its ratings/outlook based on information obtained from reliable and credible
+sources. CARE Ratings does not, however, guarantee the accuracy, adequacy, or completeness of any information and is not responsible for any errors or omissions
+and the results obtained from the use of such information. Most entities whose bank facilities/instruments are rated by CARE Ratings have paid a credit rating fee,
+based on the amount and type of bank facilities/instruments. CARE Ratings or its subsidiaries/associates may also be involved with other commercial transactions with
+the entity. In case of partnership/proprietary concerns, the rating/outlook assigned by CARE Ratings is, inter-alia, based on the capital deployed by the
+partners/proprietors and the current financial strength of the firm. The ratings/outlook may change in case of withdrawal of capital, or the unsecured loans brought
+in by the partners/proprietors in addition to the financial performance and other relevant factors. CARE Ratings is not responsible for any errors and states that it has
+no financial liability whatsoever to the users of the ratings of CARE Ratings. The ratings of CARE Ratings do not factor in any rating-related trigger clauses as per the
+terms of the facilities/instruments, which may involve acceleration of payments in case of rating downgrades. However, if any such clauses are introduced and
+triggered, the ratings may see volatility and sharp downgrades.
+
+
+                                     For the detailed Rationale Report and subscription information,
+                                                      please visit www.careedge.in
+
+
+
+
+          7                                                                                                                                     CARE Ratings Ltd.
+

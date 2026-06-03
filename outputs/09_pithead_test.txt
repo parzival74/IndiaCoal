@@ -1,0 +1,112 @@
+==========================================================================
+09 - PITHEAD SUB-ANALYSIS: does efficiency tighten as a cost/PLF proxy?
+==========================================================================
+Side analysis. 'Pithead' is a CURATED PROXY (no distance-to-mine field):
+lignite (mine-mouth by construction) + a documented coal-belt list.
+
+--------------------------------------------------------------------------
+STEP 1  PITHEAD FLAG (proxy)
+--------------------------------------------------------------------------
+Lignite stations (structural mine-mouth): 11
+  Akrimota Lig, Barsingar Ligniteite, Bhavnagar TPP, Jallippa Kapurdi TPP, Kutch Lignite, Neyveli Fst Ext, Neyveli New TPP, Neyveli St Ii, Neyveli Tps Exp -Ii, Neyveli Tps(Z), Surat Lignite
+
+Core coal pithead stations (curated, exact-name): 12
+  Korba Stps             -- NTPC; Korba coalfield (SECL Kusmunda/Gevra), mine-mouth
+  Korba-V(Dspm Tps)      -- CSPGCL/DSPM; Korba coalfield, mine-mouth
+  Korba-West             -- CSPGCL; Korba coalfield, mine-mouth
+  Korba-West Ext         -- CSPGCL; Korba coalfield, mine-mouth
+  R_Gundem - B           -- NTPC Ramagundam unit; Singareni Godavari coalfield, mine-mouth
+  R_Gundem Stps          -- NTPC Ramagundam; Singareni Godavari coalfield, mine-mouth
+  Rihand                 -- NTPC; Singrauli/Rihand (NCL Amlohri/Nigahi), mine-mouth
+  Singareni TPP          -- Singareni Collieries captive; Godavari coalfield, mine-mouth
+  Singrauli Stps         -- NTPC; Singrauli coalfield (NCL), mine-mouth
+  Sipat Stps             -- NTPC; Korba belt (SECL Dipka/Gevra), near-pithead
+  Talcher Stps           -- NTPC; Talcher coalfield (MCL), mine-mouth
+  Vindh_Chal Stps        -- NTPC Vindhyachal; Singrauli (NCL Nigahi/Jayant), mine-mouth
+
+Borderline coal-belt (EXCLUDED from primary flag; sensitivity only): 6
+  Kahalgaon                    -- NTPC; Rajmahal coalfield (ECL) supply, longer haul
+  Sanjay Gandhi                -- MPPGCL Birsinghpur; SECL Johilla coal-belt
+  Mahan TPP                    -- private; Singrauli/Mahan coal-block area
+  Raigarh TPP(OP Jindal Tps)   -- JPL Raigarh; Gare-Pelma captive coal
+  Chandrapur_Coal              -- MAHAGENCO Chandrapur; WCL Chandrapur coalfield
+  Chandrapura                  -- DVC Chandrapura; ECL/Bokaro coal-belt
+
+PRIMARY pithead flag => 23/155 stations, 92/455 units (lignite 11 + core coal 12 stations).
+
+Cross-check 1 -- pithead share by grid region (coarse supply proxy):
+grid_region  units  pithead  pithead_%
+         ER     56        0        0.0
+         NR     66        0        0.0
+         SR     71       18       25.4
+Unallocated    180       51       28.3
+         WR     82       23       28.0
+  (ER = Eastern coal belt; grid region only partly tracks coal supply,
+   and 180 units are 'Unallocated', so this is a weak corroborator.)
+
+Cross-check 2 (STRONGEST) -- real CERC ECR by pithead flag (*** 2018-19 basis ***):
+  non-pithead  n= 7  mean ECR Rs 2.93/kWh (range 2.35-3.48)
+  pithead      n= 7  mean ECR Rs 1.64/kWh (range 1.25-2.61)
+  non-pithead  mean (model VC - real ECR) = Rs -0.93/kWh
+  pithead      mean (model VC - real ECR) = Rs +0.29/kWh
+  => pithead stations show systematically LOWER real ECR (the flat-freight
+     model overstates them) -- this independently validates the flag.
+
+--------------------------------------------------------------------------
+STEP 2a  EFFICIENCY vs PLF   (PLF>=20; Pearson r, R²=r²)
+--------------------------------------------------------------------------
+  group             n        r       R²
+  full fleet      438    0.552    0.305
+  pithead          92    0.806    0.650
+  non-pithead     346    0.501    0.251
+  breakout of the pithead group:
+    pithead-coal   58    0.476    0.227
+    lignite-only   34    0.749    0.562
+
+--------------------------------------------------------------------------
+STEP 2b  EFFICIENCY vs REAL COST (CERC ECR)  *** 2018-19 BASIS; thin ***
+--------------------------------------------------------------------------
+  CRITICAL: uses REAL CERC ECR (the modelled VC is built from SHR, so
+  testing efficiency against it would be circular). Coverage is the 14
+  CERC central stations only, on a 2018-19 basis -- read as DIRECTIONAL.
+  group             n        r       R²   (r<0 expected: higher eff -> lower ECR)
+  all CERC         14   -0.311    0.097
+  pithead           7   -0.784    0.615  <-- n tiny, indicative only
+  non-pithead       7    0.034    0.001  <-- n tiny, indicative only
+
+--------------------------------------------------------------------------
+STEP 3  CONFOUNDER CONTROL (pithead is mostly large central baseload)
+--------------------------------------------------------------------------
+(i) Efficiency vs PLF WITHIN the Centre sector only (removes sector; size still varies):
+  group                 n        r       R²
+  Centre, all         130    0.504    0.254
+  Centre, pithead      63    0.678    0.460
+  Centre, non-pithead   67    0.242    0.058
+
+(ii) OLS  PLF ~ efficiency + capacity + sector(base=Centre) + pithead + efficiency:pithead   (n=438)
+  term                        coef   std err       t        p
+  const                    -38.155     8.984   -4.25    0.000
+  efficiency                 3.372     0.293   11.51    0.000
+  capacity_mw               -0.014     0.004   -3.09    0.002
+  sector[Private]           -7.046     1.707   -4.13    0.000
+  sector[State]             -1.684     1.647   -1.02    0.307
+  pithead                   -3.723    13.389   -0.28    0.781
+  efficiency:pithead         0.438     0.429    1.02    0.308
+  base model R²=0.380 (adj 0.374); full R²=0.430 (adj 0.422); ΔR²=+0.050
+  Interpretation: 'efficiency' is the PLF-slope for NON-pithead plants;
+  'efficiency:pithead' is the EXTRA slope for pithead plants. A positive,
+  significant interaction => efficiency tracks PLF more tightly at pithead
+  even after sector + size are controlled.
+
+==========================================================================
+READ (honest):
+==========================================================================
+- The pithead flag is a curated PROXY but is independently validated by the
+  real CERC ECR ladder (cross-check 2): pithead stations are the cheapest.
+- Cost-side test (2b) is the true test of the claim, but rests on 14 CERC
+  stations on a 2018-19 basis -- DIRECTIONAL, not a settled result. It
+  becomes answerable once FY2022-23 per-station ECR coverage is broad.
+- PLF-side (2a) is muddied by lignite: cheap mine-mouth lignite runs hard
+  DESPITE low efficiency, which is itself the cost>efficiency point.
+- Step 3 shows whether any pithead tightening survives the sector/size
+  confounder; see the interaction term and ΔR² above.

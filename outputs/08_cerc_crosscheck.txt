@@ -1,0 +1,47 @@
+========================================================================
+08 - CERC PER-STATION ECR CROSS-CHECK  (*** 2018-19 BASIS, NOT FY2022-23 ***)
+========================================================================
+Headline cost (02) and counterfactual (04/06) are FY2022-23 and are NOT
+changed by this step. CERC tariff-order ECRs are a 2018-19-basis cross-check
+because the FY2022-23 per-station feeds (Grid-India SCED/POSOCO/SLDC/MERIT)
+were unreachable this session. Station-name mapping is explicit (not fuzzy).
+
+Stations with a CERC ECR matched to the dataset: 14
+
+Per-station: FY2022-23 model VC  vs  CERC ECR (2018-19 basis), Rs/kWh
+------------------------------------------------------------------------
+          station sector  model_vc  cerc_ecr  model_minus_cerc           basis    plf
+       Sipat Stps Centre     1.949     1.251              0.70         claimed 81.450
+       Korba Stps Centre     1.973     1.334              0.64         allowed 85.757
+   Singrauli Stps Centre     1.945     1.404              0.54         allowed 80.100
+           Rihand Centre     1.831     1.420              0.41 allowed/claimed 83.333
+  Vindh_Chal Stps Centre     1.904     1.635              0.27         claimed 82.769
+     Talcher Stps Centre     1.975     1.850              0.12         claimed 82.900
+       Bhilai TPP Centre     2.052     2.347             -0.30         claimed 79.100
+     Farakka Stps Centre     1.914     2.544             -0.63         allowed 63.633
+    R_Gundem Stps Centre     1.972     2.612             -0.64         claimed 62.871
+         Simhadri Centre     2.080     2.827             -0.75         allowed 67.925
+       Mouda Stps Centre     1.951     2.884             -0.93         allowed 68.400
+         Unchahar Centre     2.065     2.936             -0.87 allowed/claimed 58.217
+Indra Gandhi STPP Centre     1.929     3.466             -1.54         allowed 59.067
+    Dadri (NcTPP) Centre     1.969     3.477             -1.51         allowed 62.300
+
+What the cross-check shows:
+  Real CERC ECR spread : Rs 1.25 (pithead) -> Rs 3.48/kWh (distant) across these central stations.
+  Model VC spread      : Rs 1.83 -> Rs 2.08/kWh  (flat freight COMPRESSES the real range).
+  => The model's single freight term overstates pithead stations (Korba,
+     Sipat, Singrauli) and understates distant ones (Dadri, Unchahar, Indira
+     Gandhi). Per-plant rail freight / pithead-distance is the missing axis.
+
+------------------------------------------------------------------------
+ILLUSTRATIVE re-dispatch with CERC ECR on the covered stations (MIXED VINTAGE)
+------------------------------------------------------------------------
+  77 units carry a real CERC ECR; the other 378 keep the FY2022-23 model.
+  As-run fuel cost: model-only Rs 157,724 cr | with CERC blend Rs 159,906 cr  (CO2 777.9 MT)
+  Cost-merit  : Rs 146,981 cr | CO2 776.3 MT
+  Carbon-merit: Rs 168,627 cr | CO2 746.0 MT
+  Cost-vs-carbon gap: +30.3 MT CO2 for Rs +21,646 cr.
+
+  Direction-of-travel only (do not quote as a FY2022-23 result): substituting
+  the real per-station dispersion mainly RE-RANKS the cheap pithead central
+  units, reinforcing the headline finding that cost- and carbon-merit diverge.

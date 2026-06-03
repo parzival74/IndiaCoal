@@ -1,0 +1,37 @@
+match_name,unit_group,genco,state,period,basis,ecr_rs_per_kwh,fixed_charge_rs_per_kwh,capacity_charge_rs_cr,station_heat_rate_kcal_per_kwh,aux_consumption_pct,specific_coal_consumption_kg_per_kwh,secondary_oil_ml_per_kwh,transit_loss_pct,gcv_coal_kcal_per_kg,landed_coal_cost_rs_per_tonne,coal_grade,gcv_oil_kcal_per_litre,landed_oil_cost_rs_per_kl,generation_mu,plf_pct,capacity_mw,source,source_file,flag
+# KPCL (Karnataka Power Corporation Ltd) / KERC -- NO ROWS. Both target stations SKIPPED per honesty rules.
+# Karnataka does NOT publish a per-station FY2022-23 Energy Charge Rate (ECR/variable charge) for KPCL's
+# existing thermal stations. Unlike RERC/UPERC/APERC/GERC etc., the KERC tariff framework recovers KPCL
+# thermal fuel/energy cost through the ESCOMs' pooled power-purchase cost + a SYSTEM-WIDE, quarterly Fuel
+# Cost Adjustment Charges (FAC) order -- NOT a per-station ECR. There is no KERC "generation tariff order"
+# for RTPS/BTPS at all.
+# Evidence (all verified this session):
+#  1. cer.iitk.ac.in ERC Hub (priority source #1) does NOT cover KERC. Its state list is exactly
+#     {CSERC,DERC,GERC,HERC,HPERC,JSERC,MSERC,RERC,UERC,WBERC,JERC,UPERC} -- Karnataka absent.
+#  2. The entire *.karnataka.gov.in domain (kerc., kpcl., gescom., mescom.) is UNREACHABLE from this
+#     environment: every curl returns exit 28 / HTTP 000 (40-120s timeout); WebFetch times out. Non-gov
+#     hosts (bescom.org, web.archive.org, data.opencity.in, cer.iitk.ac.in) resolve normally in ~2s, so
+#     this is a domain-specific block on the only host where KERC orders live.
+#  3. Via the Wayback Machine the KERC tariff-order index (snapshot 2023-12-10) lists ONLY KPTCL + the
+#     five ESCOM (BESCOM/MESCOM/CESC/HESCOM/GESCOM) retail-supply ARR/tariff orders. The single
+#     KPCL-specific row is labelled "KPCL TARIFF APPLICATION : RTPS-8 / BTPS-2 / Hydro Stations" -- i.e.
+#     filed APPLICATIONS, with no companion "Order" link.
+#  4. Those two KPCL application PDFs were recovered in full from Wayback (full 2022-08-15 snapshot, not
+#     the truncated 2023 copy) and OCR'd: BOTH are 2010-era model POWER PURCHASE AGREEMENTS for NEW units
+#     -- RTPS Unit-8 (1x250 MW) and BTPS Unit-2 (500 MW, PPA dated 18-Dec-2010). They define the tariff
+#     MECHANISM (capital cost, normative parameters) for a then-future unit; they carry NO FY2022-23
+#     operating energy charge / per-station ECR. Saved: kpcl_rtps8_application.pdf (248 pp),
+#     kpcl_btps2_application.pdf (197 pp).
+#  5. The archived KERC "Fuel Cost Adjustment Charges (FAC)" page confirms FAC orders are quarterly and
+#     ESCOM-wide -- they contain NO RTPS/BTPS station-wise energy rate.
+#  6. data.opencity.in mirrors only the KERC "Combined Tariff Order 2025" (FY2025 retail order, wrong
+#     vintage; and a retail/FAC order, not a per-station ECR). No FY2022-23 / FY2023-24 KERC order online.
+# Conclusion: no REAL, FY2022-23, per-station KPCL ECR exists in a reachable published order. Per the
+# project rule "HONESTY OVER COVERAGE -- not in a public order -> SKIP", Raichur and Bellary Tps are SKIPPED.
+# To obtain these would require a network-enabled LOCAL session that can reach kerc.karnataka.gov.in AND a
+# KERC ESCOM ARR order whose true-up tables tabulate KPCL station-wise variable cost for FY2022-23 (not
+# confirmed to exist at per-station granularity).
+#
+# match_name,unit_group,genco,state,period,basis -> status
+# Raichur     | RTPS (RTPS-8 only seen, as a 2010 PPA)        | KPCL | Karnataka | FY2022-23 | -- | NOT FOUND / SKIP
+# Bellary Tps | BTPS (BTPS-2 only seen, as a 2010 PPA)        | KPCL | Karnataka | FY2022-23 | -- | NOT FOUND / SKIP

@@ -1,0 +1,26 @@
+# Plant-level Energy Charge Rate (ECR) override table -- FY2022-23 ONLY.
+# Copy this file to data/raw/plant_ecr.csv and fill it with REAL, FY2022-23,
+# METERED per-station ECR (energy charge / variable cost, Rs/kWh). 06_apply_ecr.py
+# fuzzy-matches match_name to the plant table and overrides the modelled cost.
+#
+# columns:
+#   match_name      station name (fuzzy-matched; punctuation/suffixes ignored)
+#   ecr_rs_per_kwh  published energy charge rate / variable cost, Rs/kWh
+#   period          provenance period -- MUST be FY2022-23 to match the dataset
+#   source          citation: SCED sheet / SLDC MOD stack / URL
+#
+# VINTAGE RULE: only FY2022-23 metered ECR belongs here. Do NOT paste CERC
+# tariff-order ECRs -- those are a 2018-19 basis (working-capital ECR at the start
+# of the 2019-24 period) and live separately in plant_ecr_cerc_2018basis.csv, used
+# only by the 08 cross-check.
+#
+# STATUS (2026-06 session): this file ships EMPTY of data rows on purpose. The
+# FY2022-23 per-station metered feeds -- Grid-India SCED, POSOCO eLibrary, state
+# SLDC daily merit-order stacks, MERIT -- were all unreachable (HTTP 503 / refused).
+# So no honest FY2022-23 per-station override exists yet; the headline cost falls
+# back to the real-CIL-grounded model in 02. Fill rows below when those feeds are
+# reachable (see docs/data_sources.md), then re-run 06_apply_ecr.py.
+#
+# Lines starting with '#' are ignored.
+match_name,ecr_rs_per_kwh,period,source
+# (no FY2022-23 metered per-station ECR rows available this session -- see above)

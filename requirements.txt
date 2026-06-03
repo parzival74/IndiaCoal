@@ -1,0 +1,9 @@
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+openpyxl>=3.1
+# For analysis/07_fetch_ecr.py only (re-fetches the source PDFs from cercind.gov.in).
+# The pipeline (run_all.py) is reproducible offline from the committed CSVs without these.
+requests>=2.28
+pypdfium2>=4.0
+pdfplumber>=0.10

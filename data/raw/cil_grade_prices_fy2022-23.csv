@@ -1,0 +1,29 @@
+# Coal India Limited (CIL) grade-wise PITHEAD Run-of-Mine (ROM) notified prices,
+# "Power Utilities (incl. IPPs), Fertilizer & Defence" column, Rs/tonne.
+# VINTAGE: in force throughout FY2022-23. Source notification CIL/M&S/Pricing:194
+# dated 27-11-2020 (effective 01-12-2020), which superseded the 08-01-2018 notice;
+# CIL did NOT change non-coking prices again until 31-05-2023 -- so this single
+# schedule was in force across all of FY2022-23 (Apr-2022 to Mar-2023).
+# SOURCE pdf: cercind.gov.in CPI archive ("2021/CPI/Coal Price Notification dated
+# 27-11-2020.pdf"), Annexure Table I (subsidiaries incl. NEC, excl. WCL).
+# These are EX-MINE prices: royalty, GST, GST compensation cess (Rs400/t), sizing
+# and rail freight are added on top (see analysis/02_variable_cost.py).
+# G1 (GCV>7000) has no flat price: +Rs100/t per 100 kcal above the G2 band.
+grade,gcv_low_kcal_per_kg,gcv_high_kcal_per_kg,pithead_rom_rs_per_tonne_power,period,source
+G1,7000,,,FY2022-23,"CIL notif. 194 dated 27-11-2020 (G1>7000: G2 + Rs100/t per 100 kcal)"
+G2,6700,7000,3298,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G3,6400,6700,3154,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G4,6100,6400,3010,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G5,5800,6100,2747,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G6,5500,5800,2327,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G7,5200,5500,1936,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G8,4900,5200,1475,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G9,4600,4900,1150,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G10,4300,4600,1034,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G11,4000,4300,965,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G12,3700,4000,896,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G13,3400,3700,827,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G14,3100,3400,758,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G15,2800,3100,600,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G16,2500,2800,574,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"
+G17,2200,2500,457,FY2022-23,"CIL notif. 194 dated 27-11-2020, Table I"

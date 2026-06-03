@@ -1,0 +1,82 @@
+======================================================================
+HEADLINE: Efficiency vs PLF
+======================================================================
+  ALL units      r=0.475  R2=22.6%  n=455
+  PLF>=20 units  r=0.552  R2=30.5%  n=438
+  (units dropped with PLF<20: 17)
+
+======================================================================
+UNIVARIATE: PLF vs each driver (PLF>=20 set)
+======================================================================
+  PLF ~ Efficiency (%)               r=+0.552  R2=30.5%
+  PLF ~ Station heat rate            r=-0.526  R2=27.7%
+  PLF ~ Auxiliary consumption (%)    r=-0.487  R2=23.7%
+  PLF ~ Emission factor (t/MWh)      r=-0.477  R2=22.7%
+  PLF ~ Capacity (MW)                r=+0.225  R2= 5.0%
+  PLF ~ Coal GCV                     r=+0.162  R2= 2.6%
+  PLF ~ Age (yr)                     r=-0.015  R2= 0.0%
+
+======================================================================
+PLF & Efficiency by sector (PLF>=20)
+======================================================================
+           n   PLF   Eff   Age    Cap
+sector                               
+Centre   130  71.1  32.4  22.7  358.4
+Private  121  58.4  31.6  13.8  290.4
+State    187  58.8  30.2  24.2  282.7
+
+PLF by capacity band (MW):
+           n   PLF   Eff
+_band                   
+<150      50  54.7  28.6
+150-250  212  61.3  30.4
+250-400   46  59.3  32.4
+400+     130  68.1  33.2
+
+PLF by age band (yr):
+         n   PLF   Eff
+_band                 
+<10     80  60.3  31.9
+10-20  174  63.6  31.7
+20-30   62  63.6  31.2
+30-40   86  61.9  30.2
+40+     36  59.9  30.0
+
+======================================================================
+MULTIVARIATE OLS: how much of PLF can plant-technical vars explain?
+(standardised continuous predictors; sector base = State)
+======================================================================
+
+  Efficiency only:  R2=30.5%  adjR2=30.4%
+    intercept (mean PLF) = 62.4
+    efficiency_pct       +8.87
+
+  + Age + Capacity + GCV:  R2=32.4%  adjR2=31.8%
+    intercept (mean PLF) = 62.4
+    efficiency_pct       +10.15
+    age_yr               +1.74
+    capacity_mw          -1.04
+    gcv_kcal_per_kg      -0.89
+
+  + Sector:  R2=38.1%  adjR2=37.3%
+    intercept (mean PLF) = 61.9
+    efficiency_pct       +9.77
+    age_yr               +0.13
+    capacity_mw          -2.19
+    gcv_kcal_per_kg      -0.71
+    Centre(vs State)     +6.13
+    Private(vs State)    -4.89
+
+  + Auxiliary consumption (all):  R2=43.6%  adjR2=42.7%
+    intercept (mean PLF) = 62.8
+    efficiency_pct       +7.66
+    age_yr               -0.14
+    capacity_mw          -4.60
+    gcv_kcal_per_kg      -1.21
+    aux_pct              -5.69
+    Centre(vs State)     +4.74
+    Private(vs State)    -6.66
+
+Takeaway: every measurable plant variable combined still leaves ~56%
+of PLF variation unexplained -> the dispatch drivers (fuel cost,
+PPA/must-run, RE backing-down, grid location) are NOT in this dataset.

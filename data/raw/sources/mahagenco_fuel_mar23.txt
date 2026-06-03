@@ -1,0 +1,383 @@
+             MoD stack is preapared as per Clause 33 of State Grid Code Regulation 2020 issued by Hon. MERC on dtd. 02.09.2020
+                         DISCOM WISE MOD STACK OF VARIABLE CHARGES (VC) FOR APR-2023 (R1)
+                                       (*Effective from 26.04.2023 to 15.05.2023)
+                                                                                                                         Variable Charge Rs./KWh in Descending Order
+                                                                                          Installed
+                                                                        OWNER/
+Sr. no.                    Generating Station                                         Capacity/ Share Type of Fuel                      Impact for
+                                                                         TYPE          in ISGS (MW)                Approved Variable approved change         Total Variable
+                                                                                                                         Charge(Rs/KWh)   in law (if any)   Charge(Rs/ KWh)
+                                                                                                                                            Rs./KWh)
+
+  1                                    2                                     3                4                 5              6                7                 8
+                                                                DECENTRALISED MOD STACK FOR MSEDCL
+  1       KAWAS (NAPM-COM GAS)                                              CS              XXX               Gas          14.0305          0.0000           14.0305
+  2       JGPS (NAPM-COM GAS)                                               CS              XXX               Gas          13.9080          0.0000           13.9080
+  3       JGPS (RLNG)                                                       CS              XXX               Gas          10.9326          0.0000           10.9326
+  4       KAWAS (RLNG)                                                      CS              XXX               Gas          10.7135          0.0000           10.7135
+  5       Uran GTPS (Open cycle operation)                              MSPGCL              XXX               Gas           9.4740          0.0000            9.4740
+  6       KAWAS (APM GAS)                                                   CS               204              Gas           7.3839          0.0000            7.3839
+  7       JGPS (APM GAS)                                                    CS               200              Gas           7.3528          0.0000            7.3528
+  8       Uran GTPS (Combined cycle operation)                          MSPGCL               840              Gas           6.7930          0.0000            6.7930
+  9       APML, Unit 2 & 3          (1320 MW )                             IPP              1320              Coal          1.5390          3.6435            5.1825
+  10      APML, Unit 1,4 & 5         (440 MW )                             IPP               440              Coal          2.4381          2.6930            5.1311
+  11      APML, Unit 1,4 & 5         (1200 MW )                            IPP              1200              Coal          2.3781          2.6930            5.0711
+  12      APML, Unit 1,4 & 5         ( 125 MW )                            IPP               125              Coal          2.3781          2.6930            5.0711
+  13      Parali Unit - 06 & 07                                         MSPGCL               500              Coal          4.8840          0.0000            4.8840
+  14      Parali Unit -08                                               MSPGCL               250              Coal          4.8510          0.0000            4.8510
+  15      CGPL                                                              CS               760              Coal          4.8183          0.0000            4.8183
+  16      Solapur STPS                                                      CS               642              Coal          4.7139          0.0000            4.7139
+  17      JSW U1, Jaigad                                                   IPP               300              Coal          4.7100          0.0000            4.7100
+  18      Khargone                                                          CS               85               Coal          4.6526          0.0000            4.6526
+  19      Gadarwara                                                         CS               46               Coal          4.5789          0.0000            4.5789
+  20      Bhusawal Unit - 03                                            MSPGCL               210              Coal          4.4460          0.0000            4.4460
+  21      Nasik Unit - 03 to 05                                         MSPGCL               630              Coal          4.1660          0.0000            4.1660
+  22      MSTPS-II                                                          CS               531              Coal          4.1541          0.0000            4.1541
+  23      MSTPS-I                                                           CS               394              Coal          4.1230          0.0000            4.1230
+  24      Khaperkheda Unit - 1 to 4                                     MSPGCL               840              Coal          3.9140          0.0000            3.9140
+  25      Chandrapur Unit - 3 to 7                                      MSPGCL              1920              Coal          3.8540          0.0000            3.8540
+  26      Bhusawal Unit - 4 & 5                                         MSPGCL              1000              Coal          3.4340          0.0000            3.4340
+  27      Paras Unit - 3 & 4                                            MSPGCL               500              Coal          3.4270          0.0000            3.4270
+  28      Khaperkheda Unit - 5                                            STOA               500              Coal          3.3900          0.0000            3.3900
+  29      EMCO                                                              CS               200              Coal          3.3889          0.0000            3.3889
+  30      IEPL TO MSEDCL                                                  STOA               180              Coal          3.3580          0.0000            3.3580
+  31      KHTPS-II                                                          CS               148              Coal          3.3451          0.0000            3.3451
+  32      Chandrapur Unit - 8 & 9                                       MSPGCL              1000              Coal          3.3350          0.0000            3.3350
+  33      Koradi Unit - 8 to 10                                         MSPGCL              1980              Coal          3.1440          0.0000            3.1440
+  34      Koradi Unit - 7                                               MSPGCL               210              Coal          3.0400          0.0000            3.0400
+  35      SWPGL TO MSEDCL                                                 LTOA               240              Coal          2.5581          0.4216            2.9797
+  36      RattanIndia Power Ltd, Amravati                                  IPP              1200              Coal          2.4523          0.5073            2.9596
+  37      VSTP-I                                                            CS               432              Coal          1.7373          0.0000            1.7373
+  38      KSTPS I AND II                                                    CS               635              Coal          1.7262          0.0000            1.7262
+  39      KSTPS-III                                                         CS               120              Coal          1.6776          0.0000            1.6776
+  40      VSTPS-V                                                           CS               161              Coal          1.6739          0.0000            1.6739
+  41      VSTP-II                                                           CS               336              Coal          1.6517          0.0000            1.6517
+  42      VSTPS-III                                                         CS               275              Coal          1.6321          0.0000            1.6321
+  43      Lara                                                              CS               114              Coal          1.6149          0.0000            1.6149
+  44      VSTP-IV                                                           CS               294              Coal          1.6092          0.0000            1.6092
+  45      SSTPS-II                                                          CS               274              Coal          1.5463          0.0000            1.5463
+  46      SSTPS-I                                                           CS               556              Coal          1.5134          0.0000            1.5134
+                                                                  DECENTRALISED MOD STACK FOR AEML
+
+  1       DTPS U-1 & 2                                                    DTPS               500              Coal          3.9713          0.0000            3.9713
+                                                                DECCENTRALISED MOD STACK FOR TPCL-D
+
+  1       TPC U-7 (RLNG)                                                  TATA               xxx              Gas          32.2790          0.0000           32.2790
+  2       TPC U-5                                                         TATA               500          Coal/Oil/Gas      7.7700          0.0000            7.7700
+  3       TPC U-8                                                         TATA               250              Coal          7.5560          0.0000            7.5560
+  4       TPC U-7 (APM) *                                                 TATA               180              Gas           6.6470          0.0000            6.6470
+                                                                  DECENTRALISED MOD STACK FOR BEST
+
+  1       TPC U-7 (RLNG)                                                  TATA               xxx              Gas          32.2790          0.0000           32.2790
+  2       TPC U-5                                                         TATA               500          Coal/Oil/Gas      7.7700          0.0000            7.7700
+  3       TPC U-8                                                         TATA               250              Coal          7.5560          0.0000            7.5560
+  4       TPC U-7 (APM) *                                                 TATA               180              Gas           6.6470          0.0000            6.6470
+  5       SWPGL TO BEST                                                  MTOA                100              Coal          2.2100          0.0000            2.2100
+                                                               DECENTRALISED MOD STACK FOR RAILWAY
+  1       DHARIWAL U-1 TO RAILWAY                                        MTOA                210              Coal          2.1800          0.0000            2.1800
+NOTE-
+          1) Prepared as per Clause 33 of State Grid Code Regulation 2020 issued by Hon'ble MERC dtd. 2nd sept 2020 .
+          2) "R1 updated on mahasldc.in website on dated 25.04.2023.due to revised rates of CGPL & JSW are submitted by CEPP
+           3) Actual rates of NTPC Kawas and Gandhar are displayed on WRLDC web-site daily.
+           4) Hydro generation is not considered for MOD.
+          *5) Gas and RE and Nuclear Generation is considered as MUST RUN.
+          6) ISGS Share of Maharashtra during peak hours (18:00 to 22:00Hrs)is shown as capacity allocated to MSEDCL.
+                                                                                                                                                                                                                                  combined cycle      Open cycle
+                                               Mar-23                                                                                                                                                                                                 GT5 & GT6
+
+
+                                                                                 Bhusawal 4   Khaperkheda    Khaperkhe                 Chandrapur    Chandrapur Paras Units Parli Units 6 Parli Unit               Koradi Units
+S. No.                     Particulars                     Units     Bhusawal                                               Nashik                                                                     Koradi 6                      URAN              URAN
+                                                                                    &5          1 TO 4         da -5                     # 3 to 7    Units 8 & 9  3&4           &7            8                     8, 9 & 10
+ 1       Operational parameters                                      Normative   Normative     Normative     Normative Normative       Normative     Normative     Normative   Normative   Normative Normative      Normative      Normative         Normative
+1.1      Total Capacity                                    MW           210         1000         840.00        500.00       630.00        1920          1000          500          500        250         420           1980           672               672
+1.2      Availability                                        %        80.74%        96%          73.76%        89.90%       85.80%       67.94%         95.1%       88.18%       97.10%      63.78%     90.10%        71.03%         26.207%           29.38%
+1.3      PLF                                                 %         66%          83%          66.00%        82.21%       47.82%       58.45%         85.8%       84.73%        74%        55.98%     87.62%        68.14%         25.619%           22.46%
+1.40     Gross Generation                                  MU         100.91       608.44        407.89        306.93       215.35       866.32         636.72      310.32       279.66      109.82     137.52        1021.39         76.84             34.44
+1.5      Auxiliary Consumption excluding FGD                 %        10.96%         6%           9.7%          6%          10.75%         8%            6%           9%          9%           9%       9.00%          6.00%           3%               1%
+1.60     Auxiliary Consumption excluding FGD               MU          11.06        36.51        39.57         18.42         23.15        67.57         38.20        28.86       26.01        9.33       12.38         61.28           2.38             0.34
+1.7      Auxiliary Consumption for FGD                       %
+1.80     Auxiliary Consumption for FGD                     MU
+1.9      Total Auxiliary Consumption                         %        10.96%       6.00%         9.70%         6.00%        10.75%       7.80%          6.00%        9.30%       9.30%       8.50%      9.00%         6.00%           3.10%             1.00%
+1.10     Total Auxiliary Consumption (= 1.6 + 1.8)         MU          11.06       36.51         39.57         18.42         23.15       67.57          38.20        28.86       26.01        9.33      12.38         61.28            2.38              0.34
+1.11     Net Generation (= 1.4 - 1.10)                     MU          89.85        571.93       368.32        288.52       192.20       798.75         598.52       281.46      253.65      100.49      125.14        960.11         74.46             34.09
+1.12     Heat Rate                                       kcal/kWh     2787.00      2375.00       2630.00       2375.00      2754.00      2688.00       2375.00      2430.00     2430.00     2430.00     2350.00       2230.00        2035.00           2900.00
+1.13     Secondary Fuel Oil Consumption                   ml/kWh        1.40         0.50          1.20          0.50         1.00         1.00          0.50         0.50        0.50        0.50        2.81          0.50
+
+1.14     Transit Loss for Domestic and Washed Coal          %         0.800%       0.800%        0.800%        0.800%       0.800%       0.800%        0.800%       0.800%       0.800%     0.800%      0.800%        0.800%
+
+1.15     Transit Loss for Imported Coal                     %                                     80%                                                   0.00%                                 0%                        0%
+
+
+         SHR coal component                                           2773.23      2370.08       2618.60       2370.25      2744.14      2678.50       2370.25      2425.27     2425.34     2425.34     2323.23      2225.24
+
+
+         Fuel parameters (for each primary and
+  2
+         secondary fuel)
+ 2.1     Calorific Value
+2.1.1    Domestic Coal (As Billed)                        kcal/kg      4146         4155          3930          3930         4081         4023          4078         4125         3802      3823.65     3913.74       3998.74                 8853       8897.69
+2.1.2    Imported Coal (As Billed)                        kcal/kg      4764         4752          4654          4654          0           4698          4697           0           0          0.00        0.00          0.00
+         Wash Coal (As Billed)                            kcal/kg     4020.57     4020.57        3770.00       3770.00        0.00         0.00        4150.00        0.00       0.00        0.00      4079.81       4102.55
+2.1.3    Domestic Coal (As Received)- Actual              kcal/kg     3143.00     3098.42        2967.00       2967.00      2869.27      3247.00       3283.00      3361.84     3349.64     3349.64    2641.42       3002.08
+         GCV loss between loading end and unloading
+                                                          kcal/kg
+         end-- Domestic Actual                                        1003.35      1056.51       963.00        963.00       1211.49      776.00         795.00       763.56      452.01      474.01     1272.32       996.66
+
+         GCV loss between loading end and unloading
+         end as per directions in MERC Order in Case      kcal/kg      600.00      600.00        600.00        600.00       600.00       600.00         600.00       600.00      452.01      474.01     600.00        600.00
+         No. 180 0f 2020 ( Min. of Actual or 600)
+         Domestic coal As received GCV for FAC
+                                                          kcal/kg     3546.35      3554.93       3330.00       3330.00      3480.76      3423.00       3478.00      3525.40     3349.64     3349.64     3313.74       3398.74
+         computation
+         Wash Coal (As Received)                          kcal/kg     4079.11      4079.11       4008.00       4008.00       0.00         0.00         4211.00        0.00        0.00        0.00      3771.90       3765.14
+         GCV loss between loading end and unloading
+                                                          kcal/kg      -58.54      -58.54       -238.00       -238.00        0.00         0.00          -61.00       0.00         0.00        0.00      307.91        337.41
+         end-- Wash Coal Actual
+         GCV loss between loading end and unloading
+         end for Wash Coal as per Case No. 296 0f         kcal/kg      -58.54      -58.54        -238.00       -238.00       0.00         0.00          -61.00        0.00        0.00        0.00      300.00        300.00
+         2019 ( Min. of Actual or 300)
+         Wash coal As received GCV for FAC
+                                                          kcal/kg     4079.11      4079.11       4008.00       4008.00       0.00         0.00         4211.00        0.00        0.00        0.00      3779.81       3802.55
+         computation
+2.1.4    Imported Coal (As Received)                      kcal/kg      4764         4752          4654          4654          0           4698          4697           0           0           0           0           4698
+         Weighted Avg Raw,Wash & Imported Coal
+                                                          kcal/kg     3626.96      3633.84       3675.76       3586.42      3480.76      3489.22       3606.79      3525.40     3349.64     3349.64     3598.04      3814.09
+         for FAC Computations
+         Weighted avg. received GCV - Actual              kcal/kg      3257.10     3214.48       3477.17       3341.65      2869.27      3322.36        3433.10      3361.84     3349.64     3349.64    3331.01       3764.93
+2.1.5    L.D.O                                            kcal/kg     10970.00    10970.00      10784.00      10784.00     10978.00     10882.00       10882.00     10742.00    10730.00    10730.00   10796.00      10796.00
+2.1.6    F.O                                              kcal/kg     10671.00    10671.00      10260.00      10260.00     10707.00     10237.00       10237.00     10216.00    10044.00    10044.00   10296.00      10296.00
+2.1.7    Fuel 4                                          kcal/unit
+
+         Calorific Value after stacking loss
+         Domestic Coal (As Fired)-- Actual                kcal/kg     3045.15     3130.80        3274.00       3228.00      2780.00      3281.07       3398.37      3345.00     3277.00     3286.00    3018.00        3422.00
+
+ 2.2     Stacking Loss
+2.2.1    Stacking Loss Approved                           kcal/kg      120.00      120.00        120.00        120.00       120.00       120.00         120.00       120.00      120.00      120.00     120.00        120.00
+2.2.2    Stacking Loss Actual                             kcal/kg      211.95       83.68        203.17        113.65        89.27       41.29          34.73        16.84       72.64       63.64      313.01        342.93
+         stacking loss to be considered as per MERC
+                                                                      120.00       83.68         120.00        113.65        89.27       41.29          34.73        16.84       72.64       63.64      120.00        120.00
+         Regulations
+                                                                       211.95
+ 2.3     Calorific Value after stacking loss
+         Coal (As Fired)- to be considered for energy                                            3555.76
+2.3.1                                                     kcal/kg     3506.96      3550.16                     3472.78      3391.49      3447.93       3572.05      3508.56     3277.00     3286.00     3478.04       3694.09       8852.54           8897.69
+         charge computation
+2.3.2                                                     kcal/kg
+
+ 2.4     Landed Fuel Price per unit
+2.4.1    Domestic Coal                                    Rs./MT       4339.04     4202.06       3495.40       3714.32      4520.69      3890.09        3526.27     4451.96     5949.25     5977.80     2993.58       3206.84      28.6350072        28.7760068
+2.4.2    Imported Coal                                    Rs./MT      14589.99    14719.73      15153.67      15023.06        0.00      15661.99       15047.50      0.00        0.00         0.00        0.00       14641.875
+         Wash Coal                                        Rs./MT      5107.34      5160.15       4787.68       4796.96        0.00         0.00         3718.28       0.00        0.00        0.00      4469.18       4616.25
+         Weighted AVG price                                           4906.46      4794.77       4701.60       4630.61      4520.69      4501.44       4681.62      4451.96     5949.25     5977.80     3893.69      4856.43
+2.4.3    L.D.O                                            Rs./KL      84077.99    83317.44      94407.09      56016.41     81533.33     78895.55       78895.55     73545.55    64561.38   56898.25    55245.13      64256.18
+2.4.4    F.O                                              Rs./KL      49057.27    46916.42      50861.50      52000.36     54668.68     51292.48       51292.48     59346.69    51702.47   51702.47     59729.56     58021.84
+         Wtd. Avg. Oil price                              Rs./KL      49057.27    46916.42      53059.01      53648.74     63329.52     67313.84       59649.37     60229.52    54433.65   51702.47    114974.69    122278.01
+
+  3      Fuel Consumption and Heat Contribution (for each fuel separately)
+ 3.1     Specific Fuel Consumption                                  0.79            0.67          0.74          0.68         0.81         0.78           0.66         0.69        0.74        0.74       0.67         0.6024
+3.1.1    Domestic Coal                              kg/kWh          0.73            0.61          0.40          0.46         0.81         0.74           0.59         0.69        0.74        0.74       0.26          0.022           0.23              0.33
+3.1.2    Imported Coal                              kg/kWh          0.04            0.04          0.04          0.04         0.00         0.04           0.07         0.00        0.00        0.00       0.00          0.02
+         Wash Coal                                  kg/kWh          0.02            0.02          0.29          0.18         0.00         0.00           0.01         0.00        0.00        0.00       0.41          0.56
+3.1.3    L.D.O                                      ml/kWh          0.28            0.10          0.24          0.10         0.20         0.20           0.10         0.10        0.10        0.10       0.56          0.10
+3.1.4    F.O                                        ml/kWh          1.12            0.40          0.96          0.40         0.80         0.80           0.40         0.40        0.40        0.40       2.25          0.40
+
+ 3.2     Total Fuel Consumption
+3.2.1    Domestic Coal                                     MT         73168.33    373137.97     164340.04     141261.58    174247.25    638045.07     376315.20    214505.46   206975.11    81056.13   35825.47     21972.18       17663789.15       11223958.13
+3.2.2    Imported Coal                                     MT          4237.92     21871.80      17993.00      11547.53       0.00       34950.98      42303.83       0.00        0.00        0.00       0.00       17828.38
+         Wash Coal                                         MT          2387.25     11183.97     118052.31      56679.84       0.00         0.00        3881.19        0.00        0.00        0.00     56033.88     575462.60
+3.2.3    L.D.O                                             KL            28.25       60.84         97.89         30.69       43.07        173.26         63.67       31.03       27.97        10.98      77.29        102.14
+3.2.4    F.O                                               KL           113.01      243.38        391.57        122.77      172.2824      693.06        254.69       124.13      111.86      43.93      309.14        408.56
+
+ 3.3     Heat content                                                279832.69 1442052.60      1068099.21    727508.28     590957.80   2320443.08    1509193.53    752605.28   678257.43   266350.43 319490.57     2272836.67
+3.3.1    Domestic Coal                                  Million kcal 256598.48   1324699.33     584354.27     490569.89    590957.80   2199934.56    1344218.16    752605.28   678257.43   266350.43   124602.45     81167.17       156369.40         99867.30
+3.3.2    Imported Coal                                  Million kcal 14862.22757 77648.3745    63978.85888   40101.98297        0      120508.5237   151111.5418        0           0           0          0        65859.63366
+         Wash Coal                                      Million kcal   8371.98    39704.89      419766.08     196836.40       0.00         0.00       13863.82        0.00        0.00        0.00     194888.12    2125809.87
+3.3.3    L.D.O                                          Million kcal    264.38      569.34        900.50        282.34       403.32      1608.30        591.03       284.34      255.96      100.51      711.73        940.60
+3.3.4    F.O                                            Million kcal   1125.17     2423.06       3748.37       1175.26      1721.04      6619.47       2432.57      1183.12     1048.26      411.65     2969.70       3924.66
+         Total Heat content                             Million kcal 281222.24   1445045.00    1072748.07     728965.88    593082.16   2328670.85    1512217.13    754072.74   679561.65   266862.60   323172.00    2277701.93      156369.40         99867.30
+
+  4      Total Fuel Cost
+ 4.1     Domestic Coal                                  Rs. Crore      31.75       156.79         57.44         52.47        78.77       248.21         132.70       95.50       123.13      48.45       10.72         7.05           50.58             32.30
+ 4.2     Imported Coal                                  Rs. Crore       6.18        32.19         27.27         17.35         0.00        54.74          63.66        0.00        0.00        0.00        0.00         26.10
+         Wash Coal                                      Rs. Crore       1.22         5.77         56.52         27.19         0.00        0.00           1.44         0.00        0.00        0.00       25.04        265.65
+ 4.3     L.D.O                                          Rs. Crore       0.24         0.51          0.92          0.17         0.35        1.37           0.50         0.23        0.18        0.06        0.43         0.66
+ 4.4     F.O                                            Rs. Crore       0.55         1.14          1.99          0.64         0.94        3.55           1.31         0.74        0.58        0.23        1.85         2.37
+         Total Fuel Cost                                Rs. Crore      39.94       196.41        144.14         97.82        80.06       307.87         199.61       96.46       123.89      48.74       38.04        301.83          50.58             32.30
+
+  5      Other Charges and Adjustments
+ 5.1     Other Charges (Pl. specify details)            Rs. Crore
+ 5.2     Other Adjustments (Pl. specify details)        Rs. Crore
+         Total Other Charges and Adjustments            Rs. Crore
+
+  6      Total Cost (= 4 + 5)                            Rs. Crore     39.94       196.41        144.14         97.82        80.06       307.87         199.61       96.46       123.89      48.74       38.04        301.83          50.58             32.30
+
+  7      Cost of Generation (at Generation Terminal) (= 6/1.4)
+                                                         Rs./kWh        3.96        3.23          3.53          3.19         3.72         3.55           3.13         3.11        4.43        4.44       2.77          2.96            6.58             9.38
+
+  8      Energy Charge (= 6/1.11)                        Rs./kWh     4.4457 3.4341            3.91354        3.3903        4.166        3.854          3.335         3.43        4.88        4.85      3.040       3.14366           6.79             9.474
+   MAHARASHTRA STATE POWER GENERATION CO. LTD.
+   PH: 26472211, 26472131                                       Regulatory & Commercial Dept.,
+   FAX:91-22-26580643                                           Prakashgad, 3rd Floor,
+   Email: rcgen@mahagenco.in                                    Bandra (E) Mumbai 400 051
+
+   RCD23/15/LT0409                                                     Date: 13/04/2023
+
+   To
+   The Chief Engineer (Power Purchase)
+   Maharashtra State Electricity Distribution Company,
+   5th floor, Prakashgad, Bandra (E),
+   Mumbai, Maharashtra - 400051
+
+   Sub: Provisional Fuel Surcharge Adjustment Bill for supply of electricity for the month
+   of March -2023 Part-I.
+
+   Ref: 1) Energy Bill fo r Ma r ch - 20 23 D t.0 1.0 4.2 02 3
+        2) MERC Order dated 30.03.2020 in Case No. 296 of 2019
+        3) MERC order dated 10.06.2020 in Case No. 97 of 2020
+        4) MERC order dated 01.03.2021 in Case No. 180 of 2020
+
+    Sir,
+        MSPGCL has already raised energy bill for the month of Mar-2023 towards the supply
+of electricity to MSEDCL, vide letter under ref. 1 above, considering the energy charges
+approved by Hon’ble MERC in the order under ref. 2.
+
+       Computation methodology for FAC Part- I bill for the month of Mar-2023:
+       In view of the difficulties faced by MSPGCL on account of non- availability of certified
+GCV data for loading end coal due to COVID-19 lockdown situation and deviations in energy
+charge on account of usage of alternate coal, MSPGCL had approached Hon’ble MERC for
+necessary guidelines for raising the FAC bill for April-2020 and onwards till normalization of
+schedule of loading end coal GCV certificates.
+       Hon’ble Commission, vide order dated 10.06.2020 in the Case No. 97 of 2020, has
+directed following regarding the FAC billing.
+
+        “22. Therefore, MSPGCL may submit FAC bills to MSEDCL based on actual fuel cost and
+provisional GCV, which can be either based on mid-point of declared grade GCV or GCV measured
+by MSPGCL’s Testing Team. Although,the Commission has suggested two approaches for arriving
+at provisional GCV, MSPGCL may adopt any other better approach in consultation with MSEDCL
+for provisional billing. Bill for differential amount would be based on actual GCV as per CIMFR report
+to be raised on MSEDCL as and when actual data is available so that appropriate adjustment can be
+done in FAC submission in subsequent month by MSEDCL.”
+
+        Accordingly, the tentative Normative Variable Cost for the month of Mar-2023 is
+calculated, based on actual costs; weighted averages for GCV data as directed vide MERC
+order in case no. 97 of 2019 and approved performance parameters for MSPGCL thermal
+stations as per MERC order in case no. 296 of 2019 and MERC order in Case No. 180 of 2020.
+
+     Compensation for operation of units below normative AVF & above technical
+minimum:
+       The Regulation 34 of State Grid Code Regulations, 2020, has provided for claim for
+                                                                                         1
+compensation on account of operation at or above the technical minimum but below the
+normative plant availability factor on account of grid security or due to the fewer schedules
+given by the buyer.
+        As per Regulations 34.2 and 34.3 of State Grid Code, 2020 MSPGCL is entitled to claim
+compensation for such operations up to technical minimum of 55% in the monthly FAC
+bills and during tariff filing process, on the basisof technical parameters during such period,
+duly supported by relevant data verified by SLDC.
+        In the present FAC Part-I bill for Mar-2023, MSPGCL has not included any claim for
+compensation on account of operating the units below the normative availability loads up to
+technical minimum of 55%. However, once the relevant data is compiled and MSPGCL will
+raise the claim.
+
+       Provisional FAC Part-I bill for the month of Mar-2023:
+
+       Presently GT-5, GT-6, GT-8 and B0 is available. Due to non-availability of A0 unit since
+07.09.2022, GT-5 and GT-6 runs on Open cycle mode and B0 came in service from 20.11.2022,
+hence GT-8 along with B0 runs on CCPP mode. The Regulation 46.16 & 46.7 of MERC
+Regulations, 2019, has provided operational parameters for open cycle and combined cycle.
+Accordingly, MSPGCL has considered the normative parameters for Uran for combined cycle
+operation from 20.11.2022 and open cycle operation for the present FAC bill i.e March-2023.
+
+       Please find attached herewith Provisional FAC Part-I bill for MSPGCL thermal stations
+for supply of electricity for the month of Mar-2023 is Rs. 3677460887 /- (In words, Rs. Three
+Hundred sixty Seven Crore Seventy Four Lakhs Sixty Thousand Eight Hundred
+Eighty Seven Only)
+
+       Part (II) of the FAC bill for Mar-2023 for differential amount based on CIMFR Report
+as per methodology will be raised later on after receipt of CIMFR reports. Also, this bill is
+subject to amendments/ revision based on receipt orders that may be passed by MERC
+/APTEL or reason ofany subsequent development at later stage.
+
+     Also as explained above, MSPGCL will claim the compensation for                       Technical
+minimum operations during Mar’2023 once the relevant data is compiled.
+
+         Further it is to bring to your kind notice that Regulation 33.9 of the State Grid Code
+Regulations, 2020, provides following regarding revision in MoD stack published on the 15 th
+of the month.
+         “33.9 MoD Stack uploaded on the 15th of the month may be subsequently revised by SLDC in
+the following circumstances:
+         a) Commencement of supply of power by a generating unit under a new arrangement/bilateral
+agreement/Short term agreement in between period of MoD operation,
+         b) Revision of variable charges for preparing the MOD Stack due to Tariff Order issued by the
+Commission for state generating stations or by the Central Commission for central generating stations,
+         c) Impact of change in law in the PPAs as approved by the Commission.”
+
+      Therefore, it is requested to issue necessary directives for the adjustment of the
+above bill in respective Energy bill.
+
+       Thanking you,
+                                                                Yours faithfully,
+
+
+                                                        Chief Engineer (RCD), MSPGCL
+
+       Encl.: As above
+
+                                                                                                     2
+       MAHARASHTRA STATE POWER GENERATION CO. LTD.
+                                                                          Regulatory & Commercial
+       PH: 26472211, 26472131                                             Dept.
+       FAX:91-22-26580643                                                 Prakashgad, 3rd Floor,
+       Email: rcgen@mahagenco.in                                          Bandra (E) Mumbai 400 051
+Bill
+         134/2022                          Date: 13-04-2023                Due date: 12-05-2023
+No
+           Provisional Part-I Fuel Surcharge Adjustment bill for the Month of March-2023
+                                   THERMAL & GAS STATIONS
+                                         ECR
+                                        Consid
+                                                                              Net
+SR                                       ered    Calculat Adjustment
+                                                                          Generation       FAC-I
+N           POWER STATION                 for     ed VC     of FSA Rate
+                                                                            sent out    (Rs. Lakh)
+O.                                       FAC     Rs/Kwh      (Rs./kWh)
+                                                                             (MU's)
+                                        (Rs/K
+                                         wh)
+                                                                                        (e ) = d X c
+                                          (a)       (b)     (c ) =( b –a)      (d )
+                                                                                            X 10
+1      BHUSAWAL (Unit 3)                 4.102     4.446         0.344       91.531834    314.86951
+2      BHUSAWAL (Unit 4-5)               3.436     3.434        -0.002     581.385822      -11.62772
+3      KHAPARKHEDA ( Unit 1- 4)          2.945     3.914         0.969     372.391351    3608.47219
+4      KHAPARKHEDA Unit 5                2.583     3.390         0.807     293.194545    2366.07998
+5      NASHIK (Unit 3-5)                 3.569     4.166         0.597     187.300895    1118.18634
+6      CHANDRAPUR ( Unit 3-7)            2.658     3.854         1.196     769.743866    9206.13664
+7      CHANDRAPUR ( Unit- 8 & 9)         2.573     3.335         0.762     600.059928    4572.45665
+8      PARAS (Unit 3- 4)                 3.146     3.427         0.281     285.634055     802.63169
+9      PARALI (UNIT 6-7 )                4.240     4.884         0.644     250.313070    1612.01617
+10     PARALI (UNIT 8 )                  4.060     4.851         0.791       99.389283    786.16923
+11     KORADI (Unit 6)                   2.920     3.040         0.120     124.374999     149.25000
+12     KORADI (Unit-8,9 & 10)            2.398     3.144         0.746     943.580996    7039.11423
+13     GTPS URAN (Combine cycle)         2.847     6.793         3.946       74.617000   2944.38682
+14     GTPS URAN (Open cycle)            2.847     9.474         6.627       34.200500   2266.46714
+       TOTAL MSPGCL FAC BILL                                              4707.718144 36774.60887
+
+
+The provisional Part-I Fuel Surcharge Adjustment bill, for MSPGCL stations, to MSEDCL
+for the month of March -2023 is of Rs Three Hundred Sixty Seven Crore Seventy Four Lakhs
+Sixty Thousand Eight Hundred Eighty Seven Only
+
+
+
+
+                                                                             Chief Engineer
+                                                               Regulatory & Commercial Dept.
+
+
+
+
+                                                                                                  3
+

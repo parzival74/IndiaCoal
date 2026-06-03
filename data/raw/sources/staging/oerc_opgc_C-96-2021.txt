@@ -1,0 +1,3394 @@
+ODISHA ELECTRICITY REGULATORY COMMISSION
+BIDYUT NIYAMAK BHAWAN
+PLOT NO. 4, CHUNOKOLI, SHAILASHREE VIHAR,
+BHUBANESWAR-751021
+************
+Present:
+
+Shri G. Mohapatra, Officiating Chairperson
+Shri S.K.Ray Mohapatra, Member
+Case No. 96/2021
+
+OPGC
+Vrs.
+GRIDCO
+
+………
+
+Petitioner
+
+…………
+
+Respondent
+
+In the matter of:
+
+Application under Section 62 (1) (a) of the Electricity Act, 2003 read
+with the provisions of CERC (Terms and Conditions of Tariff)
+Regulations, 2009 for approval of Capital cost and Tariff
+determination for Units 3 & 4 (2 X 660MW) from COD of Unit # 3
+(03.07.2019) up to FY 2023 -24.
+
+For Petitioner :
+
+Shri Deep Rao, Advocate with Shri Haresh Satpathy, DGM (R&C),
+OPGC
+
+Respondents
+
+Shri P. K. Dash, CGM (PP), Shri B. K. Das, Sr. GM (PP) & Ms. Susmita
+Mohanty, DGM (PP), GRIDCO Ltd. and Shri V. Wagle on behalf of
+TPSODL, TPCODL, TPWODL and TPNODL and Shri S. K. Panda,
+GM (RT&C), OPTCL.
+
+:
+
+ORDER
+Date of hearing: 11.10.2022
+
+Date of order: 07.01.2023
+
+The Odisha Power Generation Corporation Ltd. (hereinafter referred to as OPGC or
+the Petitioner) has filed the present petition under Section 62 (1) (a) of the Electricity
+Act, 2003 for determination of tariff of Generating Units- 3 & 4 (2 x 660 MW) of its
+Ib Thermal Power Station situated at Banharpalli in Jharsuguda district of Odisha.
+2.
+
+Earlier OPGC was operating with two numbers of thermal generating units (Units 1 &
+2) having the capacity of 210 MW each at its Ib Thermal Power Station. Later OPGC
+proceeded to install two more generating units (Units 3 & 4) having capacity of 660
+MW each adjacent to the existing Units 1 & 2 in the same site. OPGC had entered
+into a long-term Power Purchase Agreement (termed as PPA-2) with GRIDCO on
+04.01.2011 for supply of 50% of the installed capacity from Units 3 & 4 basing on the
+notifications of the State Government No.7216 and No.10061 dated 21.06.2008,
+12.10.2009 respectively. In the said PPA-2, it was indicated that OPGC would be free
+to sell the balance 50% of the installed capacity to any outside agency, which was not
+1
+
+allocated to GRIDCO basing on the norms and parameters of the CERC (Terms and
+Conditions of Tariff) Regulations, 2009 as amended from time to time. The
+Commission had approved the said PPA in Case No. 113/2011 dated 04.01.2012.
+3.
+
+Subsequently, the Government of Odisha, vide its Notification No.10485 dated
+20.12.2018, have notified as follows:
+“2.
+
+Xxxxxx. PPA has been executed between OPGC and GRIDCO for 50% of the
+capacity of the expansion project i.e. 660 MW. The balance 50% of the
+capacity was to be sold by OPGC in the open market. However, due to several
+developments in the power sector extraneous to OPGC, it has not been
+possible for OPGC to tie up the balance 50% power in suitable arrangements
+outside GRIDCO. In the meanwhile, in order to secure fuel for the plant,
+OPCL (Joint Venture Company between OPGC & OHPC) has been formed
+and Manoharpur and dip side Manoharpur coal blocks have since been
+allocated to OPCL. The coal mined from these blocks is meant to be utilized
+for the end-use plants of OPGC.
+
+3.
+
+It is therefore necessary to tie up the entire power from Units 3 & 4 projects of
+OPGC with GRIDCO in a mutually beneficial arrangement to enhance the
+long term energy security of the State.
+
+4.
+
+After careful consideration, Government have been pleased to approve
+the
+arrangement worked out in the “Shareholders’ meeting of OPGC” to contract
+the PPA for the entire capacity of Units 3 & 4 between OPGC and GRIDCO
+in the following manner:
+(i)
+
+xxx
+4.
+
+OPGC and GRIDCO shall execute a supplementary Agreement to the
+existing PPA on the same terms as the executed PPA for 50% (660
+MW), for another 25% (330 MW) of OPGC expansion capacity, to be
+effective from COD of Units 3 & 4, till 31st March, 2023. The
+Supplementary Agreement shall also include enhancement of the PPA
+from 75% to 100% from 1st April, 2023 for a period of 25 years
+thereafter.
+xxx
+
+xxx
+
+xxx.”
+
+In compliance of the above notification of the State Government, OPGC and
+GRIDCO have entered into a supplementary PPA dated 24.01.2019 (referred to as
+supplementary agreement to PPA-2) and GRIDCO has filed a petition before OERC
+in Case No.67 of 2019 for approval of the said supplementary agreement to PPA-2.
+The Commission vide its order dated 22.06.2021 in Case No.67 of 2019 has accorded
+in principle approval to the said supplementary agreement to PPA-2 with the
+following observations and directions:
+“29. Xxxxxxxxxx. Therefore, the Commission is of the view that GRIDCO may
+procure power from OPGC expansion Units-3 & 4 as decided by the State
+Government. However, the Commission observed that as per PPA -2 the tariff
+norms and parameters for this project shall be as per the guidelines of CERC
+2
+
+Tariff Regulations. The same is reiterated in the supplementary agreement to
+the PPA-2. Since 100% power shall be procured by GRIDCO from this
+expansion project of OPGC, the tariff should be as per the norms and
+parameters of OERC Generation Tariff Regulations notified by the
+Commission from time to time.
+xxxxxxxxxx”
+5.
+
+However, OPGC has preferred a Writ Petition WP(C) No.34663/2021 before the
+Hon’ble High Court of Orissa challenging the above ruling of this Commission that
+the tariff of the expansion Units 3 & 4 should be determined as per the norms and
+parameters of OERC (Generation Tariff) Regulations instead of CERC Tariff
+Regulation. That writ petition is still pending before the Hon’ble High Court of
+Orissa.
+
+6.
+
+In the meantime, OPGC had filed a petition before this Commission for approval of
+the capital cost of the expansion Units 3 & 4 and determination of provisional tariff
+from the anticipated COD upto 31stMarch, 2019, which was registered as Case
+No.3/2019. However, the Unit 3 and Unit 4 of OPGC expansion project had achieved
+Commercial Operation Date (COD) on 03.07.2019 and 21.08.2019 respectively. The
+Commission in that case allowed provisional tariff of Rs.2.75 per unit for 50% of the
+contracted capacity to OPGC and directed that OPGC should file fresh petition after
+OERC Generation Regulation, 2020 is notified by the Commission. Later OERC
+(Terms and Conditions for Determination of Generation Tariff) Regulations, 2020
+was notified by the Commission on 15.07.2020.
+
+7.
+
+Subsequently, the Commission after hearing OPGC, GRIDCO and other relevant
+parties during the annual tariff hearing had allowed provisionally Rs.3.09 per unit and
+Rs.3.30 per unit for the power to be procured by GRIDCO from Unit 3 & 4 of OPGC
+for the period FY 2021-22 & 2022-23 respectively.
+
+8.
+
+OPGC has filed the present petition for approval of the capital cost for Units 3 & 4
+including additional capitalization and determination of tariff of the generating Units
+3 & 4 from their COD upto 31st March 2024 basing on our earlier direction. However,
+contrary to our observation that tariff should be calculated basing OERC Generation
+Regulation, 2020, OPGC has calculated the tariff basing on the CERC (Terms and
+Conditions of Tariff) Regulations, 2019. The summary of the tariff computed by
+OPGC for the generating Units 3 & 4 of its Ib Thermal Power Station is given
+hereunder:
+3
+
+Summary of Tariff as Computed by OPGC
+(Rs. in Crore)
+S.No.
+
+Particulars
+
+1
+A
+1
+2
+3
+4
+
+2
+Annual Fixed Cost
+O & M Expenses
+Water Charges
+Security expenses
+Depreciation
+Interest on Term Loans & Fin.
+Charges
+Interest on Working Capital
+Loans
+Return on Equity
+Annual Fixed Cost
+Variable Cost
+Total Cost
+GRIDCO Share
+Annual Fixed Cost
+Variable Cost
+Total Cost
+Units Sold to GRIDCO in MU
+Rate of Fixed
+Charge(Paisa/kwh)
+Rate of Variable
+Charge(Paisa/kwh)
+Rate of Sale of Energy
+(Paisa./kwh)
+Other Charges
+
+5
+6
+7
+8
+B
+C
+D
+
+E
+F
+G
+H
+I
+
+9.
+
+FY 2019-20
+03-Jul-19 21-Aug-19
+20-Aug-19 31-Mar-20
+3
+4
+
+Total
+
+FY
+2020-21
+
+FY
+2021-22
+
+FY
+2022-23
+
+FY
+2023-24
+
+5
+
+6
+
+7
+
+8
+
+9
+
+286.57
+30.54
+3.95
+520.22
+
+296.60
+32.58
+4.66
+598.21
+
+307.03
+34.62
+5.50
+599.68
+
+699.68
+
+758.50
+
+696.52
+
+17.95
+3.55
+0.38
+23.72
+
+164.12
+16.17
+1.82
+271.44
+
+182.07
+19.73
+2.20
+295.16
+
+276.80
+28.59
+3.34
+442.84
+
+35.63
+
+407.47
+
+443.10
+
+633.48
+
+4.61
+
+45.13
+
+49.74
+
+56.75
+
+60.57
+
+64.32
+
+22.64
+108.48
+80.10
+188.58
+75%
+81.36
+60.07
+141.43
+463.88
+
+251.05
+1157.21
+772.91
+1930.12
+75%
+867.90
+579.69
+1447.59
+4241.16
+
+273.69
+1265.69
+853.01
+2118.70
+75%
+949.26
+639.76
+1589.02
+4705.04
+
+409.56
+1851.36
+1259.44
+3110.80
+75%
+1388.52
+944.58
+2333.10
+6910.82
+
+478.37
+2079.90
+1259.44
+3339.34
+75%
+1559.93
+944.58
+2504.51
+6910.82
+
+547.73
+2302.60
+1259.44
+3562.04
+75%
+1726.95
+944.58
+2671.53
+6910.82
+
+63.99
+549.03
+2256.38
+1262.89
+3519.27
+100%
+2256.38
+1262.89
+3519.27
+9239.67
+
+175.39
+
+204.64
+
+201.75
+
+200.92
+
+225.72
+
+249.89
+
+244.21
+
+129.50
+
+136.68
+
+135.97
+
+136.68
+
+136.68
+
+136.68
+
+136.68
+
+304.89
+
+341.32
+
+337.73
+
+337.60
+
+362.40
+
+386.57
+
+380.89
+
+23.45
+
+34.71
+
+44.64
+
+34.85
+
+34.94
+
+To substantiate its stand that tariff should be determined basing on CERC (Terms and
+Conditions of Tariff) Regulations, 2019 OPGC has pointed out that the Commission
+had approved PPA 2 for 50% of the contracted capacity of Unit 3 & 4 where it has
+been mentioned that tariff should be determined basing on CERC (Terms and
+Conditions of Tariff) Regulations, 2019. Similarly, the Government of Odisha
+Notification No. 10485 dated 20.12.2018 states that:
+“4(i)
+
+OPGC and GRIDCO shall execute a supplementary Agreement to the existing
+PPA on same terms as the executed PPA for 50% (660 MW), for another 25%
+(330 MW) of OPGC expansion capacity to be effective from COD of Units 3 &
+4, till 31st March, 2023. The Supplementary Agreement shall also include
+enhancement of the PPA from 75% to 100% from 1st April, 2023 for a period
+of 25 years thereafter.”
+
+OPGC submits that Government Notification as stated above also corroborates its
+stand that that the old terms and conditions for drawal of 50% of power as stated in
+PPA 2 shall continue in supplementary PPA for drawal of 75% or 100% of power by
+GRIDCO. Therefore, CERC Tariff Regulation as mentioned in PPA 2 shall also be
+4
+
+applicable for the purpose of implementation of supplementary PPA. The Petitioner
+further points out that OERC Generation Tariff Regulations, 2014 makes a special
+provision for OPGC by providing that tariff for supply of electricity from an existing
+project shall be in accordance with such PPA or arrangement for such period as may
+be so approved or adopted by the Commission, to the extent of existing Installed
+Capacity as contained in the PPA.
+10.
+
+On this issue, the Respondent-GRIDCO has submitted that GRIDCO had entered into
+PPA with OPGC on 04.01.2011(referred to as PPA-2) for procurement of 50% of the
+installed capacity from the Units 3 & 4 of OPGC. As per Article 3.1(c) of the PPA2dated 04.01.2011, OPGC should file application before the appropriate Commission
+for tariff determination under Electricity Act, 2003 which is Odisha Electricity
+Regulatory Commission. Further, GRIDCO has entered into a supplementary
+agreement to the PPA-2 with OPGC on 24.01.2019 to procure additional 25% i.e.
+75% of the installed capacity of Units 3 & 4 from COD upto 31.03.2023 and 100% of
+the installed capacity of Units 3 & 4 from 01.04.2023 onwards, for a period of 25
+years. The Commission while approving this supplementary PPA-2 vide its order
+dated 22.06.2021 passed in Case No.67/2019 at para 29, has observed the following:
+“29.
+
+Xxxxxxxxxx. Therefore, the Commission is of the view that GRIDCO may
+procure power from OPGC expansion Units-3 & 4 as decided by the State
+Government. However, the Commission observed that as per PPA -2 the tariff
+norms and parameters for this project shall be as per the guidelines of CERC
+Tariff Regulations. The same is reiterated in the supplementary agreement to
+the PPA-2. Since 100% power shall be procured by GRIDCO from this
+expansion project of OPGC, the tariff should be as per the norms and
+parameters of OERC Generation Tariff Regulations notified by the
+Commission from time to time.
+
+The Respondent-GRIDCO has stated that in view of the approved contract/PPA dated
+24.01.2019 and Section 86(1)(a) of the Electricity Act, 2003, this Commission has all
+the power to determine the tariff of OPGC expansion Units 3 & 4 basing on its own
+Regulations.
+11.
+
+We observe that the major functions of Central Commission and State Commission
+have been specified under Sections 79 and 86 respectively of the Electricity Act,
+2003, one of which is the determination of generation tariff at which distribution
+companies shall purchase power from Generating Company. Further, the Hon’ble
+Supreme Court of India in Civil Appeal Nos.5399-5400 of 2016 (Energy Watchdog
+5
+
+Versus Central Electricity Regulatory Commission and Ors.) has defined the
+composite scheme for which Central Commission (CERC) has jurisdiction. The
+relevant portions is given hereunder:
+“22.
+
+The scheme that emerges from these Sections is that whenever there is interState generation or supply of electricity, it is the Central Government that is
+involved, and whenever there is intra-State generation or supply of electricity,
+the State Government or the State Commission is involved. This is the precise
+scheme of the entire Act, including Sections 79 and 86. It will be seen
+that Section 79(1) itself in sub- sections (c), (d) and (e) speaks of inter-State
+transmission and inter- State operations. This is to be contrasted with Section
+86 which deals with functions of the State Commission which uses the
+expression “within the State” in sub-clauses (a), (b), and (d), and “intrastate” in sub- clause (c). This being the case, it is clear that the PPA, which
+deals with generation and supply of electricity, will either have to be governed
+by the State Commission or the Central Commission. The State Commission’s
+jurisdiction is only where generation and supply takes place within the State.
+On the other hand, the moment generation and sale takes place in more
+than one State, the Central Commission becomes the appropriate
+Commission under the Act. What is important to remember is that if we were
+to accept the argument on behalf of the appellant, and we were to hold in the
+Adani case that there is no composite scheme for generation and sale, as
+argued by the appellant, it would be clear that neither Commission would
+have jurisdiction, something which would lead to absurdity. Since generation
+and sale of electricity is in more than one State obviously Section 86 does not
+get attracted. This being the case, we are constrained to observe that the
+expression “composite scheme” does not mean anything more than a scheme
+for generation and sale of electricity in more than one State.”
+
+From the conjoint reading of both the provisions of the Act as stated above and the
+above decision of Hon’ble Apex Court, it is clear that Central Commission has
+jurisdiction for determination of the tariff for the generating station which are owned
+by Government of India or have a composite scheme for sale of power in more than
+one State. OPGC is neither a Central Government company nor has a scheme to sale
+power to more than one State as a part of composite scheme. Therefore, CERC is not
+the appropriate Commission to determine tariff for a power station output of which is
+fully dedicated to the State of Odisha. If this Commission is to determine the tariff for
+Generating Units 3 & 4 of the Petitioner which are fully dedicated to the State then it
+is to be guided by its own Regulation i.e. OERC Generation Regulations, 2014 or
+2020. The argument of the Petitioner that OERC should determine tariff basing on the
+CERC Regulation is nonest in the eyes of law in view of the Section 181 of the
+Electricity Act, 2003.
+
+6
+
+12.
+
+Further, we observe that the petitioner-OPGC has filed a Writ Petition before the
+Hon’ble High Court of Orissa on this matter of applicability of CERC Regulation to
+the determination of tariff by OERC in WP(C) No.34663 of 2021 which is now
+pending before the said Hon’ble Court for adjudication. Therefore, continuing with
+our earlier stand, pending final decision of the Hon’ble High Court of Orissa in this
+matter, we now proceed to determine the tariff of the generating Units 3 & 4 of OPGC
+expansion projects basing on the norms specified by this Commission in OERC
+Generation Regulations.
+Determination of Capital Cost of the Project
+
+13.
+
+The Commission had appointed an independent auditor (Charted Accountancy Farm)
+to scrutinise the capital cost and additional capitalization of Units 3 & 4 as per
+regulation 6(2) and 9(3) of the OERC (Terms and Conditions for determination of
+Generation Tariff), Regulations, 2020. The report of such independent auditor is also
+available with the Petitioner and GRIDCO.
+
+14.
+
+The Petitioner-OPGC had submitted the Hard Cost incurred for Units 3 & 4 as shown
+in the table below:
+Hard Cost as on COD of Unit 4 and Projection beyond COD
+(Rs. in Crore)
+
+S.
+No.
+1
+2
+3
+4
+5
+6
+7
+8
+
+15.
+
+Particulars
+
+DPR
+cost
+
+Land
+BTG
+BoP
+MGR
+Township & Colony
+Ash pond
+Pre-commissioning expenses
+Overheads
+Hard Cost
+
+(i)
+149.00
+3892.00
+2877.00
+670.00
+200.00
+289.00
+475.00
+391.00
+8943.00
+
+Actual
+expenditure upto
+COD of Unit 4
+(ii)
+155.55
+4020.09
+1602.39
+1069.93
+127.34
+69.05
+670.50
+146.11
+7860.97
+
+Projected
+expenditure
+beyond COD
+(iii)
+44.31
+327.47
+266.64
+455.32
+37.02
+513.23
+0.00
+213.00
+1857.00
+
+Total
+expenditure
+(iv)=(ii)+(iii)
+199.86
+4347.56
+1869.03
+1525.25
+164.36
+582.28
+670.50
+359.11
+9717.97
+
+However, the independent auditor in its report has submitted that after scrutiny the
+project cost is found out to be Rs.3336.23 crore and Rs.8521.20 Crore as on
+03.07.2019 (COD of Unit 3)and on 21.08.2019 (COD of Unit 4 i.e. COD of the
+complete project) respectively. The additional capitalization during FY 2020-21 is
+Rs.225.20 crore and during FY 2021-22 is Rs.1489.23 crore. Accordingly, as per the
+audited accounts, the project cost as on 31.03.2022 is Rs.10235.63 crore. As per the
+7
+
+OERC Generation Tariff Regulations, additional capitalization upto the cut-off date
+i.e. as on 31.08.2022 may be considered by the Commission after prudent check.
+Since the audited account for the FY 2022-23 is not available, the Commission now
+consider the project cost of Rs.10235.63 crore as per the latest available audited
+accounts for the FY 2021-22.
+In addition to the above, OPGC has considered the cost of Rs.75.00 crore in the
+capital cost of Unit 3 & 4, which was a part of the total capital expenditure incurred
+towards creation of common civil infrastructure at the time of setting up of Units 1 &
+2. This was not allowed for recovery through tariff of Units 1 & 2 and it was decided
+to be claimed as a part of capital cost of Units 3 & 4. OPGC has considered the same
+as 100% equity of the total capital expenditure of Units 3 & 4.The respondent
+GRIDCO has accepted the above proposal of OPGC and stated that this additional
+project cost of Units 1 & 2 amounting to Rs.75.00 crore incurred towards creation of
+common civil infrastructure may be considered to be added to the project cost of
+Units 3 & 4 as per Clause 9 of the Tripartite Agreement and Clause 2 (e) of Schedule
+IV of the approved PPA for the Units 3 & 4 and the same is mentioned in the PPA
+approval order dated 04.04.2012 in Case No.113/2011. Accordingly, considering the
+above submissions, the project cost of Units 3 & 4 is arrived at Rs.10310.63 crore
+(Rs.10235.63 + Rs. 75.00) as on FY 2021-22.
+16.
+
+We take note of the objection of GRIDCO regarding time and cost overrun of the
+project. This cannot be dealt with now in absence of required data/information
+pertaining to individual package of the project. Neither the Petitioner-OPGC nor the
+Respondent-GRIDCO have submitted the details relating to enhancement in the
+project cost with respect to various packages/items and the time & amount of cost
+overrun thereon. The independent auditor has also not discussed about this issue of
+time and cost overrun in his audit report. However, as submitted by the petitioner this
+may be considered after detail analysis of the required data/information during the
+time of true up exercise of the capital cost. In this regard, the Commission directs the
+Petitioner-OPGC to submit the required data/information to GRIDCO and the matter
+may be discussed with GRIDCO issue-wise to resolve the discrepancies. The views
+on unresolved issues on both GRIDCO & OPGC may be brought to the notice of the
+Commission for final decision at the time of truing up of capital cost of the project.
+
+17.
+
+The installed capacity and date of Commercial Operation of the generating units 3 &
+4 of OPGC are as given below.
+8
+
+Unit No.
+Unit-3
+Unit-4
+
+Capacity in MW
+660
+660
+
+Date of Commercial Operation (COD)
+03.07.2019
+21.08.2019
+
+Considering the above dates of commercial operation of the generating Units 3 & 4 of
+the Thermal Power Station of OPGC, the tariff is required to be determined by the
+Commission for the following six-time blocks within a period of five years.
+2019-20
+03/07/2019 to
+20/08/2019
+
+18.
+
+21/08/2019 to
+31/03/2020
+
+2020-21
+
+2021-22
+
+2022-23
+
+2023-24
+
+01/04/2020 to
+31/03/2021
+
+01/04/2021 to
+31/03/2022
+
+01/04/2022 to
+31/03/2023
+
+01/04/2023 to
+31/03/2024
+
+OPGC has submitted the details of Gross Fixed Assets GFA) of Units 3 & 4 as
+indicated below:
+
+Gross Fixed Assets as on COD of the Power Station (in Rs. Crore) as on 31.03.2020
+Particulars
+
+As on COD
+of Unit 3
+0.24
+165.93*
+
+As on COD of
+Unit 4
+0.24
+582.80*
+
+Land & Land Rights
+Building & Civil Works of
+Power Plants
+Hydraulic Works
+0.00
+0.00
+Other Civil Works
+39.05
+44.94
+Plant & Machinery
+3156.14
+7905.68
+Lines & Cable Net work
+14.36
+20.94
+Vehicles
+6.88
+6.88
+Furniture & Fixtures
+11.43
+12.59
+Office Equipment
+16.28
+17.69
+Software
+0.92
+4.43
+Total
+3411.23
+8596.20
+*including assets amounting to Rs. 75 Crore transferred from Units 1&2
+19.
+
+Further, OPGC has projected the additional capitalisation for FY 2019-20 to FY 202324 as follows:
+Projected additional capitalisation (Rs. Crore)
+Year
+
+Additional capitalisation
+
+FY 2019-20
+FY 2020-21
+FY 2021-22
+FY 2022-23
+FY 2023-24
+Total
+
+0.00
+20.66
+2910.24
+44.15
+11.44
+2986.49
+
+OPGC states that the above figures relating to additional capitalisation are provisional
+in nature and the actual figure shall be submitted at the time of truing up of capital
+9
+
+cost. The Petitioner OPGC has submitted the following figure towards capital cost of
+the project including additional capitalisation.
+Year-wise Capital Cost of the Power Station upto FY 2023-24 (in Rs. Crore)
+Particulars
+Opening capital cost
+Addition during the year
+Closing capital cost
+
+20.
+
+FY 2019 - 20
+(03.07.2019 to
+20.08.2019)
+3411.23
+0.00
+3411.23
+
+FY 2019 - 20
+(21.08. 2019 to
+31.03.2020)
+8596.20
+0.00
+8596.20
+
+FY 202021
+
+FY 202122
+
+FY 202223
+
+FY 202324
+
+8596.20
+20.66
+8616.86
+
+8616.86
+2910.24
+11527.10
+
+11527.10
+44.15
+11571.25
+
+11571.25
+11.44
+11582.69
+
+We observe that as per the independent auditor appointed under the statute and basing
+on audited accounts, the additional capitalization figures are Rs.225.20 crore and
+Rs.1489.23 crore during FY 2020-21 and FY 2021-22 respectively. Therefore, the
+project cost as on 31.03.2022 is Rs.10235.63 crore. As per the OERC Generation
+Tariff Regulations, additional capitalization upto the cut-off date i.e. as on 31.08.2022
+may be considered by the Commission after prudent check. Since the audited account
+for the FY 2022-23 is not available, the Commission now consider the project cost of
+Rs.10235.63 crore as per the latest available audited accounts for the FY 2021-22 and
+does not consider the additional capitalization projected for the FY 2022-23 onwards.
+However, at the time of setting up of Units 1 & 2, Rs.75 Crore incurred towards of
+creation of civil infrastructure has been considered in the project cost of the Units 3 &
+4 as per Tripartite Agreement and approved PPA for Units 3 & 4.
+
+21.
+
+In summary considering the submission of the Petitioner and report of independent
+auditor appointed by the Commission we find the capital cost for determination of
+tariff shall be as follows:
+
+Capital Cost considered by the Commission (Rs. in Crore)
+FY 2019 - 20 FY 2019 (03.07.2019
+20 (21.08. FY 2020- FY 2021- FY 2022- FY 2023Particulars
+to
+2019 to
+21
+22
+23
+24
+20.08.2019) 31.03.2020)
+3,336.23
+8,521.20
+8,596.20 8,821.40 10,310.63 10,310.63
+Opening capital cost
+Assets Transferred
+75.00
+75.00
+from OPGC Unit -I
+& II
+Additional capital
+225.20
+1,489.23
+expenditure
+3,411.23
+8,596.20
+8,821.40 10,310.63 10,310.63 10,310.63
+Closing capital cost
+
+10
+
+Debt and Equity Component of the Project
+22.
+
+OPGC in its application has furnished the debt and equity component of the project
+cost as given hereunder:
+Particulars
+
+GFA as on COD as per the Audited
+Accounts
+Debt
+Equity
+
+From COD of Unit 3 to
+COD of Unit 4
+3336.23
+
+(Rs. in Crore)
+From COD of Unit 4 to
+March 31, 2020
+8521.20
+
+2513.30 (75.33%)
+822.93 (24.67%)
+
+6418.13 (75.32%)
+2103.07 (24.68%)
+
+75
+0.00 (0%)
+75.00 (100%)
+
+75
+0.00 (0%)
+75.00 (100%)
+
+2513.30
+897.93
+
+6418.13
+2178.07
+
+Assets transferred from Units 1&2
+Debt
+Equity
+Total debt
+Total equity
+23.
+
+OPGC has further submitted the year-wise additional capitalisation and corresponding
+means of finance for FY 2020-21 to FY 2023-24 as under:
+Year-wise Additional Capitalisation and corresponding Debt-Equity Ratio
+proposed by OPGC for the period from FY 2020-21 to FY 2023-24
+(Rs. in Crore)
+Particulars
+FY 2020-21 FY 2021-22 FY 2022-23 FY 2023-24
+Additional
+20.66
+2910.24
+44.15
+11.44
+Capitalisation
+Debt
+15.49
+2182.68
+33.11
+8.58
+(75.00%)
+(75.00%)
+(75.00%)
+(75.00%)
+Equity
+5.16
+727.56
+11.04
+2.86
+(25.00%)
+(25.00%)
+(25.00%)
+(25.00%)
+
+24.
+
+The OERC (Terms and Conditions for Determination of Generation Tariff)
+Regulations, 2020 provides as under which is similar to earlier OERC Regulation,
+2014:
+“16.
+
+DEBT-EQUITY RATIO
+(1)
+
+For a project declared under commercial operation on or after
+01.04.2020, if the equity actually deployed is more than 30% of the
+capital cost, equity in excess of 30% shall be treated as normative loan;
+Provided also that in case of a generating station where actual equity
+employed is less than 30%, the actual debt and equity shall be
+considered for determination of tariff;
+
+xxx
+
+xxx
+
+xxx
+
+xxx”
+11
+
+25.
+
+Regarding determination of the equity component of the project, the Independent
+Auditor in its report has submitted the following:
+“As per the project approval of Unit 3 & 4 of OPGC Ltd. expansion project by
+Government of Odisha, Department of Energy vide letter no. 3193 dtd.17.04.2013,
+directed to have debt and equity ratio of 75:25. The equity participation between Govt
+of Odisha and the then AES will be in the ratio of 51:49.
+We have verified the equity infusion of OPGC towards the project of unit 3 & 4 from
+various documents like Extracts of Board resolution on allotment of shares, letter for
+Sanction of fund of Govt. of Odisha, Bank statements for receipt of share capital
+amount, certificates for receipt of foreign remittances and audited accounts. The paid
+up share capital at the beginning of financial year 2013-14 is Rs.490.22 Cr. and after
+capital infusion of Rs.1539.28 Cr. on various dates the closing balance of paid up
+capital is Rs. 2029.50 Cr as on 31st March 2022 as verified from audited accounts.
+Out of total capital infusion of Rs.1539.28 Crore, an amount of Rs.1458.28 Cr. has
+been earmarked for Unit 3 & 4 expansion project.
+Statement of Additional Equity Infused by Shareholders
+Amount (Rs)
+
+Date of
+Receipt
+08-0217
+09-0217
+22-0917
+07-1017
+22-0218
+27-0218
+28-0219
+28-0219
+31-1221
+
+Name of Bank
+Main Branch, Bhubaneswar,
+Union Bank of India
+Main Branch, Bhubaneswar,
+Union Bank of India
+Main Branch, Bhubaneswar,
+Union Bank of India
+Main Branch, Bhubaneswar,
+Union Bank of India
+Main Branch, Bhubaneswar,
+Union Bank of India
+Main Branch, Bhubaneswar,
+Union Bank of India
+Fortune Towers Branch, SBI,
+Bhubaneswar
+Main Branch, Bhubaneswar,
+Union Bank of India
+Main Branch, Bhubaneswar,
+Union Bank of India
+Less- Equity funding for
+OCPL(Rs.39 Cr. ) and FGD
+(Rs.42 Cr.) amounting to Rs.
+81 Cr.
+Total
+
+Account No.
+
+From Govt.
+of Odisha
+
+380805010000063 -
+
+From OHPC
+w.e.f.
+10.12.2020
+(Previously
+AES)
+
+Total
+
+2,376,500,000
+
+2,376,500,000
+
+380805010000064 2,473,500,000 -
+
+2,473,500,000
+
+380805010000063 1,199,928,000 -
+
+1,199,928,000
+
+380805010000064 -
+
+1,152,872,000
+
+1,152,872,000
+
+380805010000063 1,887,000,000 -
+
+1,887,000,000
+
+380805010000064 -
+
+1,813,000,000
+
+30008553556
+
+1,813,000,000
+
+1,234,200,000 -
+
+380805010000063 -
+
+1,234,200,000
+
+1,185,800,000
+
+1,185,800,000
+
+-
+
+1,260,000,000
+
+2,070,000,000
+30008553556
+(810,000,000)
+8,054,628,000 6,528,172,000 14,582,800,000
+
+As explained to us apart from above equity infusion, OPGC Ltd has funded from its
+internal accruals to maintain the desired debt equity ratio.”
+
+12
+
+26.
+
+The Commission observed that the Project Approval Committee (PAC), in its meeting
+held on 18.12.2012 under the Chairmanship of Chief Secretary, Odisha, has decided
+that equity would be invested from internal accruals as well as direct infusion in the
+ratio of stake holding in a phased manner for Unit-3 & 4 of OPGC. It is further
+observed that in the meeting of OPGC Board held on 26.03.2015 it has also vetted
+that equity is to be made from internal accruals as well as to be contributed by the
+investors. Accordingly, OPGC has submitted the details of equity component
+including equity infusion from its internal accruals. The same has been scrutinized by
+the Commission and summarized in the Table below:Computation of Project Expenses and Sources of Fund (Debt &Equity) (Rs. in Crore)
+
+Sl.
+No.
+
+Particulars
+
+Project Cost:
+1
+Gross Fixed Assets (GFA)
+Capital Work in Progress
+2
+(CWIP)
+3
+Project Capital Advances
+Total Expenses
+Less: Undischarged
+4
+Liabilities *
+Net Project Expenses
+5
+Sources of Fund:
+5.1 Loan from PFC
+5.2 Loan from REC
+6
+Total Debt
+7
+Equity
+Equity addition by
+7.1
+Shareholder
+Equity from Internal
+7.2
+Accruals
+Loan availed against Project
+8
+Expenses (%)
+Balance Expenses from
+9
+Equity (%)
+10 Total GFA
+10.1 Proportionate Debt in GFA
+Proportionate Equity in
+10.2
+GFA
+Assets transferred from Unit
+10.3
+I & II as Equity
+
+27.
+
+Project Expenses
+3/31/2020
+3/31/2021
+
+7/3/2019
+
+8/21/2019
+
+3/31/2022
+
+3,336.23
+
+8,521.19
+
+8,521.19
+
+8,746.22
+
+10,235.63
+
+6,033.97
+
+1,080.36
+
+1,287.30
+
+1,359.18
+
+135.75
+
+454.65
+9,824.85
+
+525.33
+10,126.88
+
+394.77
+10,203.26
+
+369.32
+10,474.72
+
+280.68
+10,652.06
+
+450.70
+
+476.32
+
+257.81
+
+256.29
+
+324.55
+
+9,374.15
+
+9,650.56
+
+9,945.45
+
+10,218.43
+
+10,327.51
+
+3,516.83
+3,608.32
+7,125.15
+2,249.00
+
+3,648.79
+3,619.58
+7,268.37
+2,382.19
+
+3,745.67
+3,811.54
+7,557.21
+2,388.24
+
+3,786.34
+3,852.20
+7,638.53
+2,579.90
+
+3,866.12
+3,865.75
+7,731.87
+2,595.64
+
+1,332.28
+
+1,332.28
+
+1,332.28
+
+1,332.28
+
+1,458.28
+
+916.72
+
+1,049.91
+
+1,055.96
+
+1,247.62
+
+1,137.36
+
+76.01%
+
+75.32%
+
+75.99%
+
+74.75%
+
+74.87%
+
+23.99%
+
+24.68%
+
+24.01%
+
+25.25%
+
+25.13%
+
+3,336.23
+2,535.82
+
+8,521.19
+6,417.78
+
+8,521.19
+6,474.97
+
+8,746.22
+6,538.02
+
+10,235.63
+7,663.08
+
+800.41
+
+2,103.41
+
+2,046.22
+
+2,208.20
+
+2,572.55
+
+75.00
+
+75.00
+
+75.00
+
+75.00
+
+75.00
+
+From the above table, we observe that the equity component upto COD of Unit 3 is
+Rs.875.41 crore which is less than 30% of the capital expenditure upto that date.
+Further, the amount of equity as on COD of Unit 4 is also within 30% of the capital
+expenditure. Therefore, the Commission considered the equity component of the Unit
+13
+
+3 & 4 project of OPGC as per actual equity employed as per the OERC Generation
+Tariff Regulations.
+Return on Equity (RoE)
+28.
+
+M/s OPGC has claimed that as per Regulations 30(2) and 31 of the CERC Tariff
+Regulations, 2019 they are entitled for RoE of 15.5% to be grossed up with the
+effective tax rate of 17.4%. However, the Commission has calculated RoE based on
+the OERC Generation Tariff Regulations, 2014 and OERC Generation Tariff
+Regulations, 2020 which stipulate as under:
+
+Sl.
+No.
+
+Particulars
+
+1
+
+RETURN ON
+EQUITY
+
+2
+
+29.
+
+TAX ON
+INCOME
+
+Norms to be considered for
+FY:2019-20 as per OERC
+Generation Regulations , 2014
+(extended for 2019-20)
+4.5 Return on equity shall be
+computed in rupee terms, on the
+equity base determined in
+accordance with Regulations 3.6,
+
+3.7 and 3.8:
+
+4.6 Return on equity shall be
+computed @ 16% of the equity
+amount.
+4.7 Income tax of the Generating
+Company shall be recovered from
+the beneficiaries. This will
+exclude income tax on other
+income streams
+
+Norms to be considered for
+FY:2020-21 to FY:2023-24 as per
+OERC Generation Regulations ,
+2020
+20(1) Return on equity shall be
+computed in rupee terms, on the
+equity
+base
+determined
+in
+accordance with Regulations 16(1),
+(2) and (3):
+20(2)Return on equity shall be
+computed at the base rate of 14%
+for all generating stations;
+21(1)Income tax of the Generating
+Company shall be recovered from
+the beneficiaries. This will exclude
+income tax on other income streams
+
+Accordingly, the Commission have considered base rate of 16% for computation of
+RoE for the year 2019-20 based on the OERC Generation Tariff Regulations, 2014
+and 14.00% for the year 2020-21 to 2023-24based on the OERC Generation Tariff
+Regulations, 2020.The details of RoE approved are given in the table below:
+RoE approved for FY 2019-20 to FY 2023-24 (Rs. Crore)
+2019-20
+2020-21
+2021-22
+2022-23
+
+Description
+Opening Equity
+Addition of Equity
+/Internal accruals during
+the Year
+Closing Equity
+Average Equity
+Base Rate on Equity (%)
+ROE Amount (Yearly)
+ROE for the period
+
+2023-24
+
+Tariff for
+Unit- III
+03/07/2019 to
+20/08/2019
+
+Tariff for
+Unit- III & IV
+21/08/2019 to
+31/03/2020
+
+Tariff for
+Unit- III & IV
+01/04/2020 to
+31/03/2021
+
+Tariff for
+Unit- III & IV
+01/04/2021 to
+31/03/2022
+
+Tariff for
+Unit- III & IV
+01/04/2022 to
+31/03/2023
+
+Tariff for
+Unit- III & IV
+01/04/2023 to
+31/03/2024
+
+875.41
+
+2,121.22
+
+2,121.22
+
+2,283.20
+
+2,647.55
+
+2,647.55
+
+-
+
+-
+
+161.98
+
+364.35
+
+-
+
+-
+
+875.41
+875.41
+16.00%
+140.07
+18.75
+
+2,121.22
+2,121.22
+16.00%
+339.40
+207.72
+
+2,283.20
+2,202.21
+14.00%
+308.31
+308.31
+
+2,647.55
+2,465.38
+14.00%
+345.15
+345.15
+
+2,647.55
+2,647.55
+14.00%
+370.66
+370.66
+
+2,647.55
+2,647.55
+14.00%
+370.66
+370.66
+14
+
+Interest on Loan Capital
+30.
+
+OPGC has submitted that the loan amount as on COD of Unit 3 has been considered
+as the opening loan balance. The normative repayment has been considered as
+equivalent to the depreciation in accordance with the provisions of CERC Tariff
+Regulations, 2019. The outstanding loan as on COD of Unit 4 has been worked out by
+considering the outstanding normative loan pertaining to Unit 3 and the loan amount
+corresponding to the Capital Cost of Unit 4. The closing normative loan for FY 201920 has been considered as the opening normative loan for FY 2020-21 and so on. The
+debt portion of the projected additional capitalisation has been considered as the loan
+addition for the corresponding year. The actual rate of interest of 10.61% (for FY
+2019-20) has been considered as the interest rate for FY 2019-20. The actual rate of
+interest of 10.72% (for FY 2020-21) has been considered as the interest rate for the
+period from FY 2020-21 to FY 2023-24. The interest on loan claimed by OPGC is as
+shown in the Table below:
+Interest on Loan proposed by OPGC for FY 2019-20 to FY 2023-24 (Rs. Crore)
+Particulars
+
+Gross loan - Opening
+Cumulative repayments
+Net loan - Opening
+Receipts during the year
+Repayment during the
+year
+Net loan - Closing
+Average Net Loan
+Rate of Interest on Loan
+Interest on loan
+31.
+
+FY 2019 20
+(03.07.2019
+to
+20.08.2019)
+
+FY 2019 20 (21.08.
+2019 to
+31.03.2020)
+
+FY
+2020-21
+
+FY
+2021-22
+
+FY
+2022-23
+
+FY 202324
+
+2513.30
+0.00
+2513.30
+0.00
+
+6418.13
+23.72
+6394.40
+0.00
+
+6418.13
+295.16
+6122.97
+15.49
+
+6433.62
+738.00
+5695.62
+2182.68
+
+8616.30
+1258.22
+7358.08
+33.11
+
+8649.41
+1856.43
+6792.98
+8.58
+
+23.72
+
+271.44
+
+442.84
+
+520.22
+
+598.21
+
+599.68
+
+2489.58
+2501.44
+10.61%
+35.63
+
+6122.97
+6258.68
+10.61%
+407.47
+
+5695.62
+5909.29
+10.72%
+633.48
+
+7358.08
+6526.85
+10.72%
+699.68
+
+6792.98
+7075.53
+10.72%
+758.50
+
+6201.88
+6497.43
+10.72%
+696.52
+
+However, the Commission is guided by Clause 4.9 to 4.17 of OERC Generation Tariff
+Regulations, 2014 pertaining for the period FY 2019-20 and Clause 22(1) to 22(9) of
+OERC Generation Tariff Regulations, 2020 for FY 2020-21 onwards while
+determining the interest on loan capital. The Independent Auditor in its report on
+26.08.2022 has submitted the actual weighted average interest rate as on COD of the
+Units. The Commission has considered the normative repayment of loan upto
+beginning of the year 2019 for calculating net loan for both the Units3& 4.
+
+15
+
+32.
+
+Accordingly, the interest on loan has been calculated for tariff purpose for the period
+2019-24 taking the weighted average rate of interest as submitted by Independent
+Auditor in its report. Accordingly, the interest on loan for different block periods has
+been calculated and given below.
+Interest on Loan considered by the Commission (Rs. in Crore)
+Particulars
+
+FY 2019 FY 2019 20
+20 (21.08.
+(03.07.2019
+2019 to
+to
+31.03.2020)
+20.08.2019)
+
+Weighted avg. Rate of
+Interest
+Gross Loan
+Cumulative Repayment
+upto previous Year
+Net Loan Opening
+Receipt during the Year
+Repayment of
+normative Loan during
+the year
+Net Loan Closing
+Avg. Normative Loan
+Interest on term loan
+Interest on term loan
+for the period
+
+FY 202021
+
+FY 202122
+
+FY 202223
+
+FY 202324
+
+10.77%
+
+10.68%
+
+10.68%
+
+10.68%
+
+10.68%
+
+10.68%
+
+2,535.82
+
+6,474.98
+
+6,474.98
+
+6,538.20
+
+7,663.08
+
+7,663.08
+
+-
+
+23.66
+
+294.35
+
+741.36
+
+1,225.49
+
+1,742.03
+
+2,535.82
+-
+
+6,451.32
+-
+
+6,180.63
+63.22
+
+5,796.84
+1,124.88
+
+6,437.59
+-
+
+5,921.05
+-
+
+23.66
+
+270.70
+
+447.01
+
+484.13
+
+516.54
+
+516.54
+
+2,512.16
+2,523.99
+271.83
+
+6,180.63
+6,315.98
+674.55
+
+5,796.84
+5,988.73
+639.60
+
+6,437.59
+6,117.21
+653.32
+
+5,921.05
+6,179.32
+659.95
+
+5,404.51
+5,662.78
+604.79
+
+36.39
+
+412.84
+
+639.60
+
+653.32
+
+659.95
+
+604.79
+
+O & M Expenses
+33.
+
+The total O & M expenses including the water charges and security expenses as
+claimed by OPGC for FY 2019-20 to 2023-24 basing on CERC Tariff Regulations is
+shown in the Table below:
+
+Sl.
+No.
+1
+2
+3
+4
+5
+6
+
+34.
+
+Particulars
+
+Unit size
+No of Units
+Normative O&M
+expenses as
+Regulations
+O&M expenses
+Water charges
+Security expenses
+
+FY 2019 - 20
+(03.07.2019
+to 20.08.2019)
+
+FY 2019 - 20
+(21.08. 2019
+to 31.03.2020)
+
+FY
+2020-21
+
+FY
+2021-22
+
+FY
+2022-23
+
+FY 202324
+
+No.
+
+49
+660
+1
+
+224
+660
+2
+
+365
+660
+2
+
+365
+660
+2
+
+365
+660
+2
+
+366
+660
+2
+
+Rs. Lakh/MW
+
+20.26
+
+20.26
+
+20.97
+
+21.71
+
+22.47
+
+23.26
+
+Rs. Crore
+Rs. Crore
+
+17.95
+3.55
+0.38
+
+164.12
+16.17
+1.82
+
+276.80
+28.59
+3.34
+
+286.57
+30.54
+3.95
+
+296.60
+32.58
+4.66
+
+307.03
+34.62
+5.50
+
+Unit
+
+MW
+
+Rs. Crore
+
+We observe that the Clause (a) of Regulation 4.28 of the OERC Generation Tariff
+Regulations 2014 provides the following O & M expenses norms for 600MW coal
+based generating stations as under.
+16
+
+Year
+2014-15
+O & M cost Rs. in Lakh/MW for 14.40
+600MW and above sets
+
+2015-16
+15.31
+
+2016-17
+16.27
+
+2017-18
+17.30
+
+2018-19
+18.38
+
+However, the Commission in its notification dated 04.02.2020 has notified that the
+parameters fixed in the Regulation for FY 2018-19 shall be applicable for 2019-20.
+Further, Regulation 25(1)(a) of the OERC Generation Tariff Regulations, 2020
+specifies the O & M norms for FY 2020-21 to FY 2023-24.
+35.
+
+Further, as per Regulation 4.28(e) of the OERC Generation Tariff Regulations, 2014,
+in addition to normative O & M expenses, water charges paid to the Government by
+the generating stations shall be reimbursed by the beneficiaries depending upon their
+share. Therefore, the Commission does not allow water charges and security expenses
+as claimed by OPGC for FY 2019-20 in the tariff. However, the same shall be
+reimbursed by GRIDCO on actual basis after verification of the payment details.
+
+36.
+
+Similarly, as per Regulation 25(1) (d) of the OERC Generation Tariff Regulations,
+2020, in addition to normative O & M expenses, water charges and security expenses
+for thermal generating stations shall be allowed separately after prudent check. OPGC
+has claimed water charges and security expenses for FY 2020-24, but the details of
+water charges and security expenses have not been furnished by OPGC separately.
+Therefore, the Commission provisionally allowed same as proposed by OPGC in its
+application, which shall be adjusted during True-up exercise of OPGC.
+
+37.
+
+Accordingly, the details of O & M expenses allowed by the Commission based on the
+above Regulations are given in the table below.
+
+Particulars
+Unit Size (MW) X No.
+of Unit
+Normative O&M
+expenses as per
+Regulations (Rs. Lakh
+per MW)
+O & M Expenses (Rs.
+in Crore) (Annual)
+O & M Expenses (Rs.
+in Crore) for the
+period
+Water & Security
+Expenses
+Total O & M
+Expenses
+
+FY 2019- 20
+(03.07.2019 to
+20.08.2019) i.e.
+49 days
+
+O & M Expenses approved by the Commission
+FY 2019-20
+FY
+FY
+FY
+(21.08. 2019 to 2020-21 2021-22 2022-23
+31.03.2020) i.e.
+224 days
+
+FY
+2023-24
+
+660.00
+
+660 X 2
+
+660 X 2
+
+660 X 2
+
+660 X 2
+
+660 X 2
+
+18.38
+
+18.38
+
+20.97
+
+21.71
+
+22.47
+
+23.26
+
+121.31
+
+242.62
+
+276.80
+
+286.57
+
+296.60
+
+307.03
+
+16.24
+
+148.49
+
+276.80
+
+286.57
+
+296.60
+
+307.03
+
+31.93
+
+34.49
+
+37.24
+
+40.12
+
+308.73
+
+321.06
+
+333.84
+
+347.15
+
+To be separately Claimed based
+on actual
+16.24
+
+148.49
+
+17
+
+Operational Parameters
+Normative Annual Plant Availability Factor (NAPAF)
+38.
+
+M/s. OPGC has considered the Normative Annual Plant Availability Factor (NAPAF)
+at 85% as per CERC Tariff Regulations, 2019 and accordingly computed the gross
+generation for determination of tariff. GRIDCO has also agreed for considering
+NAPAF at 85%. However, the Commission approves the NAPAF at 85% for the
+subject Thermal Power Station of M/s. OPGC based on OERC Generation Tariff
+Regulations.
+Auxiliary Energy Consumption (AEC):
+
+39.
+
+OPGC has considered the normative AEC as 6.25% as per CERC Regulations.
+However, GRIDCO has submitted that the Auxiliary Energy Consumption (AEC)
+based on the norms of OERC Generation Tariff Regulations is to be considered for
+the relevant period as given below:
+FY 2019-20
+For Unit size 300 MW and 5.25% + 0.5% (For
+above having Steam Driven Induced Draft Cooling
+Boiler Feed Pumps
+Towers) = 5.75%
+
+40.
+
+FY 2020-21 to 2023-24
+5.75 + 0.5% (For Induced
+Draft Cooling Towers) =
+6.25%
+
+The Commission scrutinize the above submissions of OPGC and GRIDCO and allows
+the auxiliary energy consumption of 5.75% for FY 2019-20 and 6.25% for the period
+from FY 2020-21 to 2023-24 based on the OERC Generation Tariff Regulations 2014
+and OERC Generation Tariff Regulations 2020 respectively.
+Gross Station Heat Rate (GSHR)
+
+41.
+
+OPGC in its application has submitted that as per Regulation 49 ( C) (b) of CERC
+Tariff Regulations, 2019, the new Thermal Generating Stations achieving COD on or
+after 1.04.2019 shall be as follows:
+For Coal-based and lignite-fired Thermal Generating Stations,
+Gross Station Heat Rate = 1.05 x Design Heat Rate (Kcal/kWh)
+Where the Design Heat Rate of a generating unit means the unit heat rate guaranteed
+by the supplier at conditions of 100% MCR, zero percent make up, design coal and
+design cooling water temperature/back pressure.
+Accordingly, OPGC has determined the normative GSHR as 2181.90 kcal/kWh
+considering the guaranteed technical parameters as shown in the Table below and
+claimed the same for determination of tariff:
+
+18
+
+Computation of Normative GSHR by OPGC
+Particulars
+Units
+Value
+2
+Pressure Rating
+kg/cm
+247
+C
+SHT/RHT
+0
+565/593
+Type of Boiler Feed Pump
+Turbine Driven
+Guaranteed Design Unit Heat Rate
+kcal/kWh
+2078.00
+Maximum Design Unit Heat Rate as per
+kcal/kWh
+2151.00
+CERC Tariff Regulations, 2019
+Allowable Design Heat Rate
+kcal/kWh
+2078.00
+Allowable Gross Station Heat Rate
+kcal/kWh
+2181.90
+(1.05xDesign Heat Rate)
+42.
+
+GRIDCO has submitted that Gross station Heat rate should be considered as 2171.51
+Kcal/Kwh i.e. (1.045xDesign Heat Rate) for FY:2019-20 and 2181.90 Kcal/Kwh
+(1.05xDesign Heat Rate) for FY:2020-21 onwards based on the OERC Generation
+Tariff Regulations for the relevant period.
+
+43.
+
+The Commission is of opinion that the Station Heat Rate is one of the most important
+parameters which reflects on the efficiency of a thermal power station. Therefore,
+efforts ought to be made to operate the thermal station at station heat rate as close to
+the design heat rate as possible. Going by OERC Generation Tariff Regulations, 2014
+and OERC Generation Tariff Regulations, 2020, the Commission approves the Station
+Heat Rate as 2171.51 Kcal/Kwh i.e. 1.045 X Design Heat Rate of 2078 Kcal/Kwh for
+FY 2019-20 and 2181.90 Kcal/Kwh(1.05xDesign Heat Rate) for FY 2020-21
+onwards.
+Secondary Fuel Oil Consumption
+
+44.
+
+M/s. OPGC has submitted that the cost of secondary fuel oil has been computed in
+line with Regulation 49(D) of CERC Tariff Regulations, 2019. Accordingly, the
+Secondary Fuel Oil Consumption has been considered as 0.5 ml/kWh. GRIDCO has
+submitted to consider Secondary Fuel Oil Consumption as 0.5 ml/kWh based on the
+Regulation 32 (d) of the OERC Generation Regulations, 2020. The Commission
+approves the Secondary Fuel Oil Consumption as 0.5 ml/Kwh for the subject Thermal
+Power Station of M/s. OPGC based on the OERC Generation Tariff Regulations,
+2014 and the OERC Generation Tariff Regulations, 2020 for the relevant period.
+
+19
+
+Interest of Working Capital
+45.
+
+OPGC has submitted that Regulation 34(a) of the CERC Tariff Regulations, 2019
+specify the normative working capital requirements corresponding to normative
+annual plant availability factor for coal based thermal generating station as follows:
+i.
+
+Cost of coal towards stock for 10 days for pit-head generating station.
+
+ii.
+
+Cost of coal towards payment for 30 days.
+
+iii.
+
+Cost of main secondary fuel oil for two months.
+
+iv.
+
+Maintenance spares @ 20% of O&M expenses including water charges and
+security expenses.
+
+v.
+
+Receivables equivalent to 45 days of capacity charges and energy charge
+
+vi.
+
+O&M expenses, including water charges and security expenses, for one month.
+
+Further, Regulation 34(3) read with Regulation 3(7) specifies the rate of interest on
+working capital as SBI Base Rate plus 350 basis points as on April 1, 2019 or 1st April
+of the year in which the generating station or a Unit thereof is declared under
+commercial operation, whichever is later.
+Basing on CERC Tariff Regulations, 2019 OPGC has computed the normative working
+capital requirements treating the generating station as pit-head generating station.
+Further, in addition to normative O&M expenses, the water charges and security
+expenses have also been considered by OPGC in computing the normative working
+capital requirements. Further, OPGC has considered the rate of interest on working
+capital as 12.05% considering the SBI one-year MCLR of 8.55% as on April 1, 2019
++350 basis points in accordance with the CERC Tariff Regulations, 2019. The Interest
+on Working Capital claimed by OPGC is as follows:
+Interest on Working Capital Proposed by OPGC (Rs. in Crore)
+Sl.
+No.
+
+Particulars
+
+Norms
+considered
+
+1
+2
+
+Cost of coal
+Cost of
+secondary fuel
+oil
+Maintenance
+spares (as % of
+O&M exp.)
+
+40 days
+2 months
+20%
+
+3
+
+FY 2019 20
+(03.07.2019
+to
+20.08.2019)
+
+FY 2019 20
+(21.08.2019
+to
+31.03.2020)
+
+FY
+FY
+FY
+2020-21 2021-22 2022-23
+
+FY
+2023-24
+
+49 days
+
+64.35
+1.35
+
+224 days
+
+365 days
+
+365 days
+
+365days
+
+366days
+
+136.00
+2.71
+
+136.00
+2.71
+
+136.00
+2.71
+
+136.00
+2.71
+
+136.00
+2.71
+
+32.60
+
+59.35
+
+61.75
+
+64.21
+
+66.77
+
+69.43
+
+20
+
+Sl.
+No.
+
+Particulars
+
+Norms
+considered
+
+FY 2019 20
+(03.07.2019
+to
+20.08.2019)
+
+FY 2019 20
+(21.08.2019
+to
+31.03.2020)
+
+4
+5
+6
+
+Receivables
+O&M expenses
+Working
+capital
+Requirement
+Rate of Interest
+Interest on
+Working
+Capital
+
+45 days
+1month
+
+173.32
+13.58
+285.21
+12.05%
+4.61
+
+7
+8
+
+46.
+
+FY
+FY
+FY
+2020-21 2021-22 2022-23
+
+FY
+2023-24
+
+388.04
+24.73
+610.82
+
+383.81
+25.73
+471.28
+
+439.44
+27.82
+534.03
+
+432.98
+28.93
+531.34
+
+12.05%
+45.17
+
+12.05% 12.05% 12.05%
+56.79
+60.61
+64.35
+
+12.05%
+64.03
+
+411.98
+26.76
+502.95
+
+We observe that as per the Regulation 4.24 of the OERC Tariff Regulations, 2014, the
+working capital for coal based generating stations shall cover(i)
+
+Cost of coal, if applicable, for 1 month for pit-head generating stations and
+two months for non-pit-head generating stations, for generation
+corresponding to the normative annual plant availability factor;
+
+(ii)
+
+Cost of secondary fuel oil for one month for generation corresponding to
+the normative annual plant availability factor, and in case of use of more
+than one secondary fuel oil, cost of fuel oil stock for the main secondary
+fuel oil;
+
+(iii)
+
+Maintenance spares @ 20% of operation and maintenance expenses
+specified in Regulation 4.28;
+
+(iv)
+
+Receivables equivalent to one month of capacity charges and energy
+charges for sale of electricity calculated on the normative annual plant
+availability factor; and
+
+(v)
+
+Operation and maintenance expenses for one month. .
+
+Further, Regulation 4.26 of the OERC Tariff Regulations, 2014 provides that Rate of
+interest on working capital shall be on normative basis and shall be equal to the SBI
+Base Rate plus 300 basis points as on 1.4.2014 or on 1st April of the year in which the
+generating station or a unit thereof, is declared under commercial operation,
+whichever is later.
+
+21
+
+47.
+
+We further observe that as per the Regulation 24(1)(a) of the OERC Tariff
+Regulations, 2020, the working capital for coal based generating stations shall cover(i)
+
+Cost of coal, if applicable, for fifteen (15) days for pit-head generating stations
+and thirty (30) days for non-pit-head generating stations, for generation
+corresponding to the normative annual plant availability factor;
+
+(ii)
+
+Advance payment for thirty (30) days towards cost of coal for generation
+corresponding to the normative annual plant availability factor;
+
+(iii)
+
+Cost of secondary fuel oil for one (1) month for generation corresponding to
+the normative annual plant availability factor, and in case of use of more than
+one secondary fuel oil, cost of fuel oil stock for the main secondary fuel oil;
+
+(iv)
+
+Maintenance spares @ 20% of operation and maintenance expenses specified
+in Regulation 25(1);
+
+(v)
+
+Receivables equivalent to forty-five (45) days of capacity charges and energy
+charges for sale of electricity calculated on the normative annual plant
+availability factor; and
+
+(vi)
+
+Operation and maintenance expenses for one (1) month including water
+charges and security expenses.
+
+Further, Regulation 24(3) of the OERC Tariff Regulations, 2020 provides that the
+Rate of interest on working capital shall be on normative basis and shall be equal to
+the Bank Rate as on 01.04.2020 or on 1st April of the year in which the generating
+station or a unit thereof, is declared under commercial operation, whichever is later.
+48.
+
+Accordingly, the Commission works out the interest on working capital for the FY
+2019-20 based on the OERC Generation Tariff Regulations, 2014and for the FY
+2020-21 onwards based on the OERC Generation Tariff Regulations, 2020. The
+details of interest on working capital computed by the Commission are given in the
+table below.
+Interest on Working Capital approved by the Commission (Rs. in Crore)
+
+Tariff Period
+
+Cost of coal
+
+Norms
+considered
+
+FY 2019 - 20
+(03.07.2019
+to
+20.08.2019)
+
+FY 2019 - 20
+(21.08. 2019
+to
+31.03.2020)
+
+FY
+2020-21
+
+FY
+2021-22
+
+FY
+2022-23
+
+FY
+2023-24
+
+One month
+for FY 201920 and 45
+
+47.50
+
+95.10
+
+140.75
+
+140.75
+
+140.75
+
+140.75
+
+22
+
+Tariff Period
+
+FY 2019 - 20
+(03.07.2019
+to
+20.08.2019)
+
+FY 2019 - 20
+(21.08. 2019
+to
+31.03.2020)
+
+FY
+2020-21
+
+FY
+2021-22
+
+FY
+2022-23
+
+FY
+2023-24
+
+1month
+
+0.68
+
+1.36
+
+1.35
+
+1.35
+
+1.35
+
+1.36
+
+20%
+
+24.26
+
+48.52
+
+55.36
+
+57.31
+
+59.32
+
+61.41
+
+One month
+for FY 201920 and 45
+days for FY
+2020-21
+onwards
+
+109.47
+
+242.49
+
+361.09
+
+373.62
+
+383.33
+
+377.49
+
+1month
+
+10.11
+
+20.22
+
+25.73
+
+26.76
+
+27.82
+
+28.93
+
+192.02
+
+407.69
+
+584.28
+
+599.80
+
+612.57
+
+609.93
+
+11.55%
+
+11.55%
+
+10.68%
+
+10.68%
+
+10.68%
+
+10.68%
+
+23.14
+
+49.13
+
+62.81
+
+64.48
+
+65.85
+
+65.57
+
+3.10
+
+30.07
+
+62.81
+
+64.48
+
+65.85
+
+65.57
+
+Norms
+considered
+days for FY
+2020-21
+onwards
+
+Cost of secondary
+fuel oil
+Maintenance spares
+(as % of O&M
+expenses)
+
+Receivables
+
+O&M expenses
+Working capital
+Requirement
+(yearly)
+Rate of Interest
+Interest on
+Working Capital
+(Yearly)
+Interest on Working
+Capital for the tariff
+period
+
+%
+
+Computation of Annual Capacity Charges
+49.
+
+The Annual Fixed Charges proposed by OPGC for the period 2019-20 to 2023-24in
+respect of the generating Units 3 & 4 is as given below:
+Annual Fixed Charges (AFC) Proposed by OPGC (Rs. in Crore)
+Particulars
+
+O & M Expenses
+Water charges
+Security expenses
+Depreciation
+Interest on Term
+Loans
+Interest on
+Working Capital
+Return on Equity
+AFC
+
+FY 2019-20
+From COD From COD
+of Unit 3 to of Unit 4 to
+COD of
+March 31,
+Unit 4
+2020
+
+FY
+2020-21
+
+FY
+2021-22
+
+FY
+2022-23
+
+FY
+2023-24
+
+17.95
+3.55
+0.38
+23.72
+
+164.12
+16.17
+1.82
+271.44
+
+276.80
+28.59
+3.34
+442.84
+
+286.57
+30.54
+3.95
+520.22
+
+296.60
+32.58
+4.66
+598.21
+
+307.03
+34.62
+5.50
+599.68
+
+35.63
+
+407.47
+
+633.48
+
+699.68
+
+758.50
+
+696.52
+
+4.61
+
+45.17
+
+56.79
+
+60.61
+
+64.35
+
+64.03
+
+22.64
+108.48
+
+251.05
+1157.25
+
+409.56
+1851.39
+
+478.37
+2079.94
+
+547.73
+2302.64
+
+549.03
+2256.42
+
+23
+
+50.
+
+The Annual Fixed Charges as approved by the Commission in respect of the
+generating Units 3 & 4 of OPGC for the period 2019-20 to 2023-24 is as under:
+Annual Fixed Charges (AFC) approved by the Commission (Rs. in Crore)
+
+Tariff Period
+Return on
+Equity
+Interest on term
+loan
+Depreciation
+(SLM)
+O&M Expenses
+incl. Water &
+Security
+Charges
+Interest on
+Working capital
+Total Cost
+51.
+
+FY 2019-20
+(03.07.2019
+to
+20.08.2019)
+
+FY 2019-20
+(21.08. 2019
+to
+31.03.2020)
+
+FY
+2020-21
+
+FY
+2021-22
+
+FY
+2022-23
+
+FY
+2023-24
+
+18.75
+
+207.72
+
+308.31
+
+345.15
+
+370.66
+
+370.66
+
+36.39
+
+412.84
+
+639.60
+
+653.32
+
+659.95
+
+604.79
+
+23.66
+
+270.70
+
+447.01
+
+484.13
+
+516.54
+
+516.54
+
+16.24
+
+148.49
+
+308.73
+
+321.06
+
+333.84
+
+347.15
+
+3.10
+
+30.07
+
+62.81
+
+64.48
+
+65.85
+
+65.57
+
+98.14
+
+1,069.80
+
+1,766.46
+
+1,868.14
+
+1,946.84
+
+1,904.70
+
+The fixed cost of OPGC generating station shall be computed on annual basis, as per
+the norms specified under the OERC (Terms and Conditions for Determination of
+Generation Tariff) Regulations, 2014 for the FY 2019-20 and for the period FY 202021 to 2023-24 it shall be computed as per OERC (Terms and Conditions for
+Determination of Generation Tariff) Regulations, 2020 and recovered on monthly
+basis under the head capacity charge. The total capacity charge payable for OPGC
+generating station shall be shared by GRIDCO as per its percentage share / allocation
+in the capacity of the generating station. In addition to the capacity charge, an
+incentive shall be payable to OPGC generating station or unit thereof for ex-bus
+scheduled energy corresponding to scheduled generation in excess of ex-bus energy
+corresponding to Normative Annual Plant Load Factor (NAPLF) as specified in the
+above Regulations.
+Energy Charge Rate (ECR)
+
+52.
+
+In its petition, OPGC has computed the Energy Charge Rate (ECR) based on the
+norms of operation, fuel prices and GCV as per CERC Tariff Regulations, 2019 and
+has prayed the Commission to consider this base value of ECR for estimation of
+Working Capital Requirement as claimed by it. OPGC has requested to allow the
+24
+
+billing of Energy Charges considering the actual fuel prices and GCV in accordance
+with Regulations 43 and 44 of the CERC Tariff Regulations, 2019.
+53.
+
+We observe that as per OERC Generation Tariff Regulations, the energy charge shall
+cover the primary and secondary fuel cost and shall be payable by the beneficiary (
+here GRIDCO) for the total energy scheduled to be supplied to GRIDCO during the
+calendar month on ex-power plant basis at the computed ECR of the month. Total
+Energy Charges payable to the generating company for a month shall be:
+Energy Charges = (Energy charge rate in Rs/kWh) x {Scheduled energy (ex-bus)
+for the month in kWh}
+
+54.
+
+Energy charge rate (ECR) in Rupees per kWh on ex-power plant basis shall be
+determined to three decimal places in accordance with the formulae prescribed in
+Regulation 4.33 of the OERC (Terms and Conditions for Determination of Generation
+Tariff) Regulations, 2014 for FY 2019-20 and Regulation 27(10)& 27(11) of the
+OERC (Terms and Conditions for Determination of Generation Tariff) Regulations,
+2020 for FY 2020-21 to 2023-24. Further, regarding “GCV as received”, the
+Regulation 3(1)(ff) of
+
+the OERC (Terms and Conditions for Determination of
+
+Generation Tariff) Regulations, 2020 stipulates as follows:
+“GCV as Received” means the GCV of coal as measured at the unloading point of the
+thermal generating station through collection, preparation and testing of samples
+from the loaded wagons, trucks, ropeways, Merry-Go-Round (MGR), belt conveyors
+and ships in accordance with the IS 436 (Part-1/ Section 1)- 1964;
+Provided that the measurement of coal shall be carried out through sampling by third
+party to be appointed by the generating companies in accordance with the guidelines,
+if any, issued by the Central Government/Commission;
+Provided further that samples of coal shall be collected either manually or through
+hydraulic augur or through any other method considered suitable keeping in view the
+safety of personnel and equipment;
+Provided also that the generating companies may adopt any advance
+technology for collection, preparation and testing of samples for measurement
+of GCV in a fair and transparent manner;
+Provided that GCV of as Received coal shall be found out by taking GCV of
+coal on as “billed basis” and allowing an adjustment for total moisture as per
+the formula given as under:
+GCV X (1-TM)
+(1-IM)
+Where: GCV = Gross Calorific Value of coal
+
+25
+
+TM = Total Moisture
+IM – Inherent Moisture”
+55.
+
+As per the proviso of Regulation 27(11) of OERC Generation Tariff Regulations,
+2020, OPGC shall provide to GRIDCO the details of parameters of GCV and price of
+fuel i.e. domestic coal, imported coal, e-auction coal, etc., and all other data as per the
+Format prescribed by the Commission. Further, the details of blending ratio of the
+imported coal with domestic coal, proportion of e-auction coal and the weighted
+average GCV of the fuels as received shall also be provided separately, along with the
+bills of the respective month. Furthermore, copies of the bills and details of
+parameters of GCV and price of fuel i.e. domestic coal, imported coal, e-auction coal,
+etc., details of blending ratio of the imported coal with domestic coal, proportion of eauction coal shall also be displayed on the website of the generating company.
+
+56.
+
+We observe that OPGC in its petition at Form 15(c) has submitted the data pertaining
+to coal for computation of energy charges for the month of April, 2019 and July, 2019
+as there was no purchase of coal during May and June, 2019. The data submitted by
+OPGC are given in the tale below:
+Average cost of coal (Rs/MT)
+Weighted average GCV of coal (as
+billed)(kCal/Kg)
+Weighted average GCV of coal measured
+at receiving end (kcal/Kg)
+Total Moisture
+Inherent Moisture
+Coal Claimed in Tariff (Rs. /MT)
+GCV Claimed in tariff (kcal/Kg)
+
+57.
+
+Apr-19
+1785.02
+
+Jul-19
+1786.68
+
+3628
+
+3504
+
+3343
+
+3171
+
+12.64%
+8.58%
+for Unit III
+1,785.02
+3,258.00
+
+13.49%
+8.50%
+For Unit- III & IV
+1,786.68
+3,086.00
+
+(3343-85)
+
+(3171-85)
+
+As per OERC Generation Tariff Regulations, 2020, in case of a new generating
+station the GCV of fuel as per actual weighted average for three months preceding to
+COD, is required for determination of tariff. In order to compute the GCV on “as
+received” basis as per the Regulations, the data related to Total Moisture (TM) and
+Inherent Moisture (IM) of coal is required for three months preceding to COD. From
+the above table, it is observed that OPGC has furnished the TM and IM data of coal
+only for the month of April, 2019 &July, 2019 as the same for the other months is not
+available with them. Therefore, for computation of GCV on “as received” basis for
+the FY 2020-21 to 2023-24, we have considered the available data related to total
+26
+
+moisture and inherent moisture for the month of July, 2019 only. However, for
+computation of GCV for the FY 2019-20 on “as fired basis” based on OERC
+Generation Tariff Regulations, 2014, the Commission has considered the weighted
+average GCV of coal measured at receiving end as furnished by OPGC for the month
+of April, 2019.
+58.
+
+Further, for determining the cost of coal, the proviso of Regulation 24(2) of OERC
+Generation Tariff Regulations, 2020 provides that in case of new generating station,
+the cost of fuel for the first financial year shall be considered based on landed fuel
+cost (taking into account normative transit and handling losses) and gross calorific
+value of the fuel as per actual weighted average for three (3) months, as used for
+infirm power, preceding date of commercial operation for which tariff is to be
+determined. It is observed that the data pertaining to cost of coal for 1st three months
+has not been made available. Therefore, the Commission has considered the weighted
+average cost of coal upto the month of July, 2019, as furnished by OPGC, for
+computation of ECR for the FY 2020-21 to 2023-24. However, for the FY 2019-20
+the weighted average cost of coal for the month of April, 2019 as furnished by OPGC
+has been considered. The cost of coal and GCV considered by the Commission are
+given in the table below:
+
+Coal considered in Tariff (Rs. /MT)
+GCV considered in tariff (kcal/Kg)
+59.
+
+For FY 2019-20
+Unit- III & IV
+
+For FY 2020-21 and
+onwards Unit- III & IV
+
+1,785.02
+3,343.00
+
+1,786.68
+3,348.39
+
+Accordingly, based on the OERC norms, the Energy Charge Rate computed for the
+year 2019-20 and 2020-21 onwards, for computation of Working Capital, in the table
+given below:
+
+Tariff Period
+GCV of Coal (CVPF)
+GCV of LDO
+GCV of HFO
+Avg . CVSF
+Sp. Oil ConsumptionLDO SFC)
+Sp. Oil ConsumptionHFO (SFC)
+Coal Price (LPPF in Kg)
+Avg .LPSFi
+Station Heat Rate (SHR)
+Energy Charge rate
+(ECR) P/U (Base rate)
+
+Unit
+
+FY 2019 - 20
+(03.07.2019 to
+20.08.2019)
+
+FY 2019 20 (21.08.
+2019 to
+31.03.2020)
+
+FY
+2020-21
+
+FY
+2021-22
+
+FY
+2022-23
+
+FY 202324
+
+Kcal/Kg
+Kcal/Lt
+Kcal/Lt
+Kcal/ml
+
+3,343.00
+10,600.00
+10,000.00
+10.12
+
+3,343.00
+10,600.00
+10,000.00
+10.12
+
+3,348.39
+10,600.00
+10,000.00
+10.12
+
+3,348.39
+10,600.00
+10,000.00
+10.12
+
+3,466.88
+10,600.00
+10,000.00
+10.12
+
+3,466.88
+10,600.00
+10,000.00
+10.12
+
+ml/KWH
+
+0.10
+
+0.10
+
+0.10
+
+0.10
+
+0.10
+
+0.10
+
+ml/KWH
+
+0.40
+
+0.40
+
+0.40
+
+0.40
+
+0.40
+
+0.40
+
+Rs/Mt
+Rs/ml
+Kcal/kwh
+
+1,785.02
+0.042858
+2,171.51
+
+1,786.68
+0.042148
+2,171.51
+
+1,786.68
+0.042148
+2,181.90
+
+1,786.68
+0.042148
+2,181.90
+
+1,786.68
+0.042148
+2,181.90
+
+1,786.68
+0.042148
+2,181.90
+
+P/Kwh
+
+125.01
+
+125.09
+
+126.15
+
+126.15
+
+126.15
+
+126.15
+
+27
+
+60.
+
+The above ECR computed by the Commission is indicative in nature for the purpose
+of computation of working capital requirement. However, M/s. OPGC is required to
+compute the monthly energy charges in accordance with the OERC Generation Tariff
+Regulations basing on the actual price and GCV of fuel.
+
+61.
+
+Billing of energy charge shall be made by OPGC to GRIDCO on monthly basis with
+the details of coal/oil used for generation as per the said OERC Regulations for
+scrutiny and payment by GRIDCO. In addition to the above OPGC is entitled to
+recover other statutory charges / taxes / duties / cess etc. levied by the Government or
+any statutory authority and as provided in the PPA and applicable Regulations for the
+GRIDCO share of drawal of power.
+Recovery of Fees and other Expenses
+
+62.
+
+OPGC has sought reimbursement of fees paid by it for filing the tariff petition and
+publication expenses. The Commission observed that as per the provisions in
+Regulation 47 and 48 of OERC (Terms and Conditions for Determination of
+Generation Tariff) Regulations, 2020, OPGC shall be entitled for reimbursement of
+Tariff Application Fees along with associated publication expenses, which shall be
+directly reimbursed by the beneficiary (GRIDCO). Accordingly, GRIDCO is directed
+to reimburse the application fees and publication expenses incurred by OPGC on
+production of documentary evidence in connection with the present petition.
+
+63.
+
+Similarly, SLDC Fees & Charges paid by OPGC in terms of the Odisha Electricity
+Regulatory Commission (Fees and Charges of Regional Load Dispatch Centre and
+other related matters) Regulations, 2010 as amended from time to time, shall be
+recovered by OPGC from GRIDCO. Further, OPGC is entitled for recovery of
+statutory charges imposed by State and Central Government and other statutory
+authorities such as taxes, duties, water cess etc. in accordance with the relevant
+provisions of OERC (Terms and Conditions for Determination of Generation Tariff)
+Regulations, 2020, Accordingly, GRIDCO is directed to reimburse the above
+expenses incurred by OPGC on production of documentary evidence.
+
+64.
+
+In conclusion, the Commission direct as follows:
+(a)
+
+The tariff of OPGC, so determined in this Order is valid from 03.07.2019 i.e.
+the COD of Unit -3 to 31.03.2024.
+
+28
+
+(b)
+
+M/s. OPGC will submit the revised bills as per GRIDCO share of fixed cost
+month-wise basing on the Annual Fixed Charges approved in the present order
+and the month-wise Energy Charge as per formula given in the OERC
+Generation Tariff Regulations.
+
+(c)
+
+Billing of ECR shall be made to GRIDCO by OPGC on monthly basis with
+the details of actual coal/oil used for generation for scrutiny and payment. In
+addition to the above OPGC is entitled to recover other taxes / duty etc. levied
+by the Govt. or any statutory authority for the GRIDCO share of drawal of
+power.
+
+(d)
+
+The annual fixed charges approved for the period 2019-24 as above are subject
+to truing-up in terms of OERC Generation Tariff Regulations, 2014 and 2020.
+
+(e)
+
+The differential amount on account of these revised charges for the past period
+shall be recovered from GRIDCO in six installments without any interest. Any
+delay thereafter in payment of such dues shall attract surcharge as per the said
+Regulation.
+
+(f)
+
+The day-ahead generation availability for the power project as a whole (Unit 3
+& 4) shall be declared by OPGC to SLDC and SLDC shall schedule
+GRIDCO’s drawal from OPGC’s bus bar for the power project as a whole
+(Unit 3 & 4). SLDC shall also certify Plant Availability Factor achieved
+during the Month (PAFM) in percentage for the relevant month for
+computation of monthly capacity charges.
+
+65. Accordingly, the case is disposed of.
+
+Sd/(S. K. Ray Mohapatra)
+Member
+
+Sd/(G. Mohapatra)
+Officiating Chairperson
+
+29
+
+
