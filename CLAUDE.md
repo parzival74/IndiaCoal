@@ -61,11 +61,11 @@ merit order, and what would that cost in money and CO₂?
   (thin-sample, sources disagree; pithead coal cost is uniformly low/flat ~₹1.4
   regardless of heat rate). **Robust = the pithead flag predicts cost LEVEL** (location/
   freight, not efficiency). Still ISGS-only + 2021-23, not the FY2022-23 headline.
-- **FY2022-23 headline counterfactual (`06`, real-ECR override at 67.3% units / 74.9% gen):**
+- **FY2022-23 headline counterfactual (`06`, real-ECR override at 70.8% units / 79.3% gen):**
   re-dispatch on the blended cost (real ECR where covered, real-CIL flat-freight model for the
-  rest) → as-run **+15.7% above cost-optimal**; cost-vs-carbon **+43.7 MT for ~₹35,104 cr**
-  (Actual 208,240 / Cost-merit 180,035 / Carbon-merit 215,139 cr; reflects the 2026-06-02 WBPDCL
-  with-MFCA actual-basis correction).
+  rest) → as-run **+14.7% above cost-optimal**; cost-vs-carbon **+43.5 MT for ~₹34,911 cr**
+  (Actual 213,024 / Cost-merit 185,677 / Carbon-merit 220,588 cr; reflects the 2026-06-03 fifth-wave
+  Telangana/Jharkhand/Bina additions + the 2026-06-02 WBPDCL with-MFCA correction).
   Wider than the fully-modelled §4 (+5.5%; +21.1 MT/₹15,263 cr) because real ECRs **un-compress
   the cost ladder** (distant ₹2.7-4.6 vs pithead ₹1.4-1.6 vs modelled ₹1.9-2.1). Mixed-basis
   caveat: the uncovered ~25% (mostly private IPPs) is still modelled, so the ordering of that
@@ -92,7 +92,7 @@ REPORT.md            the analysis write-up (main deliverable)
 README.md            quick start + pipeline table
 CLAUDE.md            this file
 requirements.txt     pandas, numpy, scipy, openpyxl
-data/raw/            source xlsx; cil_grade_prices_fy2022-23.csv (REAL); plant_ecr.csv (REAL FY2022-23 per-station ECR, 86 rows/306 units/67.3%, 74.9% of gen, consumed by 06); plant_tariff_details.csv (rich 25-col per-substation tariff/technical table, superset of plant_ecr.csv; incl. TSGENCO/MPPGCL cross-check rows, flagged); sources/ (archived regulatory PDFs + per-genco staging CSVs); plant_ecr_cerc_2018basis.csv (REAL, cross-check); datagov_tariff_ecr_2021-23.csv (REAL central ECR, 2021-23, cross-check); plant_ecr_template.csv; (drop sced_blocks.csv here)
+data/raw/            source xlsx; cil_grade_prices_fy2022-23.csv (REAL); plant_ecr.csv (REAL FY2022-23 per-station ECR, 94 rows/322 units/70.8%, 79.3% of gen, consumed by 06); plant_tariff_details.csv (rich 25-col per-substation tariff/technical table, superset of plant_ecr.csv; incl. TSGENCO/MPPGCL cross-check rows, flagged); sources/ (archived regulatory PDFs + per-genco staging CSVs); plant_ecr_cerc_2018basis.csv (REAL, cross-check); datagov_tariff_ecr_2021-23.csv (REAL central ECR, 2021-23, cross-check); plant_ecr_template.csv; (drop sced_blocks.csv here)
 data/                cse_subcritical_clean.csv, plant_cost_blended.csv, plant_real_ecr_central.csv (10)  (generated)
 analysis/            common.py + numbered pipeline scripts (01–10) + fetch_datagov_ecr.py + run_all.py
 outputs/             *.txt results (committed)
@@ -117,7 +117,7 @@ Pipeline scripts:
 - `05_flexibility_framework.py` — H1 ramp/cycling metrics framework (needs
   block-level SCED at `data/raw/sced_blocks.csv`; runs on synthetic demo otherwise).
 - `06_apply_ecr.py` — FY2022-23 per-station ECR override from
-  `data/raw/plant_ecr.csv` (**86 ECR rows → 306 of 455 units = 67.3% real coverage**, 74.9% of gen;
+  `data/raw/plant_ecr.csv` (**94 ECR rows → 322 of 455 units = 70.8% real coverage**, 79.3% of gen;
   rest fall back to the real-CIL model). Fuzzy-matches names, reports the
   real-vs-modelled split, re-runs the counterfactual.
 - `07_fetch_ecr.py` — **fetches real data** from cercind.gov.in: CIL grade prices
@@ -160,11 +160,11 @@ Goal: replace modelled coal prices with real published data, FY2022-23 vintage.
   CERC's ECR is computed on Oct–Dec 2018 coal cost (2018-19 basis) — vintage rule.
   Explicit curated name aliases (a difflib match wrongly hit "Bhadradri" for Dadri).
 
-**DONE — FY2022-23 per-station ECR harvested to 67.3% coverage (four waves).** The
+**DONE — FY2022-23 per-station ECR harvested to 70.8% coverage (five waves).** The
 interactive metered feeds (MERIT TLS-resets; Grid-India SCED / POSOCO 503) stayed down, so
 the FY2022-23 per-station energy charge was harvested from **published, date-stamped
-regulatory documents** instead → `data/raw/plant_ecr.csv`, **86 ECR rows / 306 of 455 units
-= 67.3%** (74.9% of generation), each with a precise citation, energy-charge only, FY2022-23 vintage.
+documents** instead → `data/raw/plant_ecr.csv`, **94 ECR rows / 322 of 455 units
+= 70.8%** (79.3% of generation), each with a precise citation, energy-charge only, FY2022-23 vintage.
 - *First wave (20 stns / 78 units):* MahaGenco/MSPGCL monthly Energy Bill (7 MH stns + 2 MH
   IPPs), MahaSLDC MOD stack (4 NTPC central subcritical), RERC review order RERC/2031/22
   (4 RRVUNL), HPGCL FY2022-23 petition (3 HPGCL, flagged filed petition).
@@ -194,9 +194,22 @@ regulatory documents** instead → `data/raw/plant_ecr.csv`, **86 ECR rows / 306
   the two previously held-out deep-pithead Angul IPPs now CONFIRMED + INCLUDED via BERC NBPDCL/SBPDCL
   Commission-computed table (GMR/Kamalanga 1.20, JITPL/Derang 1.12 — low but real, cheap mine-mouth
   MCL coal; energy-cost col separated from fixed + total 3.39/3.34).
-- *Excluded this wave (honesty-over-coverage):* Telangana TSGENCO (TSERC MYT 22.03.2022, base-ECR
-  held flat = wrong vintage → cross-check only, staging `ts_cluster.csv` kept but NOT in plant_ecr.csv;
-  the TGGenco 28.10.2024 true-up would upgrade these to actuals — future); ten Chhattisgarh IPPs
+- *Fifth wave (2026-06-03, Telangana + Jharkhand + Bina → +8 rows, 67.3%→70.8%, via WAYBACK MACHINE):*
+  the live state-SERC sites are network-blocked (curl 000) + WebFetch times out on big PDFs, but
+  web.archive.org is curl-reachable → downloaded the **TSERC TGGenco FY22-23 true-up** + **SCCL Singareni
+  true-up** Wayback snapshots (now staged). TGGENCO Table 4-19 'ECR as CLAIMED for FY22-23' (the
+  'approved-in-MYT' col is the held-flat base, rejected): Kakatiya-I 3.24, Kakatiya-II 3.19, **K_Gudem
+  New 3.293** (gen-wtd KTPS-V 3.34 + KTPS-VI 3.25 — resolves the old K_Gudem→KTPS-VII mapping bug),
+  R_Gundem-B 4.37 (TSGENCO, distinct from NTPC R_Gundem Stps 4.085 — collision verified clean), Bhadradri
+  3.68 (4x270 SUBcritical, agent had wrongly excluded as supercritical). Flagged `claimed_in_trueup`
+  (Commission recovers fuel via FPPCA, no separate approved ECR). SCCL **Singareni 3.332** (Table 4-21
+  Commission-APPROVED, not the 3.343 claimed/ARR). **Tenughat 3.215** (JSERC TVNL order 14-12-2023 para
+  4.12 verbatim actual; jserc.org reachable, PDF staged). **Bina 3.3** (CRISIL JPVL rationale 25-05-2023
+  'variable cost of generation … Rs 3.3 per unit', SECONDARY). Rating-rationale sweep of ~28 other private
+  IPPs = 0 clean adds (rationales give total cost / merchant realisation, not energy charge). CG IPPs /
+  KPCL / NLC-exp / Bongaigaon still genuinely not-found.
+- *Excluded earlier (now SUPERSEDED for Telangana):* the fourth wave kept Telangana TSGENCO out as
+  wrong-vintage MYT — the fifth wave's true-up replaces that. Still excluded: ten Chhattisgarh IPPs
   (Tamnar, Baradarha, Raigarh-JPL, Lanco Pathadi, BALCO, etc. — merchant/concessional/FPPPA
   pass-through, no published FY2022-23 station energy charge → genuinely not-found, `cg_ipp_cluster.csv`
   = 0 rows). Agent flagged a mapping fix to revisit: `tsgenco.csv` maps "K_Gudem New"→KTPS-VII
@@ -224,26 +237,23 @@ Kolaghat 2.78→3.4445, Bakreswar 1.83→2.284, Santaldih 1.95→2.4414, Bandel 
 1.79→2.0306. Headline moved <1% (cost-merit 178,720→180,035; as-run +15.9→+15.7%; gap ₹35,666→35,104 cr).
 Audit detail in `docs/ecr_scrape_notes.md`.
 
-**REMAINING (future sessions) — push coverage past 67.3%.** NOTE (2026-06-02): a coverage-push
-attempt confirmed **all remaining gains are network-blocked from this (cloud/Drive-synced) env** —
-every state SERC site returns curl `000` and WebFetch times out on the big scanned PDFs; only the LOCAL
-items got done (rich-table sync; WBPDCL = no new coverage). **67.3% is the practical ceiling here**;
-the rest needs the LOCAL-network session in `docs/SCRAPE_ECR_PROMPT.md` (now carries the confirmed
-Telangana true-up URL + reachability findings). Items below stand:
-1. WBPDCL deeper unit-splits — DONE checking: no new coverage (all 5 WB stations already covered;
-   Sagardighi Stg-I 2.0306 vs Stg-II 2.0314 immaterial). OCR pipeline (tesseract) now in place if needed.
-2. Replace HPGCL/UPRVUNL/UPERC-IPP filed-petition (APR) rows + DPL H1-only + Maithon/Jhajjar
-   secondary rows with the corresponding *approved* SERC generation/true-up orders when located
-   (would upgrade basis, not coverage). Jhajjar specifically: HERC `O20240305a(1).pdf` station-wise
-   table (needs a network session that can reach herc.gov.in).
-3. Telangana TSGENCO → replace the excluded MYT-base rows with the TGGenco 28.10.2024 true-up
-   actuals (would add ~5 stations); also resolve the K_Gudem New → KTPS V/VI mapping (2.701) at merge.
-4. NLC TPS-II / TPS-II Exp / TPS-I Exp — no CERC 2019-24 GT *order* published (only 2025
-   true-up TV letters; data.gov.in figures are 2021-23 vintage → excluded per vintage rule).
-5. Chhattisgarh IPPs (Tamnar/Baradarha/Raigarh-JPL/Lanco/BALCO) — merchant/concessional, no public
-   FY2022-23 station ECR found; re-source if a CSERC FPPPA or PPA-billing table surfaces.
-6. Bongaigaon needs Assam AERC; Bhilai/NSPCL has no published ECR (SAIL captive) — likely permanent skips.
-7. Remaining uncovered central/state/private units → fall back to the real-CIL model (`02`).
+**REMAINING (future sessions) — push coverage past 70.8%.** KEY UNBLOCK (2026-06-03): state-SERC sites
+are curl-`000` and WebFetch times out on big PDFs, BUT **web.archive.org (Wayback) IS curl-reachable** —
+download the archived SERC PDF to disk and pdftotext/OCR it. This cracked Telangana (see fifth wave) and
+is the go-to for any other blocked SERC order. Rating-agency sites (icra/care/crisil/indiaratings), BSE,
+CEA, cercind, jserc, berc are also reachable. Remaining gaps:
+1. WBPDCL deeper unit-splits — DONE: no new coverage (all 5 WB stations covered; Sagardighi I/II immaterial).
+2. Replace HPGCL/UPRVUNL/UPERC-IPP filed-APR + DPL H1-only + Maithon/Jhajjar/Bina secondary rows with
+   *approved* SERC orders when located (basis upgrade, not coverage). Jhajjar: HERC `O20240305a(1).pdf`
+   — try via Wayback (herc.gov.in live is 000).
+3. TGGENCO claimed-in-trueup rows (Kakatiya/K_Gudem/R_Gundem-B/Bhadradri) — upgrade to a Commission-
+   *approved* ECR if a later TSERC order prints one (current order recovers fuel via FPPCA, claimed only).
+4. NLC TPS-II / expansions — no CERC 2019-24 GT *order* published (only 2025 TV letters; data.gov 2021-23 → excluded).
+5. CG merchant IPPs (Tamnar/Baradarha/Raigarh-JPL/Lanco/BALCO/SKS/Maruti/ACB), KPCL (Bellary/Raichur),
+   Bongaigaon (NTPC, NE beneficiary AERC), captives (Bhilai/NSPCL) — no public FY22-23 station ECR found
+   (rating rationales give total-cost/merchant-realisation, not energy charge). Re-source if a CSERC FPPPA /
+   beneficiary table / Wayback'd SERC order surfaces. Largely the practical ceiling.
+6. Remaining ~133 uncovered units → fall back to the real-CIL model (`02`).
 
 ## Working conventions
 - **Honesty over polish:** never fabricate data. Label modelled vs real clearly

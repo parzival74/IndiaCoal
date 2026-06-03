@@ -35,7 +35,7 @@ python3 analysis/run_all.py
 | `03_regions.py` | **Ext #2** grid-region proxy for "load proximity" | done (~60% coverage) |
 | `04_redispatch.py` | **Ext #4** cost vs carbon re-dispatch counterfactual | done (stylised) |
 | `05_flexibility_framework.py` | **Ext #3** ramp/cycling metrics for H1 | framework (needs SCED data) |
-| `06_apply_ecr.py` | apply **FY2022-23 per-station ECR** over the model + headline counterfactual | done; **67.3% coverage** (306/455 units, 74.9% of gen) |
+| `06_apply_ecr.py` | apply **FY2022-23 per-station ECR** over the model + headline counterfactual | done; **70.8% coverage** (322/455 units, 79.3% of gen) |
 | `07_fetch_ecr.py` | fetch CIL prices + CERC orders from source; probe ECR feeds | needs network (not in run_all) |
 | `08_cerc_crosscheck.py` | **CERC per-station ECR cross-check** (2018-19 basis, labelled) | done (14 central stations) |
 | `09_pithead_test.py` | side analysis: does efficiency tighten as a cost/PLF proxy at pithead plants? | done (PLF-side is a lignite artifact; cost-side see `10`) |

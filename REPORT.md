@@ -246,12 +246,12 @@ applies. On the ex-mine price we add the **published statutory levies** (royalty
 vintaged; freight is the one remaining assumption — and it is flat, because
 per-plant lead distance isn't in the dataset.
 
-**(b) FY2022-23 *metered/approved per-station* ECR — now at 67.3% real coverage.**
+**(b) FY2022-23 *metered/approved per-station* ECR — now at 70.8% real coverage.**
 The interactive metered feeds (**MERIT**, **Grid-India SCED**, **POSOCO eLibrary**)
 remained unreachable (MERIT TLS-resets; POSOCO/Grid-India 503), but we obtained genuine
 FY2022-23, station-level energy charges from **published, date-stamped regulatory
 documents** instead, and wrote them to `data/raw/plant_ecr.csv` (consumed by
-`06_apply_ecr.py`). **86 ECR rows → 306/455 units = 67.3% real coverage** (74.9% of
+`06_apply_ecr.py`). **94 ECR rows → 322/455 units = 70.8% real coverage** (79.3% of
 generation), each row carrying a precise citation, energy/variable charge only,
 FY2022-23 vintage. The first
 wave (Maharashtra + central NTPC + Rajasthan + Haryana, 20 stations / 78 units):
@@ -346,44 +346,62 @@ Two clusters were worked but yielded no headline rows, on the honesty rule: **Te
 (Tamnar, Baradarha, Raigarh-JPL, Lanco Pathadi, BALCO, etc. — merchant/concessional/FPPPA pass-through with no
 published FY2022-23 station energy charge → genuinely not-found).
 
-Still open: WBPDCL deeper unit-splits (order PDFs scanned → need OCR), the HERC-approved HPGCL
-generation order, a standalone approved UPRVUNL generation order, approved-order replacements for
-the UPERC filed-APR and ICRA-secondary rows, and the TGGenco 28.10.2024 true-up to upgrade the
-excluded Telangana rows to actuals. The remaining ~149 state/private/uncovered-central units
-fall back to the real-CIL model in (a).
+The fifth wave (Telangana + Jharkhand + one MP IPP, +8 ECR rows → **322/455 units = 70.8%**) used the
+**Wayback Machine** to reach state-SERC PDFs that are otherwise network-blocked, plus a credit-rating
+rationale:
+- **Telangana TGGENCO** (TSERC true-up for FY2022-23, Table 4-19) — the order the fourth wave flagged as
+  the upgrade path. It prints two columns: "approved in MYT 22.03.2022" (the held-flat base, *rejected*)
+  and **"claimed in true-up"** (the FY2022-23 actuals). Using the actuals: **Kakatiya-I** ₹3.24,
+  **Kakatiya-II** ₹3.19, **K_Gudem New** ₹3.293 (gen-wtd KTPS-V ₹3.34 + KTPS-VI ₹3.25), **Ramagundam-B**
+  ₹4.37, **Bhadradri** ₹3.68 (4×270 subcritical). *Flagged `claimed_in_trueup`*: the Commission recovers
+  fuel-cost variance via monthly FPPCA, so it prints no separate **approved** FY22-23 ECR — these are the
+  petitioner's actuals admitted into the order (a notch below "approved", like the filed-APR rows).
+- **SCCL Singareni** ₹3.332 — TSERC SCCL true-up, Table 4-21 *Commission-**approved*** FY22-23 ECR (the
+  MYT base 2.345 and the claimed 3.343 both shown; approved 3.332 used). Captive 2×600.
+- **TVNL Tenughat** ₹3.215 — JSERC TVNL order (14-12-2023) para 4.12 verbatim *"Actual Energy Charge as
+  raised to JBVNL … Rs. 3.215/kWh for FY 2022-23"* (the held-flat MYT base 2.687 rejected).
+- **Bina (JPVL)** ₹3.3 — CRISIL rating rationale (25-May-2023) *"the variable cost of generation from the
+  plant is Rs 3.3 per unit"* — *flagged `secondary_source`*, like Jhajjar/Maithon.
+
+Still open: WBPDCL deeper unit-splits (no new coverage — all 5 WB stations already covered), the
+HERC-approved HPGCL order, a standalone approved UPRVUNL order, and approved-order replacements for the
+filed-APR / secondary rows. The remaining ~133 units (largely private/merchant IPPs with no public
+per-station ECR, plus captives and KPCL) fall back to the real-CIL model in (a) — this is close to the
+ceiling of what public, correct-vintage, per-station data supports.
 
 **The FY2022-23 headline counterfactual (on the real-ECR cost).** Re-running the cost-vs-carbon
-re-dispatch on the §7(b) blended cost — real ECR for the 306 covered units (**74.9% of generation**),
+re-dispatch on the §7(b) blended cost — real ECR for the 322 covered units (**79.3% of generation**),
 real-CIL flat-freight model for the rest (`06_apply_ecr.py`, same total energy):
 
 | Scenario | Fuel cost (₹ cr) | CO₂ (MT) |
 |---|---|---|
-| Actual (as-run) | 208,240 | 777.9 |
-| Cost-merit (cheapest VC first) | **180,035** | 789.7 |
-| Carbon-merit (cleanest first) | 215,139 | **746.0** |
+| Actual (as-run) | 213,024 | 777.9 |
+| Cost-merit (cheapest VC first) | **185,677** | 789.5 |
+| Carbon-merit (cleanest first) | 220,588 | **746.0** |
 
-As-run is **+15.7% above cost-optimal**, and cost- vs carbon-optimal diverge by **+43.7 MT CO₂ for
-~₹35,104 cr**. Both gaps are *wider* than the fully-modelled §4 figures (+5.5%; +21.1 MT / ₹15,263 cr)
+As-run is **+14.7% above cost-optimal**, and cost- vs carbon-optimal diverge by **+43.5 MT CO₂ for
+~₹34,911 cr**. Both gaps are *wider* than the fully-modelled §4 figures (+5.5%; +21.1 MT / ₹15,263 cr)
 for one reason: real ECRs **un-compress the cost ladder** the flat-freight model had flattened (§11) —
 distant plants are genuinely dearer (₹2.7–4.6) and pithead genuinely cheaper (₹1.4–1.6) than the
 modelled ₹1.9–2.1 band, so both the fleet-average cost level and the spread between as-run and optimal
-grow. **Caveat — mixed cost basis:** the merit ranking blends real ECR (75% of gen) with the
-flat-freight model (25%, mostly private IPPs), so the uncovered tail's *ordering* is still modelled;
-the gap should be read as the best available FY2022-23 estimate, directionally robust, not a metered
-number. The qualitative conclusions hold and sharpen: merit order is broadly followed, and minimum-cost
+grow. **Caveat — mixed cost basis:** the merit ranking blends real ECR (79% of gen) with the
+flat-freight model (21%, mostly private IPPs); within the real ECR, most are approved/true-up actuals
+but a minority are flagged filed-APR, claimed-in-true-up (Telangana), or secondary (rating rationale).
+So the uncovered tail's *ordering* is still modelled and a few covered rows are estimates; the gap should
+be read as the best available FY2022-23 estimate, directionally robust, not a fully-metered number. The qualitative conclusions hold and sharpen: merit order is broadly followed, and minimum-cost
 ≠ minimum-carbon (the cheapest coal power is the dirtiest).
 
-**Stability across the coverage expansion (a robustness check).** Lifting real coverage from the prior
-wave's 62.9% (286 units / 69.6% of gen) to 67.3% (306 units / 74.9% of gen) barely moved the headline:
-cost-optimal fuel cost ₹178,186→₹180,035 cr (+1.0%) and as-run excess +16.1%→+15.7%. The newly-metered
-stations were a *mix* — cheap pithead (Kamalanga ₹1.20, Derang ₹1.12, I.B.Valley ₹1.61) and mid-ladder
-(Bhavnagar ₹2.98, Vizag ₹3.02) — so each replaced a compressed ₹1.9–2.1 modelled value with a real one
-on either side, and the net shift was small. (The ₹180,035 endpoint also folds in a June-2026 audit
-correction: the 5 WBPDCL plants were switched from the base tariff-order ECR to the actual *with-MFCA*
-fuel-inclusive charge, raising them ~13–25% — a ~₹1,300 cr lift, still leaving the headline within ~1%.)
-That the conclusion is no longer coverage-sensitive at this margin is itself evidence the remaining ~25%
-tail is unlikely to overturn it. (Note one number is *not* a convergence signal: carbon-optimal CO₂,
-746.0 MT, is the structural minimum — units are ordered by emission factor, independent of cost — so it
+**Stability across the coverage expansion (a robustness check).** Across three successive waves —
+62.9% (286 units / 69.6% of gen) → 67.3% (306 / 74.9%) → **70.8% (322 / 79.3%)** — the *conclusion*
+never moved: the cost-vs-carbon gap held at **+43.5 to +43.7 MT CO₂ for ~₹35,000 cr**, and as-run excess
+drifted only +16.1% → +15.7% → **+14.7%** even as cost-optimal rose ₹178,186 → ₹185,677 cr (the level
+rises because real ECRs un-compress the ladder; the *gap* is what's stable). Each wave added a *mix* of
+cheap pithead (Kamalanga ₹1.20, Derang ₹1.12) and dearer distant/old units (Telangana ₹3.2–4.4,
+Vizag ₹3.02), so the merit re-ranking largely nets out. (The level also folds in a June-2026 audit
+correction switching the 5 WBPDCL plants from base to actual *with-MFCA* ECR, +~₹1,300 cr.) That the
+gap is no longer coverage-sensitive across a 17-point swing in generation coverage is strong evidence
+the remaining ~21% tail won't overturn it. (One number is *not* a convergence signal: carbon-optimal
+CO₂, 746.0 MT, is the structural minimum — units ordered by emission factor, independent of cost — so it
 is fixed at any ECR coverage by construction; the genuine test is the cost side, which is what stabilised.)
 
 **(c) CERC tariff-order ECR — real per-station, but wrong vintage → cross-check
@@ -419,7 +437,7 @@ figure for Talcher Stage-II is **₹1.85/kWh on the 2018-19 basis** vs ₹1.98 m
 > FY2022-23 per-station energy charge was instead harvested from published, date-stamped
 > regulatory documents (MahaGenco fuel-data, MahaSLDC MOD stack, SERC/CERC tariff &
 > true-up orders, NTPC beneficiary-DISCOM power-purchase tables, and the private-IPP tail) →
-> **86 ECR rows / 306 units (67.3%, 74.9% of generation)** now in `data/raw/plant_ecr.csv`.
+> **94 ECR rows / 322 units (70.8%, 79.3% of generation)** now in `data/raw/plant_ecr.csv`.
 > `analysis/07_fetch_ecr.py` re-fetches the CIL prices and CERC orders from source.
 
 ---
@@ -428,21 +446,21 @@ figure for Talcher Stage-II is **₹1.85/kWh on the 2018-19 basis** vs ₹1.98 m
 
 | # | Extension | Status | Blocking data (not in file) |
 |---|---|---|---|
-| 1 | Variable cost (₹/kWh) | Domestic price on **real CIL FY2022-23** notified prices + levies; FY2022-23 per-station override layer (`06`) at **67.3% real coverage (86 ECR rows / 306 units, 74.9% of gen)** from regulatory docs, NTPC beneficiary tables + private IPPs; **CERC 2018-basis cross-check** (`08`) | FY2022-23 *metered* per-station ECR for the remaining ~149 state/private units (interactive SLDC/MERIT feeds still down) |
+| 1 | Variable cost (₹/kWh) | Domestic price on **real CIL FY2022-23** notified prices + levies; FY2022-23 per-station override layer (`06`) at **70.8% real coverage (94 ECR rows / 322 units, 79.3% of gen)** from regulatory docs, NTPC beneficiary tables, state true-ups (incl. Telangana via Wayback) + private IPPs; **CERC 2018-basis cross-check** (`08`) | FY2022-23 *metered* per-station ECR for the remaining ~133 private/captive units (no public per-station ECR) |
 | 2 | Grid-region / load proximity | Coarse proxy (~60% coverage) | Lat/long, RLDC bus, load-pocket, congestion |
 | 3 | Flexibility / ramp (H1) | Framework + synthetic demo | Block-level SCED generation |
 | 4 | Cost-vs-carbon re-dispatch | Done (stylised), on real-CIL cost | Transmission/must-run limits for realism |
 
 See [`docs/data_sources.md`](docs/data_sources.md) for exactly where to obtain the
-missing inputs. **Across sessions we harvested FY2022-23 per-station ECR for 86 rows
-(306/455 units = 67.3%, 74.9% of generation) from published regulatory documents — state gencos
+missing inputs. **Across sessions we harvested FY2022-23 per-station ECR for 94 rows
+(322/455 units = 70.8%, 79.3% of generation) from published documents — state gencos
 (MahaGenco, RRVUNL, HPGCL, GSECL, TANGEDCO, PSPCL, DVC, CSPGCL, WBPDCL, UPRVUNL, APGENCO, NLC,
-CESC, OPGC), the NTPC central fleet via beneficiary-DISCOM power-purchase tables (UPERC/APERC/BERC
-+ MahaSLDC), and the private-IPP tail (UPERC + BERC, plus Jhajjar-ICRA and Maithon-AR secondary
-rows), with TSGENCO/MPPGCL kept as a wrong-vintage cross-check; meritindia.in (TLS-reset) and
-grid-india.in / POSOCO (HTTP 503)
-remained down**, so the interactive metered feeds and live SCED block data still could not be
-fetched in-session.
+CESC, OPGC, TGGENCO, SCCL, TVNL), the NTPC central fleet via beneficiary-DISCOM power-purchase
+tables (UPERC/APERC/BERC + MahaSLDC), and the private-IPP tail (UPERC + BERC, plus Jhajjar-ICRA,
+Maithon-AR and Bina-CRISIL secondary rows). The **Telangana TGGENCO/SCCL** true-ups were reached
+via the **Wayback Machine** (the live state-SERC sites and meritindia.in / grid-india.in / POSOCO
+were unreachable in-session)**, so the interactive metered feeds and live SCED block data still
+could not be fetched.
 
 ## 9. Side analysis: is efficiency a tighter proxy at pithead plants?
 
@@ -515,7 +533,7 @@ cost even at pithead.
 
 **Still missing.** This is ISGS-only (no state/private merchant plants) and 2021-22/23, not
 clean FY2022-23, so it stays a labelled cross-check, not the headline. The FY2022-23 headline
-is now the real-ECR override of §7(b) (306 units / 74.9% of generation); §11 below uses these
+is now the real-ECR override of §7(b) (322 units / 79.3% of generation); §11 below uses these
 real ECRs to expose the one remaining modelled term — coal freight.
 
 ## 11. The freight axis — why a flat freight compresses the real ladder
@@ -536,7 +554,7 @@ and the §4 cost-optimal counterfactual widens once it is un-compressed.
 > cost by assigning every uncovered unit a two-step freight level (pithead ₹360 / borderline
 > ₹1,280 / distant ₹2,190) keyed on the pithead flag, to cover the 100% of units that lacked
 > a real ECR. That scaffold has been **retired**: with `06` now carrying real FY2022-23 ECR
-> for **306 units / 74.9% of generation**, the real-ECR override (§7b) supersedes it for the
+> for **322 units / 79.3% of generation**, the real-ECR override (§7b) supersedes it for the
 > bulk of the fleet, and the residual ~25% (mostly private IPPs with no public per-station
 > ECR) falls back to the real-CIL flat-freight model in `02`. The freight back-out above is
 > kept as the durable finding; the full per-plant reconstruction lives in git history.

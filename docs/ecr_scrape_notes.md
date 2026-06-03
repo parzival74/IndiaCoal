@@ -715,3 +715,97 @@ Attempted the documented next-step harvests. Outcome split cleanly:
 **Net:** coverage stays 306/455 = 67.3% (74.9% of gen) — this is the practical ceiling reachable from
 this (cloud/Drive-synced) environment. Pushing past it requires the LOCAL-network session described in
 docs/SCRAPE_ECR_PROMPT.md. No fabricated rows added.
+
+---
+
+## Fifth wave (2026-06-03, targeted KPCL/NLC/SCCL/Bongaigaon/TVNL agent) — +2 rows, 67.3%→68.1%
+
+Goal was 6 specific state/central/captive plants. Network-enabled session; central PDFs
+(cercind, ntpc.co.in, jserc, berc.co.in, nbpdcl) downloaded fine, but the large state-SERC
+RST PDFs (tgerc/aperc/aerc/apdcl) consistently TIMED OUT or are referer-blocked, and
+MERIT/NPP refuses connections here. Two solid FOUND, four honest NOT-FOUND.
+
+**FOUND (added):**
+- **Tenughat (TVNL) = 3.215 Rs/kWh.** JSERC Order 14-12-2023 (TVNL Business Plan & MYT
+  FY21-22→FY25-26), para 4.12: actual energy charge raised to JBVNL = Rs 3.215/kWh for
+  FY2022-23 (para 4.13: computed on actual coal cost billed by coal-gencos to TVNL, NOT the
+  MYT base). Energy-only, actuals-based, FY2022-23 vintage. NB: the Commission's approved
+  Table-48 ECR 2.687 is held flat across all 5 years = MYT base (wrong vintage) → NOT used.
+  `jserc.org/pdf/tariff_order/tvnl2023.pdf`. Matched both 210 MW units in 06.
+- **Singareni TPP (SCCL captive 2x600) = 3.343 Rs/kWh.** TSERC "TRUE-UP FOR FY 2022-23"
+  order for the Singareni Thermal Power Project — a genuine FY2022-23 ACTUALS true-up (NOT the
+  MYT base). Ch.4 ARR summary: approved Variable Charges Rs 2922.44 Cr / Scheduled Energy Ex-bus
+  8741.959 MU = 3.343; Table 4-21 recomputed-parameter ECR = 3.332 on actual landed coal price
+  5.44 Rs/kg + actual wt-avg GCV 4002.83 (vs 28.08.2020 MYT base ECR 2.345). Energy-only (AFC
+  1552.26 Cr separate). Source PDF `staging/sccl_stpp_trueup_fy22-23_wayback.pdf` was pre-staged
+  via web.archive.org by a prior session (the live tserc/tgerc copies time out here). Matched both
+  600 MW units in 06; correctly flagged mine-mouth Godavari.
+
+**NOT-FOUND (honest skips, no vintage-correct FY2022-23 source reachable):**
+- **Bellary Tps / Raichur (KPCL):** KERC publishes no per-station ECR (confirmed — KERC site
+  times out and historically reports KPCL generation cost in aggregate, not station ECR).
+  MERIT Karnataka state-data page (meritindia.in) refuses connection here (curl exit 7,
+  WebFetch socket-closed). data.gov.in has no KPCL coal-station ECR (only NLC "BTPS" = the
+  NLC Barsingsar/lignite, not Bellary). No FY2022-23 figure.
+- **Neyveli St Ii / Neyveli Fst Ext / Neyveli Tps Exp-Ii (NLC, lignite):** confirmed NO CERC
+  2019-24 GT *order* exists (CERC NLC TV page lists only 2025 true-up TV letters 888/795/892/
+  893-GT-2025; the NLC-hosted "TPS II EXPN TARIFF 2019-24.pdf"/"TS II Tariff Petition" are
+  NLC's own petitions, base-period Oct/Nov-2018 coal cost = 2018-basis, not FY2022-23 — and
+  wouldn't download anyway). data.gov.in DOES list these (TS-II St.1 2.661, St.2 2.623,
+  TPS-I Exp 2.454, TPS-2 Exp 2.562) but at **2021-23 vintage** → excluded by the vintage rule,
+  same as the existing 10/datagov cross-check. ("Neyveli New TPP" stays covered at 2.115 via
+  CERC 219/GT/2019, the separate 2x500 NNTPS.) No clean FY2022-23 figure.
+- **Bongaigaon TPP (NTPC central 3x250):** CERC has only 243/GT/2017 (covers FY16-19, too
+  early); the NTPC-filed "Bongaigaon Tariff Petition 2019-24" (downloaded, 28 MB) computes ECR
+  on **Oct/Nov-2018 base coal cost** = 2018-basis, not FY2022-23. Confirmed Bongaigaon is
+  ABSENT from the BERC Bihar FY2022-23 order (Bihar doesn't draw it; grep = 0 hits in the same
+  order whose Table 5.17/6.44 feeds the Kamalanga/Derang rows). Its real beneficiaries are NE
+  states — AERC/APDCL true-up (aerc.gov.in 25-03-2025 has FY22-23 actuals) is the right source
+  but apdcl.org referer-blocks ("Resource is blocked by the server") and aerc.gov.in times out.
+  data.gov.in lists Bongaigaon TPS 3.37 but at **2021-22 vintage** → excluded. No FY2022-23 fig.
+
+**Net:** 2/6 found (Tenughat, Singareni). plant_ecr.csv 86→88 rows, 306→310 units = **68.1%**
+coverage (74.9%+ of gen). The 4 NOT-FOUND (Bellary, Raichur, NLC TPS-II/TPS-I-Exp/TPS-II-Exp,
+Bongaigaon) need either MERIT/NPP (refused here), KERC per-station ECR (doesn't exist), or a
+beneficiary RST PDF reachable only from a local-network session (apdcl/aerc for Bongaigaon).
+No fabricated rows. Future leads: Bongaigaon via AERC 25-03-2025 FY22-23 true-up (aerc.gov.in,
+times out here); NLC three only upgradeable when CERC issues 2019-24 final GT orders (currently
+only 2025 TV letters / 2021-23 datagov, both wrong vintage).
+
+## 2026-06-03 FIFTH WAVE — Wayback Machine breakthrough + rating-rationale sweep (+8 rows, 67.3%->70.8%)
+
+**Method unblock:** state-SERC sites are curl-`000` and WebFetch times out on big scanned PDFs, BUT
+**web.archive.org is curl-reachable** — so download the archived SERC PDF to disk (`curl .../web/<ts>id_/<url>`)
+and pdftotext/tesseract it locally. Also confirmed reachable: rating agencies (icra/care/crisil/indiaratings),
+BSE, CEA, npp, cercind, jserc, berc.
+
+**ADDED (+8, all operator-verified against the staged source):**
+- **Telangana TGGENCO** (TSERC FY22-23 true-up, Wayback snapshot 20241108 of tgerc.telangana.gov.in,
+  staged `tggenco_trueup_fy22-23_wayback.pdf`). Table 4-19 has two cols: "Approved in MYT 22.03.2022"
+  (held-flat base, REJECTED) and "Claimed in True up" (FY22-23 actuals, USED). Verified lines 2581-2587:
+  KTPS-V 3.34, KTPS-VI 3.25, KTPP-I 3.24, KTPP-II 3.19, RTS-B 4.37, BTPS 3.68 (KTPS-VII 3.10 supercritical
+  excluded). Mapped: Kakatiya-I=KTPP-I 3.24; Kakatiya-II=KTPP-II 3.19; K_Gudem New=gen-wtd KTPS-V(2x250)+
+  KTPS-VI(1x500)=3.293; R_Gundem-B=RTS-B 4.37; Bhadradri=BTPS 3.68 (4x270 SUBcritical — corrected the
+  harvest agent's wrong "supercritical" exclusion). Flagged `claimed_in_trueup` (no separate approved ECR;
+  FPPCA fuel recovery). NB the K_Gudem→KTPS-VII mapping bug noted in earlier waves is now resolved (V+VI).
+- **SCCL Singareni TPP 3.332** (TSERC SCCL true-up, Wayback, staged `sccl_stpp_trueup_fy22-23_wayback.pdf`,
+  Table 4-21 "ECR APPROVED" line 2321: base 2.345 / claimed 3.343 / approved **3.332** — used the approved,
+  corrected the harvest agent's 3.343).
+- **TVNL Tenughat 3.215** (JSERC TVNL order 14-12-2023, jserc.org reachable, staged
+  `tvnl_jserc_myt_14122023.pdf`, para 4.12 line 1056-57 verbatim "Actual Energy Charge as raised to JBVNL
+  ... Rs. 3.215/kWh for FY 2022-23"; MYT base 2.687 rejected).
+- **Bina TPP 3.3** (CRISIL JPVL rationale 25-05-2023, staged `crisil_jpvl_rr_25may2023.html`, "the variable
+  cost of generation from the plant is Rs 3.3 per unit", FY23). SECONDARY-flagged (like Jhajjar/Maithon).
+
+**Match-integrity verified:** R_Gundem-B (TSGENCO 4.37) vs R_Gundem Stps (NTPC 4.085) disambiguate cleanly
+(distinct norm keys "r gundem b" vs "r gundem"); all 8 map to the right plant in 06.
+
+**NOT added (rating-rationale sweep of ~28 private IPPs = 0 clean energy-charge adds):** Tamnar/Jindal
+(CRISIL "~Rs 2.50/unit total cost of generation" — total, not energy charge), Jhabua (Rs 7.35/kWh = merchant
+realisation), Dhariwal (Rs 2.19 = PPA contract component), ITPCL (Rs 5.38 FY24, wrong vintage). All others
+(Baradarha, Mundra, Mahan, Salaya, Udupi, Coastal, Goindwal, Sterlite, BALCO, etc.) publish PLF/EBITDA/
+realisation, not a disaggregated FY23 energy charge. Honest skips — rating rationales are the wrong source
+class for an isolated ECR. CG IPPs / KPCL / NLC-exp / Bongaigaon remain genuinely not-found.
+
+**Headline after fifth wave:** Actual 213,024 / Cost-merit 185,677 / Carbon-merit 220,588 cr; as-run +14.7%
+above cost-optimal; cost-vs-carbon +43.5 MT / Rs 34,911 cr. Coverage 322/455 = 70.8% (79.3% of gen).
